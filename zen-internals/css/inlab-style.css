@@ -77,3 +77,12 @@ ul.menu li {
 .menu__item.is-leaf.leaf {
     padding-inline-start: 20px;
 }
+
+div.item-list ul {
+    
+    display: inline-flex;
+}
+div.item-list li {
+    
+    padding-left: 40px;
+}
