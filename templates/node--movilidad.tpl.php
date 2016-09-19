@@ -98,14 +98,17 @@
                   </div>
                 </div>
               <?php } ?>
-            <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-              <div class="u-mr+ u-semibold">
-                Nombre del campo
-              </div>
-              <div class="u-f-g1">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit
-              </div>
-            </div>
+            <?php $field = field_get_items('node', $node, 'field_duracion_del_programa');
+              if ($field) { ?>
+                <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                  <div class="u-mr+ u-semibold">
+                    Nombre del campo
+                  </div>
+                  <div class="u-f-g1">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                  </div>
+                </div>
+              <?php } ?>
             <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
               <div class="u-mr+ u-semibold">
                 Nombre del campo
