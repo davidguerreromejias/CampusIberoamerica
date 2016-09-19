@@ -52,19 +52,19 @@
           <ul class="u-color-turquesa u-fs-small u-semibold">
             <li>
               <a href="../prepara-viaje" class="link text-with-icon__content">
-                <img class="text-with-icon__icon" src="/assets/images/ruta-icon_small.svg" alt="Prepara tu viaje">
+                <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/ruta-icon_small.svg" alt="Prepara tu viaje">
                 Prepara tu viaje
               </a>
             </li>
             <li class="horizontal-line-separator-top">
               <a href="../info-paises" class="link text-with-icon__content">
-                <img class="text-with-icon__icon" src="/assets/images/punto-icon_small.svg" alt="Información de los países">
+                <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/punto-icon_small.svg" alt="Información de los países">
                 Información de los paises
               </a>
             </li>
             <li class="horizontal-line-separator-top horizontal-line-separator-bottom">
               <a href="../preguntas-frecuentes" class="link text-with-icon__content">
-                <img class="text-with-icon__icon" src="/assets/images/dialogo-icon_small.svg" alt="Preguntas frecuentes">
+                <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/dialogo-icon_small.svg" alt="Preguntas frecuentes">
                 Preguntas frecuentes
               </a>
             </li>
