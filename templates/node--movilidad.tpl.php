@@ -59,21 +59,18 @@
             </div>
             <div class="block-info__content u-mb+ "><?php print render($content['field_condiciones_movilidad']); ?></div>
             <div class="u-fs-xsmall">
-              <ul class="list-inline u-mb u-color-turquesa u-fs-xsmall">
-                <li>
-                  <div class="text-with-icon__content">
-                    <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/enlace-icon.svg" alt="Ampliar información">
-                    <span class="u-semibold">Ampliar información</span> (Enlace externo)
-                  </div>
-                </li>
-                <li>
-                  <div class="text-with-icon__content">
-                    <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/descarga-icon.svg" alt="Descargar información">
-                    <span class="u-color-gris-claro">Descargar</span>
-                    <span class="u-semibold">PDF informativo / Video informativo</span>
-                  </div>
-                </li>
-              </ul>
+              <?php $field = field_get_items('node', $node, 'field_pdf_video');
+              if ($field) { ?>
+                <ul class="list-inline u-mb u-color-turquesa u-fs-xsmall">
+                  <li>
+                    <div class="text-with-icon__content">
+                      <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/descarga-icon.svg" alt="Descargar información">
+                      <span class="u-color-gris-claro">Descargar</span>
+                      <span class="u-semibold"><a href="<?php  print $node->field_pdf_video[und][0]['uri']; ?>" target="_blank">PDF informativo / Video informativo</a></span>
+                    </div>
+                  </li>
+                </ul>
+                    <?php } ?>
             </div>
           </div>
 
