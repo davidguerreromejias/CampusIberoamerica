@@ -87,14 +87,17 @@
           </div>
 
           <div class="u-mb++">
-            <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-              <div class="u-mr+ u-semibold">
-                Nombre del campo
-              </div>
-              <div class="u-f-g1">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </div>
-            </div>
+            <?php $field = field_get_items('node', $node, 'field_duracion_del_programa');
+              if ($field) { ?>
+                <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                  <div class="u-mr+ u-semibold">
+                    Duración del programa:
+                  </div>
+                  <div class="u-f-g1">
+                    <?php print $node->field_duracion_del_programa[und][0]['value'] ; ?>
+                  </div>
+                </div>
+              <?php } ?>
             <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
               <div class="u-mr+ u-semibold">
                 Nombre del campo
