@@ -8,11 +8,14 @@
                   <ul class="list-inline">
                     <li class="items-separator">
                       <span class="u-color-naranja u-bold"><?php print $content['field_categoria_o_segmento']['#items'][0]['taxonomy_term']->name; ?></span>
-
                     </li>
-                    <li>
-                      <?php print render($content['field_n_becas_concedidas']); ?>
-                    </li>
+                    <?php $field = field_get_items('node', $node, 'field_n_becas_concedidas');
+                    if ($field) { ?>
+                      <li>
+                      <?php print render($content['field_n_becas_concedidas']);?>
+                      </li>
+                      <li>Becas</li>
+                    <?php }?>
                   </ul>
                 </div>
                 <div class="u-mb- block-info__content"><?php print render($content['field_condiciones_movilidad']); ?></div>
