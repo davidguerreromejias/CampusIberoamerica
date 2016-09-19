@@ -54,7 +54,7 @@
   <div class="text-right u-f-g1 ">
     <ul class="list-inline u-uppercase u-mb0">
       <li>
-        <a href="#" class="btn u-fs-xsmall"><?php print t('Area privada')?></a>
+        <a href="https://movia.fib.upc.edu:8444/es/content/login#" class="btn u-fs-xsmall"><?php print t('Area privada')?></a>
       </li>
       <li>
         <a href="#" class="btn u-fs-xsmall"><?php print t('Aviso legal')?></a>

@@ -50,13 +50,13 @@
             </span>
             <ul class="u-initial-hide drop-menu__list-items">
               <li class="drop-menu__item">
-                <a href="#" class="drop-menu__link"><?php print t('Prepara tu viaje')?></a>
+                <a href="blog-categories/prepara-tu-viaje" class="drop-menu__link"><?php print t('Prepara tu viaje')?></a>
               </li>
               <li class="drop-menu__item">
-                <a href="#" class="drop-menu__link"><?php print t('Info de los países')?></a>
+                <a href="blog-categories/info-países" class="drop-menu__link"><?php print t('Info de los países')?></a>
               </li>
               <li class="drop-menu__item">
-                <a href="#" class="drop-menu__link"><?php print t('Preguntas frecuentes')?></a>
+                <a href="blog-categories/faqs" class="drop-menu__link"><?php print t('Preguntas frecuentes')?></a>
               </li>
             </ul>
           </li>

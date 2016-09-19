@@ -43,7 +43,6 @@
     line-height: 1.2;
     margin: 0;
     height: 35px;
-    -webkit-appearance:none;
     -moz-appearance: none;
 
 }
@@ -72,3 +71,9 @@
     margin-right: 40%;
 
 +}
+ul.menu li {
+    display:inline;
+}
+.menu__item.is-leaf.leaf {
+    padding-inline-start: 20px;
+}
