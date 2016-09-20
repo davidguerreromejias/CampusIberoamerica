@@ -531,16 +531,161 @@
 
               <?php } ?>
 
+              <h3>Datos de la institución que promueve la movilidad</h3>
 
+              <!-- Univ/Centro responsable  -->
 
+              <?php $field = field_get_items('node', $node, 'field_univ_centro_responsable');
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Univ/Centro responsable:
+                    </div>
+                    <div class="u-f-g1">
+                      <?php print $content['field_univ_centro_responsable']['#items'][0]['taxonomy_term']->name; ?>
+                    </div>
+                  </div>
+                <?php } ?>
 
+              <!-- Tipo de institución  -->
 
+              <?php $field = field_get_items('node', $node, 'field_tipo_de_instituci_n');
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Tipo de institución:
+                    </div>
+                    <div class="u-f-g1">
+                      <?php print $node->field_tipo_de_instituci_n[und][0]['value'] ; ?>
+                    </div>
+                  </div>
+                <?php } ?>
 
+              <!-- Persona de contacto -->
 
+              <?php $field = field_get_items('node', $node, 'field_persona_de_contacto');
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Persona de contacto:
+                    </div>
+                    <div class="u-f-g1">
+                      <?php print $node->field_persona_de_contacto[und][0]['value'] ; ?>
+                    </div>
+                  </div>
+                <?php } ?>
 
+              <!-- Cargo -->
 
+              <?php $field = field_get_items('node', $node, 'field_cargo');
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Cargo:
+                    </div>
+                    <div class="u-f-g1">
+                      <?php print $node->field_cargo[und][0]['value'] ; ?>
+                    </div>
+                  </div>
+                <?php } ?>
 
+              <!-- Email -->
 
+              <?php $field = field_get_items('node', $node, 'field_email_uni_cr');
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Email:
+                    </div>
+                    <div class="u-f-g1">
+                      <?php print $node->field_email_uni_cr[und][0]['value'] ; ?>
+                    </div>
+                  </div>
+                <?php } ?>
+
+              <!-- Teléfono/s -->
+
+              <?php $field = field_get_items('node', $node, 'field_tfno');
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Teléfono/s:
+                    </div>
+                    <div class="u-f-g1">
+                      <?php print $node->field_tfno[und][0]['value'] ; ?>
+                    </div>
+                  </div>
+                <?php } ?>
+
+              <!-- Departamento -->
+
+              <?php $field = field_get_items('node', $node, 'field_departamento');
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Departamento:
+                    </div>
+                    <div class="u-f-g1">
+                      <?php print $node->field_departamento[und][0]['value'] ; ?>
+                    </div>
+                  </div>
+                <?php } ?>
+
+              <!-- Dirección -->
+
+              <?php $field = field_get_items('node', $node, 'field_direccion');
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Dirección:
+                    </div>
+                    <div class="u-f-g1">
+                      <?php print $node->field_direccion[und][0]['value'] ; ?>
+                    </div>
+                  </div>
+                <?php } ?>
+
+              <!-- Código postal -->
+
+              <?php $field = field_get_items('node', $node, 'field_codigo_postal');
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Código postal:
+                    </div>
+                    <div class="u-f-g1">
+                      <?php print $node->field_codigo_postal[und][0]['value'] ; ?>
+                    </div>
+                  </div>
+                <?php } ?>
+
+              <!-- Ciudad -->
+
+              <?php $field = field_get_items('node', $node, 'field_ciudad');
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Ciudad:
+                    </div>
+                    <div class="u-f-g1">
+                      <?php print $node->field_ciudad[und][0]['value'] ; ?>
+                    </div>
+                  </div>
+                <?php } ?>
+
+              <!-- Página web -->
+
+              <?php $field = field_get_items('node', $node, 'field_pagina_web');
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Página web:
+                    </div>
+                    <div class="u-f-g1">
+                      <?php print $node->field_pagina_web[und][0]['value'] ; ?>
+                    </div>
+                  </div>
+                <?php } ?>
 
 
           </div>
