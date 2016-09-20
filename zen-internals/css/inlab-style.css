@@ -71,18 +71,18 @@
     pointer-events: none; 
     margin-right: 40%;
 
-+}
+}
 ul.menu li {
     display:inline;
 }
 .menu__item.is-leaf.leaf {
     padding-inline-start: 20px;
 }
-div.item-list ul {
-    
-    display: inline-flex;
+.view-display-id-block_2 .item-list ul {  
+    display: inline-flex !important;
 }
-div.item-list li {
-    
-    padding-left: 40px;
+.region.region-navigation .item-list li  {
+    padding-left: 40px !important;
 }
+
+
