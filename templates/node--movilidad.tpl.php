@@ -86,6 +86,8 @@
             </div>
           </div>
 
+          <!-- Duración del programa -->
+
           <div class="u-mb++">
             <?php $field = field_get_items('node', $node, 'field_duracion_del_programa');
               if ($field) { ?>
@@ -98,41 +100,92 @@
                   </div>
                 </div>
               <?php } ?>
-            <?php $field = field_get_items('node', $node, 'field_duracion_del_programa');
+
+              <!-- País de origen del solicitante -->
+
+            <?php $field = field_get_items('node', $node, 'field_pais_origen_solicitante');
               if ($field) { ?>
                 <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                   <div class="u-mr+ u-semibold">
-                    Nombre del campo
+                    País/es de origen del solicitante:
                   </div>
                   <div class="u-f-g1">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                    <?php print $content['field_pais_origen_solicitante']['#items'][0]['taxonomy_term']->name; ?>
                   </div>
                 </div>
               <?php } ?>
-            <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-              <div class="u-mr+ u-semibold">
-                Nombre del campo
-              </div>
-              <div class="u-f-g1">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit
-              </div>
-            </div>
-            <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-              <div class="u-mr+ u-semibold">
-                Nombre del campo
-              </div>
-              <div class="u-f-g1">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit   Lorem ipsum dolor sit amet, consectetur adipisicing elit
-              </div>
-            </div>
-            <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-              <div class="u-mr+ u-semibold">
-                Nombre del campo
-              </div>
-              <div class="u-f-g1">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit   Lorem ipsum dolor sit amet, consectetur adipisicing elit   Lorem ipsum dolor sit amet, consectetur adipisicing elit
-              </div>
-            </div>
+
+              <!-- Nacionalidad -->
+
+
+            <?php $field = field_get_items('node', $node, 'field_nacionalidad');
+              if ($field) { ?>
+                <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                  <div class="u-mr+ u-semibold">
+                    Nacionalidad del solicitante:
+                  </div>
+                  <div class="u-f-g1">
+                    <?php print $content['field_nacionalidad']['#items'][0]['taxonomy_term']->name; ?>
+                  </div>
+                </div>
+              <?php } ?>
+
+              <!-- Univ/centros de origen del solicitante TODO!!!!!-->
+
+            <?php $field = field_get_items('node', $node, 'field_nacionalidad');
+              if ($field) { ?>
+                <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                  <div class="u-mr+ u-semibold">
+                    Univ/centros de origen del solicitante:
+                  </div>
+                  <div class="u-f-g1">
+                    <?php print $content['field_nacionalidad']['#items'][0]['taxonomy_term']->name; ?>
+                  </div>
+                </div>
+              <?php } ?>
+
+            <!-- Requisitos solicitante -->
+
+            <?php $field = field_get_items('node', $node, 'field_requisitos_solicitante');
+              if ($field) { ?>
+                <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                  <div class="u-mr+ u-semibold">
+                    Requisitos solicitante:
+                  </div>
+                  <div class="u-f-g1">
+                    <?php print $node->field_requisitos_solicitante[und][0]['value'] ; ?>
+                  </div>
+                </div>
+              <?php } ?>
+
+            <!-- Idiomas requeridos al solicitante  -->
+
+            <?php $field = field_get_items('node', $node, 'field_idiomas_requeridos');
+              if ($field) { ?>
+                <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                  <div class="u-mr+ u-semibold">
+                    Idiomas requeridos al solicitante:
+                  </div>
+                  <div class="u-f-g1">
+                    <?php print $node->field_idiomas_requeridos[und][0]['value'] ; ?>
+                  </div>
+                </div>
+              <?php } ?>
+
+            <!-- País/es de destino   -->
+
+            <?php $field = field_get_items('node', $node, 'field_ambito_pais');
+              if ($field) { ?>
+                <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                  <div class="u-mr+ u-semibold">
+                    País/es de destino :
+                  </div>
+                  <div class="u-f-g1">
+                    <?php print $content['field_ambito_pais']['#items'][0]['taxonomy_term']->name; ?>
+                  </div>
+                </div>
+              <?php } ?>
+
           </div>
           <div class="u-mb++">
             <button href="#" class="btn btn--action">
