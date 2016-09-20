@@ -287,12 +287,15 @@
             <!-- SOLO SI ES INVESTIGACIÓN -->
 
             <?php $field = field_get_items('node', $node, 'field_categoria_o_segmento');
-              echo $content['field_categoria_o_segmento']['#items'][0]['taxonomy_term']->name;
-              if ($content['field_categoria_o_segmento']['#items'][0]['taxonomy_term']->name == 'Investigación / docencia') {
+              ?><p><?php $investigador = $content['field_categoria_o_segmento']['#items'][0]['taxonomy_term']->name; ?> </p>
+              <?php if ($investigador == "Investigación / docencia") {
+                ?>
+                <h3> Investigadores </h3>
+                <?php
 
                 // Prespuesto total de la oferta 
 
-                $field = field_get_items('node', $node, 'field_prespuesto_total_oferta  '); 
+                $field = field_get_items('node', $node, 'field_prespuesto_total_oferta'); 
                 if ($field) { ?>
                   <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                     <div class="u-mr+ u-semibold">
@@ -303,6 +306,229 @@
                     </div>
                   </div>
                 <?php } ?>
+
+                <?php 
+                // Incluye salario del beneficiario?  
+
+                $field = field_get_items('node', $node, 'field_incluye_salario'); 
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Incluye salario del beneficiario?
+                    </div>
+                    <div class="u-f-g1">
+                      <?php if ($node->field_incluye_salario[und][0]['value'] == 1){?> Si
+                      <?php }
+                      if ($node->field_incluye_salario[und][0]['value'] == 0){?> 
+                      No <?php } ?>
+                    </div>
+                  </div>
+                <?php } ?>
+
+                <?php 
+                // Salario del beneficiario  
+
+                $field = field_get_items('node', $node, 'field_salario_del_beneficiario'); 
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Salario del beneficiario
+                    </div>
+                    <div class="u-f-g1">
+                      <?php print $node->field_salario_del_beneficiario[und][0]['value'] ; ?>
+                  </div>
+                </div>
+                <?php } ?>
+
+                <?php 
+                // Incluye gastos de desplazamiento?  
+
+                $field = field_get_items('node', $node, 'field_incluye_gastos_desplazamen'); 
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Incluye gastos de desplazamiento?
+                    </div>
+                    <div class="u-f-g1">
+                      <?php if ($node->field_incluye_gastos_desplazamen[und][0]['value'] == 1){?> Si
+                      <?php }
+                      if ($node->field_incluye_gastos_desplazamen[und][0]['value'] == 0){?> 
+                      No <?php } ?>
+                    </div>
+                  </div>
+                <?php } ?>
+
+                <?php 
+                //Gastos de desplazamiento 
+
+                $field = field_get_items('node', $node, 'field_gastos_de_desplazamiento'); 
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Gastos de desplazamiento
+                    </div>
+                    <div class="u-f-g1">
+                      <?php print $node->field_gastos_de_desplazamiento[und][0]['value'] ; ?>
+                  </div>
+                </div>
+                <?php } ?>
+
+                <?php 
+                //Incluye manutención ?  
+
+                $field = field_get_items('node', $node, 'field_incluye_manutencion'); 
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Incluye manutención?
+                    </div>
+                    <div class="u-f-g1">
+                      <?php if ($node->field_incluye_manutencion[und][0]['value'] == 1){?> Si
+                      <?php }
+                      if ($node->field_incluye_manutencion[und][0]['value'] == 0){?> 
+                      No <?php } ?>
+                    </div>
+                  </div>
+                <?php } ?>
+
+                <?php 
+                //Manutención
+
+                $field = field_get_items('node', $node, 'field_manutencion'); 
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Manutención
+                    </div>
+                    <div class="u-f-g1">
+                      <?php print $node->field_manutencion[und][0]['value'] ; ?>
+                  </div>
+                </div>
+                <?php } ?>
+
+                <?php 
+                //Incluye otros costes?  
+
+                $field = field_get_items('node', $node, 'field_incluye_otros_costes'); 
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Incluye otros costes?
+                    </div>
+                    <div class="u-f-g1">
+                      <?php if ($node->field_incluye_otros_costes[und][0]['value'] == 1){?> Si
+                      <?php }
+                      if ($node->field_incluye_otros_costes[und][0]['value'] == 0){?> 
+                      No <?php } ?>
+                    </div>
+                  </div>
+                <?php } ?>
+
+                <?php 
+                //Otros costes
+
+                $field = field_get_items('node', $node, 'field_otros_costes'); 
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Otros costes
+                    </div>
+                    <div class="u-f-g1">
+                      <?php print $node->field_otros_costes[und][0]['value'] ; ?>
+                  </div>
+                </div>
+                <?php } ?>
+
+                <?php 
+                //Mes de llegada
+
+                $field = field_get_items('node', $node, 'field_mes_de_llegada'); 
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Mes de llegada:
+                    </div>
+                    <div class="u-f-g1">
+                      <?php echo date('F Y', strtotime($node->field_mes_de_llegada['und'][0]['value']));?>
+                  </div>
+                </div>
+                <?php } ?>
+
+                <?php 
+                //Web/comentario
+
+                $field = field_get_items('node', $node, 'field_web_comentario'); 
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Web/comentario:
+                    </div>
+                    <div class="u-f-g1">
+                      <?php print $node->field_web_comentario[und][0]['value'] ; ?>
+                  </div>
+                </div>
+                <?php } ?>
+
+                <?php 
+                //Fecha prevista inicio trabajo
+
+                $field = field_get_items('node', $node, 'field_fecha_prevista_inicio_trab'); 
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Fecha prevista inicio trabajo:
+                    </div>
+                    <div class="u-f-g1">
+                      <?php echo date('d F Y', strtotime($node->field_fecha_prevista_inicio_trab['und'][0]['value']));?>
+                  </div>
+                </div>
+                <?php } ?>
+
+                <?php 
+                //Nivel de estudios requerido
+
+                $field = field_get_items('node', $node, 'field_nivel_estudios_requerido'); 
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Nivel de estudios requerido:
+                    </div>
+                    <div class="u-f-g1">
+                      <?php print $node->field_nivel_estudios_requerido[und][0]['value'] ; ?>
+                  </div>
+                </div>
+                <?php } ?>
+
+                <?php 
+                //Otros requisitos
+
+                $field = field_get_items('node', $node, 'field_otros_requisitos'); 
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Otros requisitos:
+                    </div>
+                    <div class="u-f-g1">
+                      <?php print $node->field_otros_requisitos[und][0]['value'] ; ?>
+                  </div>
+                </div>
+                <?php } ?>
+
+                <?php 
+                //Otros criterios de elegibilidad
+
+                $field = field_get_items('node', $node, 'field_otros_criterios_de_elegibi'); 
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Otros criterios de elegibilidad:
+                    </div>
+                    <div class="u-f-g1">
+                      <?php print $node->field_otros_criterios_de_elegibi[und][0]['value'] ; ?>
+                  </div>
+                </div>
+                <?php } ?>
+
               <?php } ?>
 
 
