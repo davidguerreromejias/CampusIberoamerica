@@ -4591,6 +4591,118 @@ input[type="radio"] .styled:checked + label::after {
   content: "";
   font-size: 18px; }
 
+.items-separator {
+  position: relative;
+  padding-right: 25px !important;
+}
+
+@media (max-width: 767px) {
+  .items-separator--down-sm {
+    display: block !important;
+    padding-right: 5px !important;
+  }
+  .items-separator--down-sm:before {
+    display: none;
+  }
+}
+
+.items-separator--line:before {
+  position: absolute;
+  content: '';
+  width: 7px;
+  height: 1px;
+  top: 50%;
+  right: 5px;
+  background-color: #000;
+}
+
+.items-separator--arrow:before {
+  font-family: "segib-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  speak: none;
+  vertical-align: middle;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "";
+  padding-right: 3px;
+  vertical-align: inherit;
+  color: #8C8C8C;
+}
+
+.horizontal-line-separator-top {
+  border-top: 1px solid #E5E5E5;
+}
+
+.horizontal-line-separator-bottom {
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.horizontal-line-separator-wide-grey {
+  border-top: 2px solid #8C8C8C;
+}
+
+.horizontal-line-separator-wide-dark-grey {
+  border-top: 3px solid #4D4D4D;
+}
+
+.text-with-icon__content {
+  position: relative;
+  display: block;
+  padding: 15px;
+  color: #4EBDCC;
+  padding-left: 40px;
+}
+
+.text-with-icon__icon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 10px;
+  left: 0;
+}
+
+.collapsed-block__option {
+  display: block;
+  position: relative;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.collapsed-block__option:not(.collapsed) {
+  font-weight: bold;
+}
+
+.collapsed-block__icon:before {
+  font-family: "segib-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  speak: none;
+  vertical-align: middle;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -5px;
+  transform: rotate(180deg);
+  transition: transform 0.3s;
+}
+
+.collapsed-block__option.collapsed .collapsed-block__icon:before {
+  transform: rotate(0deg);
+}
+
 .p-home_body {
   background-image: url("../images/portada_bg.jpg");
   background-position: top center;

@@ -933,6 +933,21 @@ x(function ($) {
     $("#edit-field-ambito-pais-tid-wrapper .search-filter__blocks-container").css('display', 'none');
   }
 
+  //collapse
+  $('[data-cerrar-filtros]').on('click', function () {
+    $('body').removeClass('filtros-desplegados');
+  });
+  $('[data-abrir-filtros]').on('click', function () {
+    $('body').addClass('filtros-desplegados');
+  });
+
+  $('[data-toggle="layer"]').on('click', function () {
+    var $this = $(this);
+    var $target = $($this.data('target'));
+    var toggleClassName = $this.data('toggle-class');
+    $target.toggleClass(toggleClassName);
+  });
+
 });
 'use strict';
 
