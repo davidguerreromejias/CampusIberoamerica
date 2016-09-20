@@ -26,14 +26,14 @@
 
       <li>
         <a href="#" class="u-block u-mh++" style="text-align: center;">
-          <img src="/sites/all/themes/zen/Nexos/assets/images/punto-icon.svg" alt="Prepara tu viaje"><br/>
+          <img src="/sites/all/themes/zen/Nexos/assets/images/punto-icon.svg" alt="Información de los países"><br/>
           <?php print t('Información <br/>de los países')?>
         </a>
       </li>
 
       <li>
         <a href="preguntas-frecuentes" class="u-block u-mh++" style="text-align: center;">
-          <img src="/sites/all/themes/zen/Nexos/assets/images/dialogo-icon.svg" alt="Prepara tu viaje"><br/>
+          <img src="/sites/all/themes/zen/Nexos/assets/images/dialogo-icon.svg" alt="Preguntas frecuentes"><br/>
           <?php print t('Preguntas <br/>frecuentes')?>
         </a>
       </li>
