@@ -178,13 +178,144 @@
               if ($field) { ?>
                 <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                   <div class="u-mr+ u-semibold">
-                    País/es de destino :
+                    País/es de destino:
                   </div>
                   <div class="u-f-g1">
                     <?php print $content['field_ambito_pais']['#items'][0]['taxonomy_term']->name; ?>
                   </div>
                 </div>
               <?php } ?>
+
+              <!-- Univ/Centro de destino -->
+
+            <?php $field = field_get_items('node', $node, 'field__mbito_univ_centro');
+              if ($field) { ?>
+                <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                  <div class="u-mr+ u-semibold">
+                    Univ/Centro de destino:
+                  </div>
+                  <div class="u-f-g1">
+                    <?php print $content['field__mbito_univ_centro']['#items'][0]['taxonomy_term']->name; ?>
+                  </div>
+                </div>
+              <?php } ?>
+
+            <!-- Área de conocimiento -->
+
+            <?php $field = field_get_items('node', $node, 'field_ambito_area_conocimiento');
+              if ($field) { ?>
+                <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                  <div class="u-mr+ u-semibold">
+                    Área de conocimiento:
+                  </div>
+                  <div class="u-f-g1">
+                    <?php print $content['field_ambito_area_conocimiento']['#items'][0]['taxonomy_term']->name; ?>
+                  </div>
+                </div>
+              <?php } ?>
+
+            <!-- Especialidad -->
+
+            <?php $field = field_get_items('node', $node, 'field_ambito_subarea_conocimient');
+              if ($field) { ?>
+                <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                  <div class="u-mr+ u-semibold">
+                    Especialidad:
+                  </div>
+                  <div class="u-f-g1">
+                    <?php print $content['field_ambito_subarea_conocimient']['#items'][0]['taxonomy_term']->name; ?>
+                  </div>
+                </div>
+              <?php } ?>
+
+            <!-- Cuantía o presupuesto  -->
+
+            <?php $field = field_get_items('node', $node, 'field_cuantia');
+              if ($field) { ?>
+                <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                  <div class="u-mr+ u-semibold">
+                    Cuantía o presupuesto:
+                  </div>
+                  <div class="u-f-g1">
+                    <?php print $node->field_cuantia[und][0]['value'] ; ?>
+                  </div>
+                </div>
+              <?php } ?>
+
+            <!-- Tipo de moneda -->
+
+            <?php $field = field_get_items('node', $node, 'field_tipo_de_moneda');
+              if ($field) { ?>
+                <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                  <div class="u-mr+ u-semibold">
+                    Tipo de moneda:
+                  </div>
+                  <div class="u-f-g1">
+                    <?php print $node->field_tipo_de_moneda[und][0]['value'] ; ?>
+                  </div>
+                </div>
+              <?php } ?>
+
+            <!-- Fecha límite envío solicitud -->
+
+            <?php $field = field_get_items('node', $node, 'field_tipo_de_moneda');
+              if ($field) { ?>
+                <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                  <div class="u-mr+ u-semibold">
+                    Fecha límite envío solicitud:
+                  </div>
+                  <div class="u-f-g1">
+                    <?php echo date('d F Y', strtotime($node->field_plazo_para_solicitud_inici['und'][0]['value2']));?>
+                  </div>
+                </div>
+              <?php } ?>
+
+            <!-- Cómo enviar la candidatura  -->
+
+            <?php $field = field_get_items('node', $node, 'field_tipo_de_moneda');
+              if ($field) { ?>
+                <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                  <div class="u-mr+ u-semibold">
+                    Cómo enviar la candidatura:
+                  </div>
+                  <div class="u-f-g1">
+                    <?php print $node->field_c_mo_enviar_candidatura[und][0]['value'] ; ?>
+                  </div>
+                </div>
+              <?php } ?>
+
+            <!-- SOLO SI ES INVESTIGACIÓN -->
+
+            <?php $field = field_get_items('node', $node, 'field_categoria_o_segmento');
+              echo $content['field_categoria_o_segmento']['#items'][0]['taxonomy_term']->name;
+              if ($content['field_categoria_o_segmento']['#items'][0]['taxonomy_term']->name == 'Investigación / docencia') {
+
+                // Prespuesto total de la oferta 
+
+                $field = field_get_items('node', $node, 'field_prespuesto_total_oferta  '); 
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="u-mr+ u-semibold">
+                      Prespuesto total de la oferta:
+                    </div>
+                    <div class="u-f-g1">
+                      <?php print $node->field_prespuesto_total_oferta[und][0]['value'] ; ?>
+                    </div>
+                  </div>
+                <?php } ?>
+              <?php } ?>
+
+
+
+
+
+
+
+
+
+
+
+
 
           </div>
           <div class="u-mb++">
