@@ -34,13 +34,13 @@
             </span>
             <ul class="u-initial-hide drop-menu__list-items">
               <li class="drop-menu__item">
-                <a href="#" class="drop-menu__link"><?php print t('Pregrado')?></a>
+                <a href="portadilla-pregrado" class="drop-menu__link"><?php print t('Pregrado')?></a>
               </li>
               <li class="drop-menu__item">
-                <a href="#" class="drop-menu__link"><?php print t('Postgrado')?></a>
+                <a href="portadilla-postgrado" class="drop-menu__link"><?php print t('Postgrado')?></a>
               </li>
               <li class="drop-menu__item">
-                <a href="#" class="drop-menu__link"><?php print t('Investigación / Docencia')?></a>
+                <a href="portadilla-invsetigadores" class="drop-menu__link"><?php print t('Investigación / Docencia')?></a>
               </li>
             </ul>
           </li>
@@ -50,7 +50,7 @@
             </span>
             <ul class="u-initial-hide drop-menu__list-items">
               <li class="drop-menu__item">
-                <a href="#" class="drop-menu__link"><?php print t('Prepara tu viaje')?></a>
+                <a href="prepara-tu-viaje" class="drop-menu__link"><?php print t('Prepara tu viaje')?></a>
               </li>
               <li class="drop-menu__item">
                 <a href="#" class="drop-menu__link"><?php print t('Info de los países')?></a>
