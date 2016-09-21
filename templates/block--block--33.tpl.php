@@ -105,19 +105,7 @@
               <ul class="u-mb u-color-turquesa u-fs-xsmall">
                 <li>
                   <a href="#" class="link text-with-icon__content">
-                    <img class="text-with-icon__icon" src="/assets/images/enlace-icon.svg" alt="Ampliar información">
-                    <span class="u-semibold">Ampliar información</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link text-with-icon__content">
-                    <img class="text-with-icon__icon" src="/assets/images/enlace-icon.svg" alt="Ampliar información">
-                    <span class="u-semibold">Ampliar información</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link text-with-icon__content">
-                    <img class="text-with-icon__icon" src="/assets/images/enlace-icon.svg" alt="Ampliar información">
+                    <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/enlace-icon.svg" alt="Ampliar información">
                     <span class="u-semibold">Ampliar información</span>
                   </a>
                 </li>
@@ -127,29 +115,29 @@
         </div>
       </div>
       <div class="col-xs-12 col-md-4 col-lg-3">
-        <div class="u-mb+++">
+         <div class="u-mb+++">
           <div class="u-pb- u-color-gris u-fs-xsmall u-uppercase u-semibold horizontal-line-separator-bottom">Información útil</div>
           <ul class="u-color-turquesa u-fs-small u-semibold">
             <li>
               <a href="../prepara-viaje" class="link text-with-icon__content">
-                <img class="text-with-icon__icon" src="/assets/images/ruta-icon_small.svg" alt="Prepara tu viaje">
+                <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/ruta-icon_small.svg" alt="Prepara tu viaje">
                 Prepara tu viaje
               </a>
             </li>
             <li class="horizontal-line-separator-top">
               <a href="../info-paises" class="link text-with-icon__content">
-                <img class="text-with-icon__icon" src="/assets/images/punto-icon_small.svg" alt="Información de los países">
+                <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/punto-icon_small.svg" alt="Información de los países">
                 Información de los paises
               </a>
             </li>
             <li class="horizontal-line-separator-top horizontal-line-separator-bottom">
               <a href="../preguntas-frecuentes" class="link text-with-icon__content">
-                <img class="text-with-icon__icon" src="/assets/images/dialogo-icon_small.svg" alt="Preguntas frecuentes">
+                <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/dialogo-icon_small.svg" alt="Preguntas frecuentes">
                 Preguntas frecuentes
               </a>
             </li>
           </ul>
-        </div>
+          </div>
       </div>
     </div>
   </div>
