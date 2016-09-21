@@ -933,6 +933,17 @@ x(function ($) {
     $("#edit-field-ambito-pais-tid-wrapper .search-filter__blocks-container").css('display', 'none');
   }
 
+  var pathname = window.location.pathname;
+  if(pathname =='/portadilla-pregrado'){
+    $('select[name="tid"]').val("1339");
+  }
+  else if(pathname =='/portadilla-postgrado'){
+    $('select[name="tid"]').val("1340");
+  }
+  else if(pathname =='/portadilla-investigadores'){
+    $('select[name="tid"]').val("1341");
+  }
+
   //collapse
   $('[data-cerrar-filtros]').on('click', function () {
     $('body').removeClass('filtros-desplegados');
