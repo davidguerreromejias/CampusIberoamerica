@@ -85,4 +85,25 @@ ul.menu li {
     padding-left: 40px !important;
 }
 
+select[name=pregunta]{
+    color: #AEADAD;
+    padding-top: 22.5px;
+    padding-bottom: 22.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
+.select:before{
+    top: 34%;
+    left: 91%;
+}
+
+@media (min-width: 768px) {
+  .btn {
+    max-width: 290px;
+  }
+}
+
+.btn{
+    width: 100%;
+}
