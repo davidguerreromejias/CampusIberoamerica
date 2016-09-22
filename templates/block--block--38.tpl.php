@@ -25,13 +25,13 @@
             </a>
           </li>
           <li class="items-separator--arrow">
-            <span class="u-color-gris">Acerca De</span>
+            <span class="u-color-gris"><?php print t('Acerca De')?></span>
           </li>
         </ul>
       </div>
       <div class="col-xs-12 col-md-8 col-lg-9">
         <div class="page-content-container u-mb++ ">
-          <div class="u-mb u-fs-h2 u-bold">Acerca De</div>
+          <div class="u-mb u-fs-h2 u-bold"><?php print t('Acerca De')?></div>
           <div class="u-pv horizontal-line-separator-top u-fs-base">
             <p class="u-mb-">
               <?php print t('<b>¿En qué consiste esta iniciativa?</b>')?>
