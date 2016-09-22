@@ -18,14 +18,14 @@
 <ul class="list-inline display-only-up-md u-mb++">
   <div class="site-content-wrapper site-content-wrapper--centered">
       <li>
-        <a href="#" class="u-block u-mh++" style="text-align: center;">
+        <a href="prepara-tu-viaje" class="u-block u-mh++" style="text-align: center;">
           <img src="/sites/all/themes/zen/Nexos/assets/images/ruta-icon.svg" alt="Prepara tu viaje"><br/>
           <?php print t('Prepara <br/>tu viaje')?>
         </a>
       </li>
 
       <li>
-        <a href="#" class="u-block u-mh++" style="text-align: center;">
+        <a href="info-paises" class="u-block u-mh++" style="text-align: center;">
           <img src="/sites/all/themes/zen/Nexos/assets/images/punto-icon.svg" alt="Información de los países"><br/>
           <?php print t('Información <br/>de los países')?>
         </a>

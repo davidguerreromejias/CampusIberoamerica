@@ -107,3 +107,9 @@ select[name=pregunta]{
 .btn{
     width: 100%;
 }
+
+@media (min-width: 992px) {
+    .p-home_btn {
+      width: 290px !important;
+      } 
+}
