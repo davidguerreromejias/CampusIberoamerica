@@ -85,6 +85,11 @@ ul.menu li {
     padding-left: 40px !important;
 }
 
+.site-footer-menu.display-only-up-sm.u-f.u-f-align-center{
+    height: 80px;
+}
+
+
 select[name=pregunta]{
     color: #AEADAD;
     padding-top: 22.5px;
