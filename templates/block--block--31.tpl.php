@@ -65,14 +65,45 @@
             <p class="u-mb-"><b><?php print t('Descargos de responsabilidad')?></b>   </p>
 
             <p class="u-mb-">
-              <?php print t('Los materiales publicados en este sitio se proporcionan tal como aquí aparecen y sin ningún tipo de garantía, ya sea explícita o implícita, incluidas, pero sin limitarse a ellas, las garantías de la calidad comercial, utilidad para determinado propósito y protección contra infracciones.
-En particular, la Secretaría General Iberoamericana no da garantías ni responde de que dichos materiales sean exactos o completos. La Secretaría General Iberoamericana amplía, modifica, mejora o actualiza periódicamente los materiales contenidos en este sitio sin previo aviso.
-Bajo ninguna circunstancia la Secretaría General Iberoamericana será responsable de las pérdidas, los daños, las obligaciones o los gastos presuntamente derivados de la utilización de este sitio, incluidos, pero sin limitarse a ellos, los fallos, errores, omisiones, interrupciones o demoras relacionados con dichos materiales.
-Los usuarios utilizan este sitio por su cuenta y riesgo. En ningún caso, incluida la negligencia pero sin limitarse a ella, la Secretaría General Iberoamericana y sus afiliados serán responsables de daños directos, indirectos, incidentales, cuantificables o consecuentes, aun cuando se les haya advertido de la posibilidad de tales daños.
-El usuario reconoce y acepta específicamente que la Secretaría General Iberoamericana no es responsable de los actos de ningún usuario.
-Este sitio puede contener sugerencias, opiniones y declaraciones procedentes de diversas fuentes de información. La Secretaría General Iberoamericana no garantiza ni respalda la exactitud o fiabilidad de las sugerencias, opiniones, declaraciones u otras informaciones provenientes de ninguna fuente de información, ningún usuario de este sitio o cualquier otra persona o entidad. La aceptación por un usuario de tales sugerencias, opiniones, declaraciones o informaciones será también por su cuenta y riesgo. Ni la Secretaría General Iberoamericana ni sus afiliados o cualquiera de sus respectivos agentes, empleados, fuentes de información o suministradores de contenido serán responsables ante los usuarios o cualquier otra persona de las inexactitudes, errores, omisiones, interrupciones, supresiones, defectos, alteraciones o utilizaciones de cualquier contenido del sitio o por el momento o el grado en que se produzcan; tampoco serán responsables de las fallas de funcionamiento, los virus informáticos o las interrupciones de la comunicación, independientemente de su causa, ni por cualesquiera daños que de ello se deriven.
-La utilización de este sitio por el usuario estará sujeta a la aceptación por este último de la condición de indemnizar a la Secretaría General Iberoamericana y a sus afiliados por cualesquiera acciones, reclamaciones, pérdidas, daños, obligaciones y gastos (incluida una suma razonable por concepto de honorarios de abogados) que se deriven de dicha utilización, incluidas, sin límite alguno, las reclamaciones en que se aleguen hechos que, de ser ciertos, constituirían un incumplimiento por el usuario de las presentes Condiciones. Si el usuario no estuviera conforme con alguno de los materiales presentados en este sitio o con alguna de las condiciones de utilización, el único remedio a que podría recurrir sería dejar de utilizar el sitio. 
-Este sitio puede contener enlaces y referencias a sitios de terceros en la Web. Estos sitios no se encuentran bajo el control de la Secretaría General Iberoamericana y la Secretaría no es responsable de su contenido ni de los enlaces que puedan figurar en ellos. La Secretaría General Iberoamericana proporciona estos enlaces sólo como servicio complementario, y la inclusión de un enlace o referencia no significa que la Secretaría respalde el sitio en cuestión.')?>
+              <?php print t('Los materiales publicados en este sitio se proporcionan tal como aquí aparecen 
+                y sin ningún tipo de garantía, ya sea explícita o implícita, incluidas, pero sin limitarse a ellas, 
+                las garantías de la calidad comercial, utilidad para determinado propósito y protección contra infracciones.')?><br><br>
+
+              <?php print t('En particular, la Secretaría General Iberoamericana no da garantías ni responde de que dichos materiales sean
+               exactos o completos. La Secretaría General Iberoamericana amplía, modifica, mejora o actualiza periódicamente los materiales 
+               contenidos en este sitio sin previo aviso.')?> <br><br>
+
+              <?php print t('Bajo ninguna circunstancia la Secretaría General Iberoamericana será responsable de las pérdidas,
+               los daños, las obligaciones o los gastos presuntamente derivados de la utilización de este sitio, incluidos, 
+               pero sin limitarse a ellos, los fallos, errores, omisiones, interrupciones o demoras relacionados con dichos materiales.')?><br><br>
+
+              <?php print t('Los usuarios utilizan este sitio por su cuenta y riesgo. En ningún caso, incluida la negligencia pero sin limitarse a ella,
+              la Secretaría General Iberoamericana y sus afiliados serán responsables de daños directos, indirectos, incidentales, cuantificables o consecuentes,
+              aun cuando se les haya advertido de la posibilidad de tales daños.')?><br><br>
+
+              <?php print t('El usuario reconoce y acepta específicamente que la Secretaría General Iberoamericana no es responsable de los actos de ningún usuario.')?><br><br>
+              
+              <?php print t('Este sitio puede contener sugerencias, opiniones y declaraciones procedentes de diversas fuentes de 
+                información. La Secretaría General Iberoamericana no garantiza ni respalda la exactitud o fiabilidad de las sugerencias, opiniones, 
+                declaraciones u otras informaciones provenientes de ninguna fuente de información, ningún usuario de este sitio o cualquier otra persona o entidad. 
+                La aceptación por un usuario de tales sugerencias, opiniones, declaraciones o informaciones será también por su cuenta y riesgo. Ni la Secretaría
+                 General Iberoamericana ni sus afiliados o cualquiera de sus respectivos agentes, empleados, fuentes de información o suministradores de contenido 
+                 serán responsables ante los usuarios o cualquier otra persona de las inexactitudes, errores, omisiones, interrupciones, supresiones, defectos, 
+                 alteraciones o utilizaciones de cualquier contenido del sitio o por el momento o el grado en que se produzcan; tampoco serán responsables de las 
+                 fallas de funcionamiento, los virus informáticos o las interrupciones de la comunicación, independientemente de su causa, ni por cualesquiera daños que de ello se deriven.')?> <br><br>
+
+              <?php print t('La utilización de este sitio por el usuario estará sujeta a la aceptación por este último de la condición de indemnizar
+               a la Secretaría General Iberoamericana y a sus afiliados por cualesquiera acciones, reclamaciones, pérdidas, daños, obligaciones y gastos
+                (incluida una suma razonable por concepto de honorarios de abogados) que se deriven de dicha utilización, incluidas, sin límite alguno, 
+                las reclamaciones en que se aleguen hechos que, de ser ciertos, constituirían un incumplimiento por el usuario de las presentes Condiciones.
+                 Si el usuario no estuviera conforme con alguno de los materiales presentados en este sitio o con alguna de las condiciones de utilización, 
+                 el único remedio a que podría recurrir sería dejar de utilizar el sitio.')?> <br><br>
+
+
+                <?php print t('Este sitio puede contener enlaces y referencias a sitios de terceros en la Web. 
+                Estos sitios no se encuentran bajo el control de la Secretaría General Iberoamericana y la Secretaría no es responsable 
+                de su contenido ni de los enlaces que puedan figurar en ellos. La Secretaría General Iberoamericana proporciona estos enlaces 
+                sólo como servicio complementario, y la inclusión de un enlace o referencia no significa que la Secretaría respalde el sitio en cuestión.')?>
 
             </p>
             <p><br></p>
@@ -83,9 +114,14 @@ Este sitio puede contener enlaces y referencias a sitios de terceros en la Web. 
             <p><br></p>
              <p class="u-mb-"><b><?php print t('Aspectos generales ')?></b> </p>
              <p class="u-mb-">
-             <?php print t('La Secretaría General Iberoamericana se reserva el derecho exclusivo de modificar, limitar o suspender a su discreción este sitio o cualquiera de los materiales contenidos en él en cualquier sentido. La Secretaría General Iberoamericana no está obligada a tomar en consideración las necesidades de ningún usuario para adoptar tales medidas.
-La Secretaría General Iberoamericana se reserva el derecho de denegar a su entera discreción y sin previo aviso el acceso de cualquier usuario a este sitio o a cualquiera de sus componentes.
-Ninguna dispensa por la Secretaría General Iberoamericana de cualquiera de las disposiciones de las presentes Condiciones será vinculante a menos que se enuncie por escrito y sea firmada por un representante de la Secretaría debidamente autorizado.')?>
+             <?php print t('La Secretaría General Iberoamericana se reserva el derecho exclusivo de modificar, limitar o suspender a su discreción este sitio o 
+              cualquiera de los materiales contenidos en él en cualquier sentido. 
+             La Secretaría General Iberoamericana no está obligada a tomar en consideración las necesidades de ningún usuario para adoptar tales medidas.')?><br>
+<br><?php print t('La Secretaría General Iberoamericana se reserva el derecho de denegar a su entera discreción y sin previo aviso el acceso de cualquier usuario a 
+                  este sitio o a cualquiera de sus componentes.')?><br>
+                  <br>
+<?php print t('Ninguna dispensa por la Secretaría General Iberoamericana de cualquiera de las disposiciones de las presentes 
+Condiciones será vinculante a menos que se enuncie por escrito y sea firmada por un representante de la Secretaría debidamente autorizado.')?>
             </p>
 
           </div>
