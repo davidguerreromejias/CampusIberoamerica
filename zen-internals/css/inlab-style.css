@@ -118,3 +118,21 @@ select[name=pregunta]{
       width: 290px !important;
       } 
 }
+
+ul .list-tick:before{
+    content: '✓';
+}
+
+.list-plain-text{
+    list-style: none;
+    width: 80%;
+}
+
+.list-plain-text li{
+    margin-bottom: 1%;
+    margin-left: 5%;
+}
+
+.list-circle{
+    list-style-type: circle;
+}
