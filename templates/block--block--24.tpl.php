@@ -14,6 +14,14 @@
 <?php endif; ?>
 <?php print render($title_suffix); ?>
 
+<!--[if IE]>
+<style>
+    .site-header__container{
+         height: 60px;
+    }
+</style>
+<![endif]-->
+
 <div class="site-content-wrapper site-content-wrapper--centered">
     <div class="site-header">
   <div class="site-header__container container">
