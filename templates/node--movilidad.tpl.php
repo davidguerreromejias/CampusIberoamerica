@@ -104,7 +104,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Duración del programa:
+                        <?php print t('Duración del programa:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $node->field_duracion_del_programa[und][0]['value'] ; ?>
@@ -118,7 +118,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        País/es de origen del solicitante:
+                        <?php print t('País/es de origen del solicitante:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $content['field_pais_origen_solicitante']['#items'][0]['taxonomy_term']->name; ?>
@@ -133,7 +133,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Nacionalidad del solicitante:
+                        <?php print t('Nacionalidad del solicitante:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $content['field_nacionalidad']['#items'][0]['taxonomy_term']->name; ?>
@@ -147,7 +147,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Univ/centros de origen del solicitante:
+                        <?php print t('Univ/centros de origen del solicitante:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $content['field_nacionalidad']['#items'][0]['taxonomy_term']->name; ?>
@@ -161,7 +161,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Requisitos solicitante:
+                        <?php print t('Requisitos solicitante:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $node->field_requisitos_solicitante[und][0]['value'] ; ?>
@@ -175,7 +175,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Idiomas requeridos al solicitante:
+                        <?php print t('Idiomas requeridos al solicitante:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $node->field_idiomas_requeridos[und][0]['value'] ; ?>
@@ -189,7 +189,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        País/es de destino:
+                        <?php print t('Idiomas requeridos al solicitante:')?>País/es de destino:
                       </div>
                       <div class="u-f-g1">
                         <?php print $content['field_ambito_pais']['#items'][0]['taxonomy_term']->name; ?>
@@ -203,7 +203,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Univ/Centro de destino:
+                        <?php print t('Univ/Centro de destino:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $content['field__mbito_univ_centro']['#items'][0]['taxonomy_term']->name; ?>
@@ -217,7 +217,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Área de conocimiento:
+                        <?php print t('Área de conocimiento:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $content['field_ambito_area_conocimiento']['#items'][0]['taxonomy_term']->name; ?>
@@ -231,7 +231,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Especialidad:
+                        <?php print t('Especialidad:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $content['field_ambito_subarea_conocimient']['#items'][0]['taxonomy_term']->name; ?>
@@ -245,7 +245,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Cuantía o presupuesto:
+                        <?php print t('Cuantía o presupuesto:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $node->field_cuantia[und][0]['value'] ; ?>
@@ -259,7 +259,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Tipo de moneda:
+                        <?php print t('Tipo de moneda:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $node->field_tipo_de_moneda[und][0]['value'] ; ?>
@@ -273,7 +273,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Fecha límite envío solicitud:
+                        <?php print t('Fecha límite envío solicitud:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php echo date('d F Y', strtotime($node->field_plazo_para_solicitud_inici['und'][0]['value2']));?>
@@ -287,7 +287,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Cómo enviar la candidatura:
+                        <?php print t('Cómo enviar la candidatura:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $node->field_c_mo_enviar_candidatura[und][0]['value'] ; ?>
@@ -306,7 +306,7 @@
               <div class="panel-heading">
                 <div class="u-color-turquesa">
                   <a class="u-color-turquesa collapsed-block__option collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                    Investigadores
+                    <?php print t('Investigadores')?>
                     <i class="collapsed-block__icon"> </i>
                   </a>
                 </div>
@@ -321,7 +321,7 @@
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                         <div class="u-mr+ u-semibold">
-                          Prespuesto total de la oferta:
+                          <?php print t('Prespuesto total de la oferta:')?>
                         </div>
                         <div class="u-f-g1">
                           <?php print $node->field_prespuesto_total_oferta[und][0]['value'] ; ?>
@@ -336,7 +336,7 @@
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                         <div class="u-mr+ u-semibold">
-                          Incluye salario del beneficiario?
+                          <?php print t('Incluye salario del beneficiario?')?>
                         </div>
                         <div class="u-f-g1">
                           <?php if ($node->field_incluye_salario[und][0]['value'] == 1){?> Si
@@ -354,7 +354,7 @@
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                         <div class="u-mr+ u-semibold">
-                          Salario del beneficiario
+                          <?php print t('Salario del beneficiario')?>
                         </div>
                         <div class="u-f-g1">
                           <?php print $node->field_salario_del_beneficiario[und][0]['value'] ; ?>
@@ -369,7 +369,7 @@
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                         <div class="u-mr+ u-semibold">
-                          Incluye gastos de desplazamiento?
+                          <?php print t('Incluye gastos de desplazamiento?')?>
                         </div>
                         <div class="u-f-g1">
                           <?php if ($node->field_incluye_gastos_desplazamen[und][0]['value'] == 1){?> Si
@@ -387,7 +387,7 @@
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                         <div class="u-mr+ u-semibold">
-                          Gastos de desplazamiento
+                          <?php print t('Gastos de desplazamiento')?>
                         </div>
                         <div class="u-f-g1">
                           <?php print $node->field_gastos_de_desplazamiento[und][0]['value'] ; ?>
@@ -402,7 +402,7 @@
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                         <div class="u-mr+ u-semibold">
-                          Incluye manutención?
+                          <?php print t('Incluye manutención?')?>
                         </div>
                         <div class="u-f-g1">
                           <?php if ($node->field_incluye_manutencion[und][0]['value'] == 1){?> Si
