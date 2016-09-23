@@ -17,7 +17,7 @@
 <div class="site-header">
   <div class="site-header__container container site-header__container--secondary">
     <h1 class="site-header__logo site-header__logo--secondary">
-    <img src="/sites/all/themes/zen/Nexos/assets/images/logo_campus_interior.png" alt="SEGIB">
+    <a href="/"><img src="/sites/all/themes/zen/Nexos/assets/images/logo_campus_interior.png" alt="SEGIB"></a>
     </h1>
     <div class="site_header__name">
       <a href="/"><?php print t('Marco Iberoamericano de<br/> Movilidad Académica')?></a>
