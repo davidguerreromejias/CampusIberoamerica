@@ -57,13 +57,13 @@
         <a href="https://movia.fib.upc.edu:8444/es/content/login#" class="btn u-fs-xsmall"><?php print t('Area privada')?></a>
       </li>
       <li>
-        <a href="/aviso-legal" class="btn u-fs-xsmall"><?php print t('Aviso legal')?></a>
+        <a href="aviso-legal" class="btn u-fs-xsmall"><?php print t('Aviso legal')?></a>
       </li>
       <li>
-        <a href="#" class="btn u-fs-xsmall"><?php print t('Acerca de ...')?></a>
+        <a href="acerca-de" class="btn u-fs-xsmall"><?php print t('Acerca de ...')?></a>
       </li>
       <li>
-        <a href="/contacto" class="btn u-fs-xsmall"><?php print t('Contacto')?></a>
+        <a href="contacto" class="btn u-fs-xsmall"><?php print t('Contacto')?></a>
       </li>
     </ul>
   </div>
