@@ -31,7 +31,7 @@
       </div>
       <div class="col-xs-12 col-md-8 col-lg-9" style="text-align: justify;">
         <div class="page-content-container u-mb++ ">
-          <div class="u-mb u-fs-h2 u-bold">Preguntas frecuentes</div>
+          <div class="u-mb u-fs-h2 u-bold"><?php print t('Preguntas frecuentes')?></div>
           <div class="horizontal-line-separator-top horizontal-line-separator-bottom u-pv u-align-right@md">
             <ul class="list-inline u-mb0 u-fs-xsmall u-uppercase">
               <li>
