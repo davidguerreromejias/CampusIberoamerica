@@ -25,11 +25,12 @@
 <div class="site-content-wrapper site-content-wrapper--centered">
     <div class="site-header">
   <div class="site-header__container container">
-    <h1 class="site-header__logo">
-      <img src="/sites/all/themes/zen/Nexos/assets/images/logo_campus_home.png"> </img>
-    </h1>
+    <a href="/">
+      <h1 class="site-header__logo">
+        <img src="/sites/all/themes/zen/Nexos/assets/images/logo_campus_home.png"> </img>
+      </h1>
+    </a>
     <div class="site_header__name">
-      <?php print t('Marco Iberoamericano de<br/> Movilidad Académica')?>
     </div>
     <div class="site_header__menu-wrapper">
       <button class="site_header__menu-icon display-only-down-sm js-open-overlay" data-target="#menuOverlay">
