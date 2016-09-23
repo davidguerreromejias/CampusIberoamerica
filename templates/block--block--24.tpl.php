@@ -26,6 +26,7 @@
     <div class="site-header">
   <div class="site-header__container container">
     <h1 class="site-header__logo">
+      <img src="/sites/all/themes/zen/Nexos/assets/images/logo_campus_home.png"> </img>
     </h1>
     <div class="site_header__name">
       <?php print t('Marco Iberoamericano de<br/> Movilidad Académica')?>
