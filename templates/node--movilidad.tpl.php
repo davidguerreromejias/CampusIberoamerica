@@ -420,7 +420,7 @@
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                         <div class="u-mr+ u-semibold">
-                          Manutención
+                          <?php print t('Manutención')?>
                         </div>
                         <div class="u-f-g1">
                           <?php print $node->field_manutencion[und][0]['value'] ; ?>
@@ -435,7 +435,7 @@
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                         <div class="u-mr+ u-semibold">
-                          Incluye otros costes?
+                          <?php print t('Incluye otros costes?')?>
                         </div>
                         <div class="u-f-g1">
                           <?php if ($node->field_incluye_otros_costes[und][0]['value'] == 1){?> Si
@@ -453,7 +453,7 @@
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                         <div class="u-mr+ u-semibold">
-                          Otros costes
+                          <?php print t('Otros costes')?>
                         </div>
                         <div class="u-f-g1">
                           <?php print $node->field_otros_costes[und][0]['value'] ; ?>
@@ -468,7 +468,7 @@
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                         <div class="u-mr+ u-semibold">
-                          Mes de llegada:
+                          <?php print t('Mes de llegada:')?>
                         </div>
                         <div class="u-f-g1">
                           <?php echo date('F Y', strtotime($node->field_mes_de_llegada['und'][0]['value']));?>
@@ -483,7 +483,7 @@
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                         <div class="u-mr+ u-semibold">
-                          Web/comentario:
+                          <?php print t('Web/comentario:')?>
                         </div>
                         <div class="u-f-g1">
                           <?php print $node->field_web_comentario[und][0]['value'] ; ?>
@@ -498,7 +498,7 @@
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                         <div class="u-mr+ u-semibold">
-                          Fecha prevista inicio trabajo:
+                          <?php print t('Fecha prevista inicio trabajo:')?>
                         </div>
                         <div class="u-f-g1">
                           <?php echo date('d F Y', strtotime($node->field_fecha_prevista_inicio_trab['und'][0]['value']));?>
@@ -513,7 +513,7 @@
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                         <div class="u-mr+ u-semibold">
-                          Nivel de estudios requerido:
+                          <?php print t('Nivel de estudios requerido:')?>
                         </div>
                         <div class="u-f-g1">
                           <?php print $node->field_nivel_estudios_requerido[und][0]['value'] ; ?>
@@ -528,7 +528,7 @@
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                         <div class="u-mr+ u-semibold">
-                          Otros requisitos:
+                          <?php print t('Otros requisitos:')?>
                         </div>
                         <div class="u-f-g1">
                           <?php print $node->field_otros_requisitos[und][0]['value'] ; ?>
@@ -543,7 +543,7 @@
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                         <div class="u-mr+ u-semibold">
-                          Otros criterios de elegibilidad:
+                          <?php print t('Otros criterios de elegibilidad:')?>
                         </div>
                         <div class="u-f-g1">
                           <?php print $node->field_otros_criterios_de_elegibi[und][0]['value'] ; ?>
@@ -559,7 +559,7 @@
               <div class="panel-heading">
                 <div class="u-color-turquesa">
                   <a class="u-color-turquesa collapsed-block__option collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                    Datos de la institución que promueve la movilidad
+                    <?php print t('Datos de la institución que promueve la movilidad')?>
                     <i class="collapsed-block__icon"> </i>
                   </a>
                 </div>
@@ -571,7 +571,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Univ/Centro responsable:
+                        <?php print t('Univ/Centro responsable:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $content['field_univ_centro_responsable']['#items'][0]['taxonomy_term']->name; ?>
@@ -585,7 +585,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Tipo de institución:
+                        <?php print t('Tipo de institución:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $node->field_tipo_de_instituci_n[und][0]['value'] ; ?>
@@ -599,7 +599,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Persona de contacto:
+                        <?php print t('Persona de contacto:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $node->field_persona_de_contacto[und][0]['value'] ; ?>
@@ -613,7 +613,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Cargo:
+                        <?php print t('Cargo:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $node->field_cargo[und][0]['value'] ; ?>
@@ -627,7 +627,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Email:
+                        <?php print t('Email:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $node->field_email_uni_cr[und][0]['value'] ; ?>
@@ -641,7 +641,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Teléfono/s:
+                        <?php print t('Teléfono/s:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $node->field_tfno[und][0]['value'] ; ?>
@@ -655,7 +655,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Departamento:
+                        <?php print t('Departamento:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $node->field_departamento[und][0]['value'] ; ?>
@@ -669,7 +669,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Dirección:
+                        <?php print t('Dirección:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $node->field_direccion[und][0]['value'] ; ?>
@@ -683,7 +683,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Código postal:
+                        <?php print t('Código postal:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $node->field_codigo_postal[und][0]['value'] ; ?>
@@ -697,7 +697,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Ciudad:
+                        <?php print t('Ciudad:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $node->field_ciudad[und][0]['value'] ; ?>
@@ -711,7 +711,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        Página web:
+                        <?php print t('Página web:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $node->field_pagina_web[und][0]['value'] ; ?>
