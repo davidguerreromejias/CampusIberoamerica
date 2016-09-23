@@ -50,14 +50,14 @@
       </li>
     </ul>
   </div>
-
+  
   <div class="text-right u-f-g1 ">
     <ul class="list-inline u-uppercase u-mb0">
       <li>
         <a href="https://movia.fib.upc.edu:8444/es/content/login#" class="btn u-fs-xsmall"><?php print t('Area privada')?></a>
       </li>
       <li>
-        <a href="aviso-legal" class="btn u-fs-xsmall"><?php print t('Aviso legal')?></a>
+        <a href="/aviso-legal" class="btn u-fs-xsmall"><?php print t('Aviso legal')?></a>
       </li>
       <li>
         <a href="acerca-de" class="btn u-fs-xsmall"><?php print t('Acerca de ...')?></a>

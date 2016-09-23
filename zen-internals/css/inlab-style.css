@@ -140,3 +140,16 @@ ul .list-tick:before{
 .text-blue{
     color: #4EBDCC;
 }
+
+.site-header__logo{
+    width: 220px !important;
+}
+
+.site-header__container--secondary{
+    height: 68px !important;
+}
+
+.site-header__logo{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
