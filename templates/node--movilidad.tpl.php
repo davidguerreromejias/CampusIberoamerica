@@ -91,7 +91,7 @@
               <div class="panel-heading">
                 <div>
                   <a class="u-color-turquesa collapsed-block__option collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                    Descripción del programa
+                    <?php print t('Descripción del programa')?>
                     <i class="collapsed-block__icon"> </i>
                   </a>
                 </div>
@@ -721,19 +721,6 @@
               </div>
             </div>
           </div>
-
-
-
-
-
-          
-
-            
-
-              <h3></h3>
-
-              
-
           </div>
           <div class="u-mb++">
             <button href="#" class="btn btn--action">
