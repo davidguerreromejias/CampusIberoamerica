@@ -136,3 +136,7 @@ ul .list-tick:before{
 .list-circle{
     list-style-type: circle;
 }
+
+.text-blue{
+    color: #4EBDCC;
+}
