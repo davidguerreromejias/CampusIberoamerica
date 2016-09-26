@@ -187,3 +187,54 @@ ul .list-tick:before{
 .site-content{
     margin-top: 25.5px;
 }
+
+.drop-menu > .drop-content {
+  position: relative;
+  border: 1px solid #AEADAD;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-top: 11.5384615385px; }
+  .drop-menu > .drop-content:before {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    border: 1px solid #AEADAD;
+    background-color: #fff;
+    left: 50%;
+    margin-left: -7.5px;
+    top: -7.5px; }
+  .drop-menu > .drop-content:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 3px; }
+  .drop-menu > .drop-content > * {
+    position: relative;
+    z-index: 2; }
+
+.language-switcher-locale-url {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none; }
+
+.language-switcher-locale-url li{
+  display: block;
+  padding: 7.5px 15px;
+  border-bottom: 1px dotted #E5E5E5;
+  color: #4D4D4D !important;
+  transition: all 0.3s; }
+  .language-switcher-locale-url li:hover {
+    text-decoration: none;
+    background-color: #76ccd7;
+    color: #fff; }
+
+.p-rdo-busqueda_filtros{
+    margin-top: -4%;
+}

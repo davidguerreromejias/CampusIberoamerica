@@ -111,7 +111,7 @@
       <div class="u-mh---@md u-mb- u-f-g1">
         <div class="p-buscador_select">
           <select name="field_ambito_pais_tid_1" class="js-buscador-select">
-            <option value="">País al que quieres ir</option>
+            <option value="All">País al que quieres ir</option>
           </select>
         </div>
       </div>
@@ -168,7 +168,7 @@
       <div class="u-mh---@md u-mb- u-f-g1">
         <div class="p-buscador_select">
           <select name="field_ambito_pais_tid_1" class="js-buscador-select">
-            <option value="">País al que quieres ir</option>
+            <option value="All">País al que quieres ir</option>
           </select>
         </div>
       </div>
@@ -216,7 +216,7 @@
       <div class="u-mh---@md u-mb- u-ml0 u-f-g1">
         <div class="p-buscador_select">
           <select name="field_ambito_pais_tid_1" class="js-buscador-select">
-            <option value="">País al que quieres ir</option>
+            <option value="All">País al que quieres ir</option>
           </select>
         </div>
       </div>

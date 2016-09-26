@@ -36,7 +36,6 @@
       <div class="col-xs-12 col-md-8 col-lg-9">
         <div class="p-portadilla-intro__item u-mb+">
           <div class="p-portadilla-intro__item-wrapper">
-            <img class="p-portadilla-intro__imagen" src="/sites/all/themes/zen/Nexos/assets/images/cafeteria.jpg" alt="Postgrado"/>
             <div class="p-portadilla-intro__content">
               <div class="display-only-up-xs u-mb-- u-color-naranja u-bold u-fs-large u-uppercase">Postgrado</div>
               <div class="display-only-up-xs u-mb block-info__separator"></div>
