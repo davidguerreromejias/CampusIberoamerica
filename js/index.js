@@ -855,7 +855,7 @@ x(function ($) {
   var availableTags = Array();
 
   //get universities of taxonomies
-  $.getJSON('https://movia.fib.upc.edu:8444/taxonomy_term.json?vocabulary=37', function(data) {   
+  $.getJSON('taxonomy_term.json?vocabulary=37', function(data) {   
     var uniCentros = data["list"];
     var singleUniCentro = uniCentros[Object.keys(uniCentros)[1]];
     for (var i = 0; i < uniCentros.length; ++i) {
@@ -866,7 +866,7 @@ x(function ($) {
 
 
   // get "areas de conocimiento" of taxonomies
-  $.getJSON('https://movia.fib.upc.edu:8444/taxonomy_term.json?vocabulary=10', function(data) {   
+  $.getJSON('taxonomy_term.json?vocabulary=10', function(data) {   
     // TO DO
     var areas = data["list"];
     var singlArea = areas[Object.keys(areas)[1]];
@@ -880,7 +880,7 @@ x(function ($) {
   });
 
   // get countries of taxonomies
-  $.getJSON('https://movia.fib.upc.edu:8444//taxonomy_term.json?vocabulary=7', function(data) {   
+  $.getJSON('taxonomy_term.json?vocabulary=7', function(data) {   
     // TO DO
     var countries = data["list"];
     var singleCountry = countries[Object.keys(countries)[1]];
@@ -899,7 +899,7 @@ x(function ($) {
   });
 
   // get "subareas de conocimiento" of taxonomies
-  $.getJSON('https://movia.fib.upc.edu:8444//taxonomy_term.json?vocabulary=43', function(data) {   
+  $.getJSON('taxonomy_term.json?vocabulary=43', function(data) {   
     // TO DO
     var subareas = data["list"];
     var singleSubarea = subareas[Object.keys(subareas)[1]];
