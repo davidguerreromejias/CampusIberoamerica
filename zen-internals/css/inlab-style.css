@@ -153,3 +153,37 @@ ul .list-tick:before{
     margin-left: 20px;
     margin-bottom: 20px;
 }
+
+#block-views-destacados-block-1 .block__title{
+    color: #8C8C8C;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.view.view-destacados .views-field.views-field-title{
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.views-field.views-field-field-n-de-becas .field-content{
+    color: #8C8C8C;
+    font-size: 11px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.views-field.views-field-field-categoria-o-segmento a{
+    display: inline-block;
+    color: #E98540;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.site-content{
+    margin-top: 25.5px;
+}

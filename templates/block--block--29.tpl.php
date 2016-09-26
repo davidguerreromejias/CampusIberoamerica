@@ -20,7 +20,6 @@
     <a href="/"><img src="/sites/all/themes/zen/Nexos/assets/images/logo_campus_interior.png" alt="SEGIB"></a>
     </h1>
     <div class="site_header__name">
-      <a href="/"><?php print t('Marco Iberoamericano de<br/> Movilidad Académica')?></a>
     </div>
     <div class="site_header__menu-wrapper">
       <button class="site_header__menu-icon display-only-down-sm js-open-overlay" data-target="#menuOverlay">

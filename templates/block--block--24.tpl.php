@@ -78,6 +78,7 @@
             <ul class="u-initial-hide drop-menu__list-items">
               <?php $result = block_render('locale', 'language');
             print ($result);?>
+              
             </ul>
           </li>
         </ul>

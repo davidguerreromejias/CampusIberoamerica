@@ -714,12 +714,6 @@ th {
 }
 
 @media (min-width: 555px) {
-  .layout-swap {
-    padding-top: 48px;
-  }
-}
-
-@media (min-width: 555px) {
   .layout-swap__top {
     position: absolute;
     top: 0;

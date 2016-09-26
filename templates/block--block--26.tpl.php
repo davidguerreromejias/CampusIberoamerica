@@ -14,7 +14,7 @@
 <?php endif; ?>
 <?php print render($title_suffix); ?>
 
-<div class="site-content-wrapper site-content-wrapper--centered">
+<div class="site-content-wrapper site-content-wrapper--centered" style="padding-top: 40px;">
 	<div class="site-content text-center">
 	    <h2 class="p-home_title">
 	      <?php print t('Más de <strong>200 programas</strong> de movilidad académica')?>

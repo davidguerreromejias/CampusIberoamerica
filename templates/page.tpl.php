@@ -95,7 +95,7 @@
       <?php print $feed_icons; ?>
     </main>
 
-    <div class="layout-swap__top layout-3col__full">
+    <!--<div class="layout-swap__top layout-3col__full">
 
       <a href="#skip-link" class="visually-hidden visually-hidden--focusable" id="main-menu" tabindex="-1">Back to top</a>
 
@@ -122,7 +122,7 @@
 
       <?php print render($page['navigation']); ?>
 
-    </div>
+    </div>-->
 
     <?php if ($sidebar_first): ?>
       <aside class="<?php print $sidebar_first_class; ?>" role="complementary">
