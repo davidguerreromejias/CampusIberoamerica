@@ -30,6 +30,14 @@ function zen_theme(&$existing, $type, $theme, $path) {
   return _zen_theme($existing, $type, $theme, $path);
 }
 
+function block_render($module, $block_id) {
+  $block = block_load($module, $block_id);
+  $block_content = _block_render_blocks(array($block));
+  $build = _block_get_renderable_array($block_content);
+  $block_rendered = drupal_render($build);
+  return $block_rendered;
+}
+
 /**
  * Override or insert variables for the breadcrumb theme function.
  *

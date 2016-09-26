@@ -76,15 +76,12 @@
               <?php print t('ESP')?>
             </span>
             <ul class="u-initial-hide drop-menu__list-items">
-              <li class="drop-menu__item">
-                <a href="#" class="drop-menu__link"><?php print t('Español')?></a>
-              </li>
-              <li class="drop-menu__item">
-                <a href="#" class="drop-menu__link"><?php print t('Portugués')?></a>
-              </li>
+              <?php $result = block_render('locale', 'language');
+            print ($result);?>
             </ul>
           </li>
         </ul>
+        <p></p>
       </div>
     </div>
   </div>
