@@ -118,61 +118,61 @@
 
               <ul class="list-inline u-fs-small">
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../pais" class="link u-block">Andorra</a>
+                  <a href="../paises/peru" class="link u-block">Andorra</a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../pais" class="link u-block">España</a>
+                  <a href="../paises/peru" class="link u-block">España</a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../pais" class="link u-block">Brasil</a>
+                  <a href="../paises/peru" class="link u-block">Brasil</a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../pais" class="link u-block">Nicaragua</a>
+                  <a href="../paises/peru" class="link u-block">Nicaragua</a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../pais" class="link u-block">El salvador</a>
+                  <a href="../paises/peru" class="link u-block">El salvador</a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../pais" class="link u-block">Ecuador</a>
+                  <a href="../paises/peru" class="link u-block">Ecuador</a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../pais" class="link u-block">Perú</a>
+                  <a href="../paises/peru" class="link u-block">Perú</a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../pais" class="link u-block">México</a>
+                  <a href="../paises/peru" class="link u-block">México</a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../pais" class="link u-block">Venezuela</a>
+                  <a href="../paises/peru" class="link u-block">Venezuela</a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../pais" class="link u-block">Uruguay</a>
+                  <a href="../paises/peru" class="link u-block">Uruguay</a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../pais" class="link u-block">Colombia</a>
+                  <a href="../paises/peru" class="link u-block">Colombia</a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../pais" class="link u-block">Guatemala</a>
+                  <a href="../paises/peru" class="link u-block">Guatemala</a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../pais" class="link u-block">Bolivia</a>
+                  <a href="../paises/peru" class="link u-block">Bolivia</a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../pais" class="link u-block">Argentina</a>
+                  <a href="../paises/peru" class="link u-block">Argentina</a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../pais" class="link u-block">Chile</a>
+                  <a href="../paises/peru" class="link u-block">Chile</a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../pais" class="link u-block">Cuba</a>
+                  <a href="../paises/peru" class="link u-block">Cuba</a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../pais" class="link u-block">Republica dominicana</a>
+                  <a href="../paises/peru" class="link u-block">Republica dominicana</a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../pais" class="link u-block">Panamá</a>
+                  <a href="../paises/peru" class="link u-block">Panamá</a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../pais" class="link u-block">Costa Rica</a>
+                  <a href="../paises/peru" class="link u-block">Costa Rica</a>
                 </li>
               </ul>
             </div>
