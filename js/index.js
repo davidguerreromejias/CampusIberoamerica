@@ -895,6 +895,10 @@ x(function ($) {
         value: singleCountry["tid"],
         text: singleCountry["name"]
       }));
+      $("select[name=paisPre]").append($('<option>', {
+        value: singleCountry["tid"],
+        text: singleCountry["name"]
+      }));
     };
   });
 
@@ -1052,5 +1056,53 @@ y(function ($) {
 
     $step2.hide();
   });
+});
+
+jQuery(document).ready(function ($) {
+
+  var $mapa = $("#mapa");
+
+  if ($mapa.length === 0) return;
+
+  var strPaises = "Andorra,Argentina,Bolivia,Brasil,Colombia,Costa Rica,Cuba,Chile,República Dominicana,Ecuador,El Salvador,España,Guatemala,Honduras,México,Nicaragua,Panamá,Paraguay,Perú,Portugal,Uruguay,Venezuela";
+
+  var arrPaises = strPaises.split(',');
+  var arrAreas = [];
+
+  $.each(arrPaises, function (i, val) {
+    var area = { key: val.trim(), toolTip: val.trim(), selected: true };
+    arrAreas.push(area);
+  });;
+
+  var config = {
+    fillOpacity: 1,
+    render_highlight: {
+      fillColor: '#008C9F',
+      stroke: false,
+      altImage: null
+    },
+    render_select: {
+      fillColor: '4EBDCC',
+      stroke: false,
+      altImage: null
+    },
+
+    isSelectable: false,
+
+    mapKey: 'data-full',
+    mapValue: 'data-state',
+
+    showToolTip: true,
+    toolTipClose: ["area-mouseout"],
+    toolTipContainer: '<div class="tooltip-container"></div>',
+
+    areas: arrAreas,
+
+    onClick: function onClick(e) {
+      window.location.href = $("area[data-full='" + e.key + "'").attr('href');
+    }
+  };
+
+  $mapa.mapster(config);
 });
 //# sourceMappingURL=index.js.map

@@ -60,7 +60,7 @@
           <div class="u-pv u-relative u-align-right">
             <div class=" display-only-up-lg">
               <div id="mapContainer" class= "u-inline-block">
-                <img id="mapa" name="mapa" src="/assets/images/mapa-iberoamerica.png" usemap="#m_mapaiberoamerica" alt="Mapa Iberoamérica">
+                <img id="mapa" name="mapa" src="/sites/all/themes/zen/Nexos/assets/images/mapa-iberoamerica.png" usemap="#m_mapaiberoamerica" alt="Mapa Iberoamérica">
 
                 <map name="m_mapaiberoamerica">
                   <area shape="poly" coords="475,19,475,19,469,22,471,26,479,26,478,22" href="../pais" alt="Andorra" data-state="andorra" data-full="Andorra">
@@ -184,20 +184,20 @@
           <div class="u-pb- u-color-gris u-fs-xsmall u-uppercase u-semibold horizontal-line-separator-bottom">Información útil</div>
           <ul class="u-color-turquesa u-fs-small u-semibold">
             <li>
-              <a href="../prepara-viaje" class="link text-with-icon__content">
-                <img class="text-with-icon__icon" src="/assets/images/ruta-icon_small.svg" alt="Prepara tu viaje">
+              <a href="prepara-tu-viaje" class="link text-with-icon__content">
+                <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/ruta-icon_small.svg" alt="Prepara tu viaje">
                 Prepara tu viaje
               </a>
             </li>
             <li class="horizontal-line-separator-top">
-              <a href="../info-paises" class="link text-with-icon__content">
-                <img class="text-with-icon__icon" src="/assets/images/punto-icon_small.svg" alt="Información de los países">
+              <a href="info-paises" class="link text-with-icon__content">
+                <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/punto-icon_small.svg" alt="Información de los países">
                 Información de los paises
               </a>
             </li>
             <li class="horizontal-line-separator-top horizontal-line-separator-bottom">
-              <a href="../preguntas-frecuentes" class="link text-with-icon__content">
-                <img class="text-with-icon__icon" src="/assets/images/dialogo-icon_small.svg" alt="Preguntas frecuentes">
+              <a href="preguntas-frecuentes" class="link text-with-icon__content">
+                <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/dialogo-icon_small.svg" alt="Preguntas frecuentes">
                 Preguntas frecuentes
               </a>
             </li>

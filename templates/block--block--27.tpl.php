@@ -167,7 +167,7 @@
 
       <div class="u-mh---@md u-mb- u-f-g1">
         <div class="p-buscador_select">
-          <select name="paisPre" class="js-buscador-select">
+          <select name="field_ambito_pais_tid_1" class="js-buscador-select">
             <option value="">País al que quieres ir</option>
           </select>
         </div>
