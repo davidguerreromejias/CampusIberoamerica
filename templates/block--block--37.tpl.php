@@ -26,19 +26,19 @@
       </li>
       <li class="items-separator--arrow">
         <a href="#" class="link">
-          <span class="u-color-gris">Investigación / Docencia</span>
+          <span class="u-color-gris"><?php print t('Investigación / Docencia')?></span>
         </a>
       </li>
     </ul>
 
-    <h3 class="u-mb+ u-pt u-bold u-color-gris-oscuro u-fs-large horizontal-line-separator-wide-dark-grey">Investigación / Docencia</h3>
+    <h3 class="u-mb+ u-pt u-bold u-color-gris-oscuro u-fs-large horizontal-line-separator-wide-dark-grey"><?php print t('Investigación / Docencia')?></h3>
     <div class="row">
       <div class="col-xs-12 col-md-8 col-lg-9">
         <div class="p-portadilla-intro__item u-mb+">
           <div class="p-portadilla-intro__item-wrapper">
             <img class="p-portadilla-intro__imagen" src="/sites/all/themes/zen/Nexos/assets/images/cafeteria.jpg" alt="Investigación / Docencia"/>
             <div class="p-portadilla-intro__content">
-              <div class="display-only-up-xs u-mb-- u-color-naranja u-bold u-fs-large u-uppercase">Investigación / Docencia</div>
+              <div class="display-only-up-xs u-mb-- u-color-naranja u-bold u-fs-large u-uppercase"><?php print t('Investigación / Docencia')?></div>
               <div class="display-only-up-xs u-mb block-info__separator"></div>
               <div class="u-bold u-fs-large">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
             </div>
@@ -46,10 +46,10 @@
         </div>
       </div>
       <div class="col-xs-12 col-md-4 col-lg-3">
-        <div class="u-mb u-pb- horizontal-line-separator-bottom u-color-gris u-fs-xsmall u-uppercase u-semibold">Programas destacados</div>
+        <div class="u-mb u-pb- horizontal-line-separator-bottom u-color-gris u-fs-xsmall u-uppercase u-semibold"><?php print t('Programas destacados')?></div>
         <?php  print views_embed_view('destacados', 'block_1');?>
       </div>
     </div>
 
-    <h3 class="u-mb+ u-pt u-bold u-color-gris-oscuro u-fs-large horizontal-line-separator-wide-grey">Todos los programas de Investigación / Docencia</h3>
+    <h3 class="u-mb+ u-pt u-bold u-color-gris-oscuro u-fs-large horizontal-line-separator-wide-grey"><?php print t('Todos los programas de Investigación / Docencia')?></h3>
     

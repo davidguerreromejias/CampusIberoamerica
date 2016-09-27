@@ -26,18 +26,18 @@
           </li>
           <li class="items-separator--arrow">
             <a href="../info-paises" class="link">
-              Información de los paises
+              <?php print t('Información de los paises')?>
             </a>
           </li>
           <li class="items-separator--arrow">
-            <span class="u-color-gris">Perú</span>
+            <span class="u-color-gris"><?php print t('Perú')?></span>
           </li>
 
         </ul>
       </div>
       <div class="col-xs-12 col-md-8 col-lg-9">
         <div class="page-content-container u-mb++ ">
-          <div class="u-mb u-fs-h2 u-bold">Perú</div>
+          <div class="u-mb u-fs-h2 u-bold"><?php print t('Perú')?></div>
           <div class="u-f@md u-fs-xsmall u-pt u-mb+ horizontal-line-separator-top horizontal-line-separator-bottom">
             <div class="u-mb u-f-g1 u-f-align-center display-only-up-md">
               <img class="img-bandera-pais" src="/sites/all/themes/zen/Nexos/assets/images/bandera-peru.png" alt="Bandera de Perú">
@@ -50,7 +50,7 @@
                 </li>
                 <li>
                   <span class="u-color-gris-claro u-fs-xxsmall">
-                    Compartir
+                    <?php print t('Compartir')?>
                   </span>
                 </li>
                 <li>
@@ -108,18 +108,6 @@
                 Enlaces de interés
               </p>
               <ul class="u-mb u-color-turquesa u-fs-xsmall">
-                <li>
-                  <a href="#" class="link text-with-icon__content">
-                    <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/enlace-icon.svg" alt="Ampliar información">
-                    <span class="u-semibold">Ampliar información</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link text-with-icon__content">
-                    <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/enlace-icon.svg" alt="Ampliar información">
-                    <span class="u-semibold">Ampliar información</span>
-                  </a>
-                </li>
                 <li>
                   <a href="#" class="link text-with-icon__content">
                     <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/enlace-icon.svg" alt="Ampliar información">

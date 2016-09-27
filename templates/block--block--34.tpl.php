@@ -25,18 +25,18 @@
             </a>
           </li>
           <li class="items-separator--arrow">
-            <span class="u-color-gris">Información de los paises</span>
+            <span class="u-color-gris"><?php print t('Información de los paises')?></span>
           </li>
         </ul>
       </div>
       <div class="col-xs-12 col-md-8 col-lg-9">
         <div class="page-content-container u-mb++ ">
-          <div class="u-mb u-fs-h2 u-bold">Información de los países</div>
+          <div class="u-mb u-fs-h2 u-bold"><?php print t('Información de los países')?></div>
           <div class="horizontal-line-separator-top horizontal-line-separator-bottom u-pv u-align-right@md">
             <ul class="list-inline u-mb0 u-fs-xsmall u-uppercase">
               <li>
                 <span class="u-color-gris-claro u-fs-xxsmall">
-                  Compartir
+                  <?php print t('Compartir')?>
                 </span>
               </li>
               <li>
@@ -111,68 +111,68 @@
             </div>
             <div class="p-paises_listado-container">
               <div class="u-mb u-fs-large u-bold">
-                Escoge el país <br class="display-only-up-lg"/>
-                sobre el que quieres <br class="display-only-up-lg"/>
-                obtener información
+                <?php print t('Escoge el país')?> <br class="display-only-up-lg"/>
+                <?php print t('sobre el que quieres')?> <br class="display-only-up-lg"/>
+                <?php print t('obtener información')?>
               </div>
 
               <ul class="list-inline u-fs-small">
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../paises/peru" class="link u-block">Andorra</a>
+                  <a href="../paises/peru" class="link u-block"><?php print t('Andorra')?></a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../paises/peru" class="link u-block">España</a>
+                  <a href="../paises/peru" class="link u-block"><?php print t('España')?></a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../paises/peru" class="link u-block">Brasil</a>
+                  <a href="../paises/peru" class="link u-block"><?php print t('Brasil')?></a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../paises/peru" class="link u-block">Nicaragua</a>
+                  <a href="../paises/peru" class="link u-block"><?php print t('Nicaragua')?></a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../paises/peru" class="link u-block">El salvador</a>
+                  <a href="../paises/peru" class="link u-block"><?php print t('El salvador')?></a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../paises/peru" class="link u-block">Ecuador</a>
+                  <a href="../paises/peru" class="link u-block"><?php print t('Ecuador')?></a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../paises/peru" class="link u-block">Perú</a>
+                  <a href="../paises/peru" class="link u-block"><?php print t('Perú')?></a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../paises/peru" class="link u-block">México</a>
+                  <a href="../paises/peru" class="link u-block"><?php print t('México')?></a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../paises/peru" class="link u-block">Venezuela</a>
+                  <a href="../paises/peru" class="link u-block"><?php print t('Venezuela')?></a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../paises/peru" class="link u-block">Uruguay</a>
+                  <a href="../paises/peru" class="link u-block"><?php print t('Uruguay')?></a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../paises/peru" class="link u-block">Colombia</a>
+                  <a href="../paises/peru" class="link u-block"><?php print t('Colombia')?></a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../paises/peru" class="link u-block">Guatemala</a>
+                  <a href="../paises/peru" class="link u-block"><?php print t('Guatemala')?></a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../paises/peru" class="link u-block">Bolivia</a>
+                  <a href="../paises/peru" class="link u-block"><?php print t('Bolivia')?></a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../paises/peru" class="link u-block">Argentina</a>
+                  <a href="../paises/peru" class="link u-block"><?php print t('Argentina')?></a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../paises/peru" class="link u-block">Chile</a>
+                  <a href="../paises/peru" class="link u-block"><?php print t('Chile')?></a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../paises/peru" class="link u-block">Cuba</a>
+                  <a href="../paises/peru" class="link u-block"><?php print t('Cuba')?></a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../paises/peru" class="link u-block">Republica dominicana</a>
+                  <a href="../paises/peru" class="link u-block"><?php print t('Republica dominicana')?></a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../paises/peru" class="link u-block">Panamá</a>
+                  <a href="../paises/peru" class="link u-block"><?php print t('Panamá')?></a>
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
-                  <a href="../paises/peru" class="link u-block">Costa Rica</a>
+                  <a href="../paises/peru" class="link u-block"><?php print t('Costa Rica')?></a>
                 </li>
               </ul>
             </div>
@@ -181,24 +181,24 @@
       </div>
       <div class="col-xs-12 col-md-4 col-lg-3">
         <div class="u-mb">
-          <div class="u-pb- u-color-gris u-fs-xsmall u-uppercase u-semibold horizontal-line-separator-bottom">Información útil</div>
+          <div class="u-pb- u-color-gris u-fs-xsmall u-uppercase u-semibold horizontal-line-separator-bottom"><?php print t('Información útil')?></div>
           <ul class="u-color-turquesa u-fs-small u-semibold">
             <li>
               <a href="<?php print url('prepara-tu-viaje') ?>" class="link text-with-icon__content">
                 <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/ruta-icon_small.svg" alt="Prepara tu viaje">
-                Prepara tu viaje
+                <?php print t('Prepara tu viaje')?>
               </a>
             </li>
             <li class="horizontal-line-separator-top">
               <a href="<?php print url('info-paises') ?>" class="link text-with-icon__content">
                 <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/punto-icon_small.svg" alt="Información de los países">
-                Información de los paises
+                <?php print t('Información de los paises')?>
               </a>
             </li>
             <li class="horizontal-line-separator-top horizontal-line-separator-bottom">
               <a href="<?php print url('preguntas-frecuentes') ?>" class="link text-with-icon__content">
                 <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/dialogo-icon_small.svg" alt="Preguntas frecuentes">
-                Preguntas frecuentes
+                <?php print t('Preguntas frecuentes')?>
               </a>
             </li>
           </ul>
