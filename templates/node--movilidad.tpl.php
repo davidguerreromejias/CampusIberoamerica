@@ -76,7 +76,7 @@
 
           <div class="u-mb++ display-only-down-sm">
             <div class="u-mb-- u-p u-color-blanco u-align-center u-backgroud-color-turquesa">
-              <div  class="u-fs-h2 u-semibold">320</div>
+              <div  class="u-fs-h2 u-semibold">57</div>
               <div class="u-fs-xxsmall u-uppercase">estudiantes interesados</div>
             </div>
             <div>
@@ -732,7 +732,7 @@
       <div class="col-xs-12 col-md-4 col-lg-3">
         <div class="display-only-up-md">
           <div class="u-mb-- u-p+ u-color-blanco u-align-center u-backgroud-color-turquesa">
-            <div  class="u-fs-h1 u-bold">320</div>
+            <div  class="u-fs-h1 u-bold">57</div>
             <div class="u-fs-xxsmall u-uppercase">estudiantes interesados</div>
           </div>
           <div class="u-mb++">
@@ -765,7 +765,11 @@
             </li>
           </ul>
         </div>
-
+        <div>
+          <div class="u-mb u-color-gris u-fs-xsmall u-uppercase u-semibold">Programas relacionados</div>
+          <?php  print views_embed_view('destacados', 'block_1');?>
+        </div>
+        <!--
         <div>
           <div class="u-mb u-color-gris u-fs-xsmall u-uppercase u-semibold">Programas relacionados</div>
           <ul>
@@ -813,6 +817,7 @@
             </li>
           </ul>
         </div>
+        -->
       </div>
     </div>
   </div>
