@@ -53,8 +53,9 @@
 
   <div class="content"<?php print $content_attributes; ?>>
     <div class="input-login">
-    <span>ACCESO AL ÁREA PRIVADA</span> 
-    <?php echo ($content)?>
+    <span>ACCESO AL ÁREA PRIVADA</span>
+    <hr> 
+    <?php print ($content)?>
     </div>
   </div>
 </div>
