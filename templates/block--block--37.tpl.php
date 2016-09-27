@@ -47,50 +47,7 @@
       </div>
       <div class="col-xs-12 col-md-4 col-lg-3">
         <div class="u-mb u-pb- horizontal-line-separator-bottom u-color-gris u-fs-xsmall u-uppercase u-semibold">Programas destacados</div>
-        <ul>
-          <li class="u-mb+">
-            <div class="u-mb-- block-info__separator"></div>
-            <div class="u-mb- u-fs-xsmall u-semibold">Becas de Escuela de liderazgo. Univ. Francisco de Vitoria</div>
-            <div class="u-fs-xxsmall">
-              <ul class="list-inline">
-                <li class="items-separator items-separator--line">
-                  <span class="u-color-naranja u-bold">Investigación / Docencia</span>
-                </li>
-                <li>
-                  <span class="u-color-gris">210 becas</span>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="u-mb+">
-            <div class="block-info__separator u-mb--"></div>
-            <div class="u-mb- u-fs-xsmall u-semibold">Becas de Escuela de liderazgo. Univ. Francisco de Vitoria</div>
-            <div class="u-fs-xxsmall">
-              <ul class="list-inline">
-                <li class="items-separator items-separator--line ">
-                  <span class="u-color-naranja u-bold">Investigación / Docencia</span>
-                </li>
-                <li>
-                  <span class="u-color-gris">210 becas</span>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="u-mb+">
-            <div class="block-info__separator u-mb--"></div>
-            <div class="u-mb- u-fs-xsmall u-semibold">Becas de Escuela de liderazgo. Univ. Francisco de Vitoria</div>
-            <div class="u-fs-xxsmall">
-              <ul class="list-inline">
-                <li class="items-separator items-separator--line ">
-                  <span class="u-color-naranja u-bold">Investigación / Docencia</span>
-                </li>
-                <li>
-                  <span class="u-color-gris">210 becas</span>
-                </li>
-              </ul>
-            </div>
-          </li>
-        </ul>
+        <?php  print views_embed_view('destacados', 'block_1');?>
       </div>
     </div>
 

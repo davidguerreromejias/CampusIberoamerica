@@ -769,55 +769,6 @@
           <div class="u-mb u-color-gris u-fs-xsmall u-uppercase u-semibold">Programas relacionados</div>
           <?php  print views_embed_view('destacados', 'block_1');?>
         </div>
-        <!--
-        <div>
-          <div class="u-mb u-color-gris u-fs-xsmall u-uppercase u-semibold">Programas relacionados</div>
-          <ul>
-            <li class="u-mb+">
-              <div class="u-mb-- block-info__separator"></div>
-              <div class="u-mb- u-fs-xsmall u-semibold">Becas de Escuela de liderazgo. Univ. Francisco de Vitoria</div>
-              <div class="u-fs-xxsmall">
-                <ul class="list-inline">
-                  <li class="items-separator items-separator--line">
-                    <span class="u-color-naranja u-bold">Pregrado</span>
-                  </li>
-                  <li>
-                    <span class="u-color-gris">210 becas</span>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="u-mb+">
-              <div class="block-info__separator u-mb--"></div>
-              <div class="u-mb- u-fs-xsmall u-semibold">Becas de Escuela de liderazgo. Univ. Francisco de Vitoria</div>
-              <div class="u-fs-xxsmall">
-                <ul class="list-inline">
-                  <li class="items-separator items-separator--line ">
-                    <span class="u-color-naranja u-bold">Pregrado</span>
-                  </li>
-                  <li>
-                    <span class="u-color-gris">210 becas</span>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="u-mb+">
-              <div class="block-info__separator u-mb--"></div>
-              <div class="u-mb- u-fs-xsmall u-semibold">Becas de Escuela de liderazgo. Univ. Francisco de Vitoria</div>
-              <div class="u-fs-xxsmall">
-                <ul class="list-inline">
-                  <li class="items-separator items-separator--line ">
-                    <span class="u-color-naranja u-bold">Pregrado</span>
-                  </li>
-                  <li>
-                    <span class="u-color-gris">210 becas</span>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-        -->
       </div>
     </div>
   </div>
