@@ -247,3 +247,7 @@ ul .list-tick:before{
 .p-rdo-busqueda_filtros{
     margin-top: -4%;
 }
+
+.input-login{
+    width: 20%;
+}

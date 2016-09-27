@@ -938,13 +938,13 @@ x(function ($) {
   }
 
   var pathname = window.location.pathname;
-  if(pathname =='/portadilla-pregrado'){
+  if(pathname.includes("pregrado")){
     $('select[name="tid"]').val("1339");
   }
-  else if(pathname =='/portadilla-postgrado'){
+  else if(pathname.includes("postgrado")){
     $('select[name="tid"]').val("1340");
   }
-  else if(pathname =='/portadilla-investigadores'){
+  else if(pathname.includes("investigadores")){
     $('select[name="tid"]').val("1341");
   }
 
