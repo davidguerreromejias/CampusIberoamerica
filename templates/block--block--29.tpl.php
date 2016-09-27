@@ -56,9 +56,6 @@
               <li class="drop-menu__item">
                 <a href="<?php print url('portadilla-postgrado') ?>" class="drop-menu__link"><?php print t('Postgrado')?></a>
               </li>
-              <li class="drop-menu__item">
-                <a href="<?php print url('portadilla-investigadores') ?>" class="drop-menu__link"><?php print t('Investigación / Docencia')?></a>
-              </li>
             </ul>
           </li>
           <li class="u-mr">
