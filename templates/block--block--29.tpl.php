@@ -51,13 +51,13 @@
             </span>
             <ul class="u-initial-hide drop-menu__list-items">
               <li class="drop-menu__item">
-                <a href="portadilla-pregrado" class="drop-menu__link"><?php print t('Pregrado')?></a>
+                <a href="<?php print url('portadilla-pregrado') ?>" class="drop-menu__link"><?php print t('Pregrado')?></a>
               </li>
               <li class="drop-menu__item">
-                <a href="portadilla-postgrado" class="drop-menu__link"><?php print t('Postgrado')?></a>
+                <a href="<?php print url('portadilla-postgrado') ?>" class="drop-menu__link"><?php print t('Postgrado')?></a>
               </li>
               <li class="drop-menu__item">
-                <a href="portadilla-investigadores" class="drop-menu__link"><?php print t('Investigación / Docencia')?></a>
+                <a href="<?php print url('portadilla-investigadores') ?>" class="drop-menu__link"><?php print t('Investigación / Docencia')?></a>
               </li>
             </ul>
           </li>
@@ -73,13 +73,13 @@
             </span>
             <ul class="u-initial-hide drop-menu__list-items">
               <li class="drop-menu__item">
-                <a href="prepara-tu-viaje" class="drop-menu__link"><?php print t('Prepara tu viaje')?></a>
+                <a href="<?php print url('prepara-tu-viaje') ?>" class="drop-menu__link"><?php print t('Prepara tu viaje')?></a>
               </li>
               <li class="drop-menu__item">
-                <a href="info-paises" class="drop-menu__link"><?php print t('Info de los países')?></a>
+                <a href="<?php print url('info-paises') ?>" class="drop-menu__link"><?php print t('Info de los países')?></a>
               </li>
               <li class="drop-menu__item">
-                <a href="preguntas-frecuentes" class="drop-menu__link"><?php print t('Preguntas frecuentes')?></a>
+                <a href="<?php print url('preguntas-frecuentes') ?>" class="drop-menu__link"><?php print t('Preguntas frecuentes')?></a>
               </li>
             </ul>
           </li>

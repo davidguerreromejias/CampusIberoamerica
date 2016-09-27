@@ -18,21 +18,21 @@
 <ul class="list-inline display-only-up-md u-mb++">
   <div class="site-content-wrapper site-content-wrapper--centered">
       <li>
-        <a href="prepara-tu-viaje" class="u-block u-mh++" style="text-align: center;">
+        <a href="<?php print url('prepara-tu-viaje') ?>" class="u-block u-mh++" style="text-align: center;">
           <img src="/sites/all/themes/zen/Nexos/assets/images/ruta-icon.svg" alt="Prepara tu viaje"><br/>
           <?php print t('Prepara <br/>tu viaje')?>
         </a>
       </li>
 
       <li>
-        <a href="info-paises" class="u-block u-mh++" style="text-align: center;">
+        <a href="<?php print url('info-paises') ?>" class="u-block u-mh++" style="text-align: center;">
           <img src="/sites/all/themes/zen/Nexos/assets/images/punto-icon.svg" alt="Información de los países"><br/>
           <?php print t('Información <br/>de los países')?>
         </a>
       </li>
 
       <li>
-        <a href="preguntas-frecuentes" class="u-block u-mh++" style="text-align: center;">
+        <a href="<?php print url('preguntas-frecuentes') ?>" class="u-block u-mh++" style="text-align: center;">
           <img src="/sites/all/themes/zen/Nexos/assets/images/dialogo-icon.svg" alt="Preguntas frecuentes"><br/>
           <?php print t('Preguntas <br/>frecuentes')?>
         </a>
