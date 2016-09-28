@@ -50,22 +50,22 @@
     <div class="overlay-page__content-before"></div>
     <div class="overlay-page__content js-overlay-page-content">
 
-      <p class="h3 u-bold u-mb+">Busca tu programa de...</p>
+      <p class="h3 u-bold u-mb+"><?php print t('Busca tu programa de...')?></p>
 
       <div class="u-f@md" data-toggle="buttons">
         <label class="btn p-buscador_input p-buscador_input--radio active u-mh---@md u-ml0 u-mb- u-uppercase" data-opcion>
           <input type="radio" name="tipo" autocomplete="off" checked class="u-hide" value="pregrado">
-          Pregrado
+          <?php print t('Pregrado')?>
         </label>
 
         <label class="btn p-buscador_input p-buscador_input--radio u-mh---@md u-mb- u-uppercase" data-opcion>
           <input type="radio" name="tipo" autocomplete="off" class="u-hide" value="postgrado" >
-          Postgrado
+          <?php print t('Postgrado')?>
         </label>
 
         <label class="btn p-buscador_input p-buscador_input--radio u-mh---@md u-mr0 u-mb- u-uppercase" data-opcion>
           <input type="radio" name="tipo" autocomplete="off" class="u-hide" value="investigacion">
-          Investigación / Docencia
+          <?php print t('Investigación / Docencia')?>
         </label>
       </div>
 
@@ -76,7 +76,7 @@
 
   <div data-step="1">
     <p class="u-fs-small u-color-turquesa-oscuro2 u-align-left">
-      Necesitamos conocer mejor qué estudias y dónde:
+      <?php print t('Necesitamos conocer mejor qué estudias y dónde:')?>
     </p>
 
     <div class="u-f@md">
@@ -87,7 +87,7 @@
       <div class="u-mh---@md u-mb- u-mr0 u-f-g1">
         <div class="p-buscador_select">
           <select name="areaPre" class="js-buscador-select">
-            <option>Área de conocimiento</option>
+            <option><?php print t('Área de conocimiento')?></option>
           </select>
         </div>  
       </div>
@@ -96,14 +96,14 @@
 
   <div data-step="2">
     <p class="u-fs-small u-color-turquesa-oscuro2 u-align-left">
-      Indica las siguientes opciones si quieres acotar mejor la búsqueda (son opcionales):
+      <?php print t('Indica las siguientes opciones si quieres acotar mejor la búsqueda (son opcionales):')?>
     </p>
 
     <div class="u-f@md u-mb+">
       <div class="u-mh---@md u-mb- u-ml0 u-f-g1">
         <div class="p-buscador_select">
           <select name="field_instituci_n_que_promueve_value" class="js-buscador-select">
-            <option value="">Especialidad</option>
+            <option value=""><?php print t('Especialidad')?></option>
           </select>
         </div>
       </div>
@@ -111,7 +111,7 @@
       <div class="u-mh---@md u-mb- u-f-g1">
         <div class="p-buscador_select">
           <select name="field_ambito_pais_tid_1" class="js-buscador-select">
-            <option value="All">País al que quieres ir</option>
+            <option value="All"><?php print t('País al que quieres ir')?></option>
           </select>
         </div>
       </div>
@@ -120,7 +120,7 @@
 
     </div>
 
-    <button class="btn p-buscador_button" id ="pregrado-btn" onclick="btnPregradoBusqueda()">Buscar</button>
+    <button class="btn p-buscador_button" id ="pregrado-btn" onclick="btnPregradoBusqueda()"><?php print t('Buscar')?></button>
   </div>
 
 </form>
@@ -133,7 +133,7 @@
 
   <div data-step="1">
     <p class="u-fs-small u-color-turquesa-oscuro2 u-align-left">
-      Necesitamos conocer mejor qué estudias y dónde:
+      <?php print t('Necesitamos conocer mejor qué estudias y dónde:')?>
     </p>
 
     <div class="u-f@md">
@@ -144,7 +144,7 @@
       <div class="u-mh---@md u-mb- u-mr0 u-f-g1">
         <div class="p-buscador_select">
           <select name="areaPre" class="js-buscador-select">
-            <option value="">Área de conocimiento</option>
+            <option value=""><?php print t('Área de conocimiento')?></option>
           </select>
         </div>
       </div>
@@ -153,14 +153,14 @@
 
   <div data-step="2">
     <p class="u-fs-small u-color-turquesa-oscuro2 u-align-left">
-      Indica las siguientes opciones si quieres acotar mejor la búsqueda (son opcionales):
+      <?php print t('Indica las siguientes opciones si quieres acotar mejor la búsqueda (son opcionales):')?>
     </p>
 
     <div class="u-f@md u-mb+">
       <div class="u-mh---@md u-mb- u-ml0 u-f-g1">
         <div class="p-buscador_select">
           <select name="field_instituci_n_que_promueve_value" class="js-buscador-select">
-            <option value="">Especialidad</option>
+            <option value=""><?php print t('Especialidad')?></option>
           </select>
         </div>
       </div>
@@ -168,7 +168,7 @@
       <div class="u-mh---@md u-mb- u-f-g1">
         <div class="p-buscador_select">
           <select name="field_ambito_pais_tid_1" class="js-buscador-select">
-            <option value="All">País al que quieres ir</option>
+            <option value="All"><?php print t('País al que quieres ir')?></option>
           </select>
         </div>
       </div>
@@ -177,7 +177,7 @@
 
     </div>
 
-    <button class="btn p-buscador_button">Buscar</button>
+    <button class="btn p-buscador_button"><?php print t('Buscar')?></button>
   </div>
 
 </form>
@@ -189,7 +189,7 @@
         <input type="hidden" name="tid" value="1341" />
   <div data-step="1">
     <p class="u-fs-small u-color-turquesa-oscuro2 u-align-left">
-      Necesitamos conocer mejor tu perfil:
+      <?php print t('Necesitamos conocer mejor tu perfil:')?>
     </p>
 
     <div class="u-f@md">
@@ -200,7 +200,7 @@
       <div class="u-mh---@md u-mb- u-mr0 u-f-g1">
         <div class="p-buscador_select">
           <select name="field_ambito_pais_tid" class="js-buscador-select">
-            <option value="">País</option>
+            <option value=""><?php print t('País')?></option>
           </select>
         </div>
       </div>
@@ -209,14 +209,14 @@
 
   <div data-step="2">
     <p class="u-fs-small u-color-turquesa-oscuro2 u-align-left">
-      Indica las siguientes opciones si quieres acotar mejor la búsqueda (son opcionales):
+      <?php print t('Indica las siguientes opciones si quieres acotar mejor la búsqueda (son opcionales):')?>
     </p>
 
     <div class="u-f@md u-mb+">
       <div class="u-mh---@md u-mb- u-ml0 u-f-g1">
         <div class="p-buscador_select">
           <select name="field_ambito_pais_tid_1" class="js-buscador-select">
-            <option value="All">País al que quieres ir</option>
+            <option value="All"><?php print t('País al que quieres ir')?></option>
           </select>
         </div>
       </div>
@@ -224,7 +224,7 @@
       <div class="u-mh---@md u-mb- u-f-g1">
         <div class="p-buscador_select">
           <select name="field_instituci_n_que_promueve_value" class="js-buscador-select">
-            <option value="">Área de conocimiento</option>
+            <option value=""><?php print t('Área de conocimiento')?></option>
           </select>
         </div>
       </div>
@@ -233,7 +233,7 @@
 
     </div>
 
-    <button class="btn p-buscador_button">Buscar</button>
+    <button class="btn p-buscador_button"><?php print t('Buscar')?></button>
   </div>
 
 </form>

@@ -37,7 +37,7 @@
   	<?php endif; ?>
 
 <div class="p-rdo-busqueda_filtros">
-	<p class="u-bold u-fs-xsmall u-color-gris-claro u-mb--">Filtros y busqueda avanzada</p>
+	<p class="u-bold u-fs-xsmall u-color-gris-claro u-mb--"><?php print t('Filtros y busqueda avanzada')?></p>
 	<div class="views-exposed-form">
 	  <div class="views-exposed-widgets clearfix">
 
@@ -46,7 +46,7 @@
 	      <div id="<?php print $widgets['filter-field_instituci_n_que_promueve_value']->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
 	      	<div class="search-filter is-open">
 	          <div class="search-filter__name">
-	            <span class="u-semibold">Dirigido a...</span>
+	            <span class="u-semibold"><?php print t('Dirigido a...')?></span>
 	            <span  class="search-filter__down-arrow">
 	              <svg width="9px" height="5px" viewBox="288 25 9 5" version="1.1" xmlns="http://www.w3.org/2000/svg"; xmlns:xlink="http://www.w3.org/1999/xlink">;
 					  <desc>down arrow</desc>
@@ -79,7 +79,7 @@
 	      <div id="<?php print $widgets['filter-field_ambito_pais_tid']->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
 	      	<div class="search-filter is-open">
 	          <div class="search-filter__name">
-	            <span class="u-semibold">País de origen</span>
+	            <span class="u-semibold"><?php print t('País de origen')?></span>
 	            <span  class="search-filter__down-arrow">
 	              <svg width="9px" height="5px" viewBox="288 25 9 5" version="1.1" xmlns="http://www.w3.org/2000/svg"; xmlns:xlink="http://www.w3.org/1999/xlink">;
 					  <desc>down arrow</desc>
@@ -114,7 +114,7 @@
 	      <div id="<?php print $widgets['filter-field_ambito_pais_tid_1']->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
 	      	<div class="search-filter is-open">
 	          <div class="search-filter__name">
-	            <span class="u-semibold">País al que quieres ir</span>
+	            <span class="u-semibold"><?php print t('País al que quieres ir')?></span>
 	            <span  class="search-filter__down-arrow">
 	              <svg width="9px" height="5px" viewBox="288 25 9 5" version="1.1" xmlns="http://www.w3.org/2000/svg"; xmlns:xlink="http://www.w3.org/1999/xlink">;
 					  <desc>down arrow</desc>
@@ -149,7 +149,7 @@
 	      <div id="<?php print $widgets['filter-field__mbito_univ_centro_tid']->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
 	      	<div class="search-filter is-open">
 	          <div class="search-filter__name">
-	            <span class="u-semibold">Universidad o centro</span>
+	            <span class="u-semibold"><?php print t('Universidad o centro')?></span>
 	            <span  class="search-filter__down-arrow">
 	              <svg width="9px" height="5px" viewBox="288 25 9 5" version="1.1" xmlns="http://www.w3.org/2000/svg"; xmlns:xlink="http://www.w3.org/1999/xlink">;
 					  <desc>down arrow</desc>
@@ -185,7 +185,7 @@
 	      <div id="<?php print $widgets['filter-keys']->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
 	      	<div class="search-filter is-open">
 	          <div class="search-filter__name">
-	            <span class="u-semibold">Nombre del programa</span>
+	            <span class="u-semibold"><?php print t('Nombre del programa')?></span>
 	            <span  class="search-filter__down-arrow">
 	              <svg width="9px" height="5px" viewBox="288 25 9 5" version="1.1" xmlns="http://www.w3.org/2000/svg"; xmlns:xlink="http://www.w3.org/1999/xlink">;
 					  <desc>down arrow</desc>

@@ -58,7 +58,7 @@
           </div>
 
           <!-- panel group -->
-          <div class="u-pt+ u-fs-xsmall">
+          <div class="u-pt+">
             <div class="panel">
               <div class="panel-heading">
                 <div>
