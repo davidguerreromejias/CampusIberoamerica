@@ -25,14 +25,14 @@
             </a>
           </li>
           <li class="items-separator--arrow">
-            <span class="u-color-gris"><?php print $node->field_nombre_oficial_pais[und][0]['value'] ; ?></span>
+            <span class="u-color-gris"><?php print $title; ?></span>
           </li>
 
         </ul>
       </div>
       <div class="col-xs-12 col-md-8 col-lg-9">
         <div class="page-content-container u-mb++ ">
-          <div class="u-mb u-fs-h2 u-bold"><?php print $node->field_nombre_oficial_pais[und][0]['value'] ; ?></div>
+          <div class="u-mb u-fs-h2 u-bold"><?php print $title; ?></div>
           <div class="u-f@md u-fs-xsmall u-pt u-mb+ horizontal-line-separator-top horizontal-line-separator-bottom">
             <div class="u-mb u-f-g1 u-f-align-center display-only-up-md">
               <img class="img-bandera-pais" src="/sites/all/themes/zen/Nexos/assets/images/bandera-peru.png" alt="Bandera de Perú">
@@ -67,47 +67,52 @@
             </div>
           </div>
           <div class="u-mb">
-            <div  class="u-mb++">
+            <div>
+              <p class="u-mb- u-bold">
+                <?php print t('Nombre oficial: ')?> <span style="font-weight: initial;"><?php print $node->field_nombre_oficial_pais[und][0]['value'] ; ?></span>
+              </p>
+            </div>
+            <div>
               <p class="u-mb- u-bold">
                 <?php print t('Superfície: ')?> <span style="font-weight: initial;"><?php print $node->field_superficie[und][0]['value'] ; ?></span>
               </p>
             </div>
-            <div  class="u-mb++">
+            <div>
               <p class="u-mb- u-bold">
                 <?php print t('Población: ')?> <span style="font-weight: initial;"><?php print $node->field_poblacion[und][0]['value'] ; ?></span>
               </p>
             </div>
-            <div  class="u-mb++">
+            <div>
               <p class="u-mb- u-bold">
                 <?php print t('Capital: ')?> <span style="font-weight: initial;"><?php print $node->field_capital_pais[und][0]['value'] ; ?></span>
               </p>
             </div>
-            <div  class="u-mb++">
+            <div>
               <p class="u-mb- u-bold">
                 <?php print t('Otras ciudades de importancia: ')?> <span style="font-weight: initial;"><?php print $node->field_otras_ciudades_importantes[und][0]['value'] ; ?></span>
               </p>
             </div>
-            <div  class="u-mb++">
+            <div>
               <p class="u-mb- u-bold">
                 <?php print t('Idioma: ')?> <span style="font-weight: initial;"><?php print $node->field_idioma[und][0]['value'] ; ?></span>
               </p>
             </div>
-            <div  class="u-mb++">
+            <div>
               <p class="u-mb- u-bold">
                 <?php print t('Moneda: ')?> <span style="font-weight: initial;"><?php print $node->field_moneda[und][0]['value'] ; ?></span>
               </p>
             </div>
-            <div  class="u-mb++">
+            <div>
               <p class="u-mb- u-bold">
                 <?php print t('Forma de estado: ')?> <span style="font-weight: initial;"><?php print $node->field_forma_de_estado[und][0]['value'] ; ?></span>
               </p>
             </div>
-            <div  class="u-mb++">
+            <div>
               <p class="u-mb- u-bold">
                 <?php print t('PIB: ')?> <span style="font-weight: initial;"><?php print $node->field_pib_2015[und][0]['value'] ; ?></span>
               </p>
             </div>
-            <div  class="u-mb++">
+            <div>
               <p class="u-mb- u-bold">
                 <?php print t('Tasa de desempleo: ')?> <span style="font-weight: initial;"><?php print $node->field_tasa_de_desempleo[und][0]['value'] ; ?></span>
               </p>
