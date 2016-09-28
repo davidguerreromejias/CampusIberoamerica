@@ -25,14 +25,14 @@
             </a>
           </li>
           <li class="items-separator--arrow">
-            <span class="u-color-gris"><?php print $title; ?></span>
+            <span class="u-color-gris"><?php print $node->field_nombre_oficial_pais[und][0]['value'] ; ?></span>
           </li>
 
         </ul>
       </div>
       <div class="col-xs-12 col-md-8 col-lg-9">
         <div class="page-content-container u-mb++ ">
-          <div class="u-mb u-fs-h2 u-bold"><?php print $title; ?></div>
+          <div class="u-mb u-fs-h2 u-bold"><?php print $node->field_nombre_oficial_pais[und][0]['value'] ; ?></div>
           <div class="u-f@md u-fs-xsmall u-pt u-mb+ horizontal-line-separator-top horizontal-line-separator-bottom">
             <div class="u-mb u-f-g1 u-f-align-center display-only-up-md">
               <img class="img-bandera-pais" src="/sites/all/themes/zen/Nexos/assets/images/bandera-peru.png" alt="Bandera de Perú">
