@@ -54,12 +54,12 @@
                   </span>
                 </li>
                 <li>
-                  <a href="" class="u-color-turquesa">
+                  <a href="https://twitter.com/Segibdigital" class="u-color-turquesa">
                     <i class="icon-twitter"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="link u-color-turquesa">
+                  <a href="https://www.facebook.com/SEGIB/" class="link u-color-turquesa">
                     <i class="icon-facebook"></i>
                   </a>
                 </li>
