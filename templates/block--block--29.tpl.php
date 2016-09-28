@@ -51,10 +51,10 @@
             </span>
             <ul class="u-initial-hide drop-menu__list-items">
               <li class="drop-menu__item">
-                <a href="<?php print url('portadilla-pregrado') ?>" class="drop-menu__link"><?php print t('Pregrado')?></a>
+                <a href="<?php print url('portadilla-pregrado') ?>?tid=1339" class="drop-menu__link"><?php print t('Pregrado')?></a>
               </li>
               <li class="drop-menu__item">
-                <a href="<?php print url('portadilla-postgrado') ?>" class="drop-menu__link"><?php print t('Postgrado')?></a>
+                <a href="<?php print url('portadilla-postgrado') ?>?tid=1340" class="drop-menu__link"><?php print t('Postgrado')?></a>
               </li>
             </ul>
           </li>

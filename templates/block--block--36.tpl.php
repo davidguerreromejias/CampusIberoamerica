@@ -31,13 +31,5 @@
       </li>
     </ul>
 
-    <h3 class="u-mb+ u-pt u-bold u-color-gris-oscuro u-fs-large horizontal-line-separator-wide-dark-grey"><?php print t('Postgrado')?></h3>
-    <div class="row">
-      <div class="col-xs-12 col-md-4 col-lg-3" style="float: right;">
-        <div class="u-mb u-color-gris u-fs-xsmall u-uppercase u-semibold"><?php print t('Programas relacionados')?></div>
-        <?php  print views_embed_view('destacados', 'block_1');?>
-      </div>
-    </div>
-
     <h3 class="u-mb+ u-pt u-bold u-color-gris-oscuro u-fs-large horizontal-line-separator-wide-grey"><?php print t('Todos los programas de Postgrado')?></h3>
     
