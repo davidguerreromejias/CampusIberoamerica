@@ -20,17 +20,25 @@
     <p class="h3 u-bold u-mb+ display-only-up-sm"><?php print t('Busca tu programa de...')?></p>
     </div>
     <div class="site-content-wrapper site-content-wrapper--centered">
-    <ul class="list-inline u-mb+">
-      <li>
-        <button class="btn p-home_btn js-busqueda-home js-open-overlay" data-tipo="pregrado" data-target="#busquedaOverlay"><?php print t('Pregrado')?></button>
-      </li>
-      <li>
-        <button class="btn p-home_btn js-busqueda-home js-open-overlay" data-tipo="postgrado" data-target="#busquedaOverlay"><?php print t('Postgrado')?></button>
-      </li>
-      <li>
-        <button class="btn p-home_btn js-busqueda-home js-open-overlay" data-tipo="investigacion" data-target="#busquedaOverlay"><?php print t('Investigación / docencia')?></button>
-      </li>
-    </ul>
+      <ul class="list-inline u-mb+">
+        <li>
+          <button class="btn p-home_btn js-busqueda-home js-open-overlay" data-tipo="pregrado" data-target="#busquedaOverlay"><?php print t('Pregrado')?></button>
+        </li>
+        <li>
+          <button class="btn p-home_btn js-busqueda-home js-open-overlay" data-tipo="postgrado" data-target="#busquedaOverlay"><?php print t('Postgrado')?></button>
+        </li>
+        <li>
+          <button class="btn p-home_btn js-busqueda-home js-open-overlay" data-tipo="investigacion" data-target="#busquedaOverlay"><?php print t('Investigación / docencia')?></button>
+        </li>
+      </ul>
+
+    </div>
+    <div class="site-content-wrapper site-content-wrapper--centered">
+      <div class="u-inline-block">
+          <a class="p-home_portal-inv-btn" href="#">
+            Portal de Movilidad de Investigadores
+          </a>
+      </div>
     </div>
     <div class="p-home_separator"></div>
 

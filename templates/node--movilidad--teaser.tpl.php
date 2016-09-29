@@ -7,7 +7,7 @@
                 <div class="u-fs-xsmall">
                   <ul class="list-inline">
                     <li class="items-separator">
-                      <span class="u-color-naranja u-bold"><?php print $content['field_categoria_o_segmento']['#items'][0]['taxonomy_term']->name; ?></span>
+                      <span class="text-color-theme u-bold"><?php print $content['field_categoria_o_segmento']['#items'][0]['taxonomy_term']->name; ?></span>
                     </li>
                     <?php $field = field_get_items('node', $node, 'field_n_becas_concedidas');
                     if ($field) { ?>

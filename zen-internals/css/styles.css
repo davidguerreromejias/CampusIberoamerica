@@ -4697,8 +4697,61 @@ input[type="radio"] .styled:checked + label::after {
   transform: rotate(0deg);
 }
 
+.p-home_portal-inv-btn {
+  position: relative;
+  display: table-cell;
+  width: 100%;
+  max-width: 300px;
+  padding-left: 70px;
+  padding-right: 40px;
+  height: 72px;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.1;
+}
+
+@media (min-width: 544px) {
+  .p-home_portal-inv-btn {
+    max-width: 600px;
+    padding-left: 90px;
+    font-size: 20px;
+  }
+}
+
+.p-home_portal-inv-btn:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  margin-top: -30px;
+  width: 60px;
+  height: 60px;
+  background: url("/sites/all/themes/zen/Nexos/assets/images/microscopio-icon.svg") no-repeat;
+  background-size: 100%;
+}
+
+@media (min-width: 544px) {
+  .p-home_portal-inv-btn:before {
+    margin-top: -36px;
+    width: 72px;
+    height: 72px;
+  }
+}
+
+.p-home_portal-inv-btn:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 50%;
+  margin-top: -19px;
+  width: 22px;
+  height: 39px;
+  background: url("/sites/all/themes/zen/Nexos/assets/images/flecha-derecha.svg") no-repeat;
+}
+
 .p-home_body {
-  background-image: url("../images/portada_bg.jpg");
+  background-image: url("/sites/all/themes/zen/Nexos/assets/images/portada_bg.jpg");
   background-position: top center;
   background-repeat: no-repeat; }
 
