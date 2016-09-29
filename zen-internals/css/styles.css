@@ -2476,13 +2476,18 @@ textarea {
 
 a {
   color: #287F8A;
-  text-decoration: none; }
-  a:hover, a:focus {
-    color: #287F8A;
-    text-decoration: underline; }
-  a:focus {
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px; }
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #287F8A;
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
 
 figure {
   margin: 0; }
@@ -5995,9 +6000,7 @@ tbody.collapse.in {
   transition-duration: 0.35s;
   transition-timing-function: ease;
 }
-a:hover, a:active, a:focus {
-  text-decoration: none;
-}
+
 ul, li {
   list-style: none;
   padding-left: 0;
