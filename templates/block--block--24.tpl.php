@@ -70,7 +70,7 @@
           <li>
             <span class="js-drop-menu">
               <img src="/sites/all/themes/zen/Nexos/assets/images/world-icon.svg" alt="idioma">
-              <?php print t('ESP')?>
+              <span class="u-mr--- u-valing-middle lang">ESP</span>
             </span>
             <ul class="u-initial-hide drop-menu__list-items">
               <?php $result = block_render('locale', 'language');

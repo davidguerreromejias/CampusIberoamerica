@@ -926,6 +926,14 @@ x(function ($) {
     source: availableTags
   });
 
+  var lang = window.location.pathname;
+  if (lang.includes("/pt")) {
+    $(".u-mr---.u-valing-middle.lang").text('POR');
+  }
+  else{
+    $(".u-mr---.u-valing-middle.lang").text('ESP');
+  }
+
   //minimize filter of search
   $(".search-filter__down-arrow").click(function(event){
     $(this).parents(".search-filter.is-open").find('.search-filter__blocks-container').slideToggle();

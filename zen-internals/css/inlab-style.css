@@ -308,3 +308,11 @@ ul .list-tick:before{
 }
 
 .form-radio { -webkit-appearance: radio; }
+
+.u-color-gris .field-name-field-n-becas-concedidas{
+  display: inline-block;
+}
+
+.items-separator--line:before{
+  top: 0%;
+}

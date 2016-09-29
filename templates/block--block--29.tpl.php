@@ -95,7 +95,7 @@
     </g>
 </svg>
 
-              <span class="u-mr--- u-valing-middle">ESP</span>
+              <span class="u-mr--- u-valing-middle lang">ESP</span>
               <svg width="9px" height="5px" viewBox="288 25 9 5" version="1.1" xmlns="http://www.w3.org/2000/svg"; xmlns:xlink="http://www.w3.org/1999/xlink">;
   <desc>down arrow</desc>
   <path d="M295.906276,25.5424944 L292.259406,29.5188965 C292.248066,29.5349061 292.252069,29.5575865 292.237393,29.571595 C292.171353,29.6383019 292.084634,29.6669859 291.998582,29.6629835 C291.913197,29.6663188 291.827145,29.6369678 291.762439,29.571595
