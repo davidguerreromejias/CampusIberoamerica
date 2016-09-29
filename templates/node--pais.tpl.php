@@ -25,22 +25,23 @@
             </a>
           </li>
           <li class="items-separator--arrow">
-            <span class="u-color-gris"><?php print $title; ?></span>
+            <span class="u-color-gris"><?php print $node->field_nombre_oficial_pais[und][0]['value'] ; ?></span>
           </li>
 
         </ul>
       </div>
       <div class="col-xs-12 col-md-8 col-lg-9">
         <div class="page-content-container u-mb++ ">
-          <div class="u-mb u-fs-h2 u-bold"><?php print $title; ?></div>
+          <div class="u-mb u-fs-h2 u-bold"><?php print $node->field_nombre_oficial_pais[und][0]['value'] ; ?></div>
           <div class="u-f@md u-fs-xsmall u-pt u-mb+ horizontal-line-separator-top horizontal-line-separator-bottom">
             <div class="u-mb u-f-g1 u-f-align-center display-only-up-md">
-              <img class="img-bandera-pais" src="/sites/all/themes/zen/Nexos/assets/images/bandera-peru.png" alt="Bandera de Perú">
+              <?php print render($content['field_bandera']); ?>
             </div>
             <div class="u-f-g1 u-f-align-center u-align-right@md">
 
               <ul class="list-inline u-mb u-fs-xsmall u-uppercase">
                 <li>
+                  <span class="display-only-down-sm img-bandera-pais"><?php print render($content['field_bandera']); ?></span>
                   <img class="display-only-down-sm img-bandera-pais" src="/sites/all/themes/zen/Nexos/assets/images/bandera-peru.png" alt="Bandera de Perú">
                 </li>
                 <li>
@@ -67,11 +68,6 @@
             </div>
           </div>
           <div class="u-mb">
-            <div>
-              <p class="u-mb- u-bold">
-                <?php print t('Nombre oficial: ')?> <span style="font-weight: initial;"><?php print $node->field_nombre_oficial_pais[und][0]['value'] ; ?></span>
-              </p>
-            </div>
             <div>
               <p class="u-mb- u-bold">
                 <?php print t('Superfície: ')?> <span style="font-weight: initial;"><?php print $node->field_superficie[und][0]['value'] ; ?></span>
