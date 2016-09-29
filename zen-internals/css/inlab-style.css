@@ -18,7 +18,7 @@
 	margin: 0px 5% 11px 0px;
 }
 /*select de les opcions per les quals ordenar*/
-.form-item .form-type-select.form-item-sort-by select{
+.view-filters .form-item .form-type-select.form-item-sort-by select{
 	vertical-align: middle;
 	color: #626262;
 	font-size: 14px;
@@ -47,17 +47,17 @@
     -moz-appearance: none;
 
 }
-.form-item.form-type-select.form-item-sort-by select::-ms-expand {
+.view-filters .form-item.form-type-select.form-item-sort-by select::-ms-expand {
     display: none; 
 }
-.form-item.form-type-select.form-item-sort-by select:focus {
+.view-filters .form-item.form-type-select.form-item-sort-by select:focus {
     outline: none; 
 }
-.form-item.form-type-select.form-item-sort-by select:-moz-focusring {
+.view-filters .form-item.form-type-select.form-item-sort-by select:-moz-focusring {
     color: transparent;
     text-shadow: 0 0 0 #000; 
 }
-.form-item.form-type-select .form-item-sort-by::before {
+.view-filters .form-item.form-type-select .form-item-sort-by::before {
     position: absolute;
     content: '';
     width: 6px;
@@ -306,3 +306,5 @@ ul .list-tick:before{
 .form-type-password label{
     font-weight: inherit;
 }
+
+.form-radio { -webkit-appearance: radio; }
