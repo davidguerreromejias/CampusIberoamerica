@@ -27,21 +27,21 @@
       <li>
         <a href="<?php print url('info-paises') ?>" class="u-block u-mh++ u-semibold u-lh-11 u-fs-small" style="text-align: center;">
           <img src="/sites/all/themes/zen/Nexos/assets/images/punto-icon.svg" alt="Información de los países"><br/>
-          <?php print t('Información <br/>de los países')?>
+          <?php print t('Información')?><br/><?php print t('de los países')?>
         </a>
       </li>
 
       <li>
         <a href="<?php print url('preguntas-frecuentes') ?>" class="u-block u-mh++ u-semibold u-lh-11 u-fs-small" style="text-align: center;">
           <img src="/sites/all/themes/zen/Nexos/assets/images/dialogo-icon.svg" alt="Preguntas frecuentes"><br/>
-          <?php print t('Preguntas <br/>frecuentes')?>
+          <?php print t('Preguntas')?><br/><?php print t(' frecuentes')?>
         </a>
       </li>
 
       <li>
         <a href="<?php print url('portadilla-investigadores') ?>" class="u-block u-mh++ u-semibold u-lh-11 u-fs-small" style="text-align: center;">
           <img src="/sites/all/themes/zen/Nexos/assets/images/bombilla-icon.svg" alt="Campus Plus"><br/>
-          <?php print t('Campus <br/> Plus')?>
+          <?php print t('Campus')?><br/><?php print t(' Plus')?>
         </a>
       </li>
     </div>

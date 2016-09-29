@@ -25,7 +25,7 @@
 <div class="site-content-wrapper site-content-wrapper--centered">
     <div class="site-header">
   <div class="site-header__container container">
-    <a href="/">
+    <a href="<?php print url('/') ?>">
       <h1 class="site-header__logo">
         <img src="/sites/all/themes/zen/Nexos/assets/images/logo_campus_home.png"> </img>
       </h1>
