@@ -292,7 +292,7 @@ ul .list-tick:before{
 }
 
 #block-user-login{
-    margin: 0 auto;
+    margin: 30px auto;
     display: block;
     width: 25%;
     background-color: white;
@@ -301,6 +301,10 @@ ul .list-tick:before{
     -webkit-box-shadow: 20px 20px 100px 8px rgba(0,0,0,0.61);
     -moz-box-shadow: 20px 20px 100px 8px rgba(0,0,0,0.61);
     box-shadow: 20px 20px 100px 8px rgba(0,0,0,0.61);
+}
+
+#block-user-login ul li a{
+  display: none;
 }
 
 .form-type-password label{
