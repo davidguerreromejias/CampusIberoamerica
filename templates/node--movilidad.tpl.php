@@ -80,7 +80,7 @@
               <div class="u-fs-xxsmall u-uppercase">estudiantes interesados</div>
             </div>
             <div>
-              <a href="#" class="btn btn--action">
+              <a href="<?php  print $node->field_web_comentario[und][0]['value']; ?>" class="btn btn--action">
                 <span class="u-fs-small u-semibold">Aplicar a este programa</span>
               </a>
             </div>
