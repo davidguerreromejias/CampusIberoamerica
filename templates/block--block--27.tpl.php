@@ -35,7 +35,7 @@
     </div>
     <div class="site-content-wrapper site-content-wrapper--centered">
       <div class="u-inline-block">
-          <a class="p-home_portal-inv-btn" href="portadilla-investigadores">
+          <a class="p-home_portal-inv-btn" href="<?php print url('portadilla-postgrado') ?>?tid=1341">
             <?php print t('Portal de Movilidad de Investigadores')?>
           </a>
       </div>
