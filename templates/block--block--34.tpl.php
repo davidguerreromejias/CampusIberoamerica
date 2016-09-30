@@ -174,6 +174,9 @@
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
                   <a href="<?php print url('info-pais') ?>/costa-rica" class="link u-block"><?php print t('Costa Rica')?></a>
                 </li>
+                <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
+                  <a href="<?php print url('info-pais') ?>/paraguay" class="link u-block"><?php print t('Paraguay')?></a>
+                </li>
               </ul>
             </div>
           </div>
