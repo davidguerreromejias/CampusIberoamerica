@@ -79,7 +79,7 @@
 
       <!-- PREGRADO -->
 
-      <form action="/busqueda-avanzada/" data-form-tipo="pregrado">
+      <form action="<?php print url('busqueda-avanzada') ?>" data-form-tipo="pregrado">
         <input type="hidden" name="tid" value="1339" />
 
   <div data-step="1">
@@ -136,7 +136,7 @@
 
       <!-- POSTGRADO -->
 
-      <form action="/busqueda-avanzada/" data-form-tipo="postgrado">
+      <form action="<?php print url('busqueda-avanzada') ?>" data-form-tipo="postgrado">
         <input type="hidden" name="tid" value="1340" />
 
   <div data-step="1">
@@ -193,7 +193,7 @@
 
       <!-- INVESTIGADORES -->
 
-      <form action="/busqueda-avanzada/" data-form-tipo="investigacion">
+      <form action="<?php print url('busqueda-avanzada') ?>" data-form-tipo="investigacion">
         <input type="hidden" name="tid" value="1341" />
   <div data-step="1">
     <p class="u-fs-small u-color-turquesa-oscuro2 u-align-left">

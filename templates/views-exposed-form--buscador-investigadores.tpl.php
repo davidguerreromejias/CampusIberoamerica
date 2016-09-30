@@ -200,9 +200,9 @@
 	            <div class="search-filter__fixed-block">
 	            
 	          
-	        <?php if (!empty($widgets['filter-keys']->operator)): ?>
+	        <?php if (!empty($widgets['filter-field_nombre_del_programa_value']->operator)): ?>
 	          <div class="views-operator">
-	            <?php print $widgets['filter-keys']->operator; ?>
+	            <?php print $widgets['filter-field_nombre_del_programa_value']->operator; ?>
 	          </div>
 	        <?php endif; ?>
 	        <div class="views-widget">
@@ -210,7 +210,7 @@
 	        		<button class="input-action__button">
 	                  <i class="icon-lupa"></i>
 	                </button>
-		          <?php print $widgets['filter-keys']->widget; ?>
+		          <?php print $widgets['filter-field_nombre_del_programa_value']->widget; ?>
 		          </div>
 	          </div>
 	          </div>
