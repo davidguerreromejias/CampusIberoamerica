@@ -18,7 +18,7 @@
 <div class="site-footer-logos">
   <a href="http://www.segib.org" target="_blank"><img class="u-mr" src="/sites/all/themes/zen/Nexos/assets/images/segib_logo.png" alt="SEGIB"></a>
   <a href="http://www.oei.es" target="_blank"><img class="u-mr" src="/sites/all/themes/zen/Nexos/assets/images/oei_logo.png" alt="OEI"></a>
-  <a href="http://www.cuib.org " target="_blank"><img src="/sites/all/themes/zen/Nexos/assets/images/cuib_logo.png" alt="CUIB"></a>
+  <a href="" target="_blank"><img src="/sites/all/themes/zen/Nexos/assets/images/cuib_logo.png" alt="CUIB"></a>
 </div>
 
 <div class="site-footer-menu display-only-up-sm u-f u-f-align-center">
@@ -50,6 +50,9 @@
       </li>
       <li>
         <a href="<?php print url('aviso-legal') ?>" class="btn u-fs-small u-bold"><?php print t('Aviso legal')?></a>
+      </li>
+      <li>
+        <a href="<?php print url('politica-privacidad') ?>" class="btn u-fs-small u-bold"><?php print t('Politica de privacidad')?></a>
       </li>
       <li>
         <a href="<?php print url('acerca-de') ?>" class="btn u-fs-small u-bold"><?php print t('Acerca de ...')?></a>
