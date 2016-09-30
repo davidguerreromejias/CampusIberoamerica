@@ -336,3 +336,27 @@ ul .list-tick:before{
 .open{
   display: none;
 }
+
+.u-fs-small{
+  font-size: 16px !important;
+}
+
+.u-fs-xsmall{
+  font-size: 15px !important;
+}
+
+.view-header{
+  font-size: 16px !important;
+}
+
+.search-filter{
+  font-size: 15px !important;
+}
+
+.site-header__container--secondary{
+  font-size: 16px !important;
+}
+
+.view.view-destacados .views-field.views-field-title{
+  font-size: 15px !important;
+}
