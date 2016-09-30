@@ -840,6 +840,19 @@ x(function ($) {
     EventBus.dispatch("abrirBuscadorHome", this, $item.data('tipo'));
   });
 
+  //past DATE
+
+  var now = new Date;
+  console.log(now);
+  $('.plazo-solicitud-fin').each(function (i, v) {
+      var id = $(this).attr('id');
+      var x = $(this).first().text();
+      var fin = new Date(x);
+      if (now > fin) {
+          $('#' + id + ' .plazo-cerrado').addClass('unexpired');
+          $('#' + id + ' .plazo-cerrado').removeClass('open');
+      }
+  });
 
   //add class to input search
   $('input[type=text]').addClass('input-action__input');

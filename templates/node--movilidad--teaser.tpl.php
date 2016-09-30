@@ -14,7 +14,7 @@
                       <li>
                       <?php print render($content['field_n_becas_concedidas']);?>
                       </li>
-                      <li>Becas</li>
+                      <li><?php print t('Becas')?></li>
                     <?php }?>
                   </ul>
                 </div>
@@ -22,15 +22,18 @@
                 <div class="u-fs-xsmall">
                   <ul class="list-inline">
                     <li class="items-separator items-separator--down-sm">
-                      <span class="u-bold">Destino:</span> <?php print $content['field_ambito_pais']['#items'][0]['taxonomy_term']->name; ?>
+                      <span class="u-bold"><?php print t('Destino:')?></span> <?php print $content['field_ambito_pais']['#items'][0]['taxonomy_term']->name; ?>
 
                     </li>
                     <li class="items-separator items-separator--down-sm">
-                      <span class="u-bold">Area de conocimiento:</span> <?php print $content['field_ambito_subarea_conocimient']['#items'][0]['taxonomy_term']->name; ?>
+                      <span class="u-bold"><?php print t('Area de conocimiento:')?></span> <?php print $content['field_ambito_subarea_conocimient']['#items'][0]['taxonomy_term']->name; ?>
                     </li>
                     <li class="items-separator--down-sm">
-                      <span class="u-bold">Plazo de solicitud:</span> <?php echo date('d F Y', strtotime($node->field_plazo_para_solicitud_inici['und'][0]['value']));?> - <?php echo date('d F Y', strtotime($node->field_plazo_para_solicitud_inici['und'][0]['value2']));?>
+                      <span class="u-bold"><?php print t('Plazo de solicitud:')?></span> <span class="plazo-solicitud-ini">
+                      <?php echo date('d F Y', strtotime($node->field_plazo_para_solicitud_inici['und'][0]['value']));?> - 
+                    </span><span class="plazo-solicitud-fin" id="node-<?php print $node->nid; ?>"><?php echo date('d F Y', strtotime($node->field_plazo_para_solicitud_inici['und'][0]['value2']));?></span> 
                     </li>
+                    <span class="plazo-cerrado open"><?php print t('CERRADO')?></span>
                   </ul>
                 </div>
             </div>
