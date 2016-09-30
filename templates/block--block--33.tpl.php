@@ -156,12 +156,12 @@
 
             <div class="u-fs-xsmall">
               <ul class="u-mb u-color-turquesa u-fs-xsmall">
-                <li>
+               <!-- <li>
                   <a href="#" class="link text-with-icon__content">
                     <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/enlace-icon.svg" alt="Ampliar información">
                     <span class="u-semibold"><?php print t('Ampliar información')?></span>
                   </a>
-                </li>
+                </li>-->
               </ul>
             </div>
           </div>
