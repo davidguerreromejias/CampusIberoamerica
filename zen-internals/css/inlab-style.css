@@ -364,3 +364,7 @@ ul .list-tick:before{
 .view.view-destacados .views-field.views-field-title{
   font-size: 15px !important;
 }
+
+.p-rdo-busqueda_filtros .views-submit-button input{
+  margin-left: 20px;
+}
