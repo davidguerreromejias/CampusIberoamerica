@@ -14,7 +14,8 @@
                       <li>
                       <?php print render($content['field_n_becas_concedidas']);?>
                       </li>
-                      <li><?php print t('Becas')?></li>
+                      <li><?php print t('Becas'); ?>
+                      </li>
                     <?php }?>
                   </ul>
                 </div>
@@ -30,8 +31,8 @@
                     </li>
                     <li class="items-separator--down-sm">
                       <span class="u-bold"><?php print t('Plazo de solicitud:')?></span> <span class="plazo-solicitud-ini">
-                      <?php echo date('d F Y', strtotime($node->field_plazo_para_solicitud_inici['und'][0]['value']));?> - 
-                    </span><span class="plazo-solicitud-fin" id="node-<?php print $node->nid; ?>"><?php echo date('d F Y', strtotime($node->field_plazo_para_solicitud_inici['und'][0]['value2']));?></span> 
+                      <?php print format_date(strtotime($node->field_plazo_para_solicitud_inici['und'][0]['value']), 'custom', 'd F Y'); ?> - 
+                    </span><span class="plazo-solicitud-fin" id="node-<?php print $node->nid; ?>"><?php print format_date(strtotime($node->field_plazo_para_solicitud_inici['und'][0]['value2']), 'custom', 'd F Y'); ?></span> 
                     </li>
                     <span class="plazo-cerrado open"><?php print t('CERRADO')?></span>
                   </ul>
