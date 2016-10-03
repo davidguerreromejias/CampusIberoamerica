@@ -38,6 +38,9 @@
 
 <div class="p-rdo-busqueda_filtros">
 	<p class="u-bold u-fs-xsmall u-color-gris-claro u-mb--"><?php print t('Filtros y busqueda avanzada')?></p>
+	<div class="views-exposed-widget views-submit-button">
+	      <?php print $button; ?>
+	    </div>
 	<div class="views-exposed-form">
 	  <div class="views-exposed-widgets clearfix">
 
@@ -234,9 +237,6 @@
 	        <?php print $offset; ?>
 	      </div>
 	    <?php endif; ?>
-	    <div class="views-exposed-widget views-submit-button">
-	      <?php print $button; ?>
-	    </div>
 	    <?php if (!empty($reset_button)): ?>
 	      <div class="views-exposed-widget views-reset-button">
 	        <?php print $reset_button; ?>

@@ -206,6 +206,11 @@
                 <?php print t('Preguntas frecuentes')?>
               </a>
             </li>
+            <li class="horizontal-line-separator-top horizontal-line-separator-bottom">
+              <a href="<?php print url('portadilla-investigadores') ?>" class="link text-with-icon__content">
+                <?php print t('Portal de investigadores')?>
+              </a>
+            </li>
           </ul>
         </div>
 
