@@ -76,7 +76,7 @@
 
 	    <!-- PAÍS ORIGEN -->
 
-	      <div id="<?php print $widgets['filter-field_ambito_pais_tid']->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
+	      <div id="<?php print $widgets['filter-field_pais_origen_solicitante_tid']->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
 	      	<div class="search-filter is-open">
 	          <div class="search-filter__name">
 	            <span class="u-semibold"><?php print t('País de origen')?></span>
@@ -94,14 +94,14 @@
 	            <div class="search-filter__fixed-block">
 	            
 	          
-	        <?php if (!empty($widgets['filter-field_ambito_pais_tid']->operator)): ?>
+	        <?php if (!empty($widgets['filter-field_pais_origen_solicitante_tid']->operator)): ?>
 	          <div class="views-operator">
-	            <?php print $widgets['filter-field_ambito_pais_tid']->operator; ?>
+	            <?php print $widgets['filter-field_pais_origen_solicitante_tid']->operator; ?>
 	          </div>
 	        <?php endif; ?>
 	        <div class="views-widget">
 	        	<div class="input-action">
-		          <?php print $widgets['filter-field_ambito_pais_tid']->widget; ?>
+		          <?php print $widgets['filter-field_pais_origen_solicitante_tid']->widget; ?>
 		          </div>
 	          </div>
 	          </div>

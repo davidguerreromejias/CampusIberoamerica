@@ -904,7 +904,7 @@ x(function ($) {
         value: singleCountry["tid"],
         text: singleCountry["name"]
       }));
-      $("select[name=field_ambito_pais_tid]").append($('<option>', {
+      $("select[name=field_pais_origen_solicitante_tid]").append($('<option>', {
         value: singleCountry["tid"],
         text: singleCountry["name"]
       }));

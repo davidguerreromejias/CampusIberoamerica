@@ -150,8 +150,7 @@
       </div>
       <div class="col-md-4 col-lg-3">
         <div class="u-mb display-only-up-md">
-          <span class="display-only-down-sm img-bandera-pais"><?php print render($content['field_bandera']); ?></span>
-          <img class="img-mapa-pais" src="/sites/all/themes/zen/Nexos/assets/images/mapa-peru.png" alt="Mapa Perú">
+          <span class="img-mapa-pais"><?php print render($content['field_silueta_pais']); ?></span>
         </div>
 
         <div>

@@ -207,7 +207,7 @@
 
       <div class="u-mh---@md u-mb- u-mr0 u-f-g1">
         <div class="p-buscador_select">
-          <select name="field_ambito_pais_tid" class="js-buscador-select">
+          <select name="field_pais_origen_solicitante_tid" class="js-buscador-select">
             <option value=""><?php print t('País')?></option>
           </select>
         </div>
