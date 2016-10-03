@@ -80,7 +80,7 @@
               <div class="u-fs-xxsmall u-uppercase">estudiantes interesados</div>
             </div>
             <div>
-              <a href="http://<?php  print $node->field_web_comentario[und][0]['value']; ?>" class="btn btn--action">
+              <a href="http://<?php  print $node->field_web_comentario[und][0]['value']; ?>" target="_blank" class="btn btn--action">
                 <span class="u-fs-small u-semibold">Aplicar a este programa</span>
               </a>
             </div>
@@ -723,7 +723,7 @@
           </div>
           </div>
           <div class="u-mb++">
-            <a href="http://<?php  print $node->field_web_comentario[und][0]['value']; ?>" class="btn btn--action">
+            <a href="http://<?php  print $node->field_web_comentario[und][0]['value']; ?>" target="_blank" class="btn btn--action">
               <span class="u-semibold u-fs-small">Aplicar a este programa</span>
             </a>
           </div>
@@ -736,7 +736,7 @@
             <div class="u-fs-xxsmall u-uppercase">estudiantes interesados</div>
           </div>
           <div class="u-mb++">
-            <a href="http://<?php  print $node->field_web_comentario[und][0]['value']; ?>" class="btn btn--action">
+            <a href="http://<?php  print $node->field_web_comentario[und][0]['value']; ?>" target="_blank" class="btn btn--action">
               <span class="u-semibold u-fs-small">Aplicar a este programa</span>
             </a>
           </div>
@@ -746,22 +746,22 @@
           <div class="u-mb u-color-gris u-fs-xsmall u-uppercase u-semibold">informacion útil</div>
           <ul class="u-color-turquesa u-fs-small u-semibold">
             <li>
-              <div class="text-with-icon__content">
+              <a href="<?php print url('prepara-tu-viaje') ?>" class="link text-with-icon__content">
                 <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/ruta-icon_small.svg" alt="Prepara tu viaje">
-                Prepara tu viaje
-              </div>
+                <?php print t('Prepara tu viaje')?>
+              </a>
             </li>
             <li class="horizontal-line-separator-top">
-              <div class="text-with-icon__content">
-                <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/punto-icon_small.svg" alt="Información de los paises">
-                Información de los paises
-              </div>
+              <a href="<?php print url('info-paises') ?>" class="link text-with-icon__content">
+                <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/punto-icon_small.svg" alt="Información de los países">
+                <?php print t('Información de los paises')?>
+              </a>
             </li>
-            <li class="horizontal-line-separator-top">
-              <div class="text-with-icon__content">
+            <li class="horizontal-line-separator-top horizontal-line-separator-bottom">
+              <a href="<?php print url('preguntas-frecuentes') ?>" class="link text-with-icon__content">
                 <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/dialogo-icon_small.svg" alt="Preguntas frecuentes">
-                Preguntas frecuentes
-              </div>
+                <?php print t('Preguntas frecuentes')?>
+              </a>
             </li>
           </ul>
         </div>
