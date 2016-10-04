@@ -763,6 +763,12 @@
                 <?php print t('Preguntas frecuentes')?>
               </a>
             </li>
+            <li class="horizontal-line-separator-top horizontal-line-separator-bottom">
+              <a href="<?php print url('portadilla-investigadores') ?>" class="link text-with-icon__content">
+                <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/bombilla-icon.svg" alt="Campus Plus">
+                <?php print t('Portal de investigadores')?>
+              </a>
+            </li>
           </ul>
         </div>
         <div>

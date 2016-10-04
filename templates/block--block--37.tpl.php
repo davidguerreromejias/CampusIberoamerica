@@ -33,7 +33,7 @@
 
     <h3 class="u-mb+ u-pt u-bold u-color-gris-oscuro u-fs-large horizontal-line-separator-wide-dark-grey"><?php print t('Investigación / Docencia')?></h3>
     <div class="row">
-      <div class="col-xs-12 col-md-8 col-lg-9">
+      <div class="col-xs-12 col-md-8 col-lg-8">
         <div class="p-portadilla-intro__item u-mb+">
           <div class="p-portadilla-intro__item-wrapper">
             <img class="p-portadilla-intro__imagen" src="/sites/all/themes/zen/Nexos/assets/images/Foto_1_web_campus.jpg" alt="Investigación / Docencia"/>
@@ -45,7 +45,7 @@
           </div>
         </div>
       </div>
-      <div class="col-xs-12 col-md-4 col-lg-3">
+      <div class="col-xs-12 col-md-4 col-lg-4">
         <div class="u-mb u-pb- horizontal-line-separator-bottom u-color-gris u-fs-xsmall u-uppercase u-semibold"><?php print t('Programas destacados')?></div>
         <?php  print views_embed_view('destacados', 'block_1');?>
       </div>
