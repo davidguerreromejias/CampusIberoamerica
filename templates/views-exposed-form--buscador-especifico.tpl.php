@@ -37,7 +37,7 @@
   	<?php endif; ?>
 
 <div class="p-rdo-busqueda_filtros">
-	<p class="u-bold u-fs-xsmall u-color-gris-claro u-mb--"><?php print t('Filtros y busqueda avanzada')?></p>
+	<p class="u-bold u-fs-xsmall u-color-gris-claro u-mb--" style="float: left;"><?php print t('Filtros y busqueda avanzada')?></p>
 	<div class="views-exposed-widget views-submit-button">
 	      <?php print $button; ?>
 	    </div>
