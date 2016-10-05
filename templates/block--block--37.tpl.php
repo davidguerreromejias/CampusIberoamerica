@@ -40,7 +40,7 @@
             <div class="p-portadilla-intro__content">
               <div class="display-only-up-xs u-mb-- u-color-naranja u-bold u-fs-large u-uppercase"><?php print t('Investigación / Docencia')?></div>
               <div class="display-only-up-xs u-mb block-info__separator"></div>
-              <div class="u-bold u-fs-large"><?php print t('Cada día sabemos más y entendemos menos. Albert Einstein')?></div>
+              <div class="u-bold u-fs-large txt-portadilla-white"><?php print t('Cada día sabemos más y entendemos menos. Albert Einstein')?></div>
             </div>
           </div>
         </div>

@@ -372,3 +372,11 @@ ul .list-tick:before{
 .menu-lateral .p-home_portal-inv-btn:after{
   display: none;
 }
+
+.txt-portadilla-white{
+  font-size: 47px !important;
+}
+
+.view-destacados .views-field a{
+  font-size: 21px !important;
+}
