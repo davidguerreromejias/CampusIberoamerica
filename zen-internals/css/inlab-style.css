@@ -380,3 +380,8 @@ ul .list-tick:before{
 .view-destacados .views-field a{
   font-size: 21px !important;
 }
+
+.btn-responsive{
+  width: 229px;
+  margin-left: 20%;
+}

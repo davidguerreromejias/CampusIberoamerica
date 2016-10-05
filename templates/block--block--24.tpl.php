@@ -34,7 +34,19 @@
     </div>
     <div class="site_header__menu-wrapper">
       <button class="site_header__menu-icon display-only-down-sm js-open-overlay" data-target="#menuOverlay">
-        <img src="/sites/all/themes/zen/Nexos/assets/images/menu-icon.svg" alt="Abrir / cerrar menú">
+      <svg width="28px" height="16px" viewBox="0 0 28 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <desc>Hamburguer Menu icon</desc>
+        <g  stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g  transform="translate(-327.000000, -20.000000)" fill="#6F6F6F">
+                <g  transform="translate(327.000000, 20.000000)">
+                    <rect id="Rectangle-3" x="0" y="0" width="28" height="4" rx="2"></rect>
+                    <rect id="Rectangle-3" x="0" y="6" width="28" height="4" rx="2"></rect>
+                    <rect id="Rectangle-3" x="0" y="12" width="28" height="4" rx="2"></rect>
+                </g>
+            </g>
+          </g>
+      </svg>
+
       </button>
       <div class="display-only-up-md">
         <ul class="list-inline u-mb0">
@@ -64,6 +76,9 @@
               </li>
               <li class="drop-menu__item">
                 <a href="<?php print url('preguntas-frecuentes') ?>" class="drop-menu__link"><?php print t('Preguntas frecuentes')?></a>
+              </li>
+              <li class="drop-menu__item">
+                <a href="<?php print url('campus-plus') ?>" class="drop-menu__link"><?php print t('Campus Plus')?></a>
               </li>
             </ul>
           </li>

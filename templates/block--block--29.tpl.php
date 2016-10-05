@@ -78,6 +78,9 @@
               <li class="drop-menu__item">
                 <a href="<?php print url('preguntas-frecuentes') ?>" class="drop-menu__link"><?php print t('Preguntas frecuentes')?></a>
               </li>
+              <li class="drop-menu__item">
+                <a href="<?php print url('campus-plus') ?>" class="drop-menu__link"><?php print t('Campus Plus')?></a>
+              </li>
             </ul>
           </li>
           <li>
