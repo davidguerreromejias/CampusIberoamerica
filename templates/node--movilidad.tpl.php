@@ -189,7 +189,7 @@
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        <?php print t('Idiomas requeridos al solicitante:')?>País/es de destino:
+                        <?php print t('País/es de destino:')?>
                       </div>
                       <div class="u-f-g1">
                         <?php print $content['field_ambito_pais']['#items'][0]['taxonomy_term']->name; ?>
