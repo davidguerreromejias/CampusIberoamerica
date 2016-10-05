@@ -39,7 +39,7 @@
       </li>
 
       <li>
-        <a href="<?php print url('portadilla-investigadores') ?>" class="u-block u-mh++ u-semibold u-lh-11 u-fs-small" style="text-align: center;">
+        <a href="<?php print url('campus-plus') ?>" class="u-block u-mh++ u-semibold u-lh-11 u-fs-small" style="text-align: center;">
           <img src="/sites/all/themes/zen/Nexos/assets/images/bombilla-icon.svg" alt="Campus Plus"><br/>
           <?php print t('Campus')?><br/><?php print t(' Plus')?>
         </a>

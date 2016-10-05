@@ -368,3 +368,7 @@ ul .list-tick:before{
 .p-rdo-busqueda_filtros .views-submit-button input{
   margin-left: 20px;
 }
+
+.menu-lateral .p-home_portal-inv-btn:after{
+  display: none;
+}
