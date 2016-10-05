@@ -44,8 +44,8 @@
         </div>
       </div>
       <div class="col-xs-12 col-md-4 col-lg-3">
-        <div class="u-mb+++">
-          <div class="u-pb- u-color-gris u-fs-xsmall u-uppercase u-semibold horizontal-line-separator-bottom">Información útil</div>
+         <div class="u-mb+++">
+          <div class="u-pb- u-color-gris u-fs-xsmall u-uppercase u-semibold horizontal-line-separator-bottom"><?php print t('Información útil')?></div>
           <ul class="u-color-turquesa u-fs-small u-semibold">
             <li>
               <a href="<?php print url('prepara-tu-viaje') ?>" class="link text-with-icon__content">
@@ -65,9 +65,21 @@
                 <?php print t('Preguntas frecuentes')?>
               </a>
             </li>
+            <li class="horizontal-line-separator-top horizontal-line-separator-bottom">
+              <a href="<?php print url('campus-plus') ?>" class="link text-with-icon__content">
+                <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/bombilla-icon.svg" alt="Campus Plus">
+                <?php print t('Campus Plus')?>
+              </a>
+            </li>
           </ul>
+          </div>
+          <div class="menu-lateral site-content-wrapper site-content-wrapper--centered">
+            <div class="u-inline-block">
+                <a class="p-home_portal-inv-btn" href="<?php print url('portadilla-investigadores') ?>?tid=1341">
+                  <?php print t('Portal de Movilidad de Investigadores')?>
+                </a>
+            </div>
         </div>
-
       </div>
     </div>
   </div>
