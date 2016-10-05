@@ -57,6 +57,18 @@
               </ul>
             </p>
             <p class="u-mb-">
+              <?php print t('<b>¿En qué marco se inserta?</b>')?>
+            </p>
+            <p class="u-mb-">
+              <?php print t('Campus Iberoamérica es una iniciativa del Espacio Iberoamericano del Conocimiento (EIC), uno de los tres pilares de la cooperación iberoamericana. 
+                El Espacio Iberoamericano del Conocimiento responde a una visión integral e integrada de los tres vértices del triángulo del conocimiento y es el ámbito de confluencia 
+                armónica de políticas, instrumentos y agentes de la Educación Superior, la Ciencia y la Innovación. <br>
+                En el marco del EIC funciona una Unidad Coordinadora, integrada por la Secretaría General Iberoamericana (SEGIB), la Organización de Estados Iberoamericanos para la Educación, 
+                la Ciencia y la Cultura (OEI) y el Consejo Universitario Iberoamericano (CUIB), a quien le corresponde impulsar y promover la movilidad académica de estudiantes, profesores e 
+                investigadores en la Comunidad Iberoamericana. Se ha constituido igualmente una Secretaría Técnica, instrumento de carácter operativo que sirve 
+                para la coordinación y seguimiento de las acciones de cooperación a desarrollar en el marco del EIC. <br> ')?>
+            </p>
+            <p class="u-mb-">
               <?php print t('<b>¿Cómo se origina?</b>')?>
             </p>
             <p class="u-mb-">
@@ -77,6 +89,26 @@
               incluyendo, entre otros aspectos, el impulso a la colaboración entre los sistemas de acreditación y reconocimiento de periodos de estudio y de títulos. 
               Tercero, en la puesta en marcha de la Plataforma, que constituye la herramienta de información, coordinación y gestión de Campus Iberoamericano.<br>
               ')?>
+            </p>
+            <p class="u-mb-">
+              <?php print t('<b>¿Qué es la Movilidad Iberoamericana?</b>')?>
+            </p>
+            <p class="u-mb-">
+              <?php print t('La movilidad es el desplazamiento físico a otro país, desde uno de los 22 que forman parte de la Cumbre Iberoamericana a otro de ellos, 
+              con el fin de cursar estudios, adquirir una experiencia profesional, realizar una investigación o ejercer cualquier otra actividad de 
+              aprendizaje, enseñanza o investigación relacionada.<br>')?>
+            </p>
+            <p class="u-mb-">
+              <?php print t('<b>¿Qué es un programa de movilidad en el contexto del Campus Iberoamérica?</b>')?>
+            </p>
+            <p class="u-mb-">
+              <?php print t('Entendemos por programa de movilidad a aquellas iniciativas que cumplen los siguientes requisitos:<br>  ')?>
+              <ul class="list-plain-text">
+                <li class="list-circle"><?php print t('Están orientadas a uno o varios de los siguientes segmentos de población o audiencias: pregrado (o grado), postgrado, investigadores y docentes.')?></li>
+                <li class="list-circle"><?php print t('Su ámbito de estudio o trabajo es la Educación Superior -universitaria o no universitaria- y la investigación/docencia en todos los ámbitos.')?></li>
+                <li class="list-circle"><?php print t('El ámbito geográfico de la movilidad se circunscribe a los 22 países iberoamericanos, tanto en origen como en destino de la propia movilidad.')?></li>
+                <li class="list-circle"><?php print t('Las iniciativas o programas pueden ser bilaterales o multilaterales entre universidades, centros de investigación, ministerios, instituciones educativas o instituciones privadas.')?></li>
+                </ul>
             </p>
             <p class="u-mb-">
               <?php print t('<b>¿Qué implica para una institución la participación en Campus Iberoamérica?</b>')?>
