@@ -381,7 +381,13 @@ ul .list-tick:before{
   font-size: 21px !important;
 }
 
-.btn-responsive{
-  width: 229px;
-  margin-left: 20%;
+@media (max-width: 991px) {
+  .btn-responsive{
+    width: 229px;
+    margin-left: 20%;
+  }
+}
+
+.pager{
+  width: 100% !important;
 }
