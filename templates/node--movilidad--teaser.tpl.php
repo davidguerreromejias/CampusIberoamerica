@@ -38,7 +38,7 @@
                       <?php print format_date(strtotime($node->field_plazo_para_solicitud_inici['und'][0]['value']), 'custom', 'd F Y'); ?> - 
                     </span><span class="plazo-solicitud-fin" id="node-<?php print $node->nid; ?>"><?php print format_date(strtotime($node->field_plazo_para_solicitud_inici['und'][0]['value2']), 'custom', 'd F Y'); ?></span> 
                     </li>
-                    <span class="plazo-cerrado open"><?php print t('CERRADO')?></span>
+                    <span class="plazo-cerrado open"></span>
                   </ul>
                 </div>
             </div>

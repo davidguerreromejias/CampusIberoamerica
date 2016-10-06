@@ -849,7 +849,7 @@ x(function ($) {
       var x = $(this).first().text();
       var fin = new Date(x);
       if (now > fin) {
-          $('#' + id + ' .plazo-cerrado').addClass('unexpired');
+          $('#' + id + ' .plazo-cerrado').append('<div><img class="" src="/sites/all/themes/zen/Nexos/assets/images/programa_cerrado.png" alt="Cerrado"></div>');
           $('#' + id + ' .plazo-cerrado').removeClass('open');
       }
   });
