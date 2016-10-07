@@ -742,8 +742,8 @@
           </div>
         </div>
 
-        <div class="u-mb++">
-          <div class="u-mb u-color-gris u-fs-xsmall u-uppercase u-semibold">informacion útil</div>
+         <div class="u-mb+++">
+          <div class="u-pb- u-color-gris u-fs-xsmall u-uppercase u-semibold horizontal-line-separator-bottom"><?php print t('Información útil')?></div>
           <ul class="u-color-turquesa u-fs-small u-semibold">
             <li>
               <a href="<?php print url('prepara-tu-viaje') ?>" class="link text-with-icon__content">
@@ -764,17 +764,25 @@
               </a>
             </li>
             <li class="horizontal-line-separator-top horizontal-line-separator-bottom">
-              <a href="<?php print url('portadilla-investigadores') ?>" class="link text-with-icon__content">
+              <a href="<?php print url('campus-plus') ?>" class="link text-with-icon__content">
                 <img class="text-with-icon__icon" src="/sites/all/themes/zen/Nexos/assets/images/bombilla-icon.svg" alt="Campus Plus">
-                <?php print t('Portal de investigadores')?>
+                <?php print t('Campus Plus')?>
               </a>
             </li>
           </ul>
+          </div>
+          <div class="menu-lateral site-content-wrapper site-content-wrapper--centered">
+            <div class="u-inline-block">
+                <a class="p-home_portal-inv-btn" href="<?php print url('portadilla-investigadores') ?>?tid=1341">
+                  <?php print t('Portal de Movilidad de Investigadores')?>
+                </a>
+            </div>
         </div>
         <div>
-          <div class="u-mb u-color-gris u-fs-xsmall u-uppercase u-semibold">Programas relacionados</div>
+          <div class="u-mb u-color-gris u-fs-xsmall u-uppercase u-semibold" style="margin-top: 20px;">Programas relacionados</div>
           <?php  print views_embed_view('destacados', 'block_1');?>
         </div>
+
       </div>
     </div>
   </div>
