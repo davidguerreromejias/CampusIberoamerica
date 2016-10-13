@@ -8,7 +8,7 @@
  */
 ?>
 
-<div class="layout-center">
+<div class="layout-center main-content container">
 
   <header class="header" role="banner">
 
