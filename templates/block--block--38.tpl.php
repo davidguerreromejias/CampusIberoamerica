@@ -130,11 +130,12 @@
               <?php print t('<b>¿Qué instituciones forman parte de Campus Iberoamérica?</b>')?>
             </p>
             <p class="u-mb-">
-              <?php print t('Desde el año 2015 se ha formalizado la incorporación de diversos actores públicos y privados de distintos países iberoamericanos (incluir link a listado de actores)
+              <?php print t('Desde el año 2015 se ha formalizado la incorporación de diversos actores públicos y privados de distintos países iberoamericanos
               <br><br>A día de hoy, los organismos que se han adherido a esta iniciativa representan a más de 500 universidades y otras instituciones de la región iberoamericana. 
               <br><br>El proceso de incorporación de nuevos actores se plantea como algo continuo. A corto plazo está previsto contar con un número importante de nuevas adhesiones.
               <br>')?>
             </p>
+            <a href="/sites/all/themes/zen/Nexos/assets/images/Organismos_adheridos_a_Alianza.pdf" <p class="u-mb-"><?php print t('Organismos adheridos a la alianza iberoamericana para la movilidad')?></p> </a>
             <p class="u-mb-">
               <?php print t('<b>Se habla de unas reglas comunes que estructurarán el Sistema Iberoamericano de Movilidad, ¿Cuáles van a ser estas?</b>')?>
             </p>
