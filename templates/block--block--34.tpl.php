@@ -109,6 +109,10 @@
                 </map>
               </div>
             </div>
+            <br>
+            <br>
+            <br>
+
             <div class="p-paises_listado-container">
               <div class="u-mb u-fs-large u-bold">
                 <?php print t('Escoge el país')?> <br class="display-only-up-lg"/>
