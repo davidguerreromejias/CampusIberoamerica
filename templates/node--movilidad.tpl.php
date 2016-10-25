@@ -57,6 +57,7 @@
                 </ul>
               </div>
             </div>
+            <span class="plazo-cerrado open"></span>
             <div class="block-info__content u-mb+ "><?php print render($content['field_condiciones_movilidad']); ?></div>
             <div class="u-fs-xsmall">
               <?php $field = field_get_items('node', $node, 'field_pdf_video');
@@ -121,7 +122,13 @@
                         <?php print t('País/es de origen del solicitante:')?>
                       </div>
                       <div class="u-f-g1">
-                        <?php print $content['field_pais_origen_solicitante']['#items'][0]['taxonomy_term']->name; ?>
+                        <?php 
+                        $cont = count($content['field_pais_origen_solicitante']['#items']);
+                        for ($i = 0; $i <  $cont - 1; $i++) {
+                            print $content['field_pais_origen_solicitante']['#items'][$i]['taxonomy_term']->name;
+                            echo ", "; 
+                        }
+                        print $content['field_pais_origen_solicitante']['#items'][($cont-1)]['taxonomy_term']->name;?>
                       </div>
                     </div>
                   <?php } ?>
@@ -192,7 +199,13 @@
                         <?php print t('País/es de destino:')?>
                       </div>
                       <div class="u-f-g1">
-                        <?php print $content['field_ambito_pais']['#items'][0]['taxonomy_term']->name; ?>
+                        <?php 
+                        $cont = count($content['field_ambito_pais']['#items']);
+                        for ($i = 0; $i <  $cont - 1; $i++) {
+                            print $content['field_ambito_pais']['#items'][$i]['taxonomy_term']->name;
+                            echo ", "; 
+                        }
+                        print $content['field_ambito_pais']['#items'][($cont-1)]['taxonomy_term']->name;?>
                       </div>
                     </div>
                   <?php } ?>
