@@ -16,9 +16,9 @@
 
       <!-- footer:inicio -->
 <div class="site-footer-logos">
-  <a href="http://www.segib.org" target="_blank"><img class="u-mr" src="/sites/all/themes/zen/Nexos/assets/images/segib_logo.png" alt="SEGIB"></a>
-  <a href="http://www.oei.es" target="_blank"><img class="u-mr" src="/sites/all/themes/zen/Nexos/assets/images/oei_logo.png" alt="OEI"></a>
-  <a href="" target="_blank"><img src="/sites/all/themes/zen/Nexos/assets/images/cuib_logo.png" alt="CUIB"></a>
+  <a href="http://www.segib.org" target="_blank"><img class="u-mr" src="/sites/all/themes/zen/Nexos/assets/images/segib.svg" alt="SEGIB"></a>
+  <a href="http://www.oei.es" target="_blank"><img class="u-mr" src="/sites/all/themes/zen/Nexos/assets/images/oei.svg" alt="OEI"></a>
+  <a href="" target="_blank"><img src="/sites/all/themes/zen/Nexos/assets/images/cuib.svg" alt="CUIB"></a>
 </div>
 
 <div class="site-footer-menu display-only-up-sm u-f u-f-align-center">
