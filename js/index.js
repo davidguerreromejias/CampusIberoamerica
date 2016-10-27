@@ -868,12 +868,13 @@ x(function ($) {
   var availableTags = Array();
 
   //get universities of taxonomies
-  $.getJSON('taxonomy_term.json?vocabulary=37', function(data) {   
-    var uniCentros = data["list"];
-    var singleUniCentro = uniCentros[Object.keys(uniCentros)[1]];
+  $.getJSON('/sites/all/themes/zen/Nexos/assets/json/universitats.json', function(data) {   
+    var uniCentros = data["xml"].items.item;
+    console.log("entra");
+    console.log(uniCentros.length);
     for (var i = 0; i < uniCentros.length; ++i) {
-      var singleUniCentro = uniCentros[Object.keys(uniCentros)[i]];
-      availableTags.push(singleUniCentro["name"]);
+      var singleUniCentro = uniCentros[i].universidad;
+      availableTags.push(singleUniCentro);
     };
   });
 

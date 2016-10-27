@@ -1,0 +1,3049 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<items>
+		<item>
+			<pais>Andorra</pais>
+			<universidad>Universitat d'Andorra</universidad>
+		</item>
+		<item>
+			<pais>Argentina</pais>
+			<universidad>Universidad Nacional de Avellaneda</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Buenos Aires</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de Catamarca</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional del Chaco Austral</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de Chilecito</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de Comahue</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional del Cuyo</universidad>
+		</item>
+		<item>
+			<universidad>Univesidad de la Defensa Nacional</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de Entre Ríos</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de Formosa</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional General Sarmiento</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de Hurlingam</universidad>
+		</item>
+		<item>
+			<universidad>Univesidad Nacional José C. Paz</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de Jujuy</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de la Matanza</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de La Rioja</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de Lanús</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de Lomas de Zamora</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de Misiones</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de Moreno</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional del Nordeste</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de la Patagonia</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de la Patagonia Austral</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de Quilmes</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de Río Cuarto</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de Salta</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de San Juan</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de San Martín</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Tecnológica Nacional</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DEL LITORAL</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD BLAS PASCAL</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD CATÓLICA DE CÓRDOBA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE TUCUMÁN</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD ATLÁNTIDA ARGENTINA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD AUTÓNOMA DE ENTRE RÍOS (UADER)</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE TRES DE FEBRERO</universidad>
+		</item>
+		<item>
+			<universidad>INST UNIV ESCUELA ARGENTINA DE NEGOCIOS</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DE BELGRANO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD JUAN AGUSTÍN MAZA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE ROSARIO</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO UNIVERSITARIO AERONAUTICO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE GENERAL SARMIENTO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DEL CENTRO EDUCATIVO LATINOAMERICANO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DE MENDOZA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL ARTURO JAURETCHE</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE SAN LUIS</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD AUSTRAL</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE MAR DEL PLATA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DE CONGRESO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE CÓRDOBA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DE CIENCIAS EMPRESARIALES Y SOCIALES</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DEL SUR</universidad>
+		</item>
+		<item>
+			<universidad>UNIV NAC DEL NOROESTE DE BUENOS AIRES</universidad>
+		</item>
+		<item>
+			<universidad>INST UNIV CIENCIAS DE SALUD FUNDACIÓN BARCELÓ</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DE CONCEPCIÓN DEL URUGUAY</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD CATÓLICA DE LA PLATA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE LA PAMPA</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO UNIVERSITARIO DEL GRAN ROSARIO</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO TECNOLÓGICO DE BUENOS AIRES</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE RÍO NEGRO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD FASTA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD CAECE </universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD GASTÓN DACHARY</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD CATÓLICA DE SANTIAGO DEL ESTERO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DE NORTE SANTO TOMAS DE AQUINO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE VILLA MARIA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD ARGENTINA JOHN F. KENNEDY</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO UNIVERSITARIO ITALIANO DE ROSARIO</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO UNIVERSITARIO CEMIC</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD SALESIANA ARGENTINA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE FORMOSA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD CHAMPAGNAT</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE SANTIAGO DEL ESTERO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DE LA MARINA MERCANTE</universidad>
+		</item>
+		<item>
+			<universidad>UNIV NAC DEL CENTRO DE BUENOS AIRES</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DEL ACONCAGUA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE LUJÁN</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DEL SALVADOR</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO UNIVERSITARIO RIVER PLATE ARGENTINA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE LA PLATA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DE PALERMO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE TIERRA DEL FUEGO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD ABIERTA INTERAMERICANA</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO UNIVERSITARIO NACIONAL DEL ARTE</universidad>
+		</item>
+		<item>
+			<universidad>PONTIFICIA UNIVERSIDAD CATÓLICA ARGENTINA</universidad>
+		</item>
+		<item>
+			<pais>Bolivia</pais>
+			<universidad>Universidad Mayor de San Francisco Xavier de Chuquisaca</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Mayor de San Andrés</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Mayor de San Simón</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma Gabriel René Moreno</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma Tomás Frías</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Técnica de Oruro</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma Juán Misael Saracho</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma del Beni José Ballivián </universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de Siglo XX</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Amazónica de Pando</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Católica Boliviana San Pablo</universidad>
+		</item>
+		<item>
+			<universidad>Escuela Militar de Ingeniería</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Pública de El Alto </universidad>
+		</item>
+		<item>
+			<universidad>Universidad Andina Simón Bolivar</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Policial Mcal. Antonio José de Sucre</universidad>
+		</item>
+		<item>
+			<pais>Brasil</pais>
+			<universidad>ADVENTISTA</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADES DOM BOSCO</universidad>
+		</item>
+		<item>
+			<universidad>AJEC</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIVERSITARIO BARÃO DE MAUÁ</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE DE MEDICINA DE CAMPOS</universidad>
+		</item>
+		<item>
+			<universidad>CEFET-MG</universidad>
+		</item>
+		<item>
+			<universidad>CEFET-RJ</universidad>
+		</item>
+		<item>
+			<universidad>CETEC EDUCACIONAL S.A.</universidad>
+		</item>
+		<item>
+			<universidad>UCL</universidad>
+		</item>
+		<item>
+			<universidad>CIESA</universidad>
+		</item>
+		<item>
+			<universidad>DIREITO SBC</universidad>
+		</item>
+		<item>
+			<universidad>FUNDAÇÃO DOM CABRAL</universidad>
+		</item>
+		<item>
+			<universidad>EMESCAM</universidad>
+		</item>
+		<item>
+			<universidad>ESEFAP</universidad>
+		</item>
+		<item>
+			<universidad>ESTÁCIO DE SÁ</universidad>
+		</item>
+		<item>
+			<universidad>FABA</universidad>
+		</item>
+		<item>
+			<universidad>FACEB EDUCAÇÃO</universidad>
+		</item>
+		<item>
+			<universidad>FACISB-SISTEMA MED SERVIÇOS EDUCACIONAIS</universidad>
+		</item>
+		<item>
+			<universidad>FACITA-FACULDADE DE ITÁPOLIS</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE PARAISO</universidad>
+		</item>
+		<item>
+			<universidad>FADERGS</universidad>
+		</item>
+		<item>
+			<universidad>FADISMA-FACULDADE DE DIREITO DE SANTA MARIA</universidad>
+		</item>
+		<item>
+			<universidad>FAER</universidad>
+		</item>
+		<item>
+			<universidad>FAESA</universidad>
+		</item>
+		<item>
+			<universidad>FAFIP</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE FLAMINGO</universidad>
+		</item>
+		<item>
+			<universidad>FAI-FACULDADES ADAMANTINENSES INTEGRADAS</universidad>
+		</item>
+		<item>
+			<universidad>FAIMI</universidad>
+		</item>
+		<item>
+			<universidad>FAINTVISA</universidad>
+		</item>
+		<item>
+			<universidad>FAM</universidad>
+		</item>
+		<item>
+			<universidad>FAMATH</universidad>
+		</item>
+		<item>
+			<universidad>FAMEMA</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE PAULISTA DE PESQUISA E ENSINO SUPERIOR</universidad>
+		</item>
+		<item>
+			<universidad>FARESC</universidad>
+		</item>
+		<item>
+			<universidad>FASE-RJ</universidad>
+		</item>
+		<item>
+			<universidad>FASIPE</universidad>
+		</item>
+		<item>
+			<universidad>ASSOCIAÇÃO SANTA MARCELINA-MANTENEDORA</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO PAULA SOUZA (FATEC)</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE MONTEIRO LOBATO</universidad>
+		</item>
+		<item>
+			<universidad>FB - CENTRO UNIFICADO EDUCAÇÃO BARRETOS</universidad>
+		</item>
+		<item>
+			<universidad>FDF - FACULDADE DE DIREITO DE FRANCA</universidad>
+		</item>
+		<item>
+			<universidad>FDPII</universidad>
+		</item>
+		<item>
+			<universidad>FEAMIG</universidad>
+		</item>
+		<item>
+			<universidad>UNIFEBE/FEBE</universidad>
+		</item>
+		<item>
+			<universidad>FECAP</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIVERSITÁRIO DE FORMIGA - UNIFOR-MG</universidad>
+		</item>
+		<item>
+			<universidad>FEEVALE</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIVERSITÁRIO DA FEI</universidad>
+		</item>
+		<item>
+			<universidad>FUNDAÇÃO EDUCACIONAL MUNICIPAL DE IBITINGA - FEMIB</universidad>
+		</item>
+		<item>
+			<universidad>UNIFEOB</universidad>
+		</item>
+		<item>
+			<universidad>UGB/FERP</universidad>
+		</item>
+		<item>
+			<universidad>FESP-PASSOS</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE DE EDUCAÇÃO SUPERIOR DO PARANÁ - FESPPR</universidad>
+		</item>
+		<item>
+			<universidad>FIB</universidad>
+		</item>
+		<item>
+			<universidad>FIO</universidad>
+		</item>
+		<item>
+			<universidad>FIP-PB</universidad>
+		</item>
+		<item>
+			<universidad>FIVJ</universidad>
+		</item>
+		<item>
+			<universidad>FPU</universidad>
+		</item>
+		<item>
+			<universidad>FSA-PI</universidad>
+		</item>
+		<item>
+			<universidad>FTECBRASIL</universidad>
+		</item>
+		<item>
+			<universidad>FUNDAÇÃO DO ABC - FACULDADE DE MEDICINA DO ABC</universidad>
+		</item>
+		<item>
+			<universidad>FUNDEC-FUNDACAO DRACENENSE DE EDUCACAO E CULTURA</universidad>
+		</item>
+		<item>
+			<universidad>FUNEC</universidad>
+		</item>
+		<item>
+			<universidad>FURB</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE FEDERAL DO RIO GRANDE - FURG</universidad>
+		</item>
+		<item>
+			<universidad>URI</universidad>
+		</item>
+		<item>
+			<universidad>FUSA</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADES GAMMON</universidad>
+		</item>
+		<item>
+			<universidad>DAMÁSIO EDUCACIONAL</universidad>
+		</item>
+		<item>
+			<universidad>GRUPO DEVRY</universidad>
+		</item>
+		<item>
+			<universidad>HOTEC</universidad>
+		</item>
+		<item>
+			<universidad>IBEMC - DF</universidad>
+		</item>
+		<item>
+			<universidad>IERGS</universidad>
+		</item>
+		<item>
+			<universidad>IESB-BRASILIA</universidad>
+		</item>
+		<item>
+			<universidad>IFBA</universidad>
+		</item>
+		<item>
+			<universidad>IFCATARINENSE</universidad>
+		</item>
+		<item>
+			<universidad>IFFARROUPILHA</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO FEDERAL DE GOIÁS (IFG)</universidad>
+		</item>
+		<item>
+			<universidad>IFMA</universidad>
+		</item>
+		<item>
+			<universidad>IFPE</universidad>
+		</item>
+		<item>
+			<universidad>IFRS</universidad>
+		</item>
+		<item>
+			<universidad>IFSC</universidad>
+		</item>
+		<item>
+			<universidad>IFSUL</universidad>
+		</item>
+		<item>
+			<universidad>IMESB</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIV DO INSTITUTO MAUÁ DE TECNOLOGIA</universidad>
+		</item>
+		<item>
+			<universidad>ISEPI</universidad>
+		</item>
+		<item>
+			<universidad>ITA</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUIÇÃO TOLEDO DE ENSINO</universidad>
+		</item>
+		<item>
+			<universidad>ANHEMBI MORUMBI</universidad>
+		</item>
+		<item>
+			<universidad>LIBERTAS - FACULDADES INTEGRADAS</universidad>
+		</item>
+		<item>
+			<universidad>MACKENZIE</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE METODISTA DE SÃO PAULO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE CATÓLICA DOM BOSCO</universidad>
+		</item>
+		<item>
+			<universidad>OAPEC</universidad>
+		</item>
+		<item>
+			<universidad>PUC-CAMPINAS</universidad>
+		</item>
+		<item>
+			<universidad>PUC-RS</universidad>
+		</item>
+		<item>
+			<universidad>PUC-SP</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE CASTELO BRANCO</universidad>
+		</item>
+		<item>
+			<universidad>RENASCENTISTA</universidad>
+		</item>
+		<item>
+			<universidad>SANTA ÚRSULA</universidad>
+		</item>
+		<item>
+			<universidad>SÃO CAMILO</universidad>
+		</item>
+		<item>
+			<universidad>SENAC-RJ</universidad>
+		</item>
+		<item>
+			<universidad>SENAC-SP</universidad>
+		</item>
+		<item>
+			<universidad>ORG BRAS DE CULTURA E EDUCAÇÃO ORBRACE</universidad>
+		</item>
+		<item>
+			<universidad>SOCIESC</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADES KENNEDY BELO HORIZONTE</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE SUMARE</universidad>
+		</item>
+		<item>
+			<universidad>TOLEDO-ASSOCIAÇÃO EDUCACIONAL TOLEDO</universidad>
+		</item>
+		<item>
+			<universidad>VALE DO RIO VERDE - UNINCOR</universidad>
+		</item>
+		<item>
+			<universidad>UBEC</universidad>
+		</item>
+		<item>
+			<universidad>UCAM</universidad>
+		</item>
+		<item>
+			<universidad>UCPEL</universidad>
+		</item>
+		<item>
+			<universidad>UCS - UNIVERSIDADE DE CAXIAS DO SUL</universidad>
+		</item>
+		<item>
+			<universidad>UCSAL</universidad>
+		</item>
+		<item>
+			<universidad>UDESC</universidad>
+		</item>
+		<item>
+			<universidad>UEA</universidad>
+		</item>
+		<item>
+			<universidad>UEFS</universidad>
+		</item>
+		<item>
+			<universidad>UEM</universidad>
+		</item>
+		<item>
+			<universidad>UENP</universidad>
+		</item>
+		<item>
+			<universidad>UEPA</universidad>
+		</item>
+		<item>
+			<universidad>UEPB</universidad>
+		</item>
+		<item>
+			<universidad>UERGS</universidad>
+		</item>
+		<item>
+			<universidad>UERJ</universidad>
+		</item>
+		<item>
+			<universidad>UESC</universidad>
+		</item>
+		<item>
+			<universidad>UFAC</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE FEDERAL DE ALAGOAS</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE FEDERAL DO AMAZONAS</universidad>
+		</item>
+		<item>
+			<universidad>UFCG</universidad>
+		</item>
+		<item>
+			<universidad>UFCSPA</universidad>
+		</item>
+		<item>
+			<universidad>UFERSA</universidad>
+		</item>
+		<item>
+			<universidad>UFES</universidad>
+		</item>
+		<item>
+			<universidad>UFF</universidad>
+		</item>
+		<item>
+			<universidad>UFFS</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE FEDERAL DE GOIÁS</universidad>
+		</item>
+		<item>
+			<universidad>UFJF</universidad>
+		</item>
+		<item>
+			<universidad>UFLA</universidad>
+		</item>
+		<item>
+			<universidad>UFMA</universidad>
+		</item>
+		<item>
+			<universidad>UFOP</universidad>
+		</item>
+		<item>
+			<universidad>UFOPA</universidad>
+		</item>
+		<item>
+			<universidad>UFPA</universidad>
+		</item>
+		<item>
+			<universidad>UFPB</universidad>
+		</item>
+		<item>
+			<universidad>UFPE</universidad>
+		</item>
+		<item>
+			<universidad>UFPEL</universidad>
+		</item>
+		<item>
+			<universidad>UFPR</universidad>
+		</item>
+		<item>
+			<universidad>UFRA</universidad>
+		</item>
+		<item>
+			<universidad>UFRB</universidad>
+		</item>
+		<item>
+			<universidad>UFRN</universidad>
+		</item>
+		<item>
+			<universidad>UFRPE</universidad>
+		</item>
+		<item>
+			<universidad>UFRR</universidad>
+		</item>
+		<item>
+			<universidad>UFRRJ</universidad>
+		</item>
+		<item>
+			<universidad>UFS</universidad>
+		</item>
+		<item>
+			<universidad>UFSC</universidad>
+		</item>
+		<item>
+			<universidad>UFSCAR</universidad>
+		</item>
+		<item>
+			<universidad>UFSJ</universidad>
+		</item>
+		<item>
+			<universidad>UFTM</universidad>
+		</item>
+		<item>
+			<universidad>UFU</universidad>
+		</item>
+		<item>
+			<universidad>UFVJM</universidad>
+		</item>
+		<item>
+			<universidad>UNAERP</universidad>
+		</item>
+		<item>
+			<universidad>UNAMA</universidad>
+		</item>
+		<item>
+			<universidad>UNB</universidad>
+		</item>
+		<item>
+			<universidad>UNESC</universidad>
+		</item>
+		<item>
+			<universidad>UNG</universidad>
+		</item>
+		<item>
+			<universidad>UNIAMERICA</universidad>
+		</item>
+		<item>
+			<universidad>UNI-ANHANGUERA</universidad>
+		</item>
+		<item>
+			<universidad>UNIARARAS</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE ESTADUAL DE CAMPINAS - UNICAMP</universidad>
+		</item>
+		<item>
+			<universidad>UNICAP-PE</universidad>
+		</item>
+		<item>
+			<universidad>UNICARIOCA-CENTRO UNIVERSITÁRIO CARIOCA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE ESTADUAL DO CENTRO-OESTE (UNICENTRO)</universidad>
+		</item>
+		<item>
+			<universidad>UNICEP</universidad>
+		</item>
+		<item>
+			<universidad>UNICEUB</universidad>
+		</item>
+		<item>
+			<universidad>UNICEUMA-UNIVERSIDADE CEUMA</universidad>
+		</item>
+		<item>
+			<universidad>UNICRUZ</universidad>
+		</item>
+		<item>
+			<universidad>UNICSUL</universidad>
+		</item>
+		<item>
+			<universidad>UNIDAVI</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIVERSITÁRIO DE ANÁPOLIS - UNIEVANGÉLICA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE DA FORÇA AÉREA (UNIFA)</universidad>
+		</item>
+		<item>
+			<universidad>UNIFAC</universidad>
+		</item>
+		<item>
+			<universidad>UNIFACEF-CENTRO UNIVERSITÁRIO DE FRANCA</universidad>
+		</item>
+		<item>
+			<universidad>UNIFACS</universidad>
+		</item>
+		<item>
+			<universidad>UNIFAFIBE</universidad>
+		</item>
+		<item>
+			<universidad>UNIFAI</universidad>
+		</item>
+		<item>
+			<universidad>UNIFAL</universidad>
+		</item>
+		<item>
+			<universidad>UNIFAN</universidad>
+		</item>
+		<item>
+			<universidad>UNIFAP-UNIVERSIDADE FEDERAL DO AMAPÁ</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIV FUNDAÇÃO EDUCACIONAL DE BARRETOS</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE FEDERAL DE SÃO PAULO</universidad>
+		</item>
+		<item>
+			<universidad>UNIFEV-CENTRO UNIVERSITÁRIO DE VOTUPORANGA</universidad>
+		</item>
+		<item>
+			<universidad>UNIFIL</universidad>
+		</item>
+		<item>
+			<universidad>UNIFOR</universidad>
+		</item>
+		<item>
+			<universidad>UNIGRAN</universidad>
+		</item>
+		<item>
+			<universidad>UNIGRANRIO</universidad>
+		</item>
+		<item>
+			<universidad>UNIJORGE-CENTRO UNIVERSITÁRIO JORGE AMADO</universidad>
+		</item>
+		<item>
+			<universidad>UNIJUI</universidad>
+		</item>
+		<item>
+			<universidad>UNILA</universidad>
+		</item>
+		<item>
+			<universidad>UNILASALLE</universidad>
+		</item>
+		<item>
+			<universidad>UNILAVRAS- CENTRO UNIVERSITÁRIO DE LAVRAS</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE META</universidad>
+		</item>
+		<item>
+			<universidad>UNINASSAU</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE NILTON LINS</universidad>
+		</item>
+		<item>
+			<universidad>UNINORTE-AM</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIVERSITARIO UNINTER</universidad>
+		</item>
+		<item>
+			<universidad>UNIOESTE</universidad>
+		</item>
+		<item>
+			<universidad>UNIP</universidad>
+		</item>
+		<item>
+			<universidad>UNIPAC</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE FEDERAL DO PAMPA</universidad>
+		</item>
+		<item>
+			<universidad>UNIPE</universidad>
+		</item>
+		<item>
+			<universidad>UNIR</universidad>
+		</item>
+		<item>
+			<universidad>UNIRIO</universidad>
+		</item>
+		<item>
+			<universidad>UNIRITTER</universidad>
+		</item>
+		<item>
+			<universidad>UNIRP - CENTRO UNIVERSITÁRIO DE RIO PRETO</universidad>
+		</item>
+		<item>
+			<universidad>UNISAL</universidad>
+		</item>
+		<item>
+			<universidad>UNISANTOS</universidad>
+		</item>
+		<item>
+			<universidad>UNISEB</universidad>
+		</item>
+		<item>
+			<universidad>UNISINOS - UNIVERSIDADE DO VALE DO RIO DOS SINOS</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE DE SOROCABA</universidad>
+		</item>
+		<item>
+			<universidad>UNISUAM</universidad>
+		</item>
+		<item>
+			<universidad>UNISUL - UNIVERSIDADE DO SUL DE SANTA CATARINA</universidad>
+		</item>
+		<item>
+			<universidad>UNIT</universidad>
+		</item>
+		<item>
+			<universidad>UNITAU</universidad>
+		</item>
+		<item>
+			<universidad>UNIVALI</universidad>
+		</item>
+		<item>
+			<universidad>UNIVAP</universidad>
+		</item>
+		<item>
+			<universidad>UNIV FED DO VALE DO SÃO FRANCISCO - UNIVASF</universidad>
+		</item>
+		<item>
+			<universidad>UNIVATES</universidad>
+		</item>
+		<item>
+			<universidad>UNIVEM - CENTRO UNIVERSITÁRIO EURÍPIDES DE MARÍLIA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVILLE</universidad>
+		</item>
+		<item>
+			<universidad>UNOCHAPECÓ</universidad>
+		</item>
+		<item>
+			<universidad>UNOESC</universidad>
+		</item>
+		<item>
+			<universidad>UNOESTE</universidad>
+		</item>
+		<item>
+			<universidad>UNP</universidad>
+		</item>
+		<item>
+			<universidad>UPF</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ - UTFPR</universidad>
+		</item>
+		<item>
+			<universidad>UTP</universidad>
+		</item>
+		<item>
+			<universidad>VILA VELHA - UVV</universidad>
+		</item>
+		<item>
+			<universidad>VEIGA DE ALMEIDA</universidad>
+		</item>
+		<item>
+			<universidad>BUSINESS SCHOOL SÃO PAULO</universidad>
+		</item>
+		<item>
+			<universidad>FCL</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE IBS</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE BRAZ CUBAS</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE METODISTA DE PIRACICABA - UNIMEP</universidad>
+		</item>
+		<item>
+			<universidad>USF</universidad>
+		</item>
+		<item>
+			<universidad>FACAPE</universidad>
+		</item>
+		<item>
+			<universidad>UPE</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE ESTADUAL DO VALE DO ACARAÚ</universidad>
+		</item>
+		<item>
+			<universidad>INST FED DO SERTÃO PERNAMBUCANO - IF SERTÃO-PE.</universidad>
+		</item>
+		<item>
+			<universidad>IFMT</universidad>
+		</item>
+		<item>
+			<universidad>IFRJ</universidad>
+		</item>
+		<item>
+			<universidad>IME</universidad>
+		</item>
+		<item>
+			<universidad>UEG</universidad>
+		</item>
+		<item>
+			<universidad>UEMA</universidad>
+		</item>
+		<item>
+			<universidad>UEMS</universidad>
+		</item>
+		<item>
+			<universidad>UESB</universidad>
+		</item>
+		<item>
+			<universidad>UFT</universidad>
+		</item>
+		<item>
+			<universidad>UNEB</universidad>
+		</item>
+		<item>
+			<universidad>UNI-BH</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE CIDADE DE SÃO PAULO - UNICID</universidad>
+		</item>
+		<item>
+			<universidad>UNIFRAN</universidad>
+		</item>
+		<item>
+			<universidad>CESJF JUIZ DE FORA</universidad>
+		</item>
+		<item>
+			<universidad>UEPG</universidad>
+		</item>
+		<item>
+			<universidad>UNIPLAC</universidad>
+		</item>
+		<item>
+			<universidad>UFSM</universidad>
+		</item>
+		<item>
+			<universidad>FAEX</universidad>
+		</item>
+		<item>
+			<universidad>PUCPR</universidad>
+		</item>
+		<item>
+			<universidad>UNIESP</universidad>
+		</item>
+		<item>
+			<universidad>UNICAPITAL</universidad>
+		</item>
+		<item>
+			<universidad>UNIFEV- CENTRO UNIVERSITÁRIO DE VOTUPORANGA</universidad>
+		</item>
+		<item>
+			<universidad>FUNEC-FACULDADES INTEGRADAS DE SANTA FÉ DO SUL</universidad>
+		</item>
+		<item>
+			<universidad>FUNDEC- FUNDAÇÃO DRACENENSE DE EDUCAÇÃO E CULTURA</universidad>
+		</item>
+		<item>
+			<universidad>GRUPO POLIS</universidad>
+		</item>
+		<item>
+			<universidad>UNIFAFIBE CENTRO UNIVERSITÁRIO UNIFAFIBE</universidad>
+		</item>
+		<item>
+			<universidad>FORUM ENTIDADES REPR ENSINO SUPERIOR PARTICULAR</universidad>
+		</item>
+		<item>
+			<universidad>ANHANGUERA EDUCACIONAL</universidad>
+		</item>
+		<item>
+			<universidad>FUNDAÇÃO VALEPARAIBANA DE ENSINO</universidad>
+		</item>
+		<item>
+			<universidad>FUNDAÇÃO DE ROTARIANOS DE SÃO PAULO</universidad>
+		</item>
+		<item>
+			<universidad>FUNDAÇÃO ASSIS GURGACZ</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIVERSITÁRIO BARÃO DE MAUÁ</universidad>
+		</item>
+		<item>
+			<universidad>CESED CENTRO DE ENSINO SUPERIOR E DESENVOLVIMENTO</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO DE ENSINO SUPERIOR FUCAPI</universidad>
+		</item>
+		<item>
+			<universidad>ÚNICA EDUCACIONAL</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIVERSITÁRIO CESMAC</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIVERSITÁRIO DO ESTADO DO PARÁ-CESUPA</universidad>
+		</item>
+		<item>
+			<universidad>ESCOLA SUPERIOR BATISTA DO AMAZONAS</universidad>
+		</item>
+		<item>
+			<universidad>ESCOLA DA CIDADE FAC DE ARQ E URBANISMO</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO FEDERAL DO PIAUÍ</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIVERSITÁRIO SÃO JOSÉ DE ITAPERUNA</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE GOVERNADOR OZANAM COELHO</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE DOM BOSCO DE PORTO ALEGRE</universidad>
+		</item>
+		<item>
+			<universidad>FUND ESCOLA SUPERIOR DO MIN PUB DO RS</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIVERSITÁRIO DE PATOS DE MINAS</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIVERSITÁRIO SÃO JOSÉ DE ITAPERUNA</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADES INTEGRADAS PADRE ALBINO</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADES INTEGRADAS PADRE ALBINO</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE SÃO JUDAS TADEU DE PINHAIS</universidad>
+		</item>
+		<item>
+			<universidad>AMÉRICA LATINA EDUCACIONAL</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE FUCAPE</universidad>
+		</item>
+		<item>
+			<universidad>SOCIEDADE PORVIR CIENTIFICO</universidad>
+		</item>
+		<item>
+			<universidad>ASSOCIAÇÃO DE CULTURA E EDUCAÇÃO SANTA TERESA</universidad>
+		</item>
+		<item>
+			<universidad>PUC-RJ</universidad>
+		</item>
+		<item>
+			<universidad>ESTACIO DE SÁ</universidad>
+		</item>
+		<item>
+			<universidad>IMESB</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIVERSITÁRIO MOURA LACERDA</universidad>
+		</item>
+		<item>
+			<universidad>PEARSON EDUCATION DO BRASIL</universidad>
+		</item>
+		<item>
+			<universidad>PEARSON EDUCATION DO BRASIL</universidad>
+		</item>
+		<item>
+			<universidad>CONSELHO NACIONAL DE EDUCAÇÃO</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE SENAC TUBARÃO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE LUTERANA DO BRASIL - ULBRA</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIVERSITÁRIO DO SUL DE MINAS</universidad>
+		</item>
+		<item>
+			<universidad>UNIGRANRIO</universidad>
+		</item>
+		<item>
+			<universidad>ASSOCIAÇÃO BRASILEIRA DE ENSINO UNIVERSITARIO</universidad>
+		</item>
+		<item>
+			<universidad>UNI-FACEF CENTRO UNIVERSITÁRIO DE FRANCA</universidad>
+		</item>
+		<item>
+			<universidad>FUNDAÇÃO EDUCACIONAL DE BARRETOS</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE CATÓLICA DE PETRÓPOLIS</universidad>
+		</item>
+		<item>
+			<universidad>FBV – FACULDADE BOA VIAGEM</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIVERSITÁRIO UNIFEG</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE DE UBERABA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVEM-CENTRO UNIVERSITÁRIO EURÍPEDES DE MARÍLIA</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIVERSITARIO DA FEI</universidad>
+		</item>
+		<item>
+			<universidad>FISMA-FACULDADE INTEGRADA DE SANTA MARIA</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE CUIABA</universidad>
+		</item>
+		<item>
+			<universidad>FUNDAÇÃO DE ROTARIANOS DE SÃO PAULO</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE CCAA</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE CCAA</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE DE TECNOLOGIA SENAC MINAS</universidad>
+		</item>
+		<item>
+			<universidad>ASSOC CARUARUENSE DE ENSINO SUPERIOR E TÉCNICO</universidad>
+		</item>
+		<item>
+			<universidad>ASSOC NAC  DIRIGENTES INST ENSINO SUPERIOR</universidad>
+		</item>
+		<item>
+			<universidad>ACAFE - ASSOC CATARINENSE FUND EDUCACIONAIS</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE SENAC MINAS</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE CIDADE VERDE - FCV</universidad>
+		</item>
+		<item>
+			<universidad>SENAC SANTA CATARINA</universidad>
+		</item>
+		<item>
+			<universidad>UNIGRANRIO</universidad>
+		</item>
+		<item>
+			<universidad>ASTEF</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE ANHANGUERA DE SÃO PAULO - UNIAN-SP</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE FEDERAL DO CARIRI</universidad>
+		</item>
+		<item>
+			<universidad>UNILAB</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO FEDERAL DO PARÁ</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO FEDERAL RONDÔNIA</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO FEDERAL RORAIMA</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO FEDERAL TOCANTINS</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO FEDERAL BAIANO</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO FEDERAL RIO GRANDE DO NORTE</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO FEDERAL DE SERGIPE</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO FEDERAL GOIANO</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO FEDERAL MATO GROSSO DO SUL</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO FEDERAL FLUMINENSE</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO FEDERAL SUL DE MINAS</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO FEDERAL ESPÍRITO SANTO</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO FEDERAL NORTE DE MINAS GERAIS</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO FEDERAL SUDESTE DE MINAS GERAIS</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO FEDERAL TRIÂNGULO MINEIRO</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO FEDERAL SÃO PAULO</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO FEDERAL DO CEARÁ</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE DO ESTADO DO AMAPÁ</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE ESTADUAL DE RORAIMA</universidad>
+		</item>
+		<item>
+			<universidad>FUNDAÇÃO UNIVERSIDADE DO TOCANTINS</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE ESTADUAL DO CEARÁ</universidad>
+		</item>
+		<item>
+			<universidad>UNIV ESTADUAL DE CIÊNCIAS DA SAÚDE DE ALAGOAS</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE ESTADUAL DE ALAGOAS - UNEAL</universidad>
+		</item>
+		<item>
+			<universidad>UNIRV - UNIVERSIDADE DE RIO VERDE</universidad>
+		</item>
+		<item>
+			<universidad>UNIV ESTADUAL DO NORTE FLUMINENSE DARCY RIBEIRO</universidad>
+		</item>
+		<item>
+			<universidad>UEZO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE MUNICIPAL DE SÃO CAETANO DO SUL</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE ESTADUAL DO PARANÁ</universidad>
+		</item>
+		<item>
+			<universidad>FUNDAÇÃO VUNESP</universidad>
+		</item>
+		<item>
+			<universidad>UNESP GUARATINGUETÁ-FE</universidad>
+		</item>
+		<item>
+			<universidad>UNIV ESTADUAL PAULISTA JULIO DE MESQUITA FILHO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE FEDERAL DO OESTE DO PARÁ</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE FEDERAL DE GOIÁS - UFG</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE FEDERAL RURAL DO RIO DE JANEIRO</universidad>
+		</item>
+		<item>
+			<universidad>ESTÁCIO</universidad>
+		</item>
+		<item>
+			<universidad>FGV - FUNDAÇÃO GETÚLIO VARGAS</universidad>
+		</item>
+		<item>
+			<universidad>FMB - FACULDADE MONTES BELOS</universidad>
+		</item>
+		<item>
+			<universidad>FUSVE - UNIVERSIDADE SEVERINO SOMBRA</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADES INTEGRADAS DE JACAREPAGUÁ - FIJ/RJ</universidad>
+		</item>
+		<item>
+			<universidad>FACHA</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIVERSITÁRIO DO SUL DE MINAS</universidad>
+		</item>
+		<item>
+			<universidad>FUNDAÇÃO EDUCACIONAL SERRA DOS ORGÃOS</universidad>
+		</item>
+		<item>
+			<universidad>FASI-SANTA CASA</universidad>
+		</item>
+		<item>
+			<universidad>IBMR</universidad>
+		</item>
+		<item>
+			<universidad>UNIPLAN</universidad>
+		</item>
+		<item>
+			<universidad>SENAC SC: FACULDADE DE TECNOLOGIA SENAC BLUMENAU</universidad>
+		</item>
+		<item>
+			<universidad>UNISANTOS</universidad>
+		</item>
+		<item>
+			<universidad>FEUC</universidad>
+		</item>
+		<item>
+			<universidad>FACCAT</universidad>
+		</item>
+		<item>
+			<universidad>ABRUC</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE ARQUIDIOCESANA DE CURVELO</universidad>
+		</item>
+		<item>
+			<universidad>UNIFLU - CAMPUS I - DIREITO DE CAMPOS</universidad>
+		</item>
+		<item>
+			<universidad>UNAERP – UNIVERSIDADE DE RIBEIRÃO PRETO</universidad>
+		</item>
+		<item>
+			<universidad>UNAERP – UNIVERSIDADE DE RIBEIRÃO PRETO</universidad>
+		</item>
+		<item>
+			<universidad>UNIFOA</universidad>
+		</item>
+		<item>
+			<universidad>GRUPO POLIS EDUCACIONAL</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE FEDERAL DE MINAS GERAIS</universidad>
+		</item>
+		<item>
+			<universidad>ASSOC BRAS MANTENEDORAS DE ENSINO SUPERIOR (ABMES)</universidad>
+		</item>
+		<item>
+			<universidad>UBEC</universidad>
+		</item>
+		<item>
+			<universidad>FAAG (FACULDADE DE AGUDOS – SP)</universidad>
+		</item>
+		<item>
+			<universidad>UNOESTE</universidad>
+		</item>
+		<item>
+			<universidad>SENAC SC</universidad>
+		</item>
+		<item>
+			<universidad>SENAC SC</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE SENAC FLORIANOPOLIS SC</universidad>
+		</item>
+		<item>
+			<universidad>SENAC SC</universidad>
+		</item>
+		<item>
+			<universidad>SENAC SC</universidad>
+		</item>
+		<item>
+			<universidad>SENAC SC</universidad>
+		</item>
+		<item>
+			<universidad>FACEL</universidad>
+		</item>
+		<item>
+			<universidad>FAE-ERECHIM</universidad>
+		</item>
+		<item>
+			<universidad>SEC. ENSINO SUPERIOR PARANÁ</universidad>
+		</item>
+		<item>
+			<universidad>IELUSC</universidad>
+		</item>
+		<item>
+			<universidad>UNIFIMES - CENTRO UNIVESITÁRIO DE MINEIROS</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIVERSITÁRIO UNIFAE</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE REGIONAL DO CARIRI</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE GUARARAPES</universidad>
+		</item>
+		<item>
+			<universidad>UNICAMP</universidad>
+		</item>
+		<item>
+			<universidad>CONSELHO DE REITORES DAS UNIVERSIDADES BRASILEIRAS</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE DE SÃO PAULO</universidad>
+		</item>
+		<item>
+			<universidad>UFMG</universidad>
+		</item>
+		<item>
+			<universidad>FMU</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIVERSITÁRIO CENTRAL PAULISTA- UNICEP</universidad>
+		</item>
+		<item>
+			<universidad>UFRGS</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE NOVE DE JULHO - UNINOVE</universidad>
+		</item>
+		<item>
+			<universidad>INST CENECISTA DE ENSINO SUPERIOR DE SANTO ÂNGELO</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE CENECISTA DE RIO DAS OSTRAS</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE CENECISTA DE VARGINHA</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE CENECISTA DA ILHA DO GOVERNADOR</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE CENECISTA DE ITABORAÍ</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO CENECISTA DE ENSINO SUPERIOR</universidad>
+		</item>
+		<item>
+			<universidad>IBGEN - INSTITUTO BRASILEIRO DE GESTÃO DE NEGÓCIOS</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE MERIDIONAL / IMED</universidad>
+		</item>
+		<item>
+			<universidad>FAC CIÊNCIAS MÉDICAS E DA SAÚDE DE JUIZ DE FORA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE DA REGIÃO DA CAMPANHA</universidad>
+		</item>
+		<item>
+			<universidad>DREAM FACTORY</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE PRESBITERIANA MACKENZIE</universidad>
+		</item>
+		<item>
+			<universidad>UNILINS</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE ESTADUAL DE LONDRINA - UEL</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE DA REGIÃO DOS LAGOS</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIVERSITÁRIO DO LESTE DE MINAS GERAIS</universidad>
+		</item>
+		<item>
+			<universidad>IBMEC</universidad>
+		</item>
+		<item>
+			<universidad>UBM</universidad>
+		</item>
+		<item>
+			<universidad>ESTÁCIO DE SÁ</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE ESTADUAL DO PIAUÍ - UESPI</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE DE SÃO PAULO</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIVERSITÁRIO BARÃO DE MAUÁ</universidad>
+		</item>
+		<item>
+			<universidad>UFPI</universidad>
+		</item>
+		<item>
+			<universidad>CENTRO UNIV DO PLANALTO DE ARAXÁ / UNIARAXÁ</universidad>
+		</item>
+		<item>
+			<universidad>FSP - FACULDADE SUDOESTE PAULISTA</universidad>
+		</item>
+		<item>
+			<universidad>CNEC SUPERINTENDENCIA NACIONAL</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDADE FEDERAL DO OESTE DA BAHIA</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO FEDERAL ACRE</universidad>
+		</item>
+		<item>
+			<universidad>FORUM ENTIDADES REPRES ENSINO SUPERIOR PARTICULAR</universidad>
+		</item>
+		<item>
+			<universidad>FUNDACAO EDUCACIONAL DE PENAPOLIS</universidad>
+		</item>
+		<item>
+			<universidad>IFAL</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO FEDERAL AMAZONAS</universidad>
+		</item>
+		<item>
+			<universidad>SENAC RJ</universidad>
+		</item>
+		<item>
+			<universidad>FACULDADE PARAISO</universidad>
+		</item>
+		<item>
+			<universidad>CM CONSULTORIA</universidad>
+		</item>
+		<item>
+			<pais>Chile</pais>
+			<universidad>Universidad de Chile</universidad>
+		</item>
+		<item>
+			<universidad>Pontificia Universidad Católica de Chile</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Concepción</universidad>
+		</item>
+		<item>
+			<universidad>Pontificia Universidad Católica de Valparaíso</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Técnica Federico Santa María</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Santiago de Chile</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Austral de Chile</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Católica del Norte</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Valparaíso</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Antofagasta</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de La Serena</universidad>
+		</item>
+		<item>
+			<universidad>Universidad del Bío-Bío</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de La Frontera</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Magallanes</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Talca</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Atacama</universidad>
+		</item>
+		<item>
+			<universidad>Úniversidad de Tarapacá</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Arturo Prat</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Metropolitana de Ciencias de la Educación</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Playa Ancha de Ciencias de la Educación</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Tecnológica Metropolitana</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Los Lagos</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Católica del Maule</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Católica de la Santísima Concepción</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Católica de Temuco</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Aysen</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de O'Higgins</universidad>
+		</item>
+		<item>
+			<pais>Costa Rica</pais>
+			<universidad>Universidad de Costa Rica</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Costa Rica</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Estatal a Distancia</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Técnica Nacional</universidad>
+		</item>
+		<item>
+			<pais>Cuba</pais>
+			<universidad>*Ministerio de Educación Superior</universidad>
+		</item>
+		<item>
+			<pais>Ecuador</pais>
+			<universidad>UNIVERSIDAD TÉCNICA LUIS VARGAS TORRES DE ESMERALDAS</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD TÉCNICA DEL NORTE</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DE INVESTIGACIÓN EXPERIMENTAL YACHAY</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DE OTAVALO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD POLITÉCNICA ESTATAL DEL CARCHI</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DE LAS FUERZAS ARMADAS - ESPE</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD REGIONAL AMAZÓNICA "IKIAM"</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD TÉCNICA DE COTOPAXI</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD TÉCNICA DE AMBATO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD REGIONAL AUTÓNOMA DE LOS ANDES</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD TECNOLÓGICA INDOAMÉRICA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE CHIMBORAZO</universidad>
+		</item>
+		<item>
+			<universidad>ESCUELA SUPERIOR POLITÉCNICA DE CHIMBORAZO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD ESTATAL AMAZÓNICA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD ESTATAL DEL SUR DE MANABÍ</universidad>
+		</item>
+		<item>
+			<universidad>ESCUELA SUPERIOR POLITÉCNICA AGROPECUARIA DE MANABÍ</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD LAICA ELOY ALFARO DE MANABÍ</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD TÉCNICA DE MANABÍ</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD PARTICULAR SAN GREGORIO DE PORTOVIEJO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD ESTATAL PENÍNSULA DE SANTA ELENA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD ESTATAL DE BOLÍVAR</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD TÉCNICA DE BABAHOYO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD TÉCNICA ESTATAL DE QUEVEDO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD ESTATAL DE MILAGRO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE EDUCACIÓN "UNAE"</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DE CUENCA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DEL AZUAY</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD POLITÉCNICA SALESIANA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD CATÓLICA DE CUENCA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD TÉCNICA DE MACHALA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD TÉCNICA PARTICULAR DE LOJA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE LOJA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DE GUAYAQUIL</universidad>
+		</item>
+		<item>
+			<universidad>ESCUELA SUPERIOR POLITÉCNICA DEL LITORAL</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD LAICA VICENTE ROCAFUERTE DE GUAYAQUIL</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD CATÓLICA DE SANTIAGO DE GUAYAQUIL</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD TECNOLÓGICA EMPRESARIAL DE GUAYAQUIL</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD METROPOLITANA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD PARTICULAR DE ESPECIALIDADES ESPÍRITU SANTO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD TECNOLÓGICA ECOTEC</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DEL PACIFICO ESCUELA DE NEGOCIOS</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD AGRARIA DEL ECUADOR</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DE LAS ARTES "UNIARTES"</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD CASA GRANDE</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD ANDINA SIMÓN BOLÍVAR</universidad>
+		</item>
+		<item>
+			<universidad>ESCUELA POLITÉCNICA NACIONAL</universidad>
+		</item>
+		<item>
+			<universidad>INSTITUTO DE ALTOS ESTUDIOS NACIONALES</universidad>
+		</item>
+		<item>
+			<universidad>FACULTAD LATINOAMERICANA DE CIENCIAS SOCIALES  - FLACSO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD CENTRAL DEL ECUADOR</universidad>
+		</item>
+		<item>
+			<universidad>PONTIFICIA UNIVERSIDAD CATÓLICA DEL ECUADOR</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD IBEROAMERICANA DEL ECUADOR</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD PARTICULAR INTERNACIONAL SEK</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD TECNOLÓGICA ISRAEL</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DE ESPECIALIDADES TURÍSTICAS</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DE LAS AMÉRICAS</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DE LOS HEMISFERIOS</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD TECNOLÓGICA EQUINOCCIAL</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD INTERNACIONAL DEL ECUADOR</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD SAN FRANCISCO DE QUITO</universidad>
+		</item>
+		<item>
+			<pais>El Salvador</pais>
+			<universidad>Universidad de El Salvador</universidad>
+		</item>
+		<item>
+			<pais>España</pais>
+			<universidad>Univeritat Abat Oliva</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Alcalá</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Alfonso X El Sabio</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Alicante</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Almería</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Antonio de Nebrija</universidad>
+		</item>
+		<item>
+			<universidad>Univesidad Autonoma de Barcelona</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de Madrid</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Barcelona</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Burgos</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Cádiz</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Camilo José Cela</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Cantabria</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Carlos III de Madrid</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Castilla la Mancha</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Católica de Ávila</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Católica de Valencia Sant Vicent Martir</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Católica San Antonio de Murcia</universidad>
+		</item>
+		<item>
+			<universidad>Universidad CEU Cardenal Herrera</universidad>
+		</item>
+		<item>
+			<universidad>Universidad CEU San Pablo</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Complutense de Madrid</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Córdoba</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de La Coruña</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Deusto</universidad>
+		</item>
+		<item>
+			<universidad>Universidad a Distancia de Madrid (UDIMA)</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Europea de Madrid </universidad>
+		</item>
+		<item>
+			<universidad>Universidad Europea Miguel de Cervantes </universidad>
+		</item>
+		<item>
+			<universidad>Euskal Herriko Unibertsitatea</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Extremadura</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Francisco de Victoria</universidad>
+		</item>
+		<item>
+			<universidad>Universitat de Girona</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Granada</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Huelva</universidad>
+		</item>
+		<item>
+			<universidad>IE University</universidad>
+		</item>
+		<item>
+			<universidad>Universitat de les Illes Balears</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Internacional de Andalucía</universidad>
+		</item>
+		<item>
+			<universidad>Universitat Internacional de Catalunya</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Internacional de La Rioja</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Internacional Menéndez Pelayo</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Jaén</universidad>
+		</item>
+		<item>
+			<universidad>Universitat Jaume I</universidad>
+		</item>
+		<item>
+			<universidad>Universiad de la Laguna</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de La Rioja</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Las Palmas de Gran Canaria</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Leín</universidad>
+		</item>
+		<item>
+			<universidad>Universitat de Lleida</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Loyola Andalucía</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Málaga</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Miguel Hernández de Elche</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Mondragón</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Murcia</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de Educación a Distancia (UNED)</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Navarra</universidad>
+		</item>
+		<item>
+			<universidad>Universitat Oberta de Catalunya</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Oviedo</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Pablo de Olavide</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Politécnica de Cartagena</universidad>
+		</item>
+		<item>
+			<universidad>Universitat Politecnica de Catalunya </universidad>
+		</item>
+		<item>
+			<universidad>Universidad Politecnica de Madrid</universidad>
+		</item>
+		<item>
+			<universidad>Universitat Politecnica de Valencia</universidad>
+		</item>
+		<item>
+			<universidad>Universitat Pompeu Fabra</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Pontificia de Comillas</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Pontificia de Salamanca</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Pública de Navara</universidad>
+		</item>
+		<item>
+			<universidad>Universitat Ramón Llull Fundació</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Rey Juan Carlos</universidad>
+		</item>
+		<item>
+			<universidad>Universitat Rovira i Virgili</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Salamanca </universidad>
+		</item>
+		<item>
+			<universidad>Universidad San Jorge</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Santiago de Compostela</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Sevilla </universidad>
+		</item>
+		<item>
+			<universidad>Universitat de Valencia</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Valladolid</universidad>
+		</item>
+		<item>
+			<universidad>Universitat de VIC - Universidad Central de Catalunya</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Vigo</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Zaragoza</universidad>
+		</item>
+		<item>
+			<pais>Guatemala</pais>
+			<universidad>Universidad de San Carlos de Guatemala</universidad>
+		</item>
+		<item>
+			<pais>Honduras</pais>
+			<universidad>Universidad Nacional Autónoma de Honduras</universidad>
+		</item>
+		<item>
+			<pais>México</pais>
+			<universidad>Instituto Tecnológico de Aguascalientes</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de Aguascalientes</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Tecnológica de Aguascalientes</universidad>
+		</item>
+		<item>
+			<universidad>Centro de Enseñanza Técnica y Superior, Sistema</universidad>
+		</item>
+		<item>
+			<universidad>Centro de Investigación Científica y de Educación Superior de Ensenada, Baja California</universidad>
+		</item>
+		<item>
+			<universidad>El Colegio de La Frontera Norte, A.C.</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Mexicali</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Tijuana</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de Baja California</universidad>
+		</item>
+		<item>
+			<universidad>Centro de Investigaciones Biológicas del Noroeste, S.C.</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de La Paz</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de Baja California Sur</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Campeche</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de Campeche</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma del Carmen</universidad>
+		</item>
+		<item>
+			<universidad>El Colegio de La Frontera Sur </universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Tuxtla Gutiérrez</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de Chiapas</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Ciencias y Artes de Chiapas</universidad>
+		</item>
+		<item>
+			<universidad>Centro de Investigación en Materiales Avanzados, S.C.</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Chihuahua</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Chihuahua II</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Ciudad Juárez</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Delicias</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Parral</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de Chihuahua</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de Ciudad Juárez</universidad>
+		</item>
+		<item>
+			<universidad>Centro de Investigación y de Estudios Avanzados del IPN</universidad>
+		</item>
+		<item>
+			<universidad>Centro de Investigación y Docencia Económicas, A.C.</universidad>
+		</item>
+		<item>
+			<universidad>Centro de Investigaciones y Estudios Superiores en Antropología Social</universidad>
+		</item>
+		<item>
+			<universidad>El Colegio de México, A.C.</universidad>
+		</item>
+		<item>
+			<universidad>Escuela Nacional de Antropología e Historia</universidad>
+		</item>
+		<item>
+			<universidad>Facultad Latinoamericana de Ciencias Sociales</universidad>
+		</item>
+		<item>
+			<universidad>Instituto de Investigaciones Dr. José María Luis Mora</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Nacional de Bellas Artes y Literatura</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Politécnico Nacional</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico Autónomo de México</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma Metropolitana, Rectoría General</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Las Américas, A.C., Ciudad de México </universidad>
+		</item>
+		<item>
+			<universidad>Universidad del Valle de México</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Iberoamericana Ciudad de México (Universidad Iberoamericana, A.C.)</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Intercontinental </universidad>
+		</item>
+		<item>
+			<universidad>Universidad La Salle, A.C.</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional Autónoma de México</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Panamericana</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Pedagógica Nacional</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Tecnológica de México (Oficinas Centrales)</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de la Laguna</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Saltillo</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma Agraria Antonio Narro </universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de Coahuila </universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de la Laguna, A.C. </universidad>
+		</item>
+		<item>
+			<universidad>Universidad Tecnológica de Coahuila </universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Colima</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Colima</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Durango</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Juárez del Estado de Durango </universidad>
+		</item>
+		<item>
+			<universidad>Centro de Investigaciones en Óptica, A.C</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Celaya</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de León</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Roque</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico Superior de Irapuato</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Celaya</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Guanajuato</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Tecnológica de León</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Tecnológica del Suroeste de Guanajuato </universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Acapulco</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de Guerrero</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Hipócrates </universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Pachuca</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico Latinoamericano</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico Superior del Occidente del Estado de Hidalgo</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico Superior del Oriente del Estado de Hidalgo</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma del Estado de Hidalgo</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Tecnológica Tula-Tepeji</universidad>
+		</item>
+		<item>
+			<universidad>Centro de Enseñanza Técnica Industrial</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Ciudad Guzmán</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico y de Estudios Superiores de Occidente, A.C.</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de Guadalajara</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Guadalajara</universidad>
+		</item>
+		<item>
+			<universidad>Universidad del Valle de Atemajac</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Tecnológica de Jalisco</universidad>
+		</item>
+		<item>
+			<universidad>Colegio de Postgraduados </universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Tlalnepantla</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Toluca</universidad>
+		</item>
+		<item>
+			<universidad>Tecnológico de Estudios Superiores de Chalco</universidad>
+		</item>
+		<item>
+			<universidad>Tecnológico de Estudios Superiores de Cuautitlán Izcalli</universidad>
+		</item>
+		<item>
+			<universidad>Tecnológico de Estudios Superiores de Ecatepec</universidad>
+		</item>
+		<item>
+			<universidad>Tecnológico de Estudios Superiores del Oriente del Estado de México</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Anáhuac </universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma Chapingo </universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma del Estado de México</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Tecnológica de Nezahualcóyotl</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Tecnológica de Tecámac</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Tecnológica del Valle de Toluca</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Tecnológica Fidel Velázquez</universidad>
+		</item>
+		<item>
+			<universidad>El Colegio de Michoacán, A.C.</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Jiquilpan</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de La Piedad </universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Morelia</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Michoacana de San Nicolás de Hidalgo</universidad>
+		</item>
+		<item>
+			<universidad>Centro de Investigación y Docencia en Humanidades del Estado de Morelos</universidad>
+		</item>
+		<item>
+			<universidad>Centro Nacional de Investigación y Desarrollo Tecnológico</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Nacional de Salud Pública</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Zacatepec</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma del Estado de Morelos</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Tepic</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de Nayarit</universidad>
+		</item>
+		<item>
+			<universidad>Centro de Estudios Universitarios Monterrey</universidad>
+		</item>
+		<item>
+			<universidad>Enseñanza e Investigación Superior, A.C.</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Nuevo León</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico y de Estudios Superiores de Monterrey</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de Nuevo León</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Montemorelos</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Monterrey</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Regiomontana, A.C.</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Oaxaca</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Tuxtepec</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico del Istmo</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma Benito Juárez de Oaxaca</universidad>
+		</item>
+		<item>
+			<universidad>Benemérita Universidad Autónoma de Puebla</universidad>
+		</item>
+		<item>
+			<universidad>Fundación Universidad de Las Américas, Puebla</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Nacional de Astrofísica, Óptica y Electrónica</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Puebla</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Tehuacán</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico Superior de La Sierra Norte de Puebla</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de La Sierra, A.C., Plantel Huauchinango</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Oriente</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Popular Autónoma del Estado de Puebla</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Tecnológica de Puebla</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Tecnológica de Tecamachalco</universidad>
+		</item>
+		<item>
+			<universidad>Centro de Investigación y Desarrollo Tecnológico en Electroquímica, S.C.</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Querétaro</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de Querétaro</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Tecnológica de Querétaro</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Cancún</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Chetumal</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Quintana Roo</universidad>
+		</item>
+		<item>
+			<universidad>Universidad del Caribe</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Potosino de Investigación Científica y Tecnológica, A.C.</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Ciudad Valles</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de San Luis Potosí</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de San Luis Potosí</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Culiacán</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Los Mochis</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de Sinaloa</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Occidente</universidad>
+		</item>
+		<item>
+			<universidad>Centro de Investigación en Alimentación y Desarrollo, A.C.</universidad>
+		</item>
+		<item>
+			<universidad>El Colegio de Sonora</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Hermosillo</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Nogales</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Sonora </universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico Superior de Cajeme</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de Sonora</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Estatal de Sonora</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Tecnológica de Hermosillo</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Villahermosa</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Juárez Autónoma de Tabasco</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Ciudad Madero</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Ciudad Victoria</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Matamoros</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Nuevo Laredo</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Reynosa</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de Tamaulipas</universidad>
+		</item>
+		<item>
+			<universidad>Universidad del Noreste, A.C.</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Apizaco</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de Tlaxcala</universidad>
+		</item>
+		<item>
+			<universidad>Instituto de Ecología, A.C.</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Minatitlán</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Orizaba</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Veracruz</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico Superior de Poza Rica</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico Superior de Tantoyuca</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Cristóbal Colón</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Veracruzana</universidad>
+		</item>
+		<item>
+			<universidad>Centro de Investigación Científica de Yucatán, A.C.</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Mérida</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de Yucatán</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Zacatecas</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de Zacatecas, *Francisco García Salinas*</universidad>
+		</item>
+		<item>
+			<pais>Nicaragua</pais>
+			<universidad>Universidad Nacional Agraria (UNA)</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional Autónoma de Nicaragua, León (UNAN-León)</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional Autónoma de Nicaragua, Managua (UNAN-Managua)</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de Ingeniería (UNI)</universidad>
+		</item>
+		<item>
+			<universidad>Bluefields Indian and Caribbean University (BICU)</universidad>
+		</item>
+		<item>
+			<universidad>Universidad de las Regiones Autónomas de la Costa Caribe Nicaragüense (URACCAN)</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Politécnica de Nicaragua (UPOLI)</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Centroamericana (UCA)</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Internacional de Agricultura y Ganadería (UNIAG)</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Católica del Trópico Seco (UCATSE)</universidad>
+		</item>
+		<item>
+			<pais>Panamá</pais>
+			<universidad>Universidad de Panamá</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Tecnológica de Panamá</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Autónoma de Chiriquí </universidad>
+		</item>
+		<item>
+			<universidad>UNIEDPA</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Interamericana de Panamá</universidad>
+		</item>
+		<item>
+			<universidad>Universidad del Istmo</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Latina de Panamá</universidad>
+		</item>
+		<item>
+			<universidad>Columbus University</universidad>
+		</item>
+		<item>
+			<universidad>USMA</universidad>
+		</item>
+		<item>
+			<universidad>Florida State University</universidad>
+		</item>
+		<item>
+			<universidad>UDELAS</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Abierta y a la Distancia de Panamá</universidad>
+		</item>
+		<item>
+			<universidad>ULACEX</universidad>
+		</item>
+		<item>
+			<universidad>ISAE - Universidad</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Marítima Internacional</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Americana</universidad>
+		</item>
+		<item>
+			<universidad>UMECIT</universidad>
+		</item>
+		<item>
+			<universidad>UDES Panamá</universidad>
+		</item>
+		<item>
+			<universidad>UNESCPA</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Hispanoamericana</universidad>
+		</item>
+		<item>
+			<universidad>Universidad del Caribe</universidad>
+		</item>
+		<item>
+			<universidad>Iuniversidad Internacional de Ciencia y Tecnología </universidad>
+		</item>
+		<item>
+			<universidad>University of Louisville</universidad>
+		</item>
+		<item>
+			<universidad>Universidad del Arte Ganexa</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Alta Dirección </universidad>
+		</item>
+		<item>
+			<pais>Paraguay</pais>
+			<universidad>CONES</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional de Asunción</universidad>
+		</item>
+		<item>
+			<pais>Perú</pais>
+			<universidad>UNIVERSIDAD CATÓLICA SANTA MARÍA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE INGENIERÍA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD PRIVADA CÉSAR VALLEJO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD TECNOLÓGICA DEL PERÚ</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD ANTONIO RUIZ DE MONTOYA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD CONTINENTAL</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL HERMILIO VALDIZÁN</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD PRIVADA DE TACNA</universidad>
+		</item>
+		<item>
+			<universidad>CATÓLICA SANTO TORIBIO DE MOGROVEJO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD SEÑOR DE SIPÁN</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD RICARDO PALMA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL AGRARIA LA MOLINA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DEL CENTRO DEL PERÚ</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD SAN PEDRO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL FEDERICO VILLARREAL</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE PIURA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD CIENTÍFICA DEL PERÚ</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE SAN MARTÍN</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD CATÓLICA LOS ÁNGELES DE CHIMBOTE</universidad>
+		</item>
+		<item>
+			<universidad>PONTIFICIA UNIVERSIDAD CATOLICA DEL PERU</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL JORGE BASADRE GROHMANN</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE TRUJILLO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DE LIMA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD ANDINA DEL CUSCO</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD DE PIURA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD PERUANA UNIÓN</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD NACIONAL DE SAN AGUSTÍN DE AREQUIPA</universidad>
+		</item>
+		<item>
+			<universidad>UNIVERSIDAD FEMENINA DEL SAGRADO CORAZÓN</universidad>
+		</item>
+		<item>
+			<pais>Portugal</pais>
+			<universidad>Universidade de Coimbra</universidad>
+		</item>
+		<item>
+			<universidad>Universidade de Lisboa</universidad>
+		</item>
+		<item>
+			<universidad>Universidade do Porto</universidad>
+		</item>
+		<item>
+			<universidad>Universidade Nova de Lisboa</universidad>
+		</item>
+		<item>
+			<universidad>Universidade de Aveiro</universidad>
+		</item>
+		<item>
+			<universidad>Universidade do Minho</universidad>
+		</item>
+		<item>
+			<universidad>Universidade de Évora</universidad>
+		</item>
+		<item>
+			<universidad>Universidade dos Açores</universidad>
+		</item>
+		<item>
+			<universidad>Universidade do Algarve</universidad>
+		</item>
+		<item>
+			<universidad>Universidade de Trás-os-Montes e Alto Douro </universidad>
+		</item>
+		<item>
+			<universidad>Universidade da Beira Interior </universidad>
+		</item>
+		<item>
+			<universidad>Universidade da Madeira </universidad>
+		</item>
+		<item>
+			<universidad>Universidade Aberta </universidad>
+		</item>
+		<item>
+			<universidad>Universidade Católica Portuguesa</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Universitário de Lisboa</universidad>
+		</item>
+		<item>
+			<pais>Rep. Dominicana</pais>
+			<universidad>Instituto Tecnológico de las Américas </universidad>
+		</item>
+		<item>
+			<universidad>Pontificia Universidad Católica Madre y Maestra </universidad>
+		</item>
+		<item>
+			<universidad>Universidad APEC</universidad>
+		</item>
+		<item>
+			<universidad>Universdidad Federico Henríquez y Carvajal </universidad>
+		</item>
+		<item>
+			<universidad>Universidad Dominico-Americana </universidad>
+		</item>
+		<item>
+			<universidad>Universidad Nacional Pedro Henríquez Ureña </universidad>
+		</item>
+		<item>
+			<universidad>Universidad Central del Este </universidad>
+		</item>
+		<item>
+			<universidad>Universidad Iberoamericana </universidad>
+		</item>
+		<item>
+			<universidad>Instituto Tecnológico de Santo Domingo</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Católica Nordestana </universidad>
+		</item>
+		<item>
+			<universidad>Universidad Católica Tecnológica del CIBAO </universidad>
+		</item>
+		<item>
+			<universidad>Universidad Tecnológica del CIBAO Oriental </universidad>
+		</item>
+		<item>
+			<universidad>Universidad UTE</universidad>
+		</item>
+		<item>
+			<universidad>Universidad ISA</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Abierta para Adultos </universidad>
+		</item>
+		<item>
+			<universidad>Universidad Dominicana O&amp;M</universidad>
+		</item>
+		<item>
+			<universidad>Universidad Católica Tecnológica de Barahona </universidad>
+		</item>
+		<item>
+			<universidad>Instituto Superior de Formación Docente Salomé Ureña </universidad>
+		</item>
+		<item>
+			<universidad>Instituto Superior para la Defensa</universidad>
+		</item>
+		<item>
+			<universidad>Instituto Global de Altos Estudios en Ciencias Sociales</universidad>
+		</item>
+		<item>
+			<universidad>Instituto de Educación Superior en Formación Diplomática y Consular </universidad>
+		</item>
+		<item>
+			<pais>Uruguay</pais>
+			<universidad>Universidad de la República </universidad>
+		</item>
+	</items>
+</xml>
