@@ -533,3 +533,50 @@ ul .list-tick:before{
 .horizontal-line-separator-top2{
   border-bottom: 2px solid #FFFF;
 }
+
+ul.ui-autocomplete.ui-menu{
+    position: fixed;
+    width: 70px;
+    display: block;
+}
+
+/* 
+    targets the first result's <a> element, 
+    remove the a at the end to target the li itself 
+*/
+ul.ui-autocomplete.ui-menu li:hover{
+    color: #fff;
+    background-color: #76ccd7;
+    cursor: pointer;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    text-decoration: none;
+}
+
+ul.ui-autocomplete .ui-menu-item .ui-state-focus {
+   background: none !important;
+   color: white;
+   text-decoration: none;
+   border: none;
+}
+
+ul.ui-autocomplete.ui-menu li{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8.5714285714px;
+    padding-bottom: 8.5714285714px;
+    border-bottom: 1px solid #D8F1F4;
+    color: #4D4D4D;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    line-height: 1.428571429;
+}
+
+.ui-autocomplete {
+    max-height: 250px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+} 

@@ -931,14 +931,18 @@ x(function ($) {
   });
 
   $( "#tags" ).autocomplete({
-    source: availableTags
+    source: availableTags,
+    minLength: 3
   });
   $( "#tagsPost" ).autocomplete({
-    source: availableTags
+    source: availableTags,
+    minLength: 3
   });
   $( "#tagsInv" ).autocomplete({
-    source: availableTags
+    source: availableTags,
+    minLength: 3
   });
+ 
 
   var lang = window.location.pathname;
   if (lang.includes("/pt")) {
