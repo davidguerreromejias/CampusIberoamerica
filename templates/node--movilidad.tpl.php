@@ -252,16 +252,18 @@
                     </div>
                   <?php } ?>
 
-                <!-- Cuantía o presupuesto  -->
+                <!-- Prespuesto total de la oferta  -->
 
-                <?php $field = field_get_items('node', $node, 'field_cuantia');
+                <?php $field = field_get_items('node', $node, 'field_prespuesto_total_oferta');
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="u-mr+ u-semibold">
-                        <?php print t('Cuantía o presupuesto:')?>
+                        <?php print t('Prespuesto total de la oferta:')?>
                       </div>
                       <div class="u-f-g1">
-                        <?php print $node->field_cuantia[und][0]['value'] ; ?>
+                        <?php 
+                          $number_eur = number_format($node->field_prespuesto_total_oferta[und][0]['value'], 2, ',', '.'); 
+                          print $number_eur; ?>
                       </div>
                     </div>
                   <?php } ?>
@@ -370,7 +372,9 @@
                           <?php print t('Salario del beneficiario')?>
                         </div>
                         <div class="u-f-g1">
-                          <?php print $node->field_salario_del_beneficiario[und][0]['value'] ; ?>
+                          <?php 
+                          $number_eur = number_format($node->field_salario_del_beneficiario[und][0]['value'], 2, ',', '.'); 
+                          print $number_eur; ?>
                       </div>
                     </div>
                     <?php } ?>
