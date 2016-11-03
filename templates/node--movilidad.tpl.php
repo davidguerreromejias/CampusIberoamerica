@@ -81,7 +81,7 @@
               <div class="u-fs-xxsmall u-uppercase">estudiantes interesados</div>
             </div>
             <div>
-              <a href="http://<?php  print $node->field_web_comentario[und][0]['value']; ?>" target="_blank" class="btn btn--action">
+              <a href="<?php  print $node->field_enlace_programa[und][0]['url']; ?>" target="_blank" class="btn btn--action">
                 <span class="u-fs-small u-semibold">Aplicar a este programa</span>
               </a>
             </div>
@@ -740,7 +740,7 @@
           </div>
           </div>
           <div class="u-mb++">
-            <a href="http://<?php  print $node->field_web_comentario[und][0]['value']; ?>" target="_blank" class="btn btn--action">
+            <a href="<?php  print $node->field_enlace_programa[und][0]['url']; ?>" target="_blank" class="btn btn--action">
               <span class="u-semibold u-fs-small">Aplicar a este programa</span>
             </a>
           </div>
@@ -753,7 +753,7 @@
             <div class="u-fs-xxsmall u-uppercase">estudiantes interesados</div>
           </div>
           <div class="u-mb++">
-            <a href="http://<?php  print $node->field_web_comentario[und][0]['value']; ?>" target="_blank" class="btn btn--action">
+            <a href="<?php  print $node->field_enlace_programa[und][0]['url']; ?>" target="_blank" class="btn btn--action">
               <span class="u-semibold u-fs-small">Aplicar a este programa</span>
             </a>
           </div>
