@@ -15,35 +15,42 @@
 <?php print render($title_suffix); ?>
 
 <div>
-
-
     <div class="container-fluid">
         <div class="row">
             <!--Menú-->
             <div class="col-sm-3 col-md-2 sidebar">
-              <ul class="nav nav-sidebar">
-              	<li> <a href="http://campusiberoamerica.upc.edu/"><img src="/sites/all/themes/zen/Nexos/assets/images/logo_campus_interior.png"></a></li>
-                
-                <li class="centrat blanc"> ADMINISTRACIÓN DE CONTENIDOS</li>
+                  <ul class="nav nav-sidebar">
+                    <li> <a href="/intranet"><img src="/sites/all/themes/zen/Nexos/assets/images/logo_campus_interior.png" style="max-width: 75%"></a></li>
+                    
+                    <li class="centrat blanc"> ADMINISTRACIÓN DE CONTENIDOS</li>
 
-                <li class="horizontal-line-separator-top2">
+                    <li class="horizontal-line-separator-top2">
 
-                <li class="fletxa"><a class="blanc"href="#">Añadir Movilidad </a></li>
+                    </li><li class="fletxa">
+                        <a class="blanc" href="/node/add/movilidad">Añadir Movilidad
+                            <span class="icon-angle-right"></span>
+                        </a>
+                    </li>
 
-                <li class="horizontal-line-separator-top2">
+                    <li class="horizontal-line-separator-top2">
 
-                <li class="fletxa"><a class="blanc" href="#">Opción 2</a> </li> 
 
-                <li class="horizontal-line-separator-top2">
+                    </li><li class="fletxa">
+                        <a class="blanc" href="#">Modificar Movilidad
+                            <span class="icon-angle-right"></span>
+                        </a>
+                    </li> 
 
-                <li class="fletxa"><a class="blanc" href="#">Opción 3</a></li>
+                    <li class="horizontal-line-separator-top2">
 
-                <li class="horizontal-line-separator-top2">
-
-                <li class="fletxa"><a class="blanc" href="#">Opción 4</a></li>
-
-                <li class="horizontal-line-separator-top2">
-              </ul>
+                    </li><li class="fletxa ">
+                        <a class="blanc" href="#">Buscar Movilidad
+                            <span class="icon-angle-right"></span>
+                        </a>
+                    </li>
+                <div>
+                </div>
+            </ul>
             </div>
 
             <div>
