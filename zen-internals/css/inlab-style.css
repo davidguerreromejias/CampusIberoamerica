@@ -437,7 +437,7 @@ ul .list-tick:before{
     top: 50px;
     bottom: 0;
     left: 0;
-    z-index: 1000;
+    /*z-index: 1000;*/
     display: block;
     padding: 20px;
     overflow-x: hidden;
@@ -580,3 +580,40 @@ ul.ui-autocomplete.ui-menu li{
     /* prevent horizontal scrollbar */
     overflow-x: hidden;
 } 
+
+.btn--edit{
+    width: 10%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #E98540;
+    border-color: #E98540;
+    color: #fff;
+    float: right;
+    margin-right: 15px;
+}
+
+.btn--remove{
+    width: 10%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: red;
+    border-color: red;
+    color: #fff;
+    float: right;
+}
+
+.btn--add{
+    width: 20%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #4ebdcc;
+    border-color: #4ebdcc;
+    color: #fff;
+    float: right;
+}

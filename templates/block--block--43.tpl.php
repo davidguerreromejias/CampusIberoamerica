@@ -27,7 +27,7 @@
                     <li class="horizontal-line-separator-top2">
 
                     </li><li class="fletxa">
-                        <a class="blanc" href="/node/add/movilidad">Añadir Movilidad
+                        <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/movilidades">Movilidades
                             <span class="icon-angle-right"></span>
                         </a>
                     </li>
@@ -35,18 +35,6 @@
                     <li class="horizontal-line-separator-top2">
 
 
-                    </li><li class="fletxa">
-                        <a class="blanc" href="#">Modificar Movilidad
-                            <span class="icon-angle-right"></span>
-                        </a>
-                    </li> 
-
-                    <li class="horizontal-line-separator-top2">
-
-                    </li><li class="fletxa ">
-                        <a class="blanc" href="#">Buscar Movilidad
-                            <span class="icon-angle-right"></span>
-                        </a>
                     </li>
                 <div>
                 </div>
