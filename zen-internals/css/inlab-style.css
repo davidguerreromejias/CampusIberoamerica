@@ -475,8 +475,9 @@ ul .list-tick:before{
   right: 0;
   width: 22px;
   height: 39px;
-  background: url("/sites/all/themes/zen/Nexos/assets/images/flecha-derecha.svg") no-repeat;
 }
+
+
 .centrat.blanc{
   text-align: center;
   color: white;
