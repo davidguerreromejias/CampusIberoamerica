@@ -33,8 +33,8 @@
 	    <tr>
 	    	<div>
 	    	<td style="padding: 6px;"><?php print $field->content; ?>
-			  <a href="#overlay=es/node/<?php print $row->nid;?>/edit" class="btn btn--remove">Borrar</a>
-			  <a href="#overlay=es/node/<?php print $row->nid;?>/edit" class="btn btn--edit">Editar</a>
+			  <a href="https://movia.fib.upc.edu:8444/#overlay=es/node/<?php print $row->nid;?>/edit" class="btn btn--remove">Borrar</a>
+			  <a href="https://movia.fib.upc.edu:8444/#overlay=es/node/<?php print $row->nid;?>/edit" class="btn btn--edit">Editar</a>
 	    	</td>
 	    	</div>
 	    </tr>

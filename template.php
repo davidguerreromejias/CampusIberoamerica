@@ -291,6 +291,7 @@ function zen_preprocess_html(&$variables, $hook) {
         break;
     }
   }
+  drupal_add_library('system', 'ui');
 }
 
 /**

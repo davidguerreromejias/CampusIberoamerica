@@ -1,3 +1,5 @@
+
+
 /* ========================================================================
  * Bootstrap: button.js v3.3.7
  * http://getbootstrap.com/javascript/#buttons
@@ -877,7 +879,15 @@ x(function ($) {
       availableTags.push(singleUniCentro);
     };
   });
-
+/*
+ $.getJSON('taxonomy_term.json?vocabulary=37', function(data) {   
+    var uniCentros = data["list"];
+    var singleUniCentro = uniCentros[Object.keys(uniCentros)[1]];
+    for (var i = 0; i < uniCentros.length; ++i) {
+        var singleUniCentro = uniCentros[Object.keys(uniCentros)[i]];
+        availableTags.push(singleUniCentro["name"]);
+    };
+});*/
 
   // get "areas de conocimiento" of taxonomies
   $.getJSON('taxonomy_term.json?vocabulary=10', function(data) {   
@@ -1132,3 +1142,4 @@ jQuery(document).ready(function ($) {
   $mapa.mapster(config);
 });
 //# sourceMappingURL=index.js.map
+

@@ -52,7 +52,7 @@
   <?php endif; ?>
 
   <?php if ($rows): ?>
-    <a href="/node/add/movilidad" class="btn btn--add">Añadir Movilidad</a>
+    <a href="https://movia.fib.upc.edu:8444/es/node/add/movilidad" class="btn btn--add">Añadir Movilidad</a>
     <div class="view-content">
       <div class="panel panel-default">
         <!-- Default panel contents -->
