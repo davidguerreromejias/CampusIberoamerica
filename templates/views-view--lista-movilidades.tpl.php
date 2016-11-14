@@ -52,11 +52,12 @@
   <?php endif; ?>
 
   <?php if ($rows): ?>
+  <!--https://movia.fib.upc.edu:8444/es/node/1456/edit-->
     <a href="https://movia.fib.upc.edu:8444/es/node/add/movilidad" class="btn btn--add">Añadir Movilidad</a>
     <div class="view-content">
       <div class="panel panel-default">
         <!-- Default panel contents -->
-        <div class="panel-heading">Movilidades</div>
+        <!--<div class="panel-heading">Movilidades</div>-->
         <!-- Table -->
         <table class="table">
           <tbody>
