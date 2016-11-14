@@ -45,9 +45,19 @@
   
   <div class="text-right u-f-g1 ">
     <ul class="list-inline u-uppercase u-mb0">
-      <li>
-        <a href="https://movia.fib.upc.edu:8444/es/content/login#" class="btn u-fs-small u-bold"><?php print t('Area privada')?></a>
-      </li>
+      <?php
+      global $user;
+
+      if ( $user->uid ) {
+        ?><li>
+          <a href="https://movia.fib.upc.edu:8444/es/intranet/" class="btn u-fs-small u-bold"><?php print t('Area privada')?></a>
+        </li><?php
+      }
+      else {
+        ?><li>
+          <a href="https://movia.fib.upc.edu:8444/es/content/login#" class="btn u-fs-small u-bold"><?php print t('Area privada')?></a>
+        </li><?php
+      } ?>
       <li>
         <a href="<?php print url('aviso-legal') ?>" class="btn u-fs-small u-bold"><?php print t('Aviso legal')?></a>
       </li>

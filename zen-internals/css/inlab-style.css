@@ -618,3 +618,10 @@ ul.ui-autocomplete.ui-menu li{
     color: #fff;
     float: right;
 }
+
+.view-lista-movilidades .table .field-content{
+    width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
