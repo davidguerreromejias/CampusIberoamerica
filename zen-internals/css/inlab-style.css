@@ -625,3 +625,19 @@ ul.ui-autocomplete.ui-menu li{
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+input#edit-field-destacado-und-none{
+  display: none !important;
+}
+
+label[for=edit-field-destacado-und-none]{
+  display: none !important;
+}
+
+input#edit-field-publicar-en-portal-und-none{
+  display: none !important;
+}
+
+label[for=edit-field-publicar-en-portal-und-none]{
+  display: none !important;
+}
