@@ -845,7 +845,6 @@ x(function ($) {
   //past DATE
 
   var now = new Date;
-  console.log(now);
   $('.plazo-solicitud-fin').each(function (i, v) {
       var id = $(this).attr('id');
       var x = $(this).first().text();
@@ -872,8 +871,6 @@ x(function ($) {
   //get universities of taxonomies
   $.getJSON('/sites/all/themes/zen/Nexos/assets/json/universitats.json', function(data) {   
     var uniCentros = data["xml"].items.item;
-    console.log("entra");
-    console.log(uniCentros.length);
     for (var i = 0; i < uniCentros.length; ++i) {
       var singleUniCentro = uniCentros[i].universidad;
       availableTags.push(singleUniCentro);
@@ -1015,7 +1012,6 @@ y(function ($) {
   function btnPregradoBusqueda() {
     var uni = $('select[name="centro"]').find(":selected").text();
     var nombre = $('input[name=programa]').val();
-    console.log(uni);
     location.href= "www.google.es";
     //location.href = "/busqueda-avanzada?field_instituci_n_que_promueve_value="+ uni +"&tid=1339&field_ambito_pais_tid=All&field_univ_o_centro_de_destino_value=&keys="+ nombre ;
   };
