@@ -39,11 +39,7 @@
     </div>
   <?php endif; ?>
 
-  <?php if ($exposed): ?>
-    <div class="view-filters">
-      <?php print $exposed; ?>
-    </div>
-  <?php endif; ?>
+  
 
   <?php if ($attachment_before): ?>
     <div class="attachment attachment-before">
@@ -63,6 +59,11 @@
           <tbody>
             <tr>
               <a href="https://movia.fib.upc.edu:8444/es/node/add/movilidad" class="btn btn--add"><i style="margin-right: 5px;" class="fa fa-plus" aria-hidden="true"></i>Añadir Movilidad</a>
+              <?php if ($exposed): ?>
+                <div class="view-filters">
+                  <?php print $exposed; ?>
+                </div>
+              <?php endif; ?>
             </tr>
               <?php print $rows; ?>
           </tbody>
