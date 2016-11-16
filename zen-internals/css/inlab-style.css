@@ -640,6 +640,8 @@ ul.ui-autocomplete.ui-menu li{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    display: inline-block;
+    line-height: 34px;
 }
 
 input#edit-field-destacado-und-none{
@@ -656,4 +658,8 @@ input#edit-field-publicar-en-portal-und-none{
 
 label[for=edit-field-publicar-en-portal-und-none]{
   display: none !important;
+}
+
+.icon-table{
+  margin-right: 5px;
 }
