@@ -624,7 +624,7 @@ ul.ui-autocomplete.ui-menu li{
 }
 
 .btn--add{
-    width: 22.5%;
+    width: 17.5%;
     margin: 0 auto;
     text-transform: uppercase;
     font-size: 14px;
@@ -632,7 +632,6 @@ ul.ui-autocomplete.ui-menu li{
     background-color: #4ebdcc;
     border-color: #4ebdcc;
     color: #fff;
-    float: right;
 }
 
 .view-lista-movilidades .table .field-content{
@@ -642,6 +641,8 @@ ul.ui-autocomplete.ui-menu li{
     text-overflow: ellipsis;
     display: inline-block;
     line-height: 34px;
+    margin-left: 15px;
+    margin-top: 15px;
 }
 
 input#edit-field-destacado-und-none{
