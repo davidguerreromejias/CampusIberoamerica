@@ -900,6 +900,15 @@ x(function ($) {
     };
   });
 
+    //HELP
+  $('#wrapper').dialog({
+  autoOpen: false,
+  title: 'Ayuda'
+  });
+      $( "#ayuda" ).on( "click", function() {
+      $( "#wrapper" ).dialog( "open" );
+    });
+
   // get countries of taxonomies
   $.getJSON('taxonomy_term.json?vocabulary=7', function(data) {   
     // TO DO
@@ -1138,4 +1147,5 @@ jQuery(document).ready(function ($) {
   $mapa.mapster(config);
 });
 //# sourceMappingURL=index.js.map
+
 

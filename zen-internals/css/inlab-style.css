@@ -748,3 +748,8 @@ label[for=edit-field-publicar-en-portal-und-none]{
 .pager-next a:before{
     content: none;
 }
+#ayuda{
+  width: 20px !important;
+  float: right;
+  margin-right: 500px;
+}
