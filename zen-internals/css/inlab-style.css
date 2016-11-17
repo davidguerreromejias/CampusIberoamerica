@@ -744,3 +744,7 @@ label[for=edit-field-publicar-en-portal-und-none]{
 .form-item__description, .form-item .description{
     font-size: 1.2rem;
 }
+
+.pager-next a:before{
+    content: none;
+}
