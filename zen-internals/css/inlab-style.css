@@ -728,3 +728,19 @@ label[for=edit-field-publicar-en-portal-und-none]{
     border: 0px !important;
     border-radius: 0px !important;
 }
+
+.form-field-name-field-plazo-para-solicitud-inici .date-no-float.start-date-wrapper.container-inline-date, 
+.form-field-name-field-plazo-para-solicitud-inici .date-no-float.end-date-wrapper.container-inline-date{
+    float: left !important;
+    clear: none !important;
+    width: inherit;
+}
+
+.form-field-name-field-plazo-para-solicitud-inici .date-no-float.end-date-wrapper.container-inline-date .form-type-date-popup label{
+    float: left;
+    margin-right: 40px;
+}
+
+.form-item__description, .form-item .description{
+    font-size: 1.2rem;
+}
