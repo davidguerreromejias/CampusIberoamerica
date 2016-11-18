@@ -750,6 +750,12 @@ label[for=edit-field-publicar-en-portal-und-none]{
 }
 #ayuda{
   width: 20px !important;
-  float: right;
-  margin-right: 500px;
+  float: left;
+  margin-right: 5px;
+
+}
+#edit-field-duraci-n-del-programa-movi #ayuda{
+  width: 20px !important;
+  float: initial;
+  margin-right: 5px;
 }
