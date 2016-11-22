@@ -770,3 +770,17 @@ button.p-home_btn:hover {
 .ui_menu_item .ui-state-focus {
   background-color: #76ccd7 !important;
 }
+
+.form-field-name-field-duraci-n-del-programa-movi fieldset{
+    border: none !important;
+    float: left;
+}
+
+.form-field-name-field-mes-de-llegada{
+    clear: both;
+}
+
+.form-field-name-field-unidad-de-la-duracion{
+    margin-top: 6%;
+    margin-left: 45%;
+}
