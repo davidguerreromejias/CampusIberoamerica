@@ -1,29 +1,29 @@
 .site-header{
-	position: relative !important;
+  position: relative !important;
 }
 
 .form-item .form-type-select.form-item-sort-by{
-	text-align:right;
-	margin-right: 40%;
+  text-align:right;
+  margin-right: 40%;
 }
 /*Label ordenar por pantalla búsqueda avanzada*/
 .form-item .form-type-select.form-item-sort-by label{
-	display: inline;
-	color: #AEADAD;
-	font-size: 13px;
-	margin-right: 7.5px;
-	font-family: "Source Sans Pro", sans-serif;
-	line-height: 1.428571429;
-	font-weight: normal;
-	margin: 0px 5% 11px 0px;
+  display: inline;
+  color: #AEADAD;
+  font-size: 13px;
+  margin-right: 7.5px;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.428571429;
+  font-weight: normal;
+  margin: 0px 5% 11px 0px;
 }
 /*select de les opcions per les quals ordenar*/
 .view-filters .form-item .form-type-select.form-item-sort-by select{
-	vertical-align: middle;
-	color: #626262;
-	font-size: 14px;
-	font-weight: 600;
-	 /* Make sure the select is wider than the container so we can clip the arrow */
+  vertical-align: middle;
+  color: #626262;
+  font-size: 14px;
+  font-weight: 600;
+   /* Make sure the select is wider than the container so we can clip the arrow */
     /*width: 110%;
     max-width: 110%;
     min-width: 110%;*/
@@ -577,14 +577,6 @@ ul.ui-autocomplete .ui-menu-item .ui-state-focus {
    color: white;
    text-decoration: none;
    border: none;
-}
-
-.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
-    background: #ff8a00;
-    border: none;
-    color:#000;
-    border-radius:0;
-    font-weight: normal;
 }
 
 ul.ui-autocomplete.ui-menu li{

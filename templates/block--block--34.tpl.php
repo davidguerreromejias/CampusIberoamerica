@@ -157,6 +157,11 @@
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
                   <a href="<?php print url('info-pais') ?>/guatemala" class="link u-block"><?php print t('Guatemala')?></a>
                 </li>
+
+                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
+                  <a href="<?php print url('info-pais') ?>/honduras" class="link u-block"><?php print t('Honduras')?></a>
+                </li>
+
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
                   <a href="<?php print url('info-pais') ?>/mexico" class="link u-block"><?php print t('México')?></a>
                 </li>
@@ -173,6 +178,9 @@
                 </li>
                 <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
                   <a href="<?php print url('info-pais') ?>/peru" class="link u-block"><?php print t('Perú')?></a>
+                </li>
+                <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
+                  <a href="<?php print url('info-pais') ?>/portugal" class="link u-block"><?php print t('Portugal')?></a>
                 </li>
                  <li class="p-paises_pais horizontal-line-separator-bottom u-pv-- u-ph-">
                   <a href="<?php print url('info-pais') ?>/republica-dominicana" class="link u-block"><?php print t('Republica dominicana')?></a>
