@@ -34,7 +34,6 @@
 	    	<div>
 	    	<td style="padding: 6px;"><?php print $field->content; ?>
 	    		<!--"https://movia.fib.upc.edu:8444/es/node/add/movilidad"-->
-			  <a href="https://movia.fib.upc.edu:8444/es/node/<?php print $row->nid;?>/delete" class="btn btn--remove"><i style="margin-right: 5px;" class="fa fa-trash" aria-hidden="true"></i>Borrar</a>
 			  <a href="https://movia.fib.upc.edu:8444/es/node/<?php print $row->nid;?>/edit" class="btn btn--edit"><i style="margin-right: 5px;" class="fa fa-pencil-square-o" aria-hidden="true"></i>Editar</a>
 			  
 	    	</td>
