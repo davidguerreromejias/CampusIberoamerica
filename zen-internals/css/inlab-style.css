@@ -579,6 +579,14 @@ ul.ui-autocomplete .ui-menu-item .ui-state-focus {
    border: none;
 }
 
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    background: #ff8a00;
+    border: none;
+    color:#000;
+    border-radius:0;
+    font-weight: normal;
+}
+
 ul.ui-autocomplete.ui-menu li{
     padding-left: 15px;
     padding-right: 15px;
@@ -750,6 +758,23 @@ label[for=edit-field-publicar-en-portal-und-none]{
 }
 #ayuda{
   width: 20px !important;
-  float: right;
-  margin-right: 500px;
+  float: left;
+  margin-right: 5px;
+
+}
+#edit-field-duraci-n-del-programa-movi #ayuda{
+  width: 20px !important;
+  float: initial;
+  margin-right: 5px;
+}
+
+button.p-home_btn:hover {
+    transform: scale(1.05);
+    background-color: #76ccd7;
+    color: #fff;
+    border: none;
+}
+
+.ui_menu_item .ui-state-focus {
+  background-color: #76ccd7 !important;
 }
