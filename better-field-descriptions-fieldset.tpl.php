@@ -12,11 +12,6 @@
 
 <?php $rand = rand();?>
 
-<fieldset class="collapsible collapsed form-wrapper better-descriptions">
-  <legend><span class="fieldset-legend"><?php print ($variables['label']); ?></span></legend>
-  <div class="fieldset-wrapper"><?php print ($variables['description']); ?></div>
-</fieldset>
-
 <!-- Button trigger modal -->
 <button type="button" id="ayuda" class="btn btn-default btn-xs" data-toggle="modal" data-target="#myModal<?php print $rand;?>">
   ?
