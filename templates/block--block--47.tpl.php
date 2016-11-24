@@ -19,31 +19,51 @@
         <div class="row">
             <!--Menú-->
             <div class="col-sm-3 col-md-2 sidebar">
-                  <ul class="nav nav-sidebar">
+                <ul class="nav nav-sidebar">
                     <li> <a href="/intranet"><img src="/sites/all/themes/zen/Nexos/assets/images/logo_campus_interior.png" style="max-width: 75%"></a></li>
-                    
                     <li class="centrat blanc"> ADMINISTRACIÓN DE CONTENIDOS</li>
-
-                    <li class="horizontal-line-separator-top2">
-
-                    </li><li class="fletxa">
+                    <li class="fletxa">
                         <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/movilidades">Movilidades
                             <span class="icon-angle-right" style="float: right; margin: 5px;"></span>
                         </a>
                     </li>
-
-                    <li class="horizontal-line-separator-top2">
-
-
+                    <li class="fletxa">
+                        <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/movilidades">Prepara tu viaje
+                            <span class="icon-angle-right" style="float: right; margin: 5px;"></span>
+                        </a>
                     </li>
-                <div>
-                </div>
-            </ul>
+                    <li class="fletxa">
+                        <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/movilidades">Info de los países
+                            <span class="icon-angle-right" style="float: right; margin: 5px;"></span>
+                        </a>
+                    </li>
+                    <li class="fletxa">
+                        <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/movilidades">Preguntas frecuentes
+                            <span class="icon-angle-right" style="float: right; margin: 5px;"></span>
+                        </a>
+                    </li>
+                    <li class="fletxa">
+                        <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/movilidades">Campus Plus
+                            <span class="icon-angle-right" style="float: right; margin: 5px;"></span>
+                        </a>
+                    </li>
+                    <li class="fletxa">
+                        <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/movilidades">Aviso Legal
+                            <span class="icon-angle-right" style="float: right; margin: 5px;"></span>
+                        </a>
+                    </li>
+                    <li class="fletxa">
+                        <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/movilidades">Política de Privacidad
+                            <span class="icon-angle-right" style="float: right; margin: 5px;"></span>
+                        </a>
+                    </li>
+                    <li class="fletxa">
+                        <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/movilidades">Acerca De...
+                            <span class="icon-angle-right" style="float: right; margin: 5px;"></span>
+                        </a>
+                    </li>
+            	</ul>
             </div>
-
-            <div>
-            </div>
-
         </div>
    </div>
 </div>
