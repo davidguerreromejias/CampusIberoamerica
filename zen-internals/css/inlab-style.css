@@ -637,7 +637,8 @@ ul.ui-autocomplete.ui-menu li{
     margin-top: 15px;
 }
 
-.view-lista-movilidades .table .field-content{
+.view-lista-movilidades .table .field-content, .view-lista-info-paises .table .field-content, 
+.view-lista-movilidades-pendientes-de-publicar .table .field-content{
     width: 500px;
     white-space: nowrap;
     overflow: hidden;
@@ -666,7 +667,8 @@ label[for=edit-field-publicar-en-portal-und-none]{
   margin-right: 5px;
 }
 
-.view-lista-movilidades .view-filters .views-widget input{
+.view-lista-movilidades .view-filters .views-widget input, .view-lista-info-paises .view-filters .views-widget input,
+.view-lista-movilidades-pendientes-de-publicar .view-filters .views-widget input {
     display: block;
     width: 40%;
     float: right;
@@ -686,18 +688,21 @@ label[for=edit-field-publicar-en-portal-und-none]{
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
-.view-lista-movilidades .view-filters .views-widget input:focus{
+.view-lista-movilidades .view-filters .views-widget input:focus, .view-lista-info-paises .view-filters .views-widget input:focus,
+.view-lista-movilidades-pendientes-de-publicar .view-filters .views-widget input:focus{
     border-color: #66afe9;
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
 }
 
-.view-lista-movilidades .view-filters .views-submit-button input:before{
+.view-lista-movilidades .view-filters .views-submit-button input:before, .view-lista-info-paises .view-filters .views-submit-button input:before,
+.view-lista-movilidades-pendientes-de-publicar .view-filters .views-submit-button input:before{
     content: "\f002";
 }
 
-#edit-submit-lista-movilidades{
+#edit-submit-lista-movilidades, #edit-submit-lista-info-paises,
+#edit-submit-lista-movilidades-pendientes-de-publicar{
     float: right;
     margin-top: -42px;
     text-transform: uppercase;
@@ -785,3 +790,4 @@ button.p-home_btn:hover {
     margin-top: 6%;
     margin-left: 45%;
 }
+

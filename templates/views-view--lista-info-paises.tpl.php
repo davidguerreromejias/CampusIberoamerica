@@ -58,7 +58,7 @@
         <table class="table table-striped">
           <tbody>
             <tr>
-              <a href="https://movia.fib.upc.edu:8444/es/node/add/movilidad" class="btn btn--add"><i style="margin-right: 5px;" class="fa fa-plus" aria-hidden="true"></i>Añadir Movilidad</a>
+              <a href="https://movia.fib.upc.edu:8444/es/node/add/pais" class="btn btn--add"><i style="margin-right: 5px;" class="fa fa-plus" aria-hidden="true"></i>Añadir País</a>
               <?php if ($exposed): ?>
                 <div class="view-filters">
                   <?php print $exposed; ?>
