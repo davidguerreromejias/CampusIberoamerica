@@ -34,12 +34,7 @@
         <div class="page-content-container u-mb++ ">
           <div class="u-mb u-fs-h2 u-bold"><?php print t('Política de privacidad')?></div>
           <div class="u-pv horizontal-line-separator-top u-fs-base" style="text-align: justify;">
-          	<p class="u-mb-">
-          		<?php print t('La Secretaría General Iberoamericana garantiza la adopción de las medidas necesarias para asegurar el tratamiento confidencial de los datos suministrados por el usuario. Los datos proporcionados por éste serán incluidos en una base de datos para uso exclusivo de la Secretaría General Iberoamericana en sus comunicaciones, y en ningún caso se destinarán estos datos a otros fines ni se entregarán a terceras partes.')?>
-          		<br>
-				<?php print t('El interesado tendrá la posibilidad de ejercitar los derechos de acceso, rectificación, cancelación y oposición respecto de dichos datos a través comunicación enviada a la siguiente dirección de correo:   info@segib.org')?><br>
-				<?php print t('La publicidad de cualquiera de los datos recibidos se realizará únicamente con la autorización expresa del interesado.')?>
-			</p>
+            <?php print $content ?>
           </div>
         </div>
       </div>
