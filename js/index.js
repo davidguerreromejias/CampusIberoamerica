@@ -887,7 +887,7 @@ x(function ($) {
 });*/
 
   // get "areas de conocimiento" of taxonomies
-  $.getJSON('taxonomy_term.json?vocabulary=10', function(data) {   
+  $.getJSON('/taxonomy_term.json?vocabulary=10', function(data) {   
     // TO DO
     var areas = data["list"];
     var singlArea = areas[Object.keys(areas)[1]];
@@ -910,7 +910,7 @@ x(function ($) {
     });
 
   // get countries of taxonomies
-  $.getJSON('taxonomy_term.json?vocabulary=7', function(data) {   
+  $.getJSON('/taxonomy_term.json?vocabulary=7', function(data) {   
     // TO DO
     var countries = data["list"];
     var singleCountry = countries[Object.keys(countries)[1]];
@@ -933,7 +933,7 @@ x(function ($) {
   });
 
   // get "subareas de conocimiento" of taxonomies
-  $.getJSON('taxonomy_term.json?vocabulary=43', function(data) {   
+  $.getJSON('/taxonomy_term.json?vocabulary=43', function(data) {   
     // TO DO
     var subareas = data["list"];
     var singleSubarea = subareas[Object.keys(subareas)[1]];
