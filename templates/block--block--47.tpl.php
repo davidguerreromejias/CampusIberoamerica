@@ -58,7 +58,7 @@
                         </a>
                     </li>
                     <li class="fletxa">
-                        <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/movilidades">Acerca De...
+                        <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/acerca-de">Acerca De...
                             <span class="icon-angle-right" style="float: right; margin: 5px;"></span>
                         </a>
                     </li>
