@@ -638,7 +638,8 @@ ul.ui-autocomplete.ui-menu li{
 }
 
 .view-lista-movilidades .table .field-content, .view-lista-info-paises .table .field-content, 
-.view-lista-movilidades-pendientes-de-publicar .table .field-content{
+.view-lista-movilidades-pendientes-de-publicar .table .field-content,
+.view-lista-preguntas-frecuentes .table .field-content{
     width: 500px;
     white-space: nowrap;
     overflow: hidden;
@@ -668,7 +669,8 @@ label[for=edit-field-publicar-en-portal-und-none]{
 }
 
 .view-lista-movilidades .view-filters .views-widget input, .view-lista-info-paises .view-filters .views-widget input,
-.view-lista-movilidades-pendientes-de-publicar .view-filters .views-widget input {
+.view-lista-movilidades-pendientes-de-publicar .view-filters .views-widget input,
+.view-lista-preguntas-frecuentes .view-filters .views-widget input {
     display: block;
     width: 40%;
     float: right;
@@ -702,7 +704,8 @@ label[for=edit-field-publicar-en-portal-und-none]{
 }
 
 #edit-submit-lista-movilidades, #edit-submit-lista-info-paises,
-#edit-submit-lista-movilidades-pendientes-de-publicar{
+#edit-submit-lista-movilidades-pendientes-de-publicar,
+#edit-submit-lista-preguntas-frecuentes{
     float: right;
     margin-top: -42px;
     text-transform: uppercase;
