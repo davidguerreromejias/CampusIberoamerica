@@ -38,6 +38,7 @@
         </div>
       <?php } 
       else { ?>
+      <a href="/es/admin/structure/block/manage/block/38/configure" class="btn btn--edit"><i style="margin-right: 5px;" class="fa fa-plus" aria-hidden="true"></i>Editar</a>
         <div class="col-xs-12 col-md-12 col-lg-12">
           <div class="page-content-container u-mb++ ">
             <div class="u-mb u-fs-h2 u-bold"><?php print t('Acerca De')?></div>
