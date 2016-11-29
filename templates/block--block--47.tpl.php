@@ -43,7 +43,7 @@
                         </a>
                     </li>
                     <li class="fletxa">
-                        <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/movilidades">Campus Plus
+                        <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/campus-plus">Campus Plus
                             <span class="icon-angle-right" style="float: right; margin: 5px;"></span>
                         </a>
                     </li>
