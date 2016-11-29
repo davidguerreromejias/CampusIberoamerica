@@ -53,7 +53,7 @@
                         </a>
                     </li>
                     <li class="fletxa">
-                        <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/movilidades">Política de Privacidad
+                        <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/política-de-privacidad">Política de Privacidad
                             <span class="icon-angle-right" style="float: right; margin: 5px;"></span>
                         </a>
                     </li>
