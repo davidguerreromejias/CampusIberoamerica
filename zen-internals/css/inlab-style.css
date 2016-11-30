@@ -794,3 +794,6 @@ button.p-home_btn:hover {
     margin-left: 45%;
 }
 
+.view-lista-preguntas-frecuentes .btn--add{
+    width: 24.5% !important;
+}
