@@ -291,7 +291,14 @@
                         <?php print t('Fecha límite envío solicitud:')?>
                       </div>
                       <div class="u-f-g1">
-                        <?php echo date('d F Y', strtotime($node->field_plazo_para_solicitud_inici['und'][0]['value2']));?>
+                        <?php
+                          global $language ;
+                          $curlang = $language->language;
+                        ?> 
+                        <?php if($curlang == 'es'){
+                          setlocale(LC_ALL, 'es_ES');
+                        }?>
+                        <?php echo (strftime("%d %B %Y", strtotime($node->field_plazo_para_solicitud_inici['und'][0]['value2'])));?>
                       </div>
                     </div>
                   <?php } ?>
@@ -305,6 +312,7 @@
                         <?php print t('Cómo enviar la candidatura:')?>
                       </div>
                       <div class="u-f-g1">
+                        <?php print_r($node->field_c_mo_enviar_candidatura);?>
                         <?php print $node->field_c_mo_enviar_candidatura[und][0]['value'] ; ?>
                       </div>
                     </div>
