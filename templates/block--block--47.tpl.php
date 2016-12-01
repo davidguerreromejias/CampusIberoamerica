@@ -23,6 +23,7 @@
                     <li> <a href="/intranet"><img src="/sites/all/themes/zen/Nexos/assets/images/logo_campus_interior.png" style="max-width: 75%"></a></li>
                     <li class="centrat blanc"> ADMINISTRACIÓN DE CONTENIDOS</li>
                     <li class="fletxa">
+                        
                         <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/movilidades">Movilidades
                             <span class="icon-angle-right" style="float: right; margin: 5px;"></span>
                         </a>
