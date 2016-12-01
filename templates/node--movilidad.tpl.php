@@ -277,6 +277,7 @@
                         <?php print t('Tipo de moneda:')?>
                       </div>
                       <div class="u-f-g1">
+                        
                         <?php
                           $wrapper = entity_metadata_wrapper('node', $node);
                           $label = $wrapper->field_tipo_de_moneda->label();
