@@ -63,6 +63,11 @@
                             <span class="icon-angle-right" style="float: right; margin: 5px;"></span>
                         </a>
                     </li>
+                    <li class="fletxa">
+                        <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/universidad">Taxonomía: Universidades
+                            <span class="icon-angle-right" style="float: right; margin: 5px;"></span>
+                        </a>
+                    </li>
             	</ul>
             </div>
         </div>
