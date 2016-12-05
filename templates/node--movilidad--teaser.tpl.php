@@ -23,7 +23,22 @@
                 <div class="u-fs-xsmall">
                   <ul class="list-inline">
                     <li class="items-separator items-separator--down-sm">
-                      <span class="u-bold"><?php print t('Destino:')?></span> <?php echo $content['field_ambito_pais']['#items'][0]['taxonomy_term']->name; ?>
+                      <span class="u-bold"><?php print t('Destino:')?></span>
+
+                        <?php 
+                          $cont = count($content['field_ambito_pais']['#items']);
+                          if ($cont == 21) { //21 is the number of countries we have.
+                            echo "Todos";
+                          }
+                          else {
+                            for ($i = 0; $i <  $cont - 1; $i++) {
+                                print $content['field_ambito_pais']['#items'][$i]['taxonomy_term']->name;
+                                echo ", "; 
+                            }
+                            print $content['field_ambito_pais']['#items'][($cont-1)]['taxonomy_term']->name;
+                          }
+                        ?>
+
 
                     </li>
                     <?php $field = field_get_items('node', $node, 'field_ambito_area_conocimiento');
