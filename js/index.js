@@ -855,6 +855,17 @@ x(function ($) {
       }
   });
 
+  var now2 = new Date;
+  $('.plazo-solicitud-fin').each(function (i, v) {
+      var id = $(this).attr('id');
+      var x = $(this).first().text();
+      var fin = new Date(x);
+      if (now2 > fin) {
+          $('.plazo-cerrado').append('<div><img class="" src="/sites/all/themes/zen/Nexos/assets/images/programa_cerrado.png" alt="Cerrado"></div>');
+          $('.plazo-cerrado').removeClass('open');
+      }
+  });
+
   //add class to input search
   $('input[type=text]').addClass('input-action__input');
   $('input[id=edit-field-instituci-n-que-promueve-value]').attr("placeholder", "Busca tu Univ. o centro desde aqui");

@@ -57,8 +57,8 @@
                 </ul>
               </div>
             </div>
-            <span class="plazo-cerrado open"></span>
             <div class="block-info__content u-mb+ "><?php print render($content['field_condiciones_movilidad']); ?></div>
+            <span class="plazo-cerrado open"></span>
             <div class="u-fs-xsmall">
               <?php $field = field_get_items('node', $node, 'field_pdf_video');
               if ($field) { ?>
@@ -295,7 +295,7 @@
                       <div class="u-mr+ u-semibold">
                         <?php print t('Fecha límite envío solicitud:')?>
                       </div>
-                      <div class="u-f-g1">
+                      <div class="u-f-g1 plazo-solicitud-fin" id="node-<?php print $node->nid; ?>">
                         <?php
                           global $language ;
                           $curlang = $language->language;
