@@ -68,6 +68,31 @@
                             <span class="icon-angle-right" style="float: right; margin: 5px;"></span>
                         </a>
                     </li>
+                    <li class="fletxa">
+                        <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/institucion-que-promueve">Taxonomía: Institución que promueve
+                            <span class="icon-angle-right" style="float: right; margin: 5px;"></span>
+                        </a>
+                    </li>
+                    <li class="fletxa">
+                        <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/institucion-que-promueve">Taxonomía: País
+                            <span class="icon-angle-right" style="float: right; margin: 5px;"></span>
+                        </a>
+                    </li>
+                    <li class="fletxa">
+                        <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/area-de-conocimiento">Taxonomía: Área de conocimiento
+                            <span class="icon-angle-right" style="float: right; margin: 5px;"></span>
+                        </a>
+                    </li>
+                    <li class="fletxa">
+                        <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/subarea-de-conocimiento">Taxonomía: Subárea de conocimiento
+                            <span class="icon-angle-right" style="float: right; margin: 5px;"></span>
+                        </a>
+                    </li>
+                    <li class="fletxa">
+                        <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/nacionalidad">Taxonomía: Nacionalidad
+                            <span class="icon-angle-right" style="float: right; margin: 5px;"></span>
+                        </a>
+                    </li>
             	</ul>
             </div>
         </div>
