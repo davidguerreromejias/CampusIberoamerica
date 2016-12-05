@@ -58,7 +58,7 @@
               </div>
             </div>
             <div class="block-info__content u-mb+ "><?php print render($content['field_condiciones_movilidad']); ?></div>
-            <span class="plazo-cerrado open"></span>
+            <span class="plazo-cerrado-all open"></span>
             <div class="u-fs-xsmall">
               <?php $field = field_get_items('node', $node, 'field_pdf_video');
               if ($field) { ?>
