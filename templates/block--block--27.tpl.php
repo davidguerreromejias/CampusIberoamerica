@@ -302,16 +302,15 @@
     </p>
 
     <div class="u-f@md">
-      <div class="u-mh---@md u-mb- u-ml0 u-f-g1">
-        <input type="text" id="tagsInv" class="p-buscador_input u-mh---@md u-mb- u-mr0 u-f-g1 u-block u-w100" placeholder="Universidad o Centro">
-      </div>
-
       <div class="u-mh---@md u-mb- u-mr0 u-f-g1">
         <div class="p-buscador_select">
           <select name="field_pais_origen_solicitante_tid" class="js-buscador-select">
             <option value=""><?php print t('País')?></option>
           </select>
         </div>
+      </div>
+      <div class="u-mh---@md u-mb- u-ml0 u-f-g1">
+        <input type="text" id="tagsInv" class="p-buscador_input u-mh---@md u-mb- u-mr0 u-f-g1 u-block u-w100" placeholder="Universidad o Centro">
       </div>
     </div>
   </div>
