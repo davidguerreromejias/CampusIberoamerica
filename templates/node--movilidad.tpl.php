@@ -423,11 +423,15 @@
                     $field = field_get_items('node', $node, 'field_prespuesto_total_oferta'); 
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="u-mr+ u-semibold">
-                          <?php print t('Prespuesto total de la oferta:')?>
+                        <div class="col-md-4">
+                          <div class="u-mr+ u-semibold">
+                            <?php print t('Prespuesto total de la oferta:')?>
+                          </div>
                         </div>
                         <div class="u-f-g1">
-                          <?php print $node->field_prespuesto_total_oferta[und][0]['value'] ; ?>
+                          <div class="col-md-8">
+                            <?php print $node->field_prespuesto_total_oferta[und][0]['value'] ; ?>
+                          </div>
                         </div>
                       </div>
                     <?php } ?>
@@ -438,14 +442,18 @@
                     $field = field_get_items('node', $node, 'field_incluye_salario'); 
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="u-mr+ u-semibold">
-                          <?php print t('Incluye salario del beneficiario?')?>
+                        <div class="col-md-4">
+                          <div class="u-mr+ u-semibold">
+                            <?php print t('Incluye salario del beneficiario?')?>
+                          </div>
                         </div>
                         <div class="u-f-g1">
-                          <?php if ($node->field_incluye_salario[und][0]['value'] == 1){?> Si
-                          <?php }
-                          if ($node->field_incluye_salario[und][0]['value'] == 0){?> 
-                          No <?php } ?>
+                          <div class="col-md-8">
+                            <?php if ($node->field_incluye_salario[und][0]['value'] == 1){?> Si
+                            <?php }
+                            if ($node->field_incluye_salario[und][0]['value'] == 0){?> 
+                            No <?php } ?>
+                          </div>
                         </div>
                       </div>
                     <?php } ?>
@@ -456,15 +464,19 @@
                     $field = field_get_items('node', $node, 'field_salario_del_beneficiario'); 
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="u-mr+ u-semibold">
-                          <?php print t('Salario del beneficiario')?>
+                        <div class="col-md-4">
+                          <div class="u-mr+ u-semibold">
+                            <?php print t('Salario del beneficiario')?>
+                          </div>
                         </div>
                         <div class="u-f-g1">
-                          <?php 
-                          $number_eur = number_format($node->field_salario_del_beneficiario[und][0]['value'], 2, ',', '.'); 
-                          print $number_eur; ?>
+                          <div class="col-md-8">
+                            <?php 
+                            $number_eur = number_format($node->field_salario_del_beneficiario[und][0]['value'], 2, ',', '.'); 
+                            print $number_eur; ?>
+                          </div>
+                        </div>
                       </div>
-                    </div>
                     <?php } ?>
 
                     <?php 
@@ -473,14 +485,18 @@
                     $field = field_get_items('node', $node, 'field_incluye_gastos_desplazamen'); 
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="u-mr+ u-semibold">
-                          <?php print t('Incluye gastos de desplazamiento?')?>
+                        <div class="col-md-4">
+                          <div class="u-mr+ u-semibold">
+                            <?php print t('Incluye gastos de desplazamiento?')?>
+                          </div>
                         </div>
                         <div class="u-f-g1">
-                          <?php if ($node->field_incluye_gastos_desplazamen[und][0]['value'] == 1){?> Si
-                          <?php }
-                          if ($node->field_incluye_gastos_desplazamen[und][0]['value'] == 0){?> 
-                          No <?php } ?>
+                          <div class="col-md-8">
+                            <?php if ($node->field_incluye_gastos_desplazamen[und][0]['value'] == 1){?> Si
+                            <?php }
+                            if ($node->field_incluye_gastos_desplazamen[und][0]['value'] == 0){?> 
+                            No <?php } ?>
+                          </div>
                         </div>
                       </div>
                     <?php } ?>
@@ -491,13 +507,17 @@
                     $field = field_get_items('node', $node, 'field_gastos_de_desplazamiento'); 
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="u-mr+ u-semibold">
-                          <?php print t('Gastos de desplazamiento')?>
+                        <div class="col-md-4">
+                          <div class="u-mr+ u-semibold">
+                            <?php print t('Gastos de desplazamiento')?>
+                          </div>
                         </div>
                         <div class="u-f-g1">
-                          <?php print $node->field_gastos_de_desplazamiento[und][0]['value'] ; ?>
+                          <div class="col-md-8">
+                            <?php print $node->field_gastos_de_desplazamiento[und][0]['value'] ; ?>
+                          </div>
+                        </div>
                       </div>
-                    </div>
                     <?php } ?>
 
                     <?php 
@@ -506,14 +526,18 @@
                     $field = field_get_items('node', $node, 'field_incluye_manutencion'); 
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="u-mr+ u-semibold">
-                          <?php print t('Incluye manutención?')?>
+                        <div class="col-md-4">
+                          <div class="u-mr+ u-semibold">
+                            <?php print t('Incluye manutención?')?>
+                          </div>
                         </div>
                         <div class="u-f-g1">
-                          <?php if ($node->field_incluye_manutencion[und][0]['value'] == 1){?> Si
-                          <?php }
-                          if ($node->field_incluye_manutencion[und][0]['value'] == 0){?> 
-                          No <?php } ?>
+                          <div class="col-md-8">
+                            <?php if ($node->field_incluye_manutencion[und][0]['value'] == 1){?> Si
+                            <?php }
+                            if ($node->field_incluye_manutencion[und][0]['value'] == 0){?> 
+                            No <?php } ?>
+                          </div>
                         </div>
                       </div>
                     <?php } ?>
@@ -524,13 +548,17 @@
                     $field = field_get_items('node', $node, 'field_manutencion'); 
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="u-mr+ u-semibold">
-                          <?php print t('Manutención')?>
+                        <div class="col-md-4">
+                          <div class="u-mr+ u-semibold">
+                            <?php print t('Manutención')?>
+                          </div>
                         </div>
                         <div class="u-f-g1">
-                          <?php print $node->field_manutencion[und][0]['value'] ; ?>
+                          <div class="col-md-8">
+                            <?php print $node->field_manutencion[und][0]['value'] ; ?>
+                          </div>
+                        </div>
                       </div>
-                    </div>
                     <?php } ?>
 
                     <?php 
@@ -539,14 +567,18 @@
                     $field = field_get_items('node', $node, 'field_incluye_otros_costes'); 
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="u-mr+ u-semibold">
-                          <?php print t('Incluye otros costes?')?>
+                        <div class="col-md-4">
+                          <div class="u-mr+ u-semibold">
+                            <?php print t('Incluye otros costes?')?>
+                          </div>
                         </div>
                         <div class="u-f-g1">
-                          <?php if ($node->field_incluye_otros_costes[und][0]['value'] == 1){?> Si
-                          <?php }
-                          if ($node->field_incluye_otros_costes[und][0]['value'] == 0){?> 
-                          No <?php } ?>
+                          <div class="col-md-8">
+                            <?php if ($node->field_incluye_otros_costes[und][0]['value'] == 1){?> Si
+                            <?php }
+                            if ($node->field_incluye_otros_costes[und][0]['value'] == 0){?> 
+                            No <?php } ?>
+                          </div>
                         </div>
                       </div>
                     <?php } ?>
@@ -557,13 +589,17 @@
                     $field = field_get_items('node', $node, 'field_otros_costes'); 
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="u-mr+ u-semibold">
-                          <?php print t('Otros costes')?>
+                        <div class="col-md-4">
+                          <div class="u-mr+ u-semibold">
+                            <?php print t('Otros costes')?>
+                          </div>
                         </div>
                         <div class="u-f-g1">
-                          <?php print $node->field_otros_costes[und][0]['value'] ; ?>
+                          <div class="col-md-8">
+                            <?php print $node->field_otros_costes[und][0]['value'] ; ?>
+                          </div>
+                        </div>
                       </div>
-                    </div>
                     <?php } ?>
 
                     <?php 
@@ -572,13 +608,17 @@
                     $field = field_get_items('node', $node, 'field_mes_de_llegada'); 
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="u-mr+ u-semibold">
-                          <?php print t('Mes de llegada:')?>
+                        <div class="col-md-4">
+                          <div class="u-mr+ u-semibold">
+                            <?php print t('Mes de llegada:')?>
+                          </div>
                         </div>
                         <div class="u-f-g1">
-                          <?php echo date('F Y', strtotime($node->field_mes_de_llegada['und'][0]['value']));?>
+                          <div class="col-md-8">
+                            <?php echo date('F Y', strtotime($node->field_mes_de_llegada['und'][0]['value']));?>
+                          </div>
+                        </div>
                       </div>
-                    </div>
                     <?php } ?>
 
                     <?php 
@@ -587,13 +627,17 @@
                     $field = field_get_items('node', $node, 'field_web_comentario'); 
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="u-mr+ u-semibold">
-                          <?php print t('Web/comentario:')?>
+                        <div class="col-md-4">
+                          <div class="u-mr+ u-semibold">
+                            <?php print t('Web/comentario:')?>
+                          </div>
                         </div>
                         <div class="u-f-g1">
-                          <?php print $node->field_web_comentario[und][0]['value'] ; ?>
+                          <div class="col-md-8">
+                            <?php print $node->field_web_comentario[und][0]['value'] ; ?>
+                          </div>
+                        </div>
                       </div>
-                    </div>
                     <?php } ?>
 
                     <?php 
