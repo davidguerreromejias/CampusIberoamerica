@@ -57,8 +57,8 @@
                 </ul>
               </div>
             </div>
+            <span class="plazo-cerrado open"></span>
             <div class="block-info__content u-mb+ "><?php print render($content['field_condiciones_movilidad']); ?></div>
-            <span class="plazo-cerrado-all open"></span>
             <div class="u-fs-xsmall">
               <?php $field = field_get_items('node', $node, 'field_pdf_video');
               if ($field) { ?>
@@ -98,17 +98,24 @@
                 </div>
               </div>
               <div id="collapse1" class="panel-collapse collapse">
+              <div class="row">
                 <!-- Duración del programa -->
-
+              
               <div class="u-mb++">
                 <?php $field = field_get_items('node', $node, 'field_duracion_del_programa');
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                      <div class="row">
                       <div class="u-mr+ u-semibold">
-                        <?php print t('Duración del programa:')?>
-                      </div>
-                      <div class="u-f-g1">
-                        <?php print $node->field_duracion_del_programa[und][0]['value'] ; ?>
+                            <div class="col-md-6">
+                              <?php print t('Duración del programa:')?>
+                            </div>
+                          </div>
+                          <div class="u-f-g1">
+                            <div class="col-md-6">
+                            <?php print $node->field_duracion_del_programa[und][0]['value'] ; ?>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   <?php } ?>
@@ -118,10 +125,15 @@
                 <?php $field = field_get_items('node', $node, 'field_pais_origen_solicitante');
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                      <div class="row">
                       <div class="u-mr+ u-semibold">
+                        
+                            <div class="col-md-6">
                         <?php print t('País/es de origen del solicitante:')?>
+                            </div>
                       </div>
                       <div class="u-f-g1">
+                        <div class="col-md-6">
                         <?php 
                         $cont = count($content['field_pais_origen_solicitante']['#items']);
                         for ($i = 0; $i <  $cont - 1; $i++) {
@@ -131,34 +143,47 @@
                         print $content['field_pais_origen_solicitante']['#items'][($cont-1)]['taxonomy_term']->name;?>
                       </div>
                     </div>
-                  <?php } ?>
-
-                  <!-- Nacionalidad -->
-
-
-                <?php $field = field_get_items('node', $node, 'field_nacionalidad');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="u-mr+ u-semibold">
-                        <?php print t('Nacionalidad del solicitante:')?>
-                      </div>
-                      <div class="u-f-g1">
-                        <?php print $content['field_nacionalidad']['#items'][0]['taxonomy_term']->name; ?>
                       </div>
                     </div>
                   <?php } ?>
 
-                  <!-- Univ/centros de origen del solicitante TODO!!!!!-->
+                  <!-- Nacionalidad -->
+                <?php $field = field_get_items('node', $node, 'field_nacionalidad');
+                  if ($field) { ?>
+                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                      <div class="row">
+                        <div class="u-mr+ u-semibold">
+                          
+                            <div class="col-md-6">
+                            <?php print t('Nacionalidad del solicitante:')?>
+                            </div>
+                        </div>
+                        <div class="u-f-g1">
+                           <div class="col-md-6">
+                            <?php print $content['field_nacionalidad']['#items'][0]['taxonomy_term']->name; ?>
+                          </div>
+                        </div>
+                      </div>
+                   </div>
+                  <?php } ?>
+
+                  <!-- Univ/centros de origen del solicitante -->
 
                 <?php $field = field_get_items('node', $node, 'field_nacionalidad');
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                      <div class="row">
                       <div class="u-mr+ u-semibold">
-                        <?php print t('Univ/centros de origen del solicitante:')?>
+                        <div class="col-md-6">
+                          <?php print t('Univ/centros de origen del solicitante:')?>
+                         </div>
                       </div>
                       <div class="u-f-g1">
-                        <?php print $content['field_nacionalidad']['#items'][0]['taxonomy_term']->name; ?>
+                        <div class="col-md-6">
+                          <?php print $content['field_nacionalidad']['#items'][0]['taxonomy_term']->name; ?>
+                        </div>
                       </div>
+                    </div>
                     </div>
                   <?php } ?>
 
@@ -167,11 +192,17 @@
                 <?php $field = field_get_items('node', $node, 'field_requisitos_solicitante');
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="u-mr+ u-semibold">
-                        <?php print t('Requisitos solicitante:')?>
-                      </div>
-                      <div class="u-f-g1">
-                        <?php print $node->field_requisitos_solicitante[und][0]['value'] ; ?>
+                      <div class="row">
+                        <div class="u-mr+ u-semibold">
+                          <div class="col-md-4">
+                            <?php print t('Requisitos solicitante:')?>
+                          </div>
+                        </div>
+                        <div class="u-f-g1">
+                          <div class="col-md-8">
+                            <?php print $node->field_requisitos_solicitante[und][0]['value'] ; ?>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   <?php } ?>
@@ -181,12 +212,18 @@
                 <?php $field = field_get_items('node', $node, 'field_idiomas_requeridos');
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                      <div class="row">
                       <div class="u-mr+ u-semibold">
+                        <div class="col-md-4">
                         <?php print t('Idiomas requeridos al solicitante:')?>
                       </div>
-                      <div class="u-f-g1">
-                        <?php print $node->field_idiomas_requeridos[und][0]['value'] ; ?>
                       </div>
+                      <div class="u-f-g1">
+                         <div class="col-md-8">
+                        <?php print $node->field_idiomas_requeridos[und][0]['value'] ; ?>
+                         </div>
+                      </div>
+                    </div>
                     </div>
                   <?php } ?>
 
@@ -195,10 +232,14 @@
                 <?php $field = field_get_items('node', $node, 'field_ambito_pais');
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                      <div class="row">
                       <div class="u-mr+ u-semibold">
+                        <div class="col-md-4">
                         <?php print t('País/es de destino:')?>
                       </div>
+                      </div>
                       <div class="u-f-g1">
+                        <div class="col-md-8">
                         <?php 
                         $cont = count($content['field_ambito_pais']['#items']);
                         for ($i = 0; $i <  $cont - 1; $i++) {
@@ -207,6 +248,8 @@
                         }
                         print $content['field_ambito_pais']['#items'][($cont-1)]['taxonomy_term']->name;?>
                       </div>
+                      </div>
+                    </div>
                     </div>
                   <?php } ?>
 
@@ -215,11 +258,18 @@
                 <?php $field = field_get_items('node', $node, 'field__mbito_univ_centro');
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="u-mr+ u-semibold">
-                        <?php print t('Univ/Centro de destino:')?>
-                      </div>
-                      <div class="u-f-g1">
-                        <?php print $content['field__mbito_univ_centro']['#items'][0]['taxonomy_term']->name; ?>
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="u-mr+ u-semibold">
+                            <?php print t('Univ/Centro de destino:')?>
+                          </div>
+                        </div>
+
+                        <div class="u-f-g1">
+                          <div class="col-md-8">
+                           <?php print $content['field__mbito_univ_centro']['#items'][0]['taxonomy_term']->name; ?>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   <?php } ?>
@@ -229,11 +279,16 @@
                 <?php $field = field_get_items('node', $node, 'field_ambito_area_conocimiento');
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="u-mr+ u-semibold">
-                        <?php print t('Área de conocimiento:')?>
+                      <div class="col-md-4">
+                        <div class="u-mr+ u-semibold">
+                          <?php print t('Área de conocimiento:')?>
+
+                        </div>
                       </div>
-                      <div class="u-f-g1">
-                        <?php print $content['field_ambito_area_conocimiento']['#items'][0]['taxonomy_term']->name; ?>
+                        <div class="u-f-g1">
+                          <div class="col-md-8">
+                          <?php print $content['field_ambito_area_conocimiento']['#items'][0]['taxonomy_term']->name; ?>
+                        </div>
                       </div>
                     </div>
                   <?php } ?>
@@ -243,11 +298,15 @@
                 <?php $field = field_get_items('node', $node, 'field_ambito_subarea_conocimient');
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                      <div class="col-md-4">
                       <div class="u-mr+ u-semibold">
                         <?php print t('Especialidad:')?>
                       </div>
+                    </div>
                       <div class="u-f-g1">
-                        <?php print $content['field_ambito_subarea_conocimient']['#items'][0]['taxonomy_term']->name; ?>
+                        <div class="col-md-8">
+                          <?php print $content['field_ambito_subarea_conocimient']['#items'][0]['taxonomy_term']->name; ?>
+                        </div>
                       </div>
                     </div>
                   <?php } ?>
@@ -257,13 +316,17 @@
                 <?php $field = field_get_items('node', $node, 'field_prespuesto_total_oferta');
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                      <div class="col-md-4">
                       <div class="u-mr+ u-semibold">
                         <?php print t('Prespuesto total de la oferta:')?>
                       </div>
+                    </div>
                       <div class="u-f-g1">
+                        <div class="col-md-8">
                         <?php 
                           $number_eur = number_format($node->field_prespuesto_total_oferta[und][0]['value'], 2, ',', '.'); 
                           print $number_eur; ?>
+                        </div>
                       </div>
                     </div>
                   <?php } ?>
@@ -273,16 +336,19 @@
                 <?php $field = field_get_items('node', $node, 'field_tipo_de_moneda');
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                      <div class="col-md-4">
                       <div class="u-mr+ u-semibold">
                         <?php print t('Tipo de moneda:')?>
                       </div>
+                    </div>
                       <div class="u-f-g1">
-                        
+                        <div class="col-md-8">
                         <?php
                           $wrapper = entity_metadata_wrapper('node', $node);
                           $label = $wrapper->field_tipo_de_moneda->label();
                           print $label; 
                          ?>
+                       </div>
                       </div>
                     </div>
                   <?php } ?>
@@ -292,10 +358,13 @@
                 <?php $field = field_get_items('node', $node, 'field_tipo_de_moneda');
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                      <div class="col-md-4">
                       <div class="u-mr+ u-semibold">
                         <?php print t('Fecha límite envío solicitud:')?>
                       </div>
-                      <div class="u-f-g1 plazo-solicitud-fin" id="node-<?php print $node->nid; ?>">
+                    </div>
+                      <div class="u-f-g1">
+                        <div class="col-md-8">
                         <?php
                           global $language ;
                           $curlang = $language->language;
@@ -304,6 +373,7 @@
                           setlocale(LC_ALL, 'es_ES');
                         }?>
                         <?php echo (strftime("%d %B %Y", strtotime($node->field_plazo_para_solicitud_inici['und'][0]['value2'])));?>
+                        </div>
                       </div>
                     </div>
                   <?php } ?>
@@ -313,17 +383,23 @@
                 <?php $field = field_get_items('node', $node, 'field_tipo_de_moneda');
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                      <div class="col-md-4">
                       <div class="u-mr+ u-semibold">
                         <?php print t('Cómo enviar la candidatura:')?>
                       </div>
+                    </div>
                       <div class="u-f-g1">
-                        <?php print_r($node->field_c_mo_enviar_candidatura);?>
-                        <?php print $node->field_c_mo_enviar_candidatura[und][0]['value'] ; ?>
+                        <div class="col-md-8">
+                          <?php print_r($node->field_c_mo_enviar_candidatura);?>
+                          <?php print $node->field_c_mo_enviar_candidatura[und][0]['value'] ; ?>
+                        </div>
                       </div>
                     </div>
                   <?php } ?>
               </div>
             </div>
+          </div>
+
             <!-- SOLO SI ES INVESTIGACIÓN -->
 
                 <?php $field = field_get_items('node', $node, 'field_categoria_o_segmento');
