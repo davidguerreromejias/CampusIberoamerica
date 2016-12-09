@@ -380,7 +380,7 @@
 
                 <!-- Cómo enviar la candidatura  -->
 
-                <?php $field = field_get_items('node', $node, 'field_tipo_de_moneda');
+                <?php $field = field_get_items('node', $node, 'field_c_mo_enviar_la_candidatura');
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="col-md-4">
@@ -390,8 +390,7 @@
                     </div>
                       <div class="u-f-g1">
                         <div class="col-md-8">
-                          <?php print_r($node->field_c_mo_enviar_candidatura);?>
-                          <?php print $node->field_c_mo_enviar_candidatura[und][0]['value'] ; ?>
+                          <?php print $node->field_c_mo_enviar_la_candidatura[und][0]['value'] ; ?>
                         </div>
                       </div>
                     </div>
