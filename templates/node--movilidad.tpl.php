@@ -99,6 +99,74 @@
               </div>
               <div id="collapse1" class="panel-collapse collapse">
               <div class="row">
+
+              <!-- Convocatoria -->
+
+              <?php $field = field_get_items('node', $node, 'field_convocatoria_ano');
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="row">
+                      <div class="u-mr+ u-semibold">
+                        <div class="col-md-4">
+                          <?php print t('Convocatoria (año):')?>
+                        </div>
+                      </div>
+                      <div class="u-f-g1">
+                        <div class="col-md-8">
+                          <?php print $node->field_convocatoria_ano[und][0]['value'] ; ?>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <?php } ?>
+
+                <!-- Fecha límite para envío solicitud -->
+
+              <?php $field = field_get_items('node', $node, 'field_plazo_para_solicitud_inici');
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="row">
+                      <div class="u-mr+ u-semibold">
+                        <div class="col-md-4">
+                          <?php print t('Fecha límite para envío solicitud:')?>
+                        </div>
+                      </div>
+                      <div class="u-f-g1">
+                        <div class="col-md-8">
+                            <?php
+                            global $language ;
+                            $curlang = $language->language;
+                          ?> 
+                          <?php if($curlang == 'es'){
+                            setlocale(LC_ALL, 'es_ES');
+                          }?>
+                          <?php echo (strftime("%d %B %Y", strtotime($node->field_plazo_para_solicitud_inici['und'][0]['value2'])));?>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <?php } ?>
+
+                <!-- Periodicidad -->
+
+              <?php $field = field_get_items('node', $node, 'field_periodicidad');
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="row">
+                      <div class="u-mr+ u-semibold">
+                        <div class="col-md-4">
+                          <?php print t('Periodicidad:')?>
+                        </div>
+                      </div>
+                      <div class="u-f-g1">
+                        <div class="col-md-8">
+                          <?php print $node->field_periodicidad[und][0]['value'] ; ?>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <?php } ?>
+
                 <!-- Duración del programa -->
               
               <div class="u-mb++">
@@ -293,7 +361,7 @@
                     </div>
                   <?php } ?>
 
-                <!-- Prespuesto total de la oferta  -->
+                <!-- Presupuesto total de la oferta  -->
 
                 <?php $field = field_get_items('node', $node, 'field_prespuesto_total_oferta');
                   if ($field) { ?>
