@@ -102,7 +102,7 @@
                 <!-- Duración del programa -->
               
               <div class="u-mb++">
-                <?php $field = field_get_items('node', $node, 'field_duracion_del_programa');
+                <?php $field = field_get_items('node', $node, 'field_duraci_n_del_programa_movi');
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="row">
@@ -113,7 +113,9 @@
                           </div>
                           <div class="u-f-g1">
                             <div class="col-md-8">
-                            <?php print $node->field_duracion_del_programa[und][0]['value'] ; ?>
+                            <?php print $node->field_duraci_n_del_programa_movi[und][0]['from'] ; ?> - 
+                            <?php print $node->field_duraci_n_del_programa_movi[und][0]['to'] ; ?>
+                            <?php print $node->field_unidad_de_la_duracion[und][0]['value'] ; ?>
                           </div>
                         </div>
                       </div>
@@ -147,29 +149,9 @@
                     </div>
                   <?php } ?>
 
-                  <!-- Nacionalidad -->
-                <?php $field = field_get_items('node', $node, 'field_nacionalidad');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="row">
-                        <div class="u-mr+ u-semibold">
-                          
-                            <div class="col-md-4">
-                            <?php print t('Nacionalidad del solicitante:')?>
-                            </div>
-                        </div>
-                        <div class="u-f-g1">
-                           <div class="col-md-8">
-                            <?php print $content['field_nacionalidad']['#items'][0]['taxonomy_term']->name; ?>
-                          </div>
-                        </div>
-                      </div>
-                   </div>
-                  <?php } ?>
-
                   <!-- Univ/centros de origen del solicitante -->
 
-                <?php $field = field_get_items('node', $node, 'field_nacionalidad');
+                <?php $field = field_get_items('node', $node, 'field_universidad_centro_origen_');
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="row">
@@ -180,7 +162,7 @@
                       </div>
                       <div class="u-f-g1">
                         <div class="col-md-8">
-                          <?php print $content['field_nacionalidad']['#items'][0]['taxonomy_term']->name; ?>
+                          <?php print $content['field_universidad_centro_origen_']['#items'][0]['taxonomy_term']->name; ?>
                         </div>
                       </div>
                     </div>
@@ -209,7 +191,7 @@
 
                 <!-- Idiomas requeridos al solicitante  -->
 
-                <?php $field = field_get_items('node', $node, 'field_idiomas_requeridos');
+                <?php $field = field_get_items('node', $node, 'field_idiomas_requeridos_al_soli');
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="row">
@@ -220,7 +202,7 @@
                       </div>
                       <div class="u-f-g1">
                          <div class="col-md-8">
-                        <?php print $node->field_idiomas_requeridos[und][0]['value'] ; ?>
+                          <?php print $node->field_idiomas_requeridos_al_soli[und][0]['value'] ; ?>
                          </div>
                       </div>
                     </div>
@@ -293,14 +275,14 @@
                     </div>
                   <?php } ?>
 
-                <!-- Especialidad -->
+                <!-- Subárea de conocimiento -->
 
                 <?php $field = field_get_items('node', $node, 'field_ambito_subarea_conocimient');
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                       <div class="col-md-4">
                       <div class="u-mr+ u-semibold">
-                        <?php print t('Especialidad:')?>
+                        <?php print t('Subárea de conocimiento:')?>
                       </div>
                     </div>
                       <div class="u-f-g1">
