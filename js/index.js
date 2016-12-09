@@ -1087,6 +1087,7 @@ y(function ($) {
 
     $camposObligatorios.on('change', function (event) {
       var mostrarStep2 = todosLosCamposRellenados($camposObligatorios);
+      
 
       if (mostrarStep2) {
         $step2.show();
