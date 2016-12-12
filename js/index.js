@@ -862,8 +862,8 @@ x(function ($) {
       var fin = new Date(x);
       console.log(fin);
       if (now2 > fin) {
-          $('.plazo-cerrado').append('<div><img class="" src="/sites/all/themes/zen/Nexos/assets/images/programa_cerrado.png" alt="Cerrado"></div>');
-          $('.plazo-cerrado').removeClass('open');
+          $('.plazo-cerrado-ficha').append('<div><img class="" src="/sites/all/themes/zen/Nexos/assets/images/programa_cerrado.png" alt="Cerrado"></div>');
+          $('.plazo-cerrado-ficha').removeClass('open');
       }
   });
 
