@@ -858,10 +858,12 @@ x(function ($) {
   var now2 = new Date;
   $('.plazo-solicitud-fin').each(function (i, v) {
       var x = $(this).first().text();
+      console.log(x);
       var fin = new Date(x);
+      console.log(fin);
       if (now2 > fin) {
-          $('.plazo-cerrado-all').append('<div><img class="" src="/sites/all/themes/zen/Nexos/assets/images/programa_cerrado.png" alt="Cerrado"></div>');
-          $('.plazo-cerrado-all').removeClass('open');
+          $('.plazo-cerrado').append('<div><img class="" src="/sites/all/themes/zen/Nexos/assets/images/programa_cerrado.png" alt="Cerrado"></div>');
+          $('.plazo-cerrado').removeClass('open');
       }
   });
 
