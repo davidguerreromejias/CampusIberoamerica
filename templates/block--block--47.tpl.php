@@ -60,22 +60,22 @@
 
                     <ul class="sub-menu collapse" id="listados">
                         <li>
-                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/universidad">Taxonomía: Universidades<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/universidad">Universidades<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
                         </li>
                         <li>
-                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/institucion-que-promueve">Taxonomía: Institución que promueve<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/institucion-que-promueve">Institución que promueve<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
                         </li>
                         <li>
-                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/institucion-que-promueve">Taxonomía: País<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/institucion-que-promueve">País<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
                         </li>
                         <li>
-                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/area-de-conocimiento">Taxonomía: Área de conocimiento<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/area-de-conocimiento">Área de conocimiento<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
                         </li>
                         <li>
-                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/subarea-de-conocimiento">Taxonomía: Subárea de conocimiento<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/subarea-de-conocimiento">Subárea de conocimiento<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
                         </li>
                         <li>
-                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/nacionalidad">Taxonomía: Nacionalidad<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/nacionalidad">Nacionalidad<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
                         </li>
                     </ul>
             	</ul>

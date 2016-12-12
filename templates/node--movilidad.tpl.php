@@ -131,7 +131,7 @@
                           <?php print t('Fecha límite para envío solicitud:')?>
                         </div>
                       </div>
-                      <div class="u-f-g1">
+                      <div class="u-f-g1 plazo-solicitud-fin" id="node-<?php print $node->nid; ?>">
                         <div class="col-md-8">
                             <?php
                             global $language ;
