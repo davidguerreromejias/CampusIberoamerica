@@ -22,6 +22,39 @@
                 <ul class="nav nav-sidebar">
                     <li> <a href="/intranet"><img src="/sites/all/themes/zen/Nexos/assets/images/logo_campus_interior.png" style="max-width: 75%"></a></li>
                     <li class="centrat blanc"> ADMINISTRACIÓN DE CONTENIDOS</li>
+
+                    <li  data-toggle="collapse" data-target="#products" class="collapsed active">
+                        <a href="#"></i> Movilidades <span class="arrow"></span></a>
+                    </li>
+
+                    <ul class="sub-menu collapse" id="products">
+                        <li><a href="#">General</a></li>
+                        <li><a href="#">Buttons</a></li>
+                        <li><a href="#">Tabs & Accordions</a></li>
+                        <li><a href="#">Typography</a></li>
+                        <li><a href="#">FontAwesome</a></li>
+                        <li><a href="#">Slider</a></li>
+                        <li><a href="#">Panels</a></li>
+                        <li><a href="#">Widgets</a></li>
+                        <li><a href="#">Bootstrap Model</a></li>
+                    </ul>
+
+                    <li  data-toggle="collapse" data-target="#products" class="collapsed active">
+                        <a href="#"></i> Movilidades <span class="arrow"></span></a>
+                    </li>
+
+                    <ul class="sub-menu collapse" id="products">
+                        <li><a href="#">General</a></li>
+                        <li><a href="#">Buttons</a></li>
+                        <li><a href="#">Tabs & Accordions</a></li>
+                        <li><a href="#">Typography</a></li>
+                        <li><a href="#">FontAwesome</a></li>
+                        <li><a href="#">Slider</a></li>
+                        <li><a href="#">Panels</a></li>
+                        <li><a href="#">Widgets</a></li>
+                        <li><a href="#">Bootstrap Model</a></li>
+                    </ul>
+
                     <li class="fletxa">
                         
                         <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/movilidades">Movilidades
