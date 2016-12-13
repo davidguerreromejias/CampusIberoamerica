@@ -28,8 +28,16 @@
                     </li>
 
                     <ul class="sub-menu collapse" id="contenidos">
-                        <li>
-                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/movilidades">Movilidades<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                        <li  data-toggle="collapse" data-target="#movilidades" class="collapsed active">
+                            <a href="#"></i> Movilidades <span class="arrow"></span></a>
+                            <ul class="sub-sub-menu collapse" id="movilidades">
+                                <li>
+                                    <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/movilidades">Publicadas<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                                </li>
+                                <li>
+                                    <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/movilidades-no-publicadas">No Publicadas<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/prepara-tu-viaje">Prepara tu viaje<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
