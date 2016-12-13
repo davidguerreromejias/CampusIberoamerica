@@ -49,7 +49,7 @@
 	      <div id="<?php print $widgets['filter-field_ambito_area_conocimiento_tid']->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
 	      	<div class="search-filter is-open">
 	          <div class="search-filter__name">
-	            <span class="u-semibold"><?php print t('Área de conocimiento')?></span>
+	            <span class="u-semibold"><?php print t('Area de conocimiento')?></span>
 	            <span  class="search-filter__down-arrow">
 	              <svg width="9px" height="5px" viewBox="288 25 9 5" version="1.1" xmlns="http://www.w3.org/2000/svg"; xmlns:xlink="http://www.w3.org/1999/xlink">;
 					  <desc>down arrow</desc>
