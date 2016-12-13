@@ -167,6 +167,26 @@
                   </div>
                 <?php } ?>
 
+                <!-- Categoria o segmento al que aplica -->
+
+              <?php $field = field_get_items('node', $node, 'field_categoria_o_segmento');
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="row">
+                      <div class="u-mr+ u-semibold">
+                        <div class="col-md-4">
+                          <?php print t('Categoria o segmento al que aplica:')?>
+                        </div>
+                      </div>
+                      <div class="u-f-g1">
+                        <div class="col-md-8">
+                          <?php print $content['field_categoria_o_segmento']['#items'][0]['taxonomy_term']->name;?>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <?php } ?>
+
                 <!-- Duración del programa -->
               
               <div class="u-mb++">
