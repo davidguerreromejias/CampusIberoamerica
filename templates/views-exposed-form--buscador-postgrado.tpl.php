@@ -46,7 +46,7 @@
 
 	  	<!--AREA CONOCIMIENTO -->
 
-	      <div id="<?php print $widgets['filter-field_ambito_area_conocimiento_tid']->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
+	      <div id="<?php print $widgets['filter-field_ambito_area_conocimiento_tid_i18n']->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
 	      	<div class="search-filter is-open">
 	          <div class="search-filter__name">
 	            <span class="u-semibold"><?php print t('Area de conocimiento')?></span>
@@ -64,22 +64,20 @@
 	            <div class="search-filter__fixed-block">
 	            
 	          
-	        <?php if (!empty($widgets['filter-field_ambito_area_conocimiento_tid']->operator)): ?>
+	        <?php if (!empty($widgets['filter-field_ambito_area_conocimiento_tid_i18n']->operator)): ?>
 	          <div class="views-operator">
-	            <?php print $widgets['filter-field_ambito_area_conocimiento_tid']->operator; ?>
+	            <?php print $widgets['filter-field_ambito_area_conocimiento_tid_i18n']->operator; ?>
 	          </div>
 	        <?php endif; ?>
 	        <div class="views-widget">
 	        	<div class="input-action">
-		          <?php print $widgets['filter-field_ambito_area_conocimiento_tid']->widget; ?>
+		          <?php print $widgets['filter-field_ambito_area_conocimiento_tid_i18n']->widget; ?>
 		          </div>
 	          </div>
 	          </div>
 	        </div>
 	      </div>
 	    </div>
-
-
 
 	  	<!-- DIRIGIDO A... -->
 

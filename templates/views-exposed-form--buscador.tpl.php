@@ -78,6 +78,7 @@
 	        </div>
 	      </div>
 	    </div>
+	    
 	  	<!-- DIRIGIDO A... -->
 
 	      <div id="<?php print $widgets['filter-field_instituci_n_que_promueve_value']->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
