@@ -32,33 +32,33 @@
                             <a href="#"></i> Movilidades <span class="arrow"></span></a>
                             <ul class="sub-sub-menu collapse" id="movilidades">
                                 <li>
-                                    <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/movilidades">Publicadas<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                                    <a class="blanc" href="/es/intranet/movilidades">Publicadas<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
                                 </li>
                                 <li>
-                                    <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/movilidades-no-publicadas">No Publicadas<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                                    <a class="blanc" href="/es/intranet/movilidades-no-publicadas">No Publicadas<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/prepara-tu-viaje">Prepara tu viaje<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                            <a class="blanc" href="/es/intranet/prepara-tu-viaje">Prepara tu viaje<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                        </li>   
+                        <li>
+                            <a class="blanc" href="/es/intranet/lista-info-paises">Info de los países<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
                         </li>
                         <li>
-                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/lista-info-paises">Info de los países<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                            <a class="blanc" href="/es/intranet/preguntas-frecuentes">Preguntas frecuentes<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
                         </li>
                         <li>
-                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/preguntas-frecuentes">Preguntas frecuentes<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                            <a class="blanc" href="/es/intranet/campus-plus">Campus Plus<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
                         </li>
                         <li>
-                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/campus-plus">Campus Plus<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                            <a class="blanc" href="/es/intranet/aviso-legal">Aviso Legal<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
                         </li>
                         <li>
-                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/aviso-legal">Aviso Legal<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                            <a class="blanc" href="/es/intranet/política-de-privacidad">Política de Privacidad<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
                         </li>
                         <li>
-                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/política-de-privacidad">Política de Privacidad<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
-                        </li>
-                        <li>
-                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/acerca-de">Acerca De...<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                            <a class="blanc" href="/es/intranet/acerca-de">Acerca De...<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
                         </li>
                     </ul>
 
@@ -68,22 +68,22 @@
 
                     <ul class="sub-menu collapse" id="listados">
                         <li>
-                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/universidad">Universidades<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                            <a class="blanc" href="/es/intranet/taxonomia/universidad">Universidades<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
                         </li>
                         <li>
-                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/institucion-que-promueve">Institución que promueve<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                            <a class="blanc" href="/es/intranet/taxonomia/institucion-que-promueve">Institución que promueve<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
                         </li>
                         <li>
-                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/institucion-que-promueve">País<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                            <a class="blanc" href="/es/intranet/taxonomia/institucion-que-promueve">País<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
                         </li>
                         <li>
-                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/area-de-conocimiento">Área de conocimiento<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                            <a class="blanc" href="/es/intranet/taxonomia/area-de-conocimiento">Área de conocimiento<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
                         </li>
                         <li>
-                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/subarea-de-conocimiento">Subárea de conocimiento<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                            <a class="blanc" href="/es/intranet/taxonomia/subarea-de-conocimiento">Subárea de conocimiento<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
                         </li>
                         <li>
-                            <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/taxonomia/nacionalidad">Nacionalidad<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
+                            <a class="blanc" href="/es/intranet/taxonomia/nacionalidad">Nacionalidad<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
                         </li>
                     </ul>
             	</ul>
