@@ -50,12 +50,12 @@
 
       if ( $user->uid ) {
         ?><li>
-          <a href="https://movia.fib.upc.edu:8444/es/intranet/" class="btn u-fs-small u-bold"><?php print t('Area privada')?></a>
+          <a href="/es/intranet/" class="btn u-fs-small u-bold"><?php print t('Area privada')?></a>
         </li><?php
       }
       else {
         ?><li>
-          <a href="https://movia.fib.upc.edu:8444/es/content/login#" class="btn u-fs-small u-bold"><?php print t('Area privada')?></a>
+          <a href="/es/content/login#" class="btn u-fs-small u-bold"><?php print t('Area privada')?></a>
         </li><?php
       } ?>
       <li>
