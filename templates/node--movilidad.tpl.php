@@ -539,23 +539,23 @@
 				
 				<!-- Univ/ Centro origen del solicitante -->
 				
-				<?php $field = field_get_items('node', $node, 'field_universidad_centro_origen_');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="row">
-                      <div class="u-mr+ u-semibold">
-                        <div class="col-md-4">
-                          <?php print t('Univ/centros de origen del solicitante:')?>
-                         </div>
-                      </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                          <?php print $content['field_universidad_centro_origen_']['#items'][0]['taxonomy_term']->name; ?>
-                        </div>
-                      </div>
-                    </div>
-                    </div>
-                  <?php } ?>
+	        <?php $field = field_get_items('node', $node, 'field_universidad_centro_origen_');
+            if ($field) { ?>
+              <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                <div class="row">
+                <div class="u-mr+ u-semibold">
+                  <div class="col-md-4">
+                    <?php print t('Univ/centros de origen del solicitante:')?>
+                   </div>
+                </div>
+                <div class="u-f-g1">
+                  <div class="col-md-8">
+                    <?php print $content['field_universidad_centro_origen_']['#items'][0]['taxonomy_term']->name; ?>
+                  </div>
+                </div>
+              </div>
+              </div>
+            <?php } ?>
 				
 				<!-- Duración del programa/movilidad -->
               
@@ -580,11 +580,55 @@
                     </div>
                   <?php } ?>
 				  
-				  <!-- Unidad de la duración -->
-				  
 				  <!-- Mes de llegada -->
+
+              <?php $field = field_get_items('node', $node, 'field_mes_de_llegada');
+                if ($field) { ?>
+                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                    <div class="col-md-4">
+                    <div class="u-mr+ u-semibold">
+                      <?php print t('Mes de llegada:')?>
+                    </div>
+                  </div>
+                    <div class="u-f-g1">
+                      <div class="col-md-8">
+                      <?php
+                        global $language ;
+                        $curlang = $language->language;
+                      ?> 
+                      <?php if($curlang == 'es'){
+                        setlocale(LC_ALL, 'es_ES');
+                      }?>
+                      <?php echo (strftime("%d %B %Y", strtotime($node->field_mes_de_llegada['und'][0]['value'])));?>
+                      </div>
+                    </div>
+                  </div>
+                <?php } ?>
 				  
 				  <!-- Fecha prevista inicio trabajo -->
+
+              <?php $field = field_get_items('node', $node, 'field_fecha_prevista_inicio_trab');
+                  if ($field) { ?>
+                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                      <div class="col-md-4">
+                      <div class="u-mr+ u-semibold">
+                        <?php print t('Fecha prevista inicio trabajo:')?>
+                      </div>
+                    </div>
+                      <div class="u-f-g1">
+                        <div class="col-md-8">
+                        <?php
+                          global $language ;
+                          $curlang = $language->language;
+                        ?> 
+                        <?php if($curlang == 'es'){
+                          setlocale(LC_ALL, 'es_ES');
+                        }?>
+                        <?php echo (strftime("%d %B %Y", strtotime($node->field_fecha_prevista_inicio_trab['und'][0]['value'])));?>
+                        </div>
+                      </div>
+                    </div>
+                  <?php } ?>
 				  
 				  <!-- Requisitos solicitante -->
 				  
@@ -607,18 +651,140 @@
                   <?php } ?>
 				  
 				  <!-- País de destino -->
+        
+            <?php $field = field_get_items('node', $node, 'field_ambito_pais');
+              if ($field) { ?>
+                <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                  <div class="row">
+                  <div class="u-mr+ u-semibold">
+                    <div class="col-md-4">
+                      <?php print t('País de destino:')?>
+                     </div>
+                  </div>
+                  <div class="u-f-g1">
+                    <div class="col-md-8">
+                      <?php print $content['field_ambito_pais']['#items'][0]['taxonomy_term']->name; ?>
+                    </div>
+                  </div>
+                </div>
+                </div>
+            <?php } ?>
 				  
 				  <!-- Universidad/Centro Destino -->
 
-                  <!-- Área de conocimiento -->
+            <?php $field = field_get_items('node', $node, 'field__mbito_univ_centro');
+              if ($field) { ?>
+                <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                  <div class="row">
+                  <div class="u-mr+ u-semibold">
+                    <div class="col-md-4">
+                      <?php print t('Universidad/Centro Destino:')?>
+                     </div>
+                  </div>
+                  <div class="u-f-g1">
+                    <div class="col-md-8">
+                      <?php print $content['field__mbito_univ_centro']['#items'][0]['taxonomy_term']->name; ?>
+                    </div>
+                  </div>
+                </div>
+                </div>
+            <?php } ?>
+
+          <!-- Área de conocimiento -->
+
+          <?php $field = field_get_items('node', $node, 'field_ambito_area_conocimiento');
+              if ($field) { ?>
+                <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                  <div class="row">
+                  <div class="u-mr+ u-semibold">
+                    <div class="col-md-4">
+                      <?php print t('Área de conocimiento:')?>
+                     </div>
+                  </div>
+                  <div class="u-f-g1">
+                    <div class="col-md-8">
+                      <?php print $content['field_ambito_area_conocimiento']['#items'][0]['taxonomy_term']->name; ?>
+                    </div>
+                  </div>
+                </div>
+                </div>
+            <?php } ?>
 				  
 				  <!-- Subárea de conocimiento -->
+
+          <?php $field = field_get_items('node', $node, 'field_ambito_subarea_conocimient');
+              if ($field) { ?>
+                <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                  <div class="row">
+                  <div class="u-mr+ u-semibold">
+                    <div class="col-md-4">
+                      <?php print t('Subárea de conocimiento:')?>
+                     </div>
+                  </div>
+                  <div class="u-f-g1">
+                    <div class="col-md-8">
+                      <?php print $content['field_ambito_subarea_conocimient']['#items'][0]['taxonomy_term']->name; ?>
+                    </div>
+                  </div>
+                </div>
+                </div>
+            <?php } ?>
 				  
 				  <!-- Nivel de estudios requerido -->
+
+          <?php $field = field_get_items('node', $node, 'field_nivel_estudios_requerido');
+            if ($field) { ?>
+              <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                <div class="row">
+                  <div class="u-mr+ u-semibold">
+                    <div class="col-md-4">
+                      <?php print t('Nivel de estudios requerido:')?>
+                    </div>
+                  </div>
+                  <div class="u-f-g1">
+                    <div class="col-md-8">
+                      <?php print $node->field_nivel_estudios_requerido[und][0]['value'] ; ?>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          <?php } ?>
 				  
 				  <!-- Estudios requeridos -->
+
+          <?php $field = field_get_items('node', $node, 'field_estudios_requeridos'); 
+            if ($field) { ?>
+              <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                <div class="col-md-4">
+                  <div class="u-mr+ u-semibold">
+                    <?php print t('Estudios requeridos:')?>
+                  </div>
+                </div>
+                <div class="u-f-g1">
+                  <div class="col-md-8">
+                    <?php print $node->field_estudios_requeridos[und][0]['value'] ; ?>
+                  </div>
+                </div>
+              </div>
+            <?php } ?>
 				  
 				  <!-- Otros requisitos -->
+
+          <?php $field = field_get_items('node', $node, 'field_otros_requisitos'); 
+            if ($field) { ?>
+              <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                <div class="col-md-4">
+                  <div class="u-mr+ u-semibold">
+                    <?php print t('Otros requisitos:')?>
+                  </div>
+                </div>
+                <div class="u-f-g1">
+                  <div class="col-md-8">
+                    <?php print $node->field_otros_requisitos[und][0]['value'] ; ?>
+                  </div>
+                </div>
+              </div>
+            <?php } ?>
 				  
 				  <!-- Idiomas requeridos al solicitante -->
 				  
@@ -641,8 +807,40 @@
                   <?php } ?>
 				  
 				  <!-- Otros criterios de elegibilidad -->
+
+          <?php $field = field_get_items('node', $node, 'field_otros_criterios_de_elegibi'); 
+            if ($field) { ?>
+              <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                <div class="col-md-4">
+                  <div class="u-mr+ u-semibold">
+                    <?php print t('Otros criterios de elegibilidad:')?>
+                  </div>
+                </div>
+                <div class="u-f-g1">
+                  <div class="col-md-8">
+                    <?php print $node->field_otros_criterios_de_elegibi[und][0]['value'] ; ?>
+                  </div>
+                </div>
+              </div>
+            <?php } ?>
 				  
 				  <!-- Enlace programa -->
+
+          <?php $field = field_get_items('node', $node, 'field_enlace_programa'); 
+            if ($field) { ?>
+              <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                <div class="col-md-4">
+                  <div class="u-mr+ u-semibold">
+                    <?php print t('Enlace programa:')?>
+                  </div>
+                </div>
+                <div class="u-f-g1">
+                  <div class="col-md-8">
+                    <?php print $node->field_enlace_programa[und][0]['value'] ; ?>
+                  </div>
+                </div>
+              </div>
+            <?php } ?>
 				  
 				  <!-- PDF/Video -->
 				  
@@ -664,263 +862,7 @@
                     </div>
                   <?php } ?>
 				  
-				  <!--
 				  
-				  <!-- País de origen del solicitante -->
-
-                <?php $field = field_get_items('node', $node, 'field_pais_origen_solicitante');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="row">
-                      <div class="u-mr+ u-semibold">
-                        
-                            <div class="col-md-4">
-                        <?php print t('País/es de origen del solicitante:')?>
-                            </div>
-                      </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                        <?php 
-                        $cont = count($content['field_pais_origen_solicitante']['#items']);
-                        for ($i = 0; $i <  $cont - 1; $i++) {
-                            print $content['field_pais_origen_solicitante']['#items'][$i]['taxonomy_term']->name;
-                            echo ", "; 
-                        }
-                        print $content['field_pais_origen_solicitante']['#items'][($cont-1)]['taxonomy_term']->name;?>
-                      </div>
-                    </div>
-                      </div>
-                    </div>
-                  <?php } ?>
-
-                  <!-- Univ/centros de origen del solicitante -->
-
-                <?php $field = field_get_items('node', $node, 'field_universidad_centro_origen_');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="row">
-                      <div class="u-mr+ u-semibold">
-                        <div class="col-md-4">
-                          <?php print t('Univ/centros de origen del solicitante:')?>
-                         </div>
-                      </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                          <?php print $content['field_universidad_centro_origen_']['#items'][0]['taxonomy_term']->name; ?>
-                        </div>
-                      </div>
-                    </div>
-                    </div>
-                  <?php } ?>
-
-                <!-- Requisitos solicitante -->
-
-                <?php $field = field_get_items('node', $node, 'field_requisitos_solicitante');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="row">
-                        <div class="u-mr+ u-semibold">
-                          <div class="col-md-4">
-                            <?php print t('Requisitos solicitante:')?>
-                          </div>
-                        </div>
-                        <div class="u-f-g1">
-                          <div class="col-md-8">
-                            <?php print $node->field_requisitos_solicitante[und][0]['value'] ; ?>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  <?php } ?>
-
-                <!-- Idiomas requeridos al solicitante  -->
-
-                <?php $field = field_get_items('node', $node, 'field_idiomas_requeridos_al_soli');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="row">
-                      <div class="u-mr+ u-semibold">
-                        <div class="col-md-4">
-                        <?php print t('Idiomas requeridos al solicitante:')?>
-                      </div>
-                      </div>
-                      <div class="u-f-g1">
-                         <div class="col-md-8">
-                          <?php print $node->field_idiomas_requeridos_al_soli[und][0]['value'] ; ?>
-                         </div>
-                      </div>
-                    </div>
-                    </div>
-                  <?php } ?>
-
-                <!-- País/es de destino   -->
-
-                <?php $field = field_get_items('node', $node, 'field_ambito_pais');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="row">
-                      <div class="u-mr+ u-semibold">
-                        <div class="col-md-4">
-                        <?php print t('País/es de destino:')?>
-                      </div>
-                      </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                        <?php 
-                        $cont = count($content['field_ambito_pais']['#items']);
-                        for ($i = 0; $i <  $cont - 1; $i++) {
-                            print $content['field_ambito_pais']['#items'][$i]['taxonomy_term']->name;
-                            echo ", "; 
-                        }
-                        print $content['field_ambito_pais']['#items'][($cont-1)]['taxonomy_term']->name;?>
-                      </div>
-                      </div>
-                    </div>
-                    </div>
-                  <?php } ?>
-
-                  <!-- Univ/Centro de destino -->
-
-                <?php $field = field_get_items('node', $node, 'field__mbito_univ_centro');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="row">
-                        <div class="col-md-4">
-                          <div class="u-mr+ u-semibold">
-                            <?php print t('Univ/Centro de destino:')?>
-                          </div>
-                        </div>
-
-                        <div class="u-f-g1">
-                          <div class="col-md-8">
-                           <?php print $content['field__mbito_univ_centro']['#items'][0]['taxonomy_term']->name; ?>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  <?php } ?>
-
-                <!-- Área de conocimiento -->
-
-                <?php $field = field_get_items('node', $node, 'field_ambito_area_conocimiento');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="col-md-4">
-                        <div class="u-mr+ u-semibold">
-                          <?php print t('Área de conocimiento:')?>
-
-                        </div>
-                      </div>
-                        <div class="u-f-g1">
-                          <div class="col-md-8">
-                          <?php print $content['field_ambito_area_conocimiento']['#items'][0]['taxonomy_term']->name; ?>
-                        </div>
-                      </div>
-                    </div>
-                  <?php } ?>
-
-                <!-- Subárea de conocimiento -->
-
-                <?php $field = field_get_items('node', $node, 'field_ambito_subarea_conocimient');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="col-md-4">
-                      <div class="u-mr+ u-semibold">
-                        <?php print t('Subárea de conocimiento:')?>
-                      </div>
-                    </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                          <?php print $content['field_ambito_subarea_conocimient']['#items'][0]['taxonomy_term']->name; ?>
-                        </div>
-                      </div>
-                    </div>
-                  <?php } ?>
-
-                <!-- Presupuesto total de la oferta  -->
-
-                <?php $field = field_get_items('node', $node, 'field_prespuesto_total_oferta');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="col-md-4">
-                      <div class="u-mr+ u-semibold">
-                        <?php print t('Prespuesto total de la oferta:')?>
-                      </div>
-                    </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                        <?php 
-                          $number_eur = number_format($node->field_prespuesto_total_oferta[und][0]['value'], 2, ',', '.'); 
-                          print $number_eur; ?>
-                        </div>
-                      </div>
-                    </div>
-                  <?php } ?>
-
-                <!-- Tipo de moneda -->
-
-                <?php $field = field_get_items('node', $node, 'field_tipo_de_moneda');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="col-md-4">
-                      <div class="u-mr+ u-semibold">
-                        <?php print t('Tipo de moneda:')?>
-                      </div>
-                    </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                        <?php
-                          $wrapper = entity_metadata_wrapper('node', $node);
-                          $label = $wrapper->field_tipo_de_moneda->label();
-                          print $label; 
-                         ?>
-                       </div>
-                      </div>
-                    </div>
-                  <?php } ?>
-
-                <!-- Fecha límite envío solicitud -->
-
-                <?php $field = field_get_items('node', $node, 'field_tipo_de_moneda');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="col-md-4">
-                      <div class="u-mr+ u-semibold">
-                        <?php print t('Fecha límite envío solicitud:')?>
-                      </div>
-                    </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                        <?php
-                          global $language ;
-                          $curlang = $language->language;
-                        ?> 
-                        <?php if($curlang == 'es'){
-                          setlocale(LC_ALL, 'es_ES');
-                        }?>
-                        <?php echo (strftime("%d %B %Y", strtotime($node->field_plazo_para_solicitud_inici['und'][0]['value2'])));?>
-                        </div>
-                      </div>
-                    </div>
-                  <?php } ?>
-
-                <!-- Cómo enviar la candidatura  -->
-
-                <?php $field = field_get_items('node', $node, 'field_c_mo_enviar_la_candidatura');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="col-md-4">
-                      <div class="u-mr+ u-semibold">
-                        <?php print t('Cómo enviar la candidatura:')?>
-                      </div>
-                    </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                          <?php print $node->field_c_mo_enviar_la_candidatura[und][0]['value'] ; ?>
-                        </div>
-                      </div>
-                    </div>
-                  <?php } ?>
               </div>
             </div>
           </div>
