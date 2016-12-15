@@ -197,6 +197,7 @@
         <div class="p-buscador_select">
           <select name="areaPre" class="js-buscador-select">
             <option><?php print t('Área de conocimiento')?></option>
+            <option value="All"><?php print t('Cualquiera')?></option>
           </select>
         </div>  
       </div>
@@ -213,6 +214,7 @@
         <div class="p-buscador_select">
           <select name="field_instituci_n_que_promueve_value" class="js-buscador-select">
             <option value=""><?php print t('Especialidad')?></option>
+            <option value="All"><?php print t('Cualquiera')?></option>
           </select>
         </div>
       </div>
@@ -221,6 +223,7 @@
         <div class="p-buscador_select">
           <select name="field_ambito_pais_tid_1" class="js-buscador-select">
             <option value="All"><?php print t('País al que quieres ir')?></option>
+            <option value="All"><?php print t('Cualquiera')?></option>
           </select>
         </div>
       </div>
