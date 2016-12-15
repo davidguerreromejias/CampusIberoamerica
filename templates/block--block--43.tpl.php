@@ -28,7 +28,7 @@
 
                     </li>
                     <li class="fletxa">
-                        <a class="blanc" href="https://movia.fib.upc.edu:8444/es/intranet/movilidades">Movilidades
+                        <a class="blanc" href="/es/intranet/movilidades">Movilidades
                             <span class="icon-angle-right" style="float: right; margin: 5px;"></span>
                         </a>
                     </li>
