@@ -867,535 +867,188 @@
             </div>
           </div>
 
-            <!-- SOLO SI ES INVESTIGACIÓN -->
+            <!-- Datos de gestión y de la institución que promueve la movilidad -->
 
-                <?php $field = field_get_items('node', $node, 'field_categoria_o_segmento');
-                  ?><p><?php $investigador = $content['field_categoria_o_segmento']['#items'][0]['taxonomy_term']->name; ?> </p>
-                  <?php if ($investigador == "Investigación / docencia") {
-                    ?>
             <div class="panel horizontal-line-separator-top">
               <div class="panel-heading">
                 <div class="u-color-turquesa">
                   <a class="u-color-turquesa collapsed-block__option collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                    <?php print t('Investigadores')?>
+                    <?php print t('Datos de gestión y de la institución que promueve la movilidad')?>
                     <i class="collapsed-block__icon"> </i>
                   </a>
                 </div>
               </div>
               <div id="collapse2" class="panel-collapse collapse">
-                
-                    <?php
 
-                    // Prespuesto total de la oferta 
 
-                    $field = field_get_items('node', $node, 'field_prespuesto_total_oferta'); 
+                  <!-- Univ/Centro Responsable -->
+
+                  <?php $field = field_get_items('node', $node, 'field_univ_centro_responsable');
                     if ($field) { ?>
                       <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="col-md-4">
-                          <div class="u-mr+ u-semibold">
-                            <?php print t('Prespuesto total de la oferta:')?>
-                          </div>
-                        </div>
-                        <div class="u-f-g1">
-                          <div class="col-md-8">
-                            <?php print $node->field_prespuesto_total_oferta[und][0]['value'] ; ?>
-                          </div>
-                        </div>
-                      </div>
-                    <?php } ?>
-
-                    <?php 
-                    // Incluye salario del beneficiario?  
-
-                    $field = field_get_items('node', $node, 'field_incluye_salario'); 
-                    if ($field) { ?>
-                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="col-md-4">
-                          <div class="u-mr+ u-semibold">
-                            <?php print t('Incluye salario del beneficiario?')?>
-                          </div>
-                        </div>
-                        <div class="u-f-g1">
-                          <div class="col-md-8">
-                            <?php if ($node->field_incluye_salario[und][0]['value'] == 1){?> Si
-                            <?php }
-                            if ($node->field_incluye_salario[und][0]['value'] == 0){?> 
-                            No <?php } ?>
-                          </div>
-                        </div>
-                      </div>
-                    <?php } ?>
-
-                    <?php 
-                    // Salario del beneficiario  
-
-                    $field = field_get_items('node', $node, 'field_salario_del_beneficiario'); 
-                    if ($field) { ?>
-                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="col-md-4">
-                          <div class="u-mr+ u-semibold">
-                            <?php print t('Salario del beneficiario')?>
-                          </div>
-                        </div>
-                        <div class="u-f-g1">
-                          <div class="col-md-8">
-                            <?php 
-                            $number_eur = number_format($node->field_salario_del_beneficiario[und][0]['value'], 2, ',', '.'); 
-                            print $number_eur; ?>
-                          </div>
-                        </div>
-                      </div>
-                    <?php } ?>
-
-                    <?php 
-                    // Incluye gastos de desplazamiento?  
-
-                    $field = field_get_items('node', $node, 'field_incluye_gastos_desplazamen'); 
-                    if ($field) { ?>
-                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="col-md-4">
-                          <div class="u-mr+ u-semibold">
-                            <?php print t('Incluye gastos de desplazamiento?')?>
-                          </div>
-                        </div>
-                        <div class="u-f-g1">
-                          <div class="col-md-8">
-                            <?php if ($node->field_incluye_gastos_desplazamen[und][0]['value'] == 1){?> Si
-                            <?php }
-                            if ($node->field_incluye_gastos_desplazamen[und][0]['value'] == 0){?> 
-                            No <?php } ?>
-                          </div>
-                        </div>
-                      </div>
-                    <?php } ?>
-
-                    <?php 
-                    //Gastos de desplazamiento 
-
-                    $field = field_get_items('node', $node, 'field_gastos_de_desplazamiento'); 
-                    if ($field) { ?>
-                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="col-md-4">
-                          <div class="u-mr+ u-semibold">
-                            <?php print t('Gastos de desplazamiento')?>
-                          </div>
-                        </div>
-                        <div class="u-f-g1">
-                          <div class="col-md-8">
-                            <?php print $node->field_gastos_de_desplazamiento[und][0]['value'] ; ?>
-                          </div>
-                        </div>
-                      </div>
-                    <?php } ?>
-
-                    <?php 
-                    //Incluye manutención ?  
-
-                    $field = field_get_items('node', $node, 'field_incluye_manutencion'); 
-                    if ($field) { ?>
-                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="col-md-4">
-                          <div class="u-mr+ u-semibold">
-                            <?php print t('Incluye manutención?')?>
-                          </div>
-                        </div>
-                        <div class="u-f-g1">
-                          <div class="col-md-8">
-                            <?php if ($node->field_incluye_manutencion[und][0]['value'] == 1){?> Si
-                            <?php }
-                            if ($node->field_incluye_manutencion[und][0]['value'] == 0){?> 
-                            No <?php } ?>
-                          </div>
-                        </div>
-                      </div>
-                    <?php } ?>
-
-                    <?php 
-                    //Manutención
-
-                    $field = field_get_items('node', $node, 'field_manutencion'); 
-                    if ($field) { ?>
-                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="col-md-4">
-                          <div class="u-mr+ u-semibold">
-                            <?php print t('Manutención')?>
-                          </div>
-                        </div>
-                        <div class="u-f-g1">
-                          <div class="col-md-8">
-                            <?php print $node->field_manutencion[und][0]['value'] ; ?>
-                          </div>
-                        </div>
-                      </div>
-                    <?php } ?>
-
-                    <?php 
-                    //Incluye otros costes?  
-
-                    $field = field_get_items('node', $node, 'field_incluye_otros_costes'); 
-                    if ($field) { ?>
-                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="col-md-4">
-                          <div class="u-mr+ u-semibold">
-                            <?php print t('Incluye otros costes?')?>
-                          </div>
-                        </div>
-                        <div class="u-f-g1">
-                          <div class="col-md-8">
-                            <?php if ($node->field_incluye_otros_costes[und][0]['value'] == 1){?> Si
-                            <?php }
-                            if ($node->field_incluye_otros_costes[und][0]['value'] == 0){?> 
-                            No <?php } ?>
-                          </div>
-                        </div>
-                      </div>
-                    <?php } ?>
-
-                    <?php 
-                    //Otros costes
-
-                    $field = field_get_items('node', $node, 'field_otros_costes'); 
-                    if ($field) { ?>
-                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="col-md-4">
-                          <div class="u-mr+ u-semibold">
-                            <?php print t('Otros costes')?>
-                          </div>
-                        </div>
-                        <div class="u-f-g1">
-                          <div class="col-md-8">
-                            <?php print $node->field_otros_costes[und][0]['value'] ; ?>
-                          </div>
-                        </div>
-                      </div>
-                    <?php } ?>
-
-                    <?php 
-                    //Mes de llegada
-
-                    $field = field_get_items('node', $node, 'field_mes_de_llegada'); 
-                    if ($field) { ?>
-                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="col-md-4">
-                          <div class="u-mr+ u-semibold">
-                            <?php print t('Mes de llegada:')?>
-                          </div>
-                        </div>
-                        <div class="u-f-g1">
-                          <div class="col-md-8">
-                            <?php echo date('F Y', strtotime($node->field_mes_de_llegada['und'][0]['value']));?>
-                          </div>
-                        </div>
-                      </div>
-                    <?php } ?>
-
-                    <?php 
-                    //Web/comentario
-
-                    $field = field_get_items('node', $node, 'field_web_comentario'); 
-                    if ($field) { ?>
-                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="col-md-4">
-                          <div class="u-mr+ u-semibold">
-                            <?php print t('Web/comentario:')?>
-                          </div>
-                        </div>
-                        <div class="u-f-g1">
-                          <div class="col-md-8">
-                            <?php print $node->field_web_comentario[und][0]['value'] ; ?>
-                          </div>
-                        </div>
-                      </div>
-                    <?php } ?>
-
-                    <?php 
-                    //Fecha prevista inicio trabajo
-
-                    $field = field_get_items('node', $node, 'field_fecha_prevista_inicio_trab'); 
-                    if ($field) { ?>
-                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="col-md-4">
-                          <div class="u-mr+ u-semibold">
-                            <?php print t('Fecha prevista inicio trabajo:')?>
-                          </div>
-                        </div>
-                        <div class="u-f-g1">
-                          <div class="col-md-8">
-                            <?php echo date('d F Y', strtotime($node->field_fecha_prevista_inicio_trab['und'][0]['value']));?>
-                          </div>
-                        </div>
-                      </div>
-                    <?php } ?>
-
-                    <?php 
-                    //Nivel de estudios requerido
-
-                    $field = field_get_items('node', $node, 'field_nivel_estudios_requerido'); 
-                    if ($field) { ?>
-                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="col-md-4">
-                          <div class="u-mr+ u-semibold">
-                            <?php print t('Nivel de estudios requerido:')?>
-                          </div>
-                        </div>
-                        <div class="u-f-g1">
-                          <div class="col-md-8">
-                            <?php print $node->field_nivel_estudios_requerido[und][0]['value'] ; ?>
-                          </div>
-                        </div>
-                      </div>
-                    <?php } ?>
-
-                    <?php 
-                    //Otros requisitos
-
-                    $field = field_get_items('node', $node, 'field_otros_requisitos'); 
-                    if ($field) { ?>
-                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="col-md-4">
-                          <div class="u-mr+ u-semibold">
-                            <?php print t('Otros requisitos:')?>
-                          </div>
-                        </div>
-                        <div class="u-f-g1">
-                          <div class="col-md-8">
-                            <?php print $node->field_otros_requisitos[und][0]['value'] ; ?>
-                          </div>
-                        </div>
-                      </div>
-                    <?php } ?>
-
-                    <?php 
-                    //Otros criterios de elegibilidad
-
-                    $field = field_get_items('node', $node, 'field_condiciones_movilidad'); 
-                    if ($field) { ?>
-                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="col-md-4">
-                          <div class="u-mr+ u-semibold">
-                            <?php print t('Otros criterios de elegibilidad:')?>
-                          </div>
-                        </div>
-                        <div class="u-f-g1">
-                          <div class="col-md-8">
-                            <?php print $node->field_condiciones_movilidad[und][0]['value'] ; ?>
-                          </div>
-                        </div>
-                      </div>
-                    <?php } ?>
-                    </div>
-            </div>
-                  <?php } ?>
-              
-
-            <div class="panel horizontal-line-separator-top">
-              <div class="panel-heading">
-                <div class="u-color-turquesa">
-                  <a class="u-color-turquesa collapsed-block__option collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                    <?php print t('Datos de la institución que promueve la movilidad')?>
-                    <i class="collapsed-block__icon"> </i>
-                  </a>
-                </div>
-              </div>
-              <div id="collapse3" class="panel-collapse collapse">
-                <!-- Univ/Centro responsable  -->
-
-                <?php $field = field_get_items('node', $node, 'field_univ_centro_responsable');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="col-md-4">
+                        <div class="row">
                         <div class="u-mr+ u-semibold">
-                          <?php print t('Univ/Centro responsable:')?>
+                          <div class="col-md-4">
+                            <?php print t('Univ/Centro Responsable:')?>
+                           </div>
                         </div>
-                      </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                          <?php print $content['field_univ_centro_responsable']['#items'][0]['taxonomy_term']->name; ?>
+                        <div class="u-f-g1">
+                          <div class="col-md-8">
+                            <?php print $content['field_univ_centro_responsable']['#items'][0]['taxonomy_term']->name; ?>
+                          </div>
                         </div>
                       </div>
                     </div>
                   <?php } ?>
 
-                <!-- Tipo de institución  -->
+                  <!-- Tipo de institución -->
 
-                <?php $field = field_get_items('node', $node, 'field_tipo_de_instituci_n');
+                  <?php $field = field_get_items('node', $node, 'field_tipo_de_instituci_n');
                   if ($field) { ?>
                     <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="col-md-4">
+                      <div class="row">
                         <div class="u-mr+ u-semibold">
+                          <div class="col-md-4">
                           <?php print t('Tipo de institución:')?>
+                          </div>
                         </div>
-                      </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                          <?php print $node->field_tipo_de_instituci_n[und][0]['value'] ; ?>
-                        </div>
-                      </div>
-                    </div>
-                  <?php } ?>
-
-                <!-- Persona de contacto -->
-
-                <?php $field = field_get_items('node', $node, 'field_persona_de_contacto');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="col-md-4">
-                        <div class="u-mr+ u-semibold">
-                          <?php print t('Persona de contacto:')?>
-                        </div>
-                      </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                          <?php print $node->field_persona_de_contacto[und][0]['value'] ; ?>
+                        <div class="u-f-g1">
+                           <div class="col-md-8">
+                            <?php print $node->field_tipo_de_instituci_n[und][0]['value'] ; ?>
+                           </div>
                         </div>
                       </div>
                     </div>
                   <?php } ?>
 
-                <!-- Cargo -->
+                  <!-- Persona de contacto -->
 
-                <?php $field = field_get_items('node', $node, 'field_cargo');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="col-md-4">
-                        <div class="u-mr+ u-semibold">
-                          <?php print t('Cargo:')?>
+                  <?php $field = field_get_items('node', $node, 'field_persona_de_contacto'); 
+                    if ($field) { ?>
+                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                        <div class="col-md-4">
+                          <div class="u-mr+ u-semibold">
+                            <?php print t('Persona de contacto:')?>
+                          </div>
+                        </div>
+                        <div class="u-f-g1">
+                          <div class="col-md-8">
+                            <?php print $node->field_persona_de_contacto[und][0]['value'] ; ?>
+                          </div>
                         </div>
                       </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                          <?php print $node->field_cargo[und][0]['value'] ; ?>
+                    <?php } ?>
+
+                  <!-- Cargo -->
+
+                  <?php $field = field_get_items('node', $node, 'field_cargo'); 
+                    if ($field) { ?>
+                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                        <div class="col-md-4">
+                          <div class="u-mr+ u-semibold">
+                            <?php print t('Cargo:')?>
+                          </div>
+                        </div>
+                        <div class="u-f-g1">
+                          <div class="col-md-8">
+                            <?php print $node->field_cargo[und][0]['value'] ; ?>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  <?php } ?>
+                    <?php } ?>
 
-                <!-- Email -->
+                  <!-- Email -->
 
-                <?php $field = field_get_items('node', $node, 'field_email_uni_cr');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="col-md-4">
-                        <div class="u-mr+ u-semibold">
-                          <?php print t('Email:')?>
+                  <?php $field = field_get_items('node', $node, 'field_email'); 
+                    if ($field) { ?>
+                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                        <div class="col-md-4">
+                          <div class="u-mr+ u-semibold">
+                            <?php print t('Email:')?>
+                          </div>
+                        </div>
+                        <div class="u-f-g1">
+                          <div class="col-md-8">
+                            <?php print $node->field_email[und][0]['value'] ; ?>
+                          </div>
                         </div>
                       </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                          <?php print $node->field_email_uni_cr[und][0]['value'] ; ?>
+                    <?php } ?>
+
+                  <!-- Teléfono -->
+
+                  <?php $field = field_get_items('node', $node, 'field_tel_fono'); 
+                    if ($field) { ?>
+                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                        <div class="col-md-4">
+                          <div class="u-mr+ u-semibold">
+                            <?php print t('Teléfono:')?>
+                          </div>
+                        </div>
+                        <div class="u-f-g1">
+                          <div class="col-md-8">
+                            <?php print $node->field_tel_fono[und][0]['value'] ; ?>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  <?php } ?>
+                    <?php } ?>
 
-                <!-- Teléfono/s -->
+                  <!-- Departamento que ofrece vacante -->
 
-                <?php $field = field_get_items('node', $node, 'field_tfno');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="col-md-4">
-                        <div class="u-mr+ u-semibold">
-                          <?php print t('Teléfono/s:')?>
+                  <?php $field = field_get_items('node', $node, 'field_departamento'); 
+                    if ($field) { ?>
+                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                        <div class="col-md-4">
+                          <div class="u-mr+ u-semibold">
+                            <?php print t('Departamento que ofrece vacante:')?>
+                          </div>
+                        </div>
+                        <div class="u-f-g1">
+                          <div class="col-md-8">
+                            <?php print $node->field_departamento[und][0]['value'] ; ?>
+                          </div>
                         </div>
                       </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                          <?php print $node->field_tfno[und][0]['value'] ; ?>
+                    <?php } ?>
+
+                  <!-- Dirección -->
+
+                  <?php $field = field_get_items('node', $node, 'field_c_digo_postal'); 
+                    if ($field) { ?>
+                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                        <div class="col-md-4">
+                          <div class="u-mr+ u-semibold">
+                            <?php print t('Dirección:')?>
+                          </div>
+                        </div>
+                        <div class="u-f-g1">
+                          <div class="col-md-8">
+                            <?php print $node->field_c_digo_postal[und][0]['value'] ; ?>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  <?php } ?>
+                    <?php } ?>
 
-                <!-- Departamento -->
+                  <!-- Enlace a institución -->
 
-                <?php $field = field_get_items('node', $node, 'field_departamento');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="col-md-4">
-                        <div class="u-mr+ u-semibold">
-                          <?php print t('Departamento:')?>
+                  <?php $field = field_get_items('node', $node, 'field_enlace_a_instituci_n'); 
+                    if ($field) { ?>
+                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                        <div class="col-md-4">
+                          <div class="u-mr+ u-semibold">
+                            <?php print t('Enlace a institución:')?>
+                          </div>
+                        </div>
+                        <div class="u-f-g1">
+                          <div class="col-md-8">
+                            <?php print $node->field_enlace_a_instituci_n[und][0]['value'] ; ?>
+                          </div>
                         </div>
                       </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                          <?php print $node->field_departamento[und][0]['value'] ; ?>
-                        </div>
-                      </div>
-                    </div>
-                  <?php } ?>
-
-                <!-- Dirección -->
-
-                <?php $field = field_get_items('node', $node, 'field_direccion');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="col-md-4">
-                        <div class="u-mr+ u-semibold">
-                          <?php print t('Dirección:')?>
-                        </div>
-                      </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                          <?php print $node->field_direccion[und][0]['value'] ; ?>
-                        </div>
-                      </div>
-                    </div>
-                  <?php } ?>
-
-                <!-- Código postal -->
-
-                <?php $field = field_get_items('node', $node, 'field_codigo_postal');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="col-md-4">
-                        <div class="u-mr+ u-semibold">
-                          <?php print t('Código postal:')?>
-                        </div>
-                      </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                          <?php print $node->field_codigo_postal[und][0]['value'] ; ?>
-                        </div>
-                      </div>
-                    </div>
-                  <?php } ?>
-
-                <!-- Ciudad -->
-
-                <?php $field = field_get_items('node', $node, 'field_ciudad');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="col-md-4">
-                        <div class="u-mr+ u-semibold">
-                          <?php print t('Ciudad:')?>
-                        </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                          <?php print $node->field_ciudad[und][0]['value'] ; ?>
-                        </div>
-                      </div>
-                    </div>
-                  <?php } ?>
-
-                <!-- Página web -->
-
-                <?php $field = field_get_items('node', $node, 'field_pagina_web');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="col-md-4">
-                        <div class="u-mr+ u-semibold">
-                          <?php print t('Página web:')?>
-                        </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                          <?php print $node->field_pagina_web[und][0]['value'] ; ?>
-                        </div>
-                      </div>
-                    </div>
-                  <?php } ?>
-              </div>
+                    <?php } ?>
+                </div>
             </div>
-          </div>
+            </div>
           </div>
           <div class="u-mb++">
             <a href="<?php  print $node->field_enlace_programa[und][0]['url']; ?>" target="_blank" class="btn btn--action">
