@@ -104,133 +104,124 @@
 			  <!-- institucion_que_promueve-->
 			  			
 				<?php $field = field_get_items('node', $node, 'field_institucion_que_promueve');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="row">
-                      <div class="u-mr+ u-semibold">
-                        
-                            <div class="col-md-4">
-                        <?php print t('Institución que promueve:')?>
-                            </div>
-                      </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                        <?php 
-                        $cont = count($content['field_institucion_que_promueve']['#items']);
-                        for ($i = 0; $i <  $cont - 1; $i++) {
-                            print $content['field_institucion_que_promueve']['#items'][$i]['taxonomy_term']->name;
-                            echo ", "; 
-                        }
-                        print $content['field_institucion_que_promueve']['#items'][($cont-1)]['taxonomy_term']->name;?>
-                      </div>
-                    </div>
-                      </div>
-                    </div>
-                  <?php } ?>
-			  <!-- nombre_del_programa-->
-			  <?php 
-                    //Otros criterios de elegibilidad
+          if ($field) { ?>
+            <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+              <div class="col-md-4">
+                <div class="u-mr+ u-semibold"> 
+                <?php print t('Institución que promueve:')?>
+                </div>
+              </div>
+              <div class="u-f-g1">
+                <div class="col-md-8">
+                  <?php $cont = count($content['field_institucion_que_promueve']['#items']);
+                  for ($i = 0; $i <  $cont - 1; $i++) {
+                      print $content['field_institucion_que_promueve']['#items'][$i]['taxonomy_term']->name;
+                      echo ", "; 
+                  }
+                  print $content['field_institucion_que_promueve']['#items'][($cont-1)]['taxonomy_term']->name;?>
+                </div>
+              </div>
+            </div>
+        <?php } ?>
 
-                    $field = field_get_items('node', $node, 'field_nombre_del_programa'); 
-                    if ($field) { ?>
-                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="col-md-4">
-                          <div class="u-mr+ u-semibold">
-                            <?php print t('Nombre del programa/oferta:')?>
-                          </div>
-                        </div>
-                        <div class="u-f-g1">
-                          <div class="col-md-8">
-                            <?php print $node->field_nombre_del_programa[und][0]['value'] ; ?>
-                          </div>
-                        </div>
-                      </div>
-                    <?php } ?>
+			  <!-- nombre_del_programa-->
+
+			  <?php $field = field_get_items('node', $node, 'field_nombre_del_programa'); 
+          if ($field) { ?>
+            <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+              <div class="col-md-4">
+                <div class="u-mr+ u-semibold">
+                  <?php print t('Nombre del programa/oferta:')?>
+                </div>
+              </div>
+              <div class="u-f-g1">
+                <div class="col-md-8">
+                  <?php print $node->field_nombre_del_programa[und][0]['value'] ; ?>
+                </div>
+              </div>
+            </div>
+        <?php } ?>
 			  
 			  <!-- condiciones_movilidad-->
-			  <?php 
-                    //Otros criterios de elegibilidad
 
-                    $field = field_get_items('node', $node, 'field_condiciones_movilidad'); 
-                    if ($field) { ?>
-                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="col-md-4">
-                          <div class="u-mr+ u-semibold">
-                            <?php print t('Descripción de la oferta:')?>
-                          </div>
-                        </div>
-                        <div class="u-f-g1">
-                          <div class="col-md-8">
-                            <?php print $node->field_condiciones_movilidad[und][0]['value'] ; ?>
-                          </div>
-                        </div>
-                      </div>
-                    <?php } ?>
+			  <?php $field = field_get_items('node', $node, 'field_condiciones_movilidad'); 
+          if ($field) { ?>
+            <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+              <div class="col-md-4">
+                <div class="u-mr+ u-semibold">
+                  <?php print t('Descripción de la oferta:')?>
+                </div>
+              </div>
+              <div class="u-f-g1">
+                <div class="col-md-8">
+                  <?php print $node->field_condiciones_movilidad[und][0]['value'] ; ?>
+                </div>
+              </div>
+            </div>
+        <?php } ?>
+
 			  <!-- n_movilidades_disponibles-->
-			  <?php 
-                    //Otros criterios de elegibilidad
 
-                    $field = field_get_items('node', $node, 'field_n_movilidades_disponibles'); 
-                    if ($field) { ?>
-                      <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                        <div class="col-md-4">
-                          <div class="u-mr+ u-semibold">
-                            <?php print t('Nº de movilidades disponibles:')?>
-                          </div>
-                        </div>
-                        <div class="u-f-g1">
-                          <div class="col-md-8">
-                            <?php print $node->field_n_movilidades_disponibles[und][0]['value'] ; ?>
-                          </div>
-                        </div>
-                      </div>
-                    <?php } ?>
-              <!-- Convocatoria -->
+			  <?php $field = field_get_items('node', $node, 'field_n_movilidades_disponibles'); 
+          if ($field) { ?>
+            <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+              <div class="col-md-4">
+                <div class="u-mr+ u-semibold">
+                  <?php print t('Nº de movilidades disponibles:')?>
+                </div>
+              </div>
+              <div class="u-f-g1">
+                <div class="col-md-8">
+                  <?php print $node->field_n_movilidades_disponibles[und][0]['value'] ; ?>
+                </div>
+              </div>
+            </div>
+        <?php } ?>
 
-              <?php $field = field_get_items('node', $node, 'field_convocatoria_ano');
-                if ($field) { ?>
-                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                    <div class="row">
-                      <div class="u-mr+ u-semibold">
-                        <div class="col-md-4">
-                          <?php print t('Convocatoria (año):')?>
-                        </div>
-                      </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                          <?php print $node->field_convocatoria_ano[und][0]['value'] ; ?>
-                        </div>
-                      </div>
-                    </div>
+        <!-- Convocatoria -->
+
+        <?php $field = field_get_items('node', $node, 'field_convocatoria_ano');
+          if ($field) { ?>
+            <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+              <div class="col-md-4">
+                <div class="u-mr+ u-semibold">
+                  <?php print t('Convocatoria (año):')?>
+                </div>
+              </div>
+              <div class="u-f-g1">
+                <div class="col-md-8">
+                  <?php print $node->field_convocatoria_ano[und][0]['value'] ; ?>
+                </div>
+              </div>
+            </div>
+        <?php } ?>
+
+        <!-- Fecha límite para envío solicitud -->
+
+        <?php $field = field_get_items('node', $node, 'field_plazo_para_solicitud_inici');
+          if ($field) { ?>
+            <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+              <div class="row">
+                <div class="u-mr+ u-semibold">
+                  <div class="col-md-4">
+                    <?php print t('Fecha límite para envío solicitud:')?>
                   </div>
-                <?php } ?>
-
-                <!-- Fecha límite para envío solicitud -->
-
-              <?php $field = field_get_items('node', $node, 'field_plazo_para_solicitud_inici');
-                if ($field) { ?>
-                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                    <div class="row">
-                      <div class="u-mr+ u-semibold">
-                        <div class="col-md-4">
-                          <?php print t('Fecha límite para envío solicitud:')?>
-                        </div>
-                      </div>
-                      <div class="u-f-g1 plazo-solicitud-fin" id="node-<?php print $node->nid; ?>">
-                        <div class="col-md-8">
-                            <?php
-                            global $language ;
-                            $curlang = $language->language;
-                          ?> 
-                          <?php if($curlang == 'es'){
-                            setlocale(LC_ALL, 'es_ES');
-                          }?>
-                          <?php echo (strftime("%d %B %Y", strtotime($node->field_plazo_para_solicitud_inici['und'][0]['value2'])));?>
-                        </div>
-                      </div>
-                    </div>
+                </div>
+                <div class="u-f-g1 plazo-solicitud-fin" id="node-<?php print $node->nid; ?>">
+                  <div class="col-md-8">
+                      <?php
+                      global $language ;
+                      $curlang = $language->language;
+                    ?> 
+                    <?php if($curlang == 'es'){
+                      setlocale(LC_ALL, 'es_ES');
+                    }?>
+                    <?php echo (strftime("%d %B %Y", strtotime($node->field_plazo_para_solicitud_inici['und'][0]['value2'])));?>
                   </div>
-                <?php } ?>
+                </div>
+              </div>
+            </div>
+        <?php } ?>
 
                 <!-- Periodicidad -->
 
@@ -1118,4 +1109,3 @@
 
 
     </div>
-	-->
