@@ -905,7 +905,7 @@
               </div>
               <div class="u-f-g1">
                 <div>
-                  <?php print $node->field_email[und][0]['value'] ; ?>
+                  <?php print $node->field_email[und][0]['email'] ; ?>
                 </div>
               </div>
             </div>
@@ -959,7 +959,8 @@
               </div>
               <div class="u-f-g1">
                 <div>
-                  <?php print $node->field_c_digo_postal[und][0]['value'] ; ?>
+                  <?php print $node->field_c_digo_postal[und][0]['thoroughfare'] ; ?>, <?php print $node->field_c_digo_postal[und][0]['postal_code'] ; ?>
+                  <?php print $node->field_c_digo_postal[und][0]['locality'] ; ?>
                 </div>
               </div>
             </div>
@@ -977,7 +978,7 @@
               </div>
               <div class="u-f-g1">
                 <div>
-                  <?php print $node->field_enlace_a_instituci_n[und][0]['value'] ; ?>
+                  <a href="<?php print $node->field_enlace_a_instituci_n[und][0]['url'] ; ?>"><?php print $node->field_enlace_a_instituci_n[und][0]['title'] ; ?></a>
                 </div>
               </div>
             </div>
