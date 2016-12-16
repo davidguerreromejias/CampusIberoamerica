@@ -28,11 +28,11 @@
                         <?php 
                           $cont = count($content['field_ambito_pais']['#items']);
                           if ($cont == 21) { //21 is the number of countries we have.
-                            echo "Todos";
+                            echo "Cualquiera (consultar ficha)";
                           }
-						  elseif ($cont >= 3){
-							echo "Varios";
-						  }
+            						  elseif ($cont >= 3){
+        							      echo "Varios";
+            						  }
                           else {
                             for ($i = 0; $i <  $cont - 1; $i++) {
                                 print $content['field_ambito_pais']['#items'][$i]['taxonomy_term']->name;
