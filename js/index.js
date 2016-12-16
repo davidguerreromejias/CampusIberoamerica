@@ -73,6 +73,25 @@
     }
   }
 
+ // PARCHE MULTISELECT
+  // ========================
+  // Parche: El que fem es aprofitar que no som responsive per a accedir concretament a l'element.
+  //class="ui-multiselect-menu ui-widget ui-widget-content ui-corner-all" style {width: 593px; top: 1863.33px; left: 367px; display: block;}
+
+  //accedeixo a la classe amb la mida que ens identifica l'element que volem treure
+  var myValue = $("div.ui-multiselect-menu .ui-widget.ui-widget-content .ui-corner-all[width='593']");
+  console.log(myValue);
+ //var y = document.getElementsByClassName("ui-multiselect-all");
+  var aux = myValue.length;
+  console.log(myValue);
+  for (var i = 0; i < myValue.length; i++) {
+    console.log(myValue[i].id); //second console output
+  }
+  console.log('should end----');
+  //var myValue2 = myValue.find("ui-multiselect-all");
+  //console.log(myValue2);
+  //de tots els LI's, el que vull agafar és aquell que correspon al "check all" i vull posar-li display none.
+  //$("ui-multiselect-all").css("display", "none");
 
   // BUTTON PLUGIN DEFINITION
   // ========================
@@ -1159,6 +1178,8 @@ jQuery(document).ready(function ($) {
 
   $mapa.mapster(config);
 });
+
+
 //# sourceMappingURL=index.js.map
 
 
