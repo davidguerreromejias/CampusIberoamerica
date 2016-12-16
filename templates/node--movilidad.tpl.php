@@ -201,93 +201,84 @@
         <?php $field = field_get_items('node', $node, 'field_plazo_para_solicitud_inici');
           if ($field) { ?>
             <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-              <div class="row">
+              <div class="col-md-4">
                 <div class="u-mr+ u-semibold">
-                  <div class="col-md-4">
-                    <?php print t('Fecha límite para envío solicitud:')?>
-                  </div>
+                  <?php print t('Fecha límite para envío solicitud:')?>
                 </div>
-                <div class="u-f-g1 plazo-solicitud-fin" id="node-<?php print $node->nid; ?>">
-                  <div class="col-md-8">
-                      <?php
-                      global $language ;
-                      $curlang = $language->language;
-                    ?> 
-                    <?php if($curlang == 'es'){
-                      setlocale(LC_ALL, 'es_ES');
-                    }?>
-                    <?php echo (strftime("%d %B %Y", strtotime($node->field_plazo_para_solicitud_inici['und'][0]['value2'])));?>
-                  </div>
+              </div>
+              <div class="u-f-g1 plazo-solicitud-fin" id="node-<?php print $node->nid; ?>">
+                <div class="col-md-8">
+                    <?php
+                    global $language ;
+                    $curlang = $language->language;
+                  ?> 
+                  <?php if($curlang == 'es'){
+                    setlocale(LC_ALL, 'es_ES');
+                  }?>
+                  <?php echo (strftime("%d %B %Y", strtotime($node->field_plazo_para_solicitud_inici['und'][0]['value2'])));?>
                 </div>
               </div>
             </div>
         <?php } ?>
 
-                <!-- Periodicidad -->
+        <!-- Periodicidad -->
 
-              <?php $field = field_get_items('node', $node, 'field_periodicidad');
-                if ($field) { ?>
-                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                    <div class="row">
-                      <div class="u-mr+ u-semibold">
-                        <div class="col-md-4">
-                          <?php print t('Periodicidad:')?>
-                        </div>
-                      </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                          <?php print $node->field_periodicidad[und][0]['value'] ; ?>
-                        </div>
-                      </div>
+        <?php $field = field_get_items('node', $node, 'field_periodicidad');
+          if ($field) { ?>
+            <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                <div class="col-md-4">
+                  <div class="u-mr+ u-semibold">
+                      <?php print t('Periodicidad:')?>
                     </div>
                   </div>
-                <?php } ?>
+                <div class="u-f-g1">
+                  <div class="col-md-8">
+                    <?php print $node->field_periodicidad[und][0]['value'] ; ?>
+                  </div>
+                </div>
+            </div>
+          <?php } ?>
+
 				<!-- Categoria o segmento al que aplica -->
 				
 				<?php $field = field_get_items('node', $node, 'field_categoria_o_segmento');
-                  if ($field) { ?>
-                    <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                      <div class="row">
-                      <div class="u-mr+ u-semibold">
-                        
-                            <div class="col-md-4">
-                        <?php print t('Categoria o segmento al que aplica:')?>
-                            </div>
-                      </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                        <?php 
-                        $cont = count($content['field_categoria_o_segmento']['#items']);
-                        for ($i = 0; $i <  $cont - 1; $i++) {
-                            print $content['field_categoria_o_segmento']['#items'][$i]['taxonomy_term']->name;
-                            echo ", "; 
-                        }
-                        print $content['field_categoria_o_segmento']['#items'][($cont-1)]['taxonomy_term']->name;?>
-                      </div>
-                    </div>
-                      </div>
-                    </div>
-                  <?php } ?>
+          if ($field) { ?>
+            <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+                <div class="col-md-4">
+                  <div class="u-mr+ u-semibold">
+                    <?php print t('Categoria o segmento al que aplica:')?>
+                  </div>
+                </div>
+                <div class="u-f-g1">
+                  <div class="col-md-8">
+                    <?php $cont = count($content['field_categoria_o_segmento']['#items']);
+                    for ($i = 0; $i <  $cont - 1; $i++) {
+                        print $content['field_categoria_o_segmento']['#items'][$i]['taxonomy_term']->name;
+                        echo ", "; 
+                    }
+                    print $content['field_categoria_o_segmento']['#items'][($cont-1)]['taxonomy_term']->name;?>
+                </div>
+              </div>
+            </div>
+        <?php } ?>
 				  
 				 <!-- Tipo de moneda -->
 				 
-				 <?php $field = field_get_items('node', $node, 'field_tipo_de_moneda');
-                if ($field) { ?>
-                  <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
-                    <div class="row">
-                      <div class="u-mr+ u-semibold">
-                        <div class="col-md-4">
-                          <?php print t('Tipo de moneda:')?>
-                        </div>
-                      </div>
-                      <div class="u-f-g1">
-                        <div class="col-md-8">
-                          <?php print $node->field_tipo_de_moneda[und][0]['value'] ; ?>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                <?php } ?>
+				<?php $field = field_get_items('node', $node, 'field_tipo_de_moneda');
+          if ($field) { ?>
+            <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
+              <div class="col-md-4">
+                <div class="u-mr+ u-semibold">
+                  <?php print t('Tipo de moneda:')?>
+                </div>
+              </div>
+              <div class="u-f-g1">
+                <div class="col-md-8">
+                  <?php print $node->field_tipo_de_moneda[und][0]['value'] ; ?>
+                </div>
+              </div>
+            </div>
+        <?php } ?>
 				
 				<!-- Cuantía o presupuesto por beneficiario -->
 				 
