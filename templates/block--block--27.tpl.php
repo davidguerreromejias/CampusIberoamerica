@@ -98,16 +98,16 @@
 
       <ul class="list-inline u-uppercase">
         <li>
-          <a href="#" class="btn u-fs-xsmall">Area privada</a>
+          <a href="/es/content/login#" class="btn u-fs-xsmall">Area privada</a>
         </li>
         <li>
-          <a href="../aviso-legal" class="btn u-fs-xsmall">Aviso legal</a>
+          <a href="<?php print url('aviso-legal') ?>" class="btn u-fs-xsmall">Aviso legal</a>
         </li>
         <li>
-          <a href="#" class="btn u-fs-xsmall">Acerca de ...</a>
+          <a href="<?php print url('acerca-de') ?>" class="btn u-fs-xsmall">Acerca de ...</a>
         </li>
         <li>
-          <a href="../contacto" class="btn u-fs-xsmall">Contacto</a>
+          <a href="<?php print url('contacto') ?>" class="btn u-fs-xsmall">Contacto</a>
         </li>
       </ul>
 
