@@ -25,36 +25,36 @@
           </a>
         </li>
         <li class="items-separator--arrow">
-          <span class="u-color-gris">Contacto</span>
+          <span class="u-color-gris"><?php print t('Contacto')?></span>
         </li>
       </ul>
     </div>
     <div class="col-xs-12 col-md-8 col-lg-9">
       <div class="page-content-container u-mb++ ">
-        <div class="u-mb u-fs-h2 u-bold">Contacto</div>
+        <div class="u-mb u-fs-h2 u-bold"><?php print t('Contacto')?></div>
         <div class="u-pv horizontal-line-separator-top u-fs-base">
 
           <form name="contacto" class="u-fs-xsmall">
             <div class="u-f@md">
-              <input type="text" class="input u-w100 u-mr" name="nombre" placeholder="Tu nombre">
-              <input type="text" class="input u-w100" name="email" placeholder="Tu email">
+              <input type="text" class="input u-w100 u-mr" name="nombre" placeholder=<?php print t('Tu nombre')?>>
+              <input type="text" class="input u-w100" name="email" placeholder=<?php print t('Tu email')?>>
             </div>
             <div class="select">
               <select name="pregunta" placeholder="Escoge el tema de tu pregunta">
-                <option>Pregunta 1</option>
-                <option>Pregunta 2</option>
-                <option>Pregunta 3</option>
-                <option>Pregunta 4</option>
-                <option>Pregunta 5</option>
-                <option>Pregunta 6</option>
-                <option>Pregunta 7</option>
-                <option>Pregunta 8</option>
+                <option><?php print t('Pregunta 1')?></option>
+                <option><?php print t('Pregunta 2')?></option>
+                <option><?php print t('Pregunta 3')?></option>
+                <option><?php print t('Pregunta 4')?></option>
+                <option><?php print t('Pregunta 5')?></option>
+                <option><?php print t('Pregunta 6')?></option>
+                <option><?php print t('Pregunta 7')?></option>
+                <option><?php print t('Pregunta 8')?></option>
               </select>
             </div>
 
-            <textarea type="text" rows="10" class="input u-h100 u-w100" name="texto_largo" placeholder="Escribe tu pregunta"></textarea>
+            <textarea type="text" rows="10" class="input u-h100 u-w100" name="texto_largo" placeholder=<?php print t("Escribe tu pregunta")?>></textarea>
 
-            <button class="btn btn--primary" onClick="window.location.href='/contacto;  return false;">Enviar</button>
+            <button class="btn btn--primary" onClick="window.location.href='/contacto;  return false;"><?php print t('Enviar')?></button>
           </form>
         </div>
       </div>
