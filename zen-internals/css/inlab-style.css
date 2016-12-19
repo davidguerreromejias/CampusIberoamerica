@@ -797,3 +797,10 @@ button.p-home_btn:hover {
 .view-lista-preguntas-frecuentes .btn--add{
     width: 24.5% !important;
 }
+
+@media (max-width: 768px) {
+  .site-footer-logos a{
+      margin-top: 15px;
+      display: inherit;
+  }
+}
