@@ -940,31 +940,16 @@ x(function ($) {
       $( "#wrapper" ).dialog( "open" );
     });
 
-  // get countries of taxonomies
-  $.getJSON('/taxonomy_term.json?vocabulary=7', function(data) {   
+    // get countries of taxonomies
+  $.getJSON('es/taxonomy_term.json?vocabulary=7', function(data) {   
     // TO DO
     var countries = data["list"];
     var singleCountry = countries[Object.keys(countries)[1]];
-
-    for (var i = 0; i < countries.length; ++i) {
-      var singleCountry = countries[Object.keys(countries)[i]];
-      $("select[name=field_ambito_pais_tid_1]").append($('<option>', {
-        value: singleCountry["tid"],
-        text: singleCountry["name"]
-      }));
-      $("select[name=field_pais_origen_solicitante_tid]").append($('<option>', {
-        value: singleCountry["tid"],
-        text: singleCountry["name"]
-      }));
-      $("select[name=paisPre]").append($('<option>', {
-        value: singleCountry["tid"],
-        text: singleCountry["name"]
-      }));
-    };
+    console.log(singleCountry["weight"]);
   });
 
   // get "subareas de conocimiento" of taxonomies
-  $.getJSON('/taxonomy_term.json?vocabulary=43', function(data) {   
+  $.getJSON('es/taxonomy_term.json?vocabulary=43', function(data) {   
     // TO DO
     var subareas = data["list"];
     var singleSubarea = subareas[Object.keys(subareas)[1]];
@@ -994,9 +979,60 @@ x(function ($) {
   var lang = window.location.pathname;
   if (lang.includes("/pt")) {
     $(".u-mr---.u-valing-middle.lang").text('POR');
+      // get countries of taxonomies
+    $.getJSON('es/taxonomy_term.json?vocabulary=7', function(data) {   
+      // TO DO
+      var countries = data["list"];
+      var singleCountry = countries[Object.keys(countries)[1]];
+
+
+        for (var i = 0; i < countries.length; ++i) {
+          var singleCountry = countries[Object.keys(countries)[i]];
+          if(singleCountry["weight"] == 0){
+            
+            $("select[name=field_ambito_pais_tid_1]").append($('<option>', {
+              value: singleCountry["tid"],
+              text: singleCountry["name"]
+            }));
+            $("select[name=field_pais_origen_solicitante_tid]").append($('<option>', {
+              value: singleCountry["tid"],
+              text: singleCountry["name"]
+            }));
+            $("select[name=paisPre]").append($('<option>', {
+              value: singleCountry["tid"],
+              text: singleCountry["name"]
+            }));
+          }
+      };
+    });
   }
   else{
     $(".u-mr---.u-valing-middle.lang").text('ESP');
+    $.getJSON('es/taxonomy_term.json?vocabulary=7', function(data) {   
+      // TO DO
+      var countries = data["list"];
+      var singleCountry = countries[Object.keys(countries)[1]];
+
+
+        for (var i = 0; i < countries.length; ++i) {
+          var singleCountry = countries[Object.keys(countries)[i]];
+          if(singleCountry["weight"] == 1){
+            
+            $("select[name=field_ambito_pais_tid_1]").append($('<option>', {
+              value: singleCountry["tid"],
+              text: singleCountry["name"]
+            }));
+            $("select[name=field_pais_origen_solicitante_tid]").append($('<option>', {
+              value: singleCountry["tid"],
+              text: singleCountry["name"]
+            }));
+            $("select[name=paisPre]").append($('<option>', {
+              value: singleCountry["tid"],
+              text: singleCountry["name"]
+            }));
+          }
+      };
+    });
   }
 
   //minimize filter of search
