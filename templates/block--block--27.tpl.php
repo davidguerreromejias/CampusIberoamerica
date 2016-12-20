@@ -192,7 +192,7 @@
       <div class="u-mh---@md u-mb- u-ml0 u-f-g1">
            <input type="text" name="field__mbito_univ_centro_tid" id="tags" class="p-buscador_input u-mh---@md u-mb- u-mr0 u-f-g1 u-block u-w100" placeholder="Universidad">
       </div>
-
+      
       <div class="u-mh---@md u-mb- u-mr0 u-f-g1">
         <div class="p-buscador_select">
           <select name="areaPre" class="js-buscador-select">
