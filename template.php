@@ -198,7 +198,7 @@ function zen_preprocess_html(&$variables, $hook) {
   'type' => 'file',
   'group' => JS_THEME,
   ));
-
+  
   // Add variables and paths needed for HTML5 and responsive support.
   $variables['base_path'] = base_path();
   $variables['path_to_zen'] = drupal_get_path('theme', 'zen');
