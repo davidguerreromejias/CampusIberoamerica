@@ -1094,7 +1094,7 @@ y(function ($) {
     // Cerramos el select si se redimensiona la pantalla
     $(window).resize(function () {
       if (select.isOpen()) {
-        select.close();
+        // select.close();
       }
     });
   });
