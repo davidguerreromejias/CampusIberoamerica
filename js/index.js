@@ -80,10 +80,8 @@
 
   //accedeixo a la classe amb la mida que ens identifica l'element que volem treure
   var myValue = $("div.ui-multiselect-menu .ui-widget.ui-widget-content .ui-corner-all[width='593']");
-  console.log(myValue);
  //var y = document.getElementsByClassName("ui-multiselect-all");
   var aux = myValue.length;
-  console.log(myValue);
   for (var i = 0; i < myValue.length; i++) {
     console.log(myValue[i].id); //second console output
   }
@@ -1071,6 +1069,7 @@ x(function ($) {
     var toggleClassName = $this.data('toggle-class');
     $target.toggleClass(toggleClassName);
   });
+  console.log("entro en el maldito IE");
 
 });
 'use strict';
@@ -1134,17 +1133,20 @@ y(function ($) {
       }
     });
   });
-
+console.log("entro en el maldito IE");
   // Ocultar / mostrar step 2 de los formularios en base al estado del step 1
   $('[data-form-tipo]').each(function (index, form) {
+    console.log("entro en el maldito IE");
     var $form = $(form);
     var $step1 = $form.find('[data-step="1"]');
     var $step2 = $form.find('[data-step="2"]');
     var $camposObligatorios = $step1.find("select, input");
+    console.log("entro en el maldito IE");
 
     $camposObligatorios.on('change', function (event) {
       var mostrarStep2 = todosLosCamposRellenados($camposObligatorios);
       
+      console.log("entro en el maldito IE");
 
       if (mostrarStep2) {
         $step2.show();

@@ -194,6 +194,11 @@ function zen_preprocess_html(&$variables, $hook) {
   'group' => JS_THEME,
   ));
 
+  drupal_add_js(drupal_get_path('theme', 'zen') . '/js/index-ie.js', array(
+  'type' => 'file',
+  'group' => JS_THEME,
+  ));
+
   drupal_add_js(drupal_get_path('theme', 'zen') . '/js/tether.min.js', array(
   'type' => 'file',
   'group' => JS_THEME,
