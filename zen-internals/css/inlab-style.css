@@ -1,3 +1,6 @@
+.layout-center.main-content.container{
+  text-align: center;
+}
 .site-header{
   position: relative !important;
 }
