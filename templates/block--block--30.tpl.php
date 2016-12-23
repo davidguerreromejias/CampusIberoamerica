@@ -36,8 +36,8 @@
 
           <form name="contacto" class="u-fs-xsmall">
             <div class="u-f@md">
-              <input type="text" class="input u-w100 u-mr" name="nombre" placeholder=<?php print t('Tu nombre')?>>
-              <input type="text" class="input u-w100" name="email" placeholder=<?php print t('Tu email')?>>
+              <input type="text" class="input u-w100 u-mr" name="nombre" placeholder="<?php print t('Tu nombre')?>">
+              <input type="text" class="input u-w100" name="email" placeholder="<?php print t('Tu email')?>">
             </div>
             <div class="select">
               <select name="pregunta" placeholder="Escoge el tema de tu pregunta">
@@ -52,7 +52,7 @@
               </select>
             </div>
 
-            <textarea type="text" rows="10" class="input u-h100 u-w100" name="texto_largo" placeholder=<?php print t("Escribe tu pregunta")?>></textarea>
+            <textarea type="text" rows="10" class="input u-h100 u-w100" name="texto_largo" placeholder="<?php print t("Escribe tu pregunta")?>"></textarea>
 
             <button class="btn btn--primary" onClick="window.location.href='/contacto;  return false;"><?php print t('Enviar')?></button>
           </form>

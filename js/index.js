@@ -1115,13 +1115,14 @@ y(function ($) {
 
   // Convertimos en personalizados los select del buscador
   $('.js-buscador-select').each(function (index, item) {
+	
     // Construimos un select personalizado para cada combo
     var select = new Select({
       el: item,
       className: 'p-buscador_select',
       scrollParent: $overlay.find('.js-overlay-page-content')[0]
     });
-
+	
     // Ajustamos la anchura de los elementos al tamaño del select (target)
     select.on('open', function () {
       $(select.drop).width($(select.target).outerWidth(true));
@@ -1130,7 +1131,7 @@ y(function ($) {
     // Cerramos el select si se redimensiona la pantalla
     $(window).resize(function () {
       if (select.isOpen()) {
-        // select.close();
+        select.close();
       }
     });
   });
