@@ -807,3 +807,11 @@ button.p-home_btn:hover {
       display: inherit;
   }
 }
+
+@media (max-width: 768px) {
+  .collapsed-block__option{
+    display: block;
+    position: relative;
+    padding-right: 25px;
+  }
+}
