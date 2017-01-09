@@ -815,3 +815,44 @@ button.p-home_btn:hover {
     padding-right: 25px;
   }
 }
+
+
+@media (max-width: 768px) {
+  
+  .hamburger{
+    background:none;
+    top:0;
+    right:0;
+    line-height:45px;
+    padding:5px 15px 0px 15px;
+    color:#fff;
+    border:0;
+    font-size:1.4em;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
+  }
+
+  .cross{
+    background:none;
+    top:0px;
+    right:0;
+    padding:13px 15px 0px 15px;
+    color:#fff;
+    border:0;
+    font-size:3em;
+    line-height:65px;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
+  }
+
+  .glyphicon-home{
+    color:white; 
+    font-size:1.5em; 
+    margin-top:5px; 
+    margin:0 auto;
+  }
+}
