@@ -14,10 +14,18 @@
 <?php endif; ?>
 <?php print render($title_suffix); ?>
 
-
+<header>
+  <button class="hamburger">&#9776;</button>
+  <button class="cross">&#735;</button>
+</header>
 <div>
     <div class="container-fluid">
         <div class="row">
+
+
+
+<div class="menu">
+
             <!--Menú-->
             <div class="col-sm-3 col-md-2 sidebar">
                 <ul class="nav nav-sidebar">
@@ -92,4 +100,5 @@
         </div>
    </div>
 </div>
+</div> 
 
