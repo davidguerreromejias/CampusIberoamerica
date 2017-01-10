@@ -18,19 +18,16 @@
 <div>
     <div class="menu">
     <div class="container-fluid">
+
         <div class="row">
-
-
-
-
-
             <!--Menú-->
+            <header>
+            <button class="hamburger">&#9776;</button>
+            <button class="cross">&#735;</button>
+        </header>
             <div class="col-sm-3 col-md-2 sidebar">
                 <ul class="nav nav-sidebar">
-                    <li>
-                          <button class="hamburger">&#9776;</button>
-                          <button class="cross">&#735;</button>
-                    </li>
+
                     <li> <a href="/intranet"><img src="/sites/all/themes/zen/Nexos/assets/images/logo_campus_interior.png" style="max-width: 75%"></a></li>
                     <li class="centrat blanc"> ADMINISTRACIÓN DE CONTENIDOS</li>
 
