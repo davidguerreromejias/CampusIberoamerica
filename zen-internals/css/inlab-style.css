@@ -882,12 +882,26 @@ Intranet responsive
 }
 
 /*
-
-No mostrar mapas de info países 
-
+No mostrar mapas de info países mobile
+Listado de paises 1 linea mobile
 */
 @media (max-width: 768px) {
   #mapContainer{
     display: none;
   }
 
+@media (max-width: 768px){
+  .list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin-left: -5px; }
+  .list-inline > li {
+    text-align: left;
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px; 
+  }
+  .p-paises_listado-container .u-mb.u-fs-large.u-bold{
+    text-align: left;
+  }
+}
