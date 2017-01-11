@@ -827,8 +827,8 @@ Intranet responsive
   
   .hamburger{
     background:none;
+    position: absolute;
     top:0;
-    right:0;
     line-height:45px;
     padding:5px 15px 0px 15px;
     color:#000000;
@@ -841,10 +841,11 @@ Intranet responsive
   }
 }
 @media (max-width: 768px) {
+
   .cross{
     background:none;
+    position: absolute;
     top:0px;
-    right:0;
     padding:13px 15px 0px 15px;
     color:#000000;
     border:0;
@@ -864,10 +865,26 @@ Intranet responsive
     margin:0 auto;
   }
 }
+<<<<<<< HEAD
 
 @media (max-width: 768px) {
   #mapContainer{
     display: none;
   }
 
+=======
+@media (max-width: 768px) {
+  header{
+    width:100%; 
+    background:#1d1f20; 
+    height:60px; 
+    line-height:60px;
+    display: block;
+  }
+}
+@media (min-width: 768px){
+  header {
+    display: none;
+  }
+>>>>>>> 31ce518ab918da743cfc040bb26df584d1c94cd1
 }
