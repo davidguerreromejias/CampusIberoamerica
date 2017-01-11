@@ -865,14 +865,7 @@ Intranet responsive
     margin:0 auto;
   }
 }
-<<<<<<< HEAD
 
-@media (max-width: 768px) {
-  #mapContainer{
-    display: none;
-  }
-
-=======
 @media (max-width: 768px) {
   header{
     width:100%; 
@@ -886,5 +879,14 @@ Intranet responsive
   header {
     display: none;
   }
->>>>>>> 31ce518ab918da743cfc040bb26df584d1c94cd1
 }
+
+/*
+
+No mostrar mapas de info países 
+
+*/
+@media (max-width: 768px) {
+  #mapContainer{
+    display: none;
+  }
