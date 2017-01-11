@@ -866,17 +866,17 @@ Intranet responsive
   }
 }
 
+
 @media (max-width: 768px) {
-  header{
+  .hamburguer-menu2{
     width:100%; 
-    background:#1d1f20; 
     height:60px; 
     line-height:60px;
     display: block;
   }
 }
-@media (min-width: 768px){
-  header {
+@media (min-width: 768px) {
+  .hamburguer-menu2{
     display: none;
   }
 }
@@ -890,3 +890,4 @@ No mostrar mapas de info países
   #mapContainer{
     display: none;
   }
+
