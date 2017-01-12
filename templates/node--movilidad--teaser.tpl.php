@@ -3,7 +3,7 @@
         <div class="content"<?php print $content_attributes; ?>>
             <div class="u-mb+">
                 <div class="block-info__separator u-mb"></div>
-                <div class="u-mb- block-info__title"><a href="/node/<?php print $node->nid; ?>"><?php print $title; ?></a></div>
+                <div class="u-mb- block-info__title"><a href="/node/<?php print $node->nid; ?>"><?php print render($content['field_nombre_del_programa']);?></a></div>
                 <div class="u-fs-xsmall">
                   <ul class="list-inline">
                     <li class="items-separator">

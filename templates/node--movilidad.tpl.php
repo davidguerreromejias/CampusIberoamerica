@@ -20,7 +20,7 @@
         <div class="page-content-container u-mb++">
           <div class="u-mb+">
             <div class="block-info__separator u-mb"></div>
-            <div class="block-info__title u-mb"><?php print $title;?></div>
+            <div class="block-info__title u-mb"><?php print render($content['field_nombre_del_programa']);?></div>
             <div class="u-f@md u-fs-xsmall">
               <div class="u-f-g1">
                 <ul class="list-inline">

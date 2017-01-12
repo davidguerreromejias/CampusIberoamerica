@@ -80,8 +80,7 @@
 	    </div>
 
 	  	<!-- DIRIGIDO A... -->
-
-	      <div id="<?php print $widgets['filter-field_instituci_n_que_promueve_value']->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
+	      <div id="id" class="views-exposed-widget views-widget-<?php print $id; ?>">
 	      	<div class="search-filter is-open">
 	          <div class="search-filter__name">
 	            <span class="u-semibold"><?php print t('Dirigido a...')?></span>

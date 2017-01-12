@@ -32,6 +32,10 @@
 	    <?php print $field->label_html; ?>
 	    <tr>
 	    	<div>
+	    		<div style="margin-bottom: 50px"><?php //print_r($row->nid);
+	    			//$node = node_load($row->nid);
+	    			//print_r($node);
+	    			//print $node->status ?><div>
 	    	<td style="padding: 6px;"><?php print $field->content; ?>
 	    		<!--"https://movia.fib.upc.edu:8444/es/node/add/movilidad"-->
 	    	<?php if (is_array($user->roles) && (in_array('admin SEGIB', $user->roles) || in_array('administrator', $user->roles))) { ?>
