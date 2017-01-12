@@ -904,6 +904,9 @@ Listado de paises 1 linea mobile
   .p-paises_listado-container .u-mb.u-fs-large.u-bold{
     text-align: left;
   }
+  .u-bold.u-fs-large.txt-portadilla-white{
+    font-size: 20px !important;
+  }
 }
 /*
 Info paises puntos menu información útil
