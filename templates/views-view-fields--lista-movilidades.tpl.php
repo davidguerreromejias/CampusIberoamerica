@@ -32,19 +32,6 @@
 	    <?php print $field->label_html; ?>
 	    <tr>
 	    	<div>
-	    		<div style="margin-bottom: 50px">
-	    			<?php $nids = array();
-						// Load all nodes in one go for better performance.
-	    				//$nids = $row->nid;
-						$nodes = node_load_multiple($nids);
-						foreach ($nodes as $node) {
-						  // set status property to 1
-						  $node->status = 1;
-						  // re-save the node
-						  node_save($node);
-						}
-					?>
-	    		<div>
 	    	<td style="padding: 6px;"><?php print $field->content; ?>
 	    		<!--"https://movia.fib.upc.edu:8444/es/node/add/movilidad"-->
 	    	<?php if (is_array($user->roles) && (in_array('admin SEGIB', $user->roles) || in_array('administrator', $user->roles))) { ?>
