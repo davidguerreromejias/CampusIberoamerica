@@ -924,7 +924,7 @@ Info paises puntos menu información útil
 Menu superior fijo
 */
 @media (max-width: 768px){
-  .site-header{
+  .header__region.region.region-header .site-header .site-header__container.container.site-header__container--secondary{
       width: 95%;
       position: fixed !important; /* Set the navbar to fixed position */
       top: 0 !important; /* Position the navbar at the top of the page */
