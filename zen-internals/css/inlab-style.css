@@ -1,8 +1,10 @@
 .layout-center.main-content.container .site-content-wrapper.site-content-wrapper--centered{
   text-align: center;
 }
+
 .site-header{
   position: relative !important;
+  width: 100%;
 }
 
 .form-item .form-type-select.form-item-sort-by{
@@ -908,6 +910,7 @@ Listado de paises 1 linea mobile
     font-size: 20px !important;
   }
 }
+
 /*
 Info paises puntos menu información útil
 */
@@ -916,3 +919,44 @@ Info paises puntos menu información útil
     list-style: none;
   }
 }
+
+/*
+Menu superior fijo
+*/
+@media (max-width: 768px){
+  .site-header{
+      width: 95%;
+      position: fixed !important; /* Set the navbar to fixed position */
+      top: 0 !important; /* Position the navbar at the top of the page */
+      z-index: 1000000000000000;
+  }
+}
+
+.overlay-page {
+  position: fixed;
+  padding: 15px;
+  height: 100%;
+  width: 100%;
+  right: 100%;
+  z-index: 1000000000000000000000000000;
+  left: 0;
+  top: 0;
+  background-color: #4EBDCC;
+  transition: 0.5s;
+  opacity: 0;
+  color: #FFF;
+  visibility: hidden;
+  transition: opacity 0.5s visibility 0s 0.5s; }
+  .overlay-page.is-visible {
+    transition: opacity 0.5s visibility 0s;
+    visibility: visible;
+    right: 0;
+    opacity: 1; }
+  .overlay-page a, .overlay-page a:hover {
+    color: #fff; }
+  .overlay-page a:hover {
+    text-decoration: underline; }
+  .overlay-page a.is-inactive {
+    color: #7CD8E4; }
+    .overlay-page a.is-inactive:hover {
+      color: #fff; }
