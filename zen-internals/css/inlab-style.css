@@ -960,3 +960,11 @@ Menu superior fijo
     color: #7CD8E4; }
     .overlay-page a.is-inactive:hover {
       color: #fff; }
+
+
+/*
+Diferenciación plantilla movilidad entre campos
+*/
+.collapsible.required-fields.group-desc-programa.field-group-fieldset.form-wrapper.collapse-processed{
+  background: red !important;
+}
