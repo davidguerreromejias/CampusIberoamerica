@@ -910,6 +910,12 @@ Listado de paises 1 linea mobile
     font-size: 20px !important;
   }
 }
+.view-lista-movilidades .view-content{
+      margin-left: 15% !important;
+      width: 80%;
+      display: none;
+  }
+
 
 /*
 Info paises puntos menu información útil
@@ -965,6 +971,18 @@ Menu superior fijo
 /*
 Diferenciación plantilla movilidad entre campos
 */
-.collapsible.required-fields.group-desc-programa.field-group-fieldset.form-wrapper.collapse-processed{
-  background: red !important;
+#descripcion{
+    background: red;
+}
+
+
+.meyerhofer{
+  font-family: "Source Sans Pro", sans-serif !important;
+  font-size: 16px !important;
+  line-height: 1.428571429 !important;
+  color-font: red !important;
+}
+
+.view-lista-movilidades{
+  margin-left: 5%;
 }
