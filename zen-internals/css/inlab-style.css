@@ -967,22 +967,3 @@ Menu superior fijo
     .overlay-page a.is-inactive:hover {
       color: #fff; }
 
-
-/*
-Diferenciación plantilla movilidad entre campos
-*/
-#descripcion{
-    background: red;
-}
-
-
-.meyerhofer{
-  font-family: "Source Sans Pro", sans-serif !important;
-  font-size: 16px !important;
-  line-height: 1.428571429 !important;
-  color-font: red !important;
-}
-
-.view-lista-movilidades{
-  margin-left: 5%;
-}
