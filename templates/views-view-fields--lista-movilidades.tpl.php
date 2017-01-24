@@ -33,12 +33,18 @@
 	    <tr>
 	    	<div>
 		    	<td style="padding: 6px;"> 
-		    		<?php
-		    			$aux = $row->nid;
-			    		print $aux;
-		    			print " - ";
-			    		print $field->content; 
-	    		 	?>
+		    		<div class="field-content" style="display: inline; display: inline;vertical-align: 10px;">
+			    		<?php
+			    			$aux = $row->nid;
+			    			print $aux;
+			    			print " - ";
+
+			    		?>
+					</div>
+					<?php
+						
+		    			print $field->content;
+	    			?>
 
 		    		<!--"https://movia.fib.upc.edu:8444/es/node/add/movilidad"-->
 		    	<?php if (is_array($user->roles) && (in_array('admin SEGIB', $user->roles) || in_array('administrator', $user->roles))) { ?>

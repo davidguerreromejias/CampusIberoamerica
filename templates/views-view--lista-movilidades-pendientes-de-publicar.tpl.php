@@ -58,6 +58,7 @@
         <table class="table table-striped">
           <tbody>
             <tr>
+              <?php print $nid; ?>
               <?php if ($exposed): ?>
                 <div class="view-filters">
                   <?php print $exposed; ?>

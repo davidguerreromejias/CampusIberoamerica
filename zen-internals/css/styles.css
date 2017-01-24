@@ -6365,3 +6365,96 @@ Intranet movilidades responsive
 #descripcion{
   background-color: azure;
 }
+
+@media (max-width: 1500px) {
+  .list-inline.u-mb.u-color-turquesa.u-fs-xsmall.u-uppercase{
+    margin-left: 5%;
+  }
+  .view-lista-movilidades{
+    margin-left: 5%;
+  }
+}
+@media (max-width: 1350px) {
+  .list-inline.u-mb.u-color-turquesa.u-fs-xsmall.u-uppercase{
+    margin-left: 10%;
+  }
+  .view-lista-movilidades{
+    margin-left: 10%;
+  }
+}
+@media (max-width: 1200px) {
+  .list-inline.u-mb.u-color-turquesa.u-fs-xsmall.u-uppercase{
+    margin-left: 15%;
+  }
+  .view-lista-movilidades{
+    margin-left: 15%;
+  }
+}
+@media (max-width: 980px) {
+  .list-inline.u-mb.u-color-turquesa.u-fs-xsmall.u-uppercase{
+    margin-left: 20%;
+  }
+  .view-lista-movilidades{
+    margin-left: 20%;
+  }
+}
+@media (max-width: 767px) {
+  .list-inline.u-mb.u-color-turquesa.u-fs-xsmall.u-uppercase{
+    margin-left: 25%;
+  }
+  .view-lista-movilidades{
+    margin-left: 25%;
+  }
+}
+@media (max-width: 544px) {
+    .view-lista-movilidades{
+    margin-left: 30%;
+  }
+}
+
+
+@media (max-width: 1500px) {
+  .list-inline.u-mb.u-color-turquesa.u-fs-xsmall.u-uppercase{
+    margin-left: 5%;
+  }
+  .view-lista-movilidades-pendientes-de-publicar{
+    margin-left: 5%;
+  }
+}
+@media (max-width: 1350px) {
+  .list-inline.u-mb.u-color-turquesa.u-fs-xsmall.u-uppercase{
+    margin-left: 10%;
+  }
+  .view-lista-movilidades-pendientes-de-publicar{
+    margin-left: 10%;
+  }
+}
+@media (max-width: 1200px) {
+  .list-inline.u-mb.u-color-turquesa.u-fs-xsmall.u-uppercase{
+    margin-left: 15%;
+  }
+  .view-lista-movilidades-pendientes-de-publicar{
+    margin-left: 15%;
+  }
+}
+@media (max-width: 980px) {
+  .list-inline.u-mb.u-color-turquesa.u-fs-xsmall.u-uppercase{
+    margin-left: 20%;
+  }
+  .view-lista-movilidades-pendientes-de-publicar{
+    margin-left: 20%;
+  }
+}
+@media (max-width: 767px) {
+  .list-inline.u-mb.u-color-turquesa.u-fs-xsmall.u-uppercase{
+    margin-left: 25%;
+  }
+  .view-lista-movilidades-pendientes-de-publicar{
+    margin-left: 25%;
+  }
+}
+@media (max-width: 544px) {
+    .view-lista-movilidades-pendientes-de-publicar{
+    margin-left: 30%;
+  }
+}

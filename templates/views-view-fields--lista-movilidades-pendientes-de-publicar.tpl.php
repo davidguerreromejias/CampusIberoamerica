@@ -36,7 +36,19 @@
 	    			//$node = node_load($row->nid);
 	    			//print_r($node);
 	    			//print $node->status ?><div>
-	    	<td style="padding: 6px;"><?php print $field->content; ?>
+	    	<td style="padding: 6px;">
+	    		<div class="field-content" style="display: inline; display: inline;vertical-align: 10px;">
+	    			<?php
+			    			$aux = $row->nid;
+			    			print $aux;
+			    			print " - ";
+
+			    		?>
+					</div>
+					<?php
+						
+		    			print $field->content;
+	    			?>
 	    		<!--"https://movia.fib.upc.edu:8444/es/node/add/movilidad"-->
 	    	<?php if (is_array($user->roles) && (in_array('admin SEGIB', $user->roles) || in_array('administrator', $user->roles))) { ?>
 	    	  <a href="/es/node/<?php print $row->nid;?>/delete" class="btn btn--remove"><i style="margin-right: 5px;" class="fa fa-trash" aria-hidden="true"></i>Borrar</a>
