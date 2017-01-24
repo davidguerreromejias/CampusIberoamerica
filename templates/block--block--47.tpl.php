@@ -31,7 +31,7 @@
                         <li> <a href="/intranet"><img src="/sites/all/themes/zen/Nexos/assets/images/logo_campus_interior.png" style="max-width: 75%"></a></li>
                         <li class="centrat blanc"> ADMINISTRACIÓN DE CONTENIDOS</li>
 
-                        <li  data-toggle="collapse" data-target="#contenidos" class="collapsed active">
+                        <li  data-toggle="collapse" data-target="#contenidos" class="collapsed active menu-contenidos">
                             <a href="#"></i> Gestión de contenidos <span class="arrow"></span></a>
                         </li>
 

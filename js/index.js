@@ -860,27 +860,33 @@ x(function ($) {
   });
 
   //past DATE
-
+  var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
   var now = new Date;
   $('.plazo-solicitud-fin').each(function (i, v) {
       var id = $(this).attr('id');
       var x = $(this).first().text();
-      var fin = new Date(x);
+      x = x.split(" ");
+      var num = meses.indexOf(x[1]);
+      var fin = new Date(x[2],num,x[0]);
       if (now > fin) {
           $('#' + id + ' .plazo-cerrado').append('<div><img class="" src="/sites/all/themes/zen/Nexos/assets/images/programa_cerrado.png" alt="Cerrado"></div>');
           $('#' + id + ' .plazo-cerrado').removeClass('open');
       }
   });
 
+  var mesesTres = new Array ("ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic");
   var now2 = new Date;
   $('.plazo-solicitud-fin').each(function (i, v) {
       var x = $(this).first().text();
-      console.log(x);
-      var fin = new Date(x);
-      console.log(fin);
+      x = x.replace(/ /g,'');
+      var dia = x.substring(0,3);
+      var mes = x.substring(3,6);
+      mes = mesesTres.indexOf(mes);
+      var ano = x.substring(x.length-5, x.length);
+      var fin = new Date(ano,mes,dia);
       if (now2 > fin) {
-          $('.plazo-cerrado-ficha').append('<div><img class="" src="/sites/all/themes/zen/Nexos/assets/images/programa_cerrado.png" alt="Cerrado"></div>');
-          $('.plazo-cerrado-ficha').removeClass('open');
+          $('.plazo-cerrado').append('<div><img class="" src="/sites/all/themes/zen/Nexos/assets/images/programa_cerrado.png" alt="Cerrado"></div>');
+          $('.plazo-cerrado').removeClass('open');
       }
   });
 
@@ -900,11 +906,17 @@ x(function ($) {
   //get universities of taxonomies
   $.getJSON('/sites/all/themes/zen/Nexos/assets/json/universitats.json', function(data) {   
     var uniCentros = data["xml"].items.item;
+    console.log(window.location.href);
     for (var i = 0; i < uniCentros.length; ++i) {
       var singleUniCentro = uniCentros[i].universidad;
       availableTags.push(singleUniCentro);
     };
   });
+
+  $( "#todasUniversidades" ).on( "click", function() {
+      $("input[name=field__mbito_univ_centro_tid]").prop('disabled', 'true');
+  });
+
 /*
  $.getJSON('taxonomy_term.json?vocabulary=37', function(data) {   
     var uniCentros = data["list"];
@@ -1054,8 +1066,14 @@ x(function ($) {
   else if(pathname.includes("investigadores")){
     $('select[name="tid"]').val("1341");
   }
-
+ $("#contenidos").click(function(){
+    $($(this).attr('data-target', true));
+  });
   //collapse
+  $(".menu-contenidos").click(function(){
+    $(".menu-contenidos").removeClass('collapse');
+    
+  });
   $('[data-cerrar-filtros]').on('click', function () {
     $('body').removeClass('filtros-desplegados');
   });

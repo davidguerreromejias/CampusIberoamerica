@@ -318,6 +318,9 @@
         <?php } ?>
 				  
 				<!-- Incluye salario del beneficiario  -->
+          <!-- El campo inc_sal condiciona si se muestran los campos salario del beneficiario,
+           incluye gastos de desplazamiento, gastos de desplazamiento, incluye manutención, 
+           manutención, incluye otros costes, otros costes   -->
 				
 				<?php $field = field_get_items('node', $node, 'field_incluye_salario_beneficiar'); 
           if ($field) { ?>
@@ -329,9 +332,11 @@
               </div>
               <div class="u-f-g1">
                 <div>
-                  <?php if ($node->field_incluye_salario_beneficiar[und][0]['value'] == 1){?> Si
+                  <?php 
+                  $inc_sal = $node->field_incluye_salario_beneficiar[und][0]['value'];
+                  if ($inc_sal == 1){?> Si
                   <?php }
-                  if ($node->field_incluye_salario_beneficiar[und][0]['value'] == 0){?> 
+                  if ($inc_sal == 0){?> 
                   No <?php } ?>
                 </div>
               </div>
@@ -340,7 +345,9 @@
 				
 				<!-- Salario del beneficiario -->
 				
-				<?php $field = field_get_items('node', $node, 'field_salario_del_beneficiario'); 
+				<?php 
+          if ($inc_sal == 1){
+          $field = field_get_items('node', $node, 'field_salario_del_beneficiario'); 
           if ($field) { ?>
             <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
               <div class="col-md-4">
@@ -355,11 +362,13 @@
                 </div>
               </div>
             </div>
-        <?php } ?>
+        <?php }} ?>
 					
 				<!-- Incluye gastos de desplazamiento -->
 				
-				<?php $field = field_get_items('node', $node, 'field_incluye_gastos_de_desplaza'); 
+				<?php 
+          if ($inc_sal == 1){
+          $field = field_get_items('node', $node, 'field_incluye_gastos_de_desplaza'); 
           if ($field) { ?>
             <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
               <div class="col-md-4">
@@ -376,11 +385,13 @@
                 </div>
               </div>
             </div>
-        <?php } ?>
+        <?php }} ?>
 				
 				<!-- Gastos de desplazamiento -->
 				
-				<?php $field = field_get_items('node', $node, 'field_gastos_de_desplazamiento'); 
+				<?php 
+          if ($inc_sal == 1){
+          $field = field_get_items('node', $node, 'field_gastos_de_desplazamiento'); 
           if ($field) { ?>
             <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
               <div class="col-md-4">
@@ -395,11 +406,13 @@
                 </div>
               </div>
             </div>
-        <?php } ?>
+        <?php }} ?>
 				
 				<!-- Incluye manutención -->
 				
-				<?php $field = field_get_items('node', $node, 'field_incluye_manutencion'); 
+				<?php 
+          if ($inc_sal == 1){
+          $field = field_get_items('node', $node, 'field_incluye_manutencion'); 
           if ($field) { ?>
             <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
               <div class="col-md-4">
@@ -416,11 +429,13 @@
                 </div>
               </div>
             </div>
-        <?php } ?>
+        <?php }} ?>
 				
 				<!-- Manutención -->
 				
-				<?php $field = field_get_items('node', $node, 'field_manutencion'); 
+				<?php 
+          if ($inc_sal == 1){
+          $field = field_get_items('node', $node, 'field_manutencion'); 
           if ($field) { ?>
             <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
               <div class="col-md-4">
@@ -435,11 +450,12 @@
                 </div>
               </div>
             </div>
-        <?php } ?>
+        <?php }} ?>
 				
 				<!-- Incluye otros costes -->
 				
 				<?php $field = field_get_items('node', $node, 'field_incluye_otros_costes'); 
+          if ($inc_sal == 1){
           if ($field) { ?>
             <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
               <div class="col-md-4">
@@ -456,11 +472,12 @@
                 </div>
               </div>
             </div>
-        <?php } ?>
+        <?php }} ?>
 				
 				<!-- Otros costes -->
 				
 				<?php $field = field_get_items('node', $node, 'field_otros_costes'); 
+          if ($inc_sal == 1){
           if ($field) { ?>
             <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
               <div class="col-md-4">
@@ -476,7 +493,7 @@
                 </div>
               </div>
             </div>
-        <?php } ?>
+        <?php }} ?>
 				
         <!-- País/es de origen del solicitante -->
 				
