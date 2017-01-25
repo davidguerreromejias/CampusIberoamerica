@@ -274,7 +274,7 @@
               </div>
               <div class="u-f-g1">
                 <div>
-                  <?php print $node->field_tipo_de_moneda[und][0]['value'] ; ?>
+                  <?php print render($content['field_tipo_de_moneda']); ?>
                 </div>
               </div>
             </div>
