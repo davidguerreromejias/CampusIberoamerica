@@ -672,7 +672,7 @@
                 </div>
                 <div class="u-f-g1">
                   <div>
-                    <?php print $content['field_ambito_area_conocimiento']['#items'][0]['taxonomy_term']->name; ?>
+                    <?php print $content['field_areas_y_subareas']['#items'][0]['taxonomy_term']->name; ?>
                   </div>
                 </div>
               </div>
@@ -690,7 +690,7 @@
                 </div>
                 <div class="u-f-g1">
                   <div>
-                    <?php print $content['field_ambito_subarea_conocimient']['#items'][0]['taxonomy_term']->name; ?>
+                    <?php print $content['field_areas_y_subareas']['#items'][1]['taxonomy_term']->name; ?>
                   </div>
                 </div>
               </div>
