@@ -55,10 +55,10 @@
         <!-- Default panel contents -->
         <!--<div class="panel-heading">Movilidades</div>-->
         <!-- Table -->
-        <table class="table table-striped">
+        <table class="table table-striped table-hover">
           <tbody>
             <tr>
-              <?php print $nid; ?>
+              <!--<?php //print $nid; ?>-->
               <?php if ($exposed): ?>
                 <div class="view-filters">
                   <?php print $exposed; ?>

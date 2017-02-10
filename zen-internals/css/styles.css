@@ -6331,95 +6331,54 @@ Intranet movilidades responsive
 
 */
 
-@media (max-width: 1500px) {
-  .layout-3col__full.contextual-links-region{
-    margin-left: 5%;
-  }
-}
-@media (max-width: 1350px) {
-  .layout-3col__full.contextual-links-region{
-    margin-left: 10%;
-  }
-}
-@media (max-width: 1200px) {
-  .layout-3col__full.contextual-links-region{
-    margin-left: 15%;
-  }
-}
-@media (max-width: 980px) {
-  .layout-3col__full.contextual-links-region{
-    margin-left: 20%;
-  }
-}
-@media (max-width: 767px) {
-  .layout-3col__full.contextual-links-region{
-    margin-left: 25%;
-  }
-}
-@media (max-width: 544px) {
-    .layout-3col__full.contextual-links-region{
-    margin-left: 30%;
-  }
-}
-
 #descripcion{
   background-color: azure;
 }
 
-@media (max-width: 1500px) {
-  .list-inline.u-mb.u-color-turquesa.u-fs-xsmall.u-uppercase{
-    margin-left: 5%;
-  }
-  .view-lista-movilidades{
-    margin-left: 5%;
-  }
-}
-@media (max-width: 1350px) {
-  .list-inline.u-mb.u-color-turquesa.u-fs-xsmall.u-uppercase{
-    margin-left: 10%;
-  }
-  .view-lista-movilidades{
-    margin-left: 10%;
-  }
+.block__title{
+  display: none;
 }
 @media (max-width: 1200px) {
-  .list-inline.u-mb.u-color-turquesa.u-fs-xsmall.u-uppercase{
-    margin-left: 15%;
-  }
-  .view-lista-movilidades{
-    margin-left: 15%;
-  }
-}
-@media (max-width: 980px) {
-  .list-inline.u-mb.u-color-turquesa.u-fs-xsmall.u-uppercase{
-    margin-left: 20%;
-  }
-  .view-lista-movilidades{
-    margin-left: 20%;
+  .responsive-menu{
+    float:left;
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
   }
 }
-@media (max-width: 767px) {
-  .list-inline.u-mb.u-color-turquesa.u-fs-xsmall.u-uppercase{
-    margin-left: 25%;
-  }
-  .view-lista-movilidades{
-    margin-left: 25%;
-  }
-}
-@media (max-width: 544px) {
-    .view-lista-movilidades{
-    margin-left: 30%;
+@media (min-width: 1200px) {
+  .responsive-menu{
+    display: none;
   }
 }
 
-
-@media (max-width: 1500px) {
+@media (min-width: 1200px) {
+  .non-responsive-menu{
+    display: none;
+  }
+}
+@media (max-width: 1450px) {
   .list-inline.u-mb.u-color-turquesa.u-fs-xsmall.u-uppercase{
     margin-left: 5%;
   }
   .view-lista-movilidades-pendientes-de-publicar{
     margin-left: 5%;
   }
+  .view-lista-movilidades{
+    margin-left: 5%;
+  }
+  .node-form.node-movilidad-form{
+    margin-left: 5%;
+  }
+  .tabs{
+    margin-left: 5%;
+  }
+
+  .h1.em{
+    margin-left: 5%;
+  }
+
 }
 @media (max-width: 1350px) {
   .list-inline.u-mb.u-color-turquesa.u-fs-xsmall.u-uppercase{
@@ -6428,33 +6387,41 @@ Intranet movilidades responsive
   .view-lista-movilidades-pendientes-de-publicar{
     margin-left: 10%;
   }
+  .view-lista-movilidades{
+    margin-left: 10%;
+  }
+  .node-form.node-movilidad-form{
+    margin-left: 10%;
+
+  }
+  .tabs{
+    margin-left: 10%;
+  }
+    .h1.em{
+      margin-left: 10%;
+    }
+
 }
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
   .list-inline.u-mb.u-color-turquesa.u-fs-xsmall.u-uppercase{
-    margin-left: 15%;
+    margin-left: 12%;
   }
   .view-lista-movilidades-pendientes-de-publicar{
-    margin-left: 15%;
+    margin-left: 12%;
   }
+  .view-lista-movilidades{
+    margin-left: 12%;
+  }
+  .node-form.node-movilidad-form{
+    margin-left: 12%;
+  }
+  .tabs{
+    margin-left: 12%;
+  }
+  
+    .h1.em{
+      margin-left: 12%;
+    }
+
 }
-@media (max-width: 980px) {
-  .list-inline.u-mb.u-color-turquesa.u-fs-xsmall.u-uppercase{
-    margin-left: 20%;
-  }
-  .view-lista-movilidades-pendientes-de-publicar{
-    margin-left: 20%;
-  }
-}
-@media (max-width: 767px) {
-  .list-inline.u-mb.u-color-turquesa.u-fs-xsmall.u-uppercase{
-    margin-left: 25%;
-  }
-  .view-lista-movilidades-pendientes-de-publicar{
-    margin-left: 25%;
-  }
-}
-@media (max-width: 544px) {
-    .view-lista-movilidades-pendientes-de-publicar{
-    margin-left: 30%;
-  }
-}
+

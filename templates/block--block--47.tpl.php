@@ -14,22 +14,39 @@
 <?php endif; ?>
 <?php print render($title_suffix); ?>
 
-
 <div>
     <div class="menu">
         <div class="container-fluid">
 
+            <div class="responsive-menu"> 
+                <?php 
+                    $block = block_load('superfish', 1);
+                    $output = render(_block_get_renderable_array(_block_render_blocks(array($block))));
+                    print $output;
+                ?>
+            </div>
             <div class="row">
-                <!--Menú-->
+                <!--Menú
                 <div class="hamburguer-menu2">
                     <button class="hamburger" data-target="#hamburger">&#9776; </button>
                     <button class="cross" data-target="#cross">&#735;</button>
-                </div>
-                <div class="col-sm-3 col-md-2 sidebar">
+                </div>-->
+                
+                <div class="col-sm-3 col-md-2 sidebar" style="overflow: visible">
                     <ul class="nav nav-sidebar">
-
-                        <li> <a href="/intranet"><img src="/sites/all/themes/zen/Nexos/assets/images/logo_campus_interior.png" style="max-width: 75%"></a></li>
+                        <li> <a href="/intranet" style="margin-top: 11%; margin-left: -13%;"><img src="/sites/all/themes/zen/Nexos/assets/images/logo_campus_interior.png" style="max-width: 75%"></a></li>
+                        <!--Working on it-->
                         <li class="centrat blanc"> ADMINISTRACIÓN DE CONTENIDOS</li>
+                        <div class="non-responsive-menu" style="margin-left: 11%; font-size: 16px; max-width: 75%">
+                            <?php 
+                                $block = block_load('superfish', 1);
+                                $output = render(_block_get_renderable_array(_block_render_blocks(array($block))));
+                                print $output;
+                            ?>
+                        </div>
+
+                        <!--
+                        
 
                         <li  data-toggle="collapse" data-target="#contenidos" class="collapsed active menu-contenidos">
                             <a href="#"></i> Gestión de contenidos <span class="arrow"></span></a>
@@ -93,7 +110,7 @@
                             <li>
                                 <a class="blanc" href="/es/intranet/taxonomia/nacionalidad">Nacionalidad<span class="icon-angle-right" style="float: right; margin: 5px;"></span></a>
                             </li>
-                        </ul>
+                        </ul> -->
                 	</ul>
                 </div>
             </div>
