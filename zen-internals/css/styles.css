@@ -6424,4 +6424,14 @@ Intranet movilidades responsive
     }
 
 }
+/*
+Arreglar breadcrumb pending
 
+*/
+
+#descripcion{
+  position: inherit;
+}
+#datos-gestion{
+  position: inherit;
+}
