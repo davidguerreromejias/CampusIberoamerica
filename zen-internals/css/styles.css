@@ -6424,4 +6424,18 @@ Intranet movilidades responsive
     }
 
 }
+/*
+Arreglar breadcrumb pending
 
+*/
+
+#descripcion{
+  position: inherit;
+}
+#datos-gestion{
+  position: inherit;
+}
+
+.collapsible.required-fields.form-wrapper.collapse-processed{position: inherit;}
+.selected.connected-list.ui-sortable{position: inherit;}
+.vertical-tabs.clearfix{position: inherit;}
