@@ -115,7 +115,10 @@
 
             <div class="p-paises_listado-container">
               <div class="u-mb u-fs-large u-bold">
-                <?php print t('Escoge el país')?> <br class="display-only-up-lg"/>
+                <?php print t(drupal_get_destination())?> <br class="display-only-up-lg"/>
+                <?php 
+                console.log("Prueba drupal_get_destination");
+                console.log(drupal_get_destination());?>
                 <?php print t('sobre el que quieres')?> <br class="display-only-up-lg"/>
                 <?php print t('obtener información')?>
               </div>

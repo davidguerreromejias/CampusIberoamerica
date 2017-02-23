@@ -1050,6 +1050,7 @@ x(function ($) {
     $(this).parents(".search-filter.is-open").find('.search-filter__blocks-container').slideToggle();
   });
 
+ 
   //hide div if pre/post
   var valorCampo = $("select[name=tid] option:selected").text();
   if(valorCampo == 'Postgrado' || valorCampo == 'Pregrado'){
@@ -1069,6 +1070,18 @@ x(function ($) {
  $("#contenidos").click(function(){
     $($(this).attr('data-target', true));
   });
+
+ $('#edit-field-areas-y-subareas-tid-i18n').each(function() {
+  console.log("Nuestra funcion");
+  var myNode = document.getElementById("edit-field-areas-y-subareas-tid-i18n");
+  var children = myNode.childNodes;
+  var i=0; 
+  while (i<children.length) {
+      if(children[i].text.includes("-")) myNode.removeChild(children[i]);
+      else ++i;      
+  }
+});
+
   //collapse
   $(".menu-contenidos").click(function(){
     $(".menu-contenidos").removeClass('collapse');
@@ -1234,6 +1247,10 @@ jQuery(document).ready(function ($) {
 
   $mapa.mapster(config);
 });
+
+
+
+
 
 
 //# sourceMappingURL=index.js.map

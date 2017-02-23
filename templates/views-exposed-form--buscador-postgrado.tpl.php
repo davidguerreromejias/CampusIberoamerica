@@ -19,6 +19,7 @@
  * @ingroup views_templates
  */
 ?>
+
 <?php if (!empty($q)): ?>
   <?php
     // This ensures that, if clean URLs are off, the 'q' is added first so that
@@ -79,9 +80,44 @@
 	      </div>
 	    </div>
 
+	    <!--AREA Y SUBAREA CONOCIMIENTO -->
+
+	      <div id="<?php print $widgets['filter-field_areas_y_subareas_tid_i18n']->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
+	      	<div class="search-filter is-open">
+	          <div class="search-filter__name">
+	            <span class="u-semibold"><?php print t('Área de conocimiento')?></span>
+	            <span  class="search-filter__down-arrow">
+	              <svg width="9px" height="5px" viewBox="288 25 9 5" version="1.1" xmlns="http://www.w3.org/2000/svg"; xmlns:xlink="http://www.w3.org/1999/xlink">;
+					  <desc>down arrow</desc>
+					  <path d="M295.906276,25.5424944 L292.259406,29.5188965 C292.248066,29.5349061 292.252069,29.5575865 292.237393,29.571595 C292.171353,29.6383019 292.084634,29.6669859 291.998582,29.6629835 C291.913197,29.6663188 291.827145,29.6369678 291.762439,29.571595
+					  C291.747764,29.5575865 291.751099,29.5355732 291.740426,29.5195635 L288.093557,25.5431614 C287.968814,25.4190865 287.968814,25.2182985 288.093557,25.0935565 C288.218299,24.9694816 288.418419,24.9694816 288.543161,25.0935565 L292.000583,28.863167 L295.458672,25.0935565 C295.582747,24.9688145 295.783535,24.9688145 295.90761,25.0935565 C296.031018,25.2176315 296.031018,25.4190865 295.906276,25.5424944 L295.906276,25.5424944 Z" stroke="none" fill="#656565" fill-rule="evenodd"></path>
+				  </svg>
+				</span>
+	          </div>
+	          <div class="search-filter__summary u-hide">
+	          </div>
+	        <div class="search-filter__blocks-container">
+	            <div class="search-filter__fixed-block">
+	            
+	          
+	        <?php if (!empty($widgets['filter-field_areas_y_subareas_tid_i18n']->operator)): ?>
+	          <div class="views-operator">
+	            <?php print $widgets['filter-field_areas_y_subareas_tid_i18n']->operator; ?>
+	          </div>
+	        <?php endif; ?>
+	        <div class="views-widget">
+	        	<div class="input-action">
+		          <?php print $widgets['filter-field_areas_y_subareas_tid_i18n']->widget; ?>
+		          </div>
+	          </div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+
 	  	<!-- DIRIGIDO A... -->
 
-	      <div id="<?php print $widgets['filter-field_instituci_n_que_promueve_value']->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
+	      <div id="<?php print $widgets['filter-tid']->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
 	      	<div class="search-filter is-open">
 	          <div class="search-filter__name">
 	            <span class="u-semibold"><?php print t('Dirigido a...')?></span>
@@ -114,7 +150,7 @@
 
 	    <!-- PAÍS ORIGEN -->
 
-	      <div id="<?php print $widgets['filter-field_ambito_pais_tid']->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
+	      <div id="<?php print $widgets['filter-field_pais_origen_solicitante_tid']->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
 	      	<div class="search-filter is-open">
 	          <div class="search-filter__name">
 	            <span class="u-semibold"><?php print t('País de origen')?></span>
@@ -132,14 +168,14 @@
 	            <div class="search-filter__fixed-block">
 	            
 	          
-	        <?php if (!empty($widgets['filter-field_ambito_pais_tid']->operator)): ?>
+	        <?php if (!empty($widgets['filter-field_pais_origen_solicitante_tid']->operator)): ?>
 	          <div class="views-operator">
-	            <?php print $widgets['filter-field_ambito_pais_tid']->operator; ?>
+	            <?php print $widgets['filter-field_pais_origen_solicitante_tid']->operator; ?>
 	          </div>
 	        <?php endif; ?>
 	        <div class="views-widget">
 	        	<div class="input-action">
-		          <?php print $widgets['filter-field_ambito_pais_tid']->widget; ?>
+		          <?php print $widgets['filter-field_pais_origen_solicitante_tid']->widget; ?>
 		          </div>
 	          </div>
 	          </div>
@@ -280,5 +316,3 @@
 	  </div>
 	</div>
 </div>
-
-

@@ -662,7 +662,7 @@
 
           <!-- Área de conocimiento -->
 
-          <?php $field = field_get_items('node', $node, 'field_ambito_area_conocimiento');
+          <?php $field = field_get_items('node', $node, 'field_areas_y_subareas');
             if ($field) { ?>
               <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                 <div class="col-md-4">
@@ -680,7 +680,7 @@
 				  
 				  <!-- Subárea de conocimiento -->
 
-          <?php $field = field_get_items('node', $node, 'field_ambito_subarea_conocimient');
+          <?php $field = field_get_items('node', $node, 'field_areas_y_subareas');
             if ($field) { ?>
               <div class="u-f u-mb u-pt u-fs-xsmall horizontal-line-separator-top">
                 <div class="col-md-4">
